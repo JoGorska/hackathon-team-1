@@ -18,7 +18,7 @@
 1. As a **Returning Visitor**, I want to **find possible ways how to purchase a particular gift**, so I can **easily make a purchase**.
 1. As a **Returning Visitor**, I want to **see a price range on a gift**, so I can **evaluate my expenses**.
 
-Welcome USER_NAME,
+Welcome BelT26,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
