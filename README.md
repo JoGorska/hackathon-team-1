@@ -4,7 +4,7 @@
 
 ## User Stories:
 
-### First Time Visitor Goals:
+### First Time Visitor Goals: 
 1. As a **First Time Visitor**, I want to **easily understand the main purpose of the app**, so I can **learn more about this app**.
 1. As a **First Time Visitor**, I want to **be able to easily navigate through the app**, so I can **find the content**.
 1. As a **First Time Visitor**, I want to be able to **register my account**, so I can **learn the benefits of the app as a user**.
