@@ -1,7 +1,5 @@
 
 
-
-
 ## User Stories:
 
 ### First Time Visitor Goals:
