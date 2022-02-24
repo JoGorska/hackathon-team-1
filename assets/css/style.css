@@ -37,3 +37,47 @@ ul li {
 a {
   text-decoration: none;
 }
+
+/* Body */
+body {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--clr-neutral--100);
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: var(--clr-primary--300);
+}
+
+.navbar {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+/* Main */
+.main {
+  width: 100%;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  background-color: var(--clr-primary--300);
+}
+
+.footer__content {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 2em;
+}
