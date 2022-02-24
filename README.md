@@ -1,4 +1,22 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
+
+
+
+## User Stories:
+
+### First Time Visitor Goals:
+1. As a **First Time Visitor**, I want to **easily understand the main purpose of the app**, so I can **learn more about this app**.
+1. As a **First Time Visitor**, I want to **be able to easily navigate through the app**, so I can **find the content**.
+1. As a **First Time Visitor**, I want to be able to **register my account**, so I can **learn the benefits of the app as a user**.
+1. As a **First Time Visitor**, I want to **find the app useful**, so I can **use it according to my needs**.
+### Returning Visitor Goals:
+
+1. As a **Returning Visitor**, I want to **be able to choose a gift for my partner or friend on Valentine's day**, so I can **have a gift for them**.
+1. As a **Returning Visitor**, I want to **be able to find a gift, which will be suitable for my partner or friend**, so **my partner/friend will be satisfied**.
+1. As a **Returning Visitor**, I want to **have different gift options to choose from**, so I can **make a final decision on a gift**.
+1. As a **Returning Visitor**, I want to **see the benefits of choosing a particular gift**, so I can **be sure about my choice**.
+1. As a **Returning Visitor**, I want to **find possible ways how to purchase a particular gift**, so I can **easily make a purchase**.
+1. As a **Returning Visitor**, I want to **see a price range on a gift**, so I can **evaluate my expenses**.
 
 Welcome USER_NAME,
 
