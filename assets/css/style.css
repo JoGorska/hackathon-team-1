@@ -7,3 +7,33 @@
   --clr-neutral--900: #292929;
   --clr-accent--100: #5cbab4;
 }
+
+/* Global settings */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
