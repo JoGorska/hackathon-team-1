@@ -57,151 +57,201 @@
     "image": "assets/images/suggestions/animals/hedgehog.jpg"
   },
   {
-    "category": "Technology",
+    "category": "technology",
     "name": "Beanie With Built in Headphones",
     "description": "Cozy hat with bluetooth compatible built in audio.  Headphone pieces on the ear coverings of the hat let you enjoy the artists you love outside on a cold day as easily as inside, and it removes the need for headphones completely.",
     "websites": [
-      "https://www...amazon.com/dp/B07FNL22KJ/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"
+      [
+      "amazon", "https://www...amazon.com/dp/B07FNL22KJ/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"
+      ]
     ],
     "price": "29.91$",
     "image": ""
   },
   {
-    "category": "Technology",
+    "category": "technology",
     "name": "Couchmaster",
     "description": "Find comfort at the next level with this couch compatible gaming setup.  The Couchmaster is a portable gaming surface with ample space for a laptop and mousepad, allowing you to conveniently enjoy your favorite games from the comfort of your couch. ",
     "websites": [
-      "https://www.amazon.com/Couchmaster-CYBOT-Ergonomic-Notebooks-Equipment/dp/B08273BJSS/ref=sr_1_2_sspa?crid=2J2Y9HELDH264&keywords=couchmaster&qid=1645758537&sprefix=couchmaste%2Caps%2C278&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFhNNVRYOURDUkJXJmVuY3J5cHRlZElkPUEwOTg5MTM5MjNBOEJXVURVNURYTyZlbmNyeXB0ZWRBZElkPUEwMzM4NzYyMzlYNUdDVVowRThSWSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+      [
+      "amazon", "https://www.amazon.com/Couchmaster-CYBOT-Ergonomic-Notebooks-Equipment/dp/B08273BJSS/ref=sr_1_2_sspa?crid=2J2Y9HELDH264&keywords=couchmaster&qid=1645758537&sprefix=couchmaste%2Caps%2C278&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFhNNVRYOURDUkJXJmVuY3J5cHRlZElkPUEwOTg5MTM5MjNBOEJXVURVNURYTyZlbmNyeXB0ZWRBZElkPUEwMzM4NzYyMzlYNUdDVVowRThSWSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+      ]    
     ],
     "price": "156.00$",
     "image": ""
   },
   {
-    "category": "Technology",
+    "category": "technology",
     "name": "Blue Light Glasses",
     "description": "Blue light is one of the main reasons your eyes get tired after prolonged periods of screen activity. With these glasses, you can filter out much of the blue light, reducing eye strain and promoting ocular health.",
     "websites": [
-      "https://www.amazon.com/dp/B00BQ7KBV4/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"
+      [
+      "amazon", "https://www.amazon.com/dp/B00BQ7KBV4/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"
+      ]
     ],
     "price": "17.99$",
     "image": ""
   },
   {
-    "category": "Technology",
+    "category": "technology",
     "name": "Oculus VR Headset",
     "description": "Take gaming into the future with the newest Oculus release, the Quest2 all in one VR headset.  Dive into whatever game you choose in the most complete and immersive VR system to date.",
     "websites": [
-      "https://www.oculus.com/"
+      [
+        "oculus", "https://www.oculus.com/"
+      ]
     ],
     "price": "389.62",
     "image": ""
   },
   {
-    "category": "Technology",
+    "category": "technology",
     "name": "Music-Playing Sunglasses",
     "description": "Bluetooth compatible, these sunglasses let you listen hand and cord free to any bluetooth connected device.",
     "websites": [
+      [
+        "amazon",
       "https://www.amazon.com/dp/B07P7VVCDD/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"
+      ]
     ],
     "price": "153.29$",
     "image": ""
   },
   {
-    "category": "Extreme Sports: Individual",
+    "category": "individualSports",
     "name": "Soft-Top Surfboard",
     "description": "This style of board is known to be the easiest to stand on, making it ideal for beginners.  It is longer and softer than most boards, and is a great way to learn how to catch waves for the first time.",
     "websites": [
+      [
+        "amazon",
       "https://www.amazon.com/Wavestorm-9-Classic-Pinline-Surfboard/dp/B07HRZTF5B/ref=sr_1_16?crid=O8EHZGBOXGWX&keywords=soft+top+surfboard&qid=1645759884&sprefix=soft+top+surfboa%2Caps%2C237&sr=8-16"
+      ]
     ],
     "price": "364.87$",
     "image": ""
   },
   {
-    "category": "Extreme Sports: Individual",
+    "category": "individualSports",
     "name": "Hang-Glider",
     "description": "Experience gliding freedom as you soar through the sky.  All it takes is a KittyHawkKite glider and a running start, and your flights can begin.",
     "websites": [
+      [
+        "kittyhawk",
       "https://www.kittyhawk.com/hang-gliders/moyes-malibu-2-188/"
+      ]
     ],
     "price": "4927.00$",
     "image": ""
   },
   {
-    "category": "Extreme Sports: Individual",
+    "category": "individualSports",
     "name": "Electric Skateboard",
     "description": "The Hiboy dual motor skateboard reaches up to 18.6 mph, and can be controlled by hand through remote control with ease while riding.",
     "websites": [
+      [
+        "amazon",
       "https://www.amazon.com/Hiboy-Electric-Skateboard-Longboard-commuters/dp/B07G4N35RW/ref=sr_1_8?crid=22QYBRD8SA0TC&keywords=electronic+skateboard&qid=1645761067&sprefix=electronic+skateboar%2Caps%2C237&sr=8-8"
+      ]
     ],
     "price": "399.99$",
     "image": ""
   },
   {
-    "category": "Extreme Sports: Individual",
+    "category": "individualSports",
     "name": "Zorbing Inflatable Bubble",
     "description": "Fully protected while inside this human hamster ball, roll and tumble freely without issue.",
     "websites": [
+      [
+        "amazon",
       "https://www.amazon.com/Qiyun-Inflatable-Zorbing-Human-Hamster/dp/B0181XUVG0/ref=as_li_ss_tl?ie=UTF8&qid=1468647798&sr=8-2&keywords=zorbing+ball&linkCode=sl1&tag=zorbingtimeco-20&linkId=6a8caa3223df169228d5fbbf7c768a86"
+      ]
     ],
     "price": "1450.00$$",
     "image": ""
   },
   {
-    "category": "Extreme Sports: Individual",
+    "category": "individualSports",
     "name": "Inflatable Kayak",
     "description": "From Advanced Elements, this 10.5 foot kayak designed for any water conditions.  It is inflatable making it exceptionally portable, but it functions like a rigid shell kayak.",
     "websites": [
+      [
+        "amazon",
       "https://www.amazon.com/Advanced-Elements-Frame-Sport-Kayak/dp/B003BUGNKC/ref=sr_1_1_sspa?crid=37RUUAB8SQ1N1&keywords=sport+kayak&qid=1645762455&sprefix=sport+kayak%2Caps%2C202&sr=8-1-spons&psc=1&smid=AGLJA2W19Z5T3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzMlQ4TjJGSVVXQjlWJmVuY3J5cHRlZElkPUEwNzM0MzM5M09FSzVPVFFIMk1ZTCZlbmNyeXB0ZWRBZElkPUEwOTA0NTgzRzVHT1ZIQzZNS1lGJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+      ]
     ],
     "price": "499.00$$",
     "image": ""
   },
   {
-    "category": "Extreme Sports: Team",
+    "category": "teamSports",
     "name": "Bubble Soccer 8 Bubble Package",
     "description": "This set comes with 8 bubbles, allowing you to create teams and start your own bubble soccer matches. Safely tumble around and tackle one another as the inflated bubble around you offers ample protection.",
     "websites": [
+      [
+        "bubble-allstars",
       "https://www.bubble-allstars.com/europe/prices/"
+      ]
     ],
     "price": "2918.41$",
     "image": ""
   },
   {
-    "category": "Extreme Sports: Team",
+    "category": "teamSports",
     "name": "3-Day Rafting Trip",
     "description": "Test your endurance and resilience down the rivers toughest points, and enjoy the relaxing current when the whitewater clears.",
     "websites": [
-      "--?"
+      [
+        "first shop paste name here", "https//first shop url"
+      ],
+      [
+        "second shop if available", "https// second shop url"
+      ]
     ],
     "price": "1000.00-1400.00$",
     "image": ""
   },
   {
-    "category": "Extreme Sports: Team",
+    "category": "teamSports",
     "name": "Horseback Riding Excursion",
     "description": "As a couple or with a group, take a day to experience the outdoors on horseback.",
     "websites": [
-      "--?"
+      [
+        "first shop paste name here", "https//first shop url"
+      ],
+      [
+        "second shop if available", "https// second shop url"
+      ]
     ],
+
     "price": "80.00-255.00$",
     "image": ""
   },
   {
-    "category": "Extreme Sports: Team",
+    "category": "teamSports",
     "name": "Bungee Jumping",
     "description": "Safely enjoy the rush of freefall in the outdoors, great for couples to do together!",
     "websites": [
-      "--?"
+      [
+        "first shop paste name here", "https//first shop url"
+      ],
+      [
+        "second shop if available", "https// second shop url"
+      ]
     ],
     "price": "30.00-400.00$",
     "image": ""
   },
   {
-    "category": "Extreme Sports: Team",
+    "category": "teamSports",
     "name": "Indoor Skydiving",
     "description": "Another way to enjoy the freefall feeling, but indoors where you can have freedom to explore and experiment with weightlessness.",
     "websites": [
-      "--?"
+      [
+        "first shop paste name here", "https//first shop url"
+      ],
+      [
+        "second shop if available", "https// second shop url"
+      ]
     ],
     "price": "40.00-70.00$$",
     "image": ""
@@ -211,7 +261,10 @@
     "name": "Catan",
     "description": "Award winning board game. It's easy for new players to latch on to and introduces them to hobby games in a fun, accessible way. if you are looking for something to enjoy together with your partner, we highly recommend this addictively fun strategy game.",
     "websites": [
+      [
+        "amazon",
       "https://www.amazon.com/CATAN-Players-Strategy-Adventure-Playtime/dp/B00486TI3M/ref=sr_1_15?crid=96RW012POR4Y&keywords=catan&qid=1645732699&sprefix=catan%2Caps%2C176&sr=8-15"
+      ]
     ],
     "price": "24.94",
     "image": "assets/images/suggestions/games/catan.jpg"
@@ -221,7 +274,10 @@
     "name": "Chess board set",
     "description": "Chess is one of the most popular classic board games. There is a wide range of prices in the chess board set and this one is a good quality starter if your partner doesn’t have one of their own yet.",
     "websites": [
+      [
+        "amazon",
       "https://www.amazon.com/Jowisz-Decorative-Folding-Chess-Board/dp/B000Z9CH7U/ref=sr_1_23?crid=16ZUZBZA0VASN&keywords=Chess+board+set&qid=1645732810&sprefix=chess+board+set%2Caps%2C174&sr=8-23"
+      ]
     ],
     "price": "36.68",
     "image": "assets/images/suggestions/games/chess.jpg"
@@ -231,7 +287,10 @@
     "name": "Ticket to Ride",
     "description": "Award winning, cross-country train adventure game. The original version is played on a board depicting a railway map of the US and southern Canada. There are localised editions of other countries, cities and regions you can choose for your partner.",
     "websites": [
+      [
+        "amazon",
       "https://www.amazon.com/Days-Wonder-DO7201-Ticket-Ride/dp/0975277324/ref=sr_1_2?keywords=ticket+to+ride&qid=1645739563&sr=8-2"
+      ]
     ],
     "price": "43.99",
     "image": "assets/images/suggestions/games/ticket_to_ride.jpg"
@@ -241,7 +300,10 @@
     "name": "Steam gift card",
     "description": "The perfect gift for the video gamers if you’re in a long-distance relationship or your partner seems to have everything. There will always be new games that your partner wants to play on Steam.",
     "websites": [
+      [
+        "steam powered",
       "https://store.steampowered.com/digitalgiftcards/"
+      ]
     ],
     "price": "5-100",
     "image": "assets/images/suggestions/games/gift_card.jpg"
@@ -251,57 +313,75 @@
     "name": "LEGO Nintendo Entertainment System",
     "description": "Authentic reproductions of the original Nintendo Entertainment System console, controller and Game Pak cartridge with a retro-styled 1980s TV. This will trigger your partner’s nostalgic memories if they love video games and enjoyed playing Super Mario back in the day.",
     "websites": [
+      [
+        "lego",
       "https://www.lego.com/en-us/product/nintendo-entertainment-system-71374"
+      ]
     ],
     "price": "229.99",
     "image": "assets/images/suggestions/games/lego.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Hiking",
     "description": "Getting the endorphins going and working up a sweat by hiking together is the most romantic way to spend your Valentine’s Day. Angel’s Landing: Zion National Park(USA) is one of the world's most renowned hikes.",
     "websites": [
+      [
+        "nps",
       "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
+      ]
     ],
     "price": "20",
     "image": "assets/images/suggestions/extreme_travelling/hiking.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "White Water Rafting",
     "description": "Thrilling outdoor activity, which gives you an opportunity to get an incredible range of emotions and adrenaline rush in a short period of time. If you are thinking of spending your Valentine’s Day in a warm country, consider going to Thailand and trying White Water Rafting In Chiang Mai.",
     "websites": [
+      [
+        "8adventures",
       "https://8adventures.com/whitewater-rafting-chiang-mai/"
+      ]
     ],
     "price": "92.49",
     "image": "assets/images/suggestions/extreme_travelling/rafting.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Bungee jumping",
     "description": "One of the most enjoyed extreme sports. If your partner loves bungee jumping, jumping off the Skypark Macau Tower(China) will give them an unforgettable experience. This building is 233m high and the Guinness World Record for the Highest Commercial Bungee Jump was made from this building.",
     "websites": [
+      [
+        "befreetour",
       "https://www.befreetour.com/en/detail/140-macau-tower-bungy-jump"
+      ]
     ],
     "price": "447.84",
     "image": "assets/images/suggestions/extreme_travelling/bungee.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Skydiving",
     "description": "The most thrilling aerial adventure in the world. If you’re looking for a memorable gift for your partner, skydiving in Interlaken(Switzerland) might be the answer. They’ll experience the picturesque view of Alps from the sky and get their own video.",
     "websites": [
+      [
+        "skydiveinterlaken",
       "https://www.skydiveinterlaken.ch/experiences/helicopter-skydive-interlaken/"
+      ]
     ],
     "price": "464.25-745.03",
     "image": "assets/images/suggestions/extreme_travelling/skydiving.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Northern Lights",
     "description": "Going to see the northern lights is the perfect couples’ adventure for Valentine’s day. There are many destinations for spotting the northern lights depending on where you are based. Reykjavik(Iceland) is a great place to see as they are easily spotted.",
     "websites": [
+      [
+        "adventures",
       "https://adventures.is/blog/northern-lights-in-iceland/#:~:text=Yes%2C%20it's%20possible%20to%20see,bedroom%20windows%20during%20bright%20auroras!"
+      ]
     ],
     "price": "80-1994",
     "image": "assets/images/suggestions/extreme_travelling/northern_lights.jpg"
@@ -310,16 +390,16 @@
     "category": "spa",
     "name": "The Blue Lagoon Spa, Iceland",
     "description": "Enjoy a hydro massage with a difference at one of the world’s most spectacular natural wonders. The Blue Lagoon’s geothermal seawater is surrounded by a volcanic landscape, which feeds minerals into the surroundings.",
-    "websites": [ "https://www.bluelagoon.com/"],    
+    "websites": [ ["bluelagoon", "https://www.bluelagoon.com/"]],    
     "price": "from $68",
     "image": "assets/images/suggestions/spas/blue_lagoon.jpg"
   },
   {
     "category": "spa",
     "name": "Thermae Bath Spa, Bath",
-    "description": "One of the UK’s most dramatic spa, this neo-Georgian building is wrapped in angular glass, with access to three naturally heated spring-fed pools. Head straight for the rooftop pool for views across the city. The thermal experience floor includes a sauna, steam room and a “celestial” relaxation room.",
+    "description": "One of the UK's most dramatic spa, this neo-Georgian building is wrapped in angular glass, with access to three naturally heated spring-fed pools. Head straight for the rooftop pool for views across the city. The thermal experience floor includes a sauna, steam room and a “celestial” relaxation room.",
     "websites": [
-          "https://www.thermaebathspa.com/"
+          ["thermaebathspa", "https://www.thermaebathspa.com/"]
     ],
     "price": "from $64",
     "image": "assets/images/suggestions/spas/thermae_bath_spa.jpg"
@@ -329,7 +409,8 @@
     "name": "Turkish Baths, Harrogate",
     "description": "One of only a handful of Victorian Turkish baths still in use, these are beautiful, with Moorish design including Islamic arches, intricate glazed brickwork and painted ceilings. The bathing journey takes you around a series of heated rooms – the hottest being the laconium and the coldest a freezing plunge pool. Try traditional treatments such as a hammam, or more modern treatments including hot stone therapy.",
     "websites": [
-      "https://www.turkishbathsharrogate.co.uk/"    
+      
+      ["turkishbathsharrogate", "https://www.turkishbathsharrogate.co.uk/"]
     ],
     "price": "from $24",
     "image": "assets/images/suggestions/spas/harrogate_turkish_baths.jpg"
@@ -339,7 +420,7 @@
     "name": "The Live Music Experience: Bota Bota, Montreal",
     "description": "This spa on the water is housed in a 1960s ferryboat, which, after a stint as a showboat, was transformed into a spa. Its most unique treatment is the 60-minute Bota Bota massage – a single or double massage choreographed to the music of a live harpist.",
     "websites":  [ 
-      "http://botabota.ca/"
+      ["botabota", "http://botabota.ca/"]
     ],    
     "price": "from $70",
     "image": "assets/images/suggestions/spas/botabota.jpg"
@@ -349,57 +430,58 @@
     "name": "AIRE Ancient Baths, London",
     "description": "AIRE spaces are temples dedicated to mind and body relaxation, where time does not exist, inspired by ancient civilizations bathing traditions. Minutes away from Covent Garden, you will find an oasis, seamlessly intertwined with its enticing energy.",
     "websites": [ 
-      "https://beaire.com/en/aire-ancient-baths-london"
+
+      ["beaire", "https://beaire.com/en/aire-ancient-baths-london"]
     ],
     "price": "from $120",
     "image": "assets/images/suggestions/spas/aire_ancient_baths.jpg"
   },
   {
-    "category": "theme_parks",
+    "category": "themePark",
     "name": "Liseberg, Sweden",
     "description": "Discover the Nordic region's largest amusement park - Liseberg in Gothenburg, Sweden! Present your loved one with a trip to this amazing theme park, and together enjoy the large selection of not only rides, but live music, games, good food and beautiful gardens! Just as amazing in the cold of Swedish winter as it is in the warm summer sunshine!",
     "websites": [
-      "https://www.liseberg.se/"
+      ["liseberg", "https://www.liseberg.se/"]
     ],
     "price": "Ticket prices start from $20",
     "image": "assets/images/suggestions/theme_parks/liseberg.jpg"
   },
   {
-    "category": "theme_parks",
+    "category": "themePark",
     "name": "Europa Park, Germany",
     "description": "Is your partner a thrill-seeker? Surprise them with a trip to Europe's second largest theme park! Dive into the floods at Rulantica, discover the unique VR experiences at YULLBE and spend the night at one of their six themed hotels!",
     "websites": [
-      "https://www.europapark.de/en"
+      ["europapark", "https://www.europapark.de/en"]
     ],
     "price": "Ticket prices start from $32",
     "image": "assets/images/suggestions/theme_parks/europa.jpg"
   },
   {
-    "category": "theme parks",
+    "category": "themePark",
     "name": "Efteling, Netherlands",
     "description": "Pre-dating Disney, and twice as big as Disneyland California, Efteling is a park with a difference! Based in the town of Kaatsheuvel, southern Netherlands, its iconic fairy tale forest features many darker European fairy tales - a unique, mysterious, quirky and yet delightful theme park, worth a weekend away!",
     "websites": [
-      "https://www.efteling.com/"
+      ["efteling", "https://www.efteling.com/"]
     ],
     "price": "Ticket prices start from $43",
     "image": "assets/images/suggestions/theme_parks/efteling.jpg"
   },
   {
-    "category": "theme_parks",
+    "category": "themePark",
     "name": "LEGOLAND, Denmark",
     "description": "Looking to surprise the big kid in your life for Valentine's Day - what about the original LEGOLAND! Located next to the original LEGO factory, take a ride on the Flying Eagle, Dragen and X-treme Racers roller coasters, challenge the ninjas in LEGO® NINJAGO® The Ride, or make your bones rattle with fear in Ghost The Haunted House experience!",
     "websites": [
-      "https://www.legoland.dk/en/"
+      ["legoland", "https://www.legoland.dk/en/"]
     ],
     "price": "Ticket prices start from $48",
     "image": "assets/images/suggestions/theme_parks/legoland.jpg"
   },
   {
-    "category": "theme_parks",
+    "category": "themePark",
     "name": "Futuroscope, France",
     "description": "If the love of your life is simply a step ahead of the rest, what about a trip to Futuroscope - based on multimedia, cinematographic futuroscope and audio-visual techniques, this theme park offers something unique. ",
     "websites": [
-      "https://www.futuroscope.com/en/"
+      ["futuroscope", "https://www.futuroscope.com/en/"]
     ],
     "price": "From $38",
     "image": "assets/images/suggestions/theme_parks/futuroscope.jpg"
@@ -461,7 +543,7 @@
     "name": "Traveling Spoon",
     "description": "Available online and in person, Traveling Spoon connects travelers with local, vetted hosts to share the joy of a homemade meal in their home and learn about their cultural and culinary traditions passed down through generations.",
 	"websites": [
-      "https://www.travelingspoon.com/"
+      ["travelingspoon", "https://www.travelingspoon.com/"]
     ],
     "price": "Check site for prices",
     "image": " "
@@ -471,7 +553,7 @@
     "name": "The Casa Luna Cooking School",
     "description": "The Casa Luna cooking school is a world-famous culinary centre that provides a fascinating insight into Balinese life and culture through learning about its food, cooking and culinary myths.",
 	"websites": [
-      "https://casalunabali.com/casa-luna-cooking-school/"
+      ["casalunabali", "https://casalunabali.com/casa-luna-cooking-school/"]
     ],
     "price": "Check site for prices",
     "image": " "
@@ -481,7 +563,7 @@
     "name": "Tokyo Sushi Academy",
     "description": "If you and your partner enjoy sushi, join an online cooking course with one of Japan's top cooking schools!",
 	"websites": [
-      "https://www.sushischool.jp/"
+      ["sushischool", "https://www.sushischool.jp/"]
     ],
     "price": "Check site for prices",
     "image": " "
@@ -490,9 +572,10 @@
     "category": "cooking_classes",
     "name": "École de Cuisine",
     "description": "For those who love sweet treats, why not look at a course in making French macarons - elegant little sandwiches, made with meringue, almond flour and buttercream. Délicieuse!",
-	"websites": [
+	"websites": [[
+    "ecolecuisine-alainducasse",
       "http://www.ecolecuisine-alainducasse.com/fr/les-cours/pastry-class-in-english-macarons-madness"
-    ],
+  ]],
     "price": "Check site for prices",
     "image": " "
   },
@@ -511,8 +594,8 @@
     "name": "",
     "description": "",
     "websites": [
-      ["name of the website", "https://www..."],
-      ["name of the website", "https://www..."]
+      ["name of the shop/ website", "https://www..."],
+      ["name of second shop/ website website", "https://www..."]
     ],
     "price": "...-...",
     "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
