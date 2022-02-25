@@ -57,7 +57,7 @@
     "image": "assets/images/suggestions/animals/hedgehog.jpg"
   },
   {
-    "category": "Technology",
+    "category": "technology",
     "name": "Beanie With Built in Headphones",
     "description": "Cozy hat with bluetooth compatible built in audio.  Headphone pieces on the ear coverings of the hat let you enjoy the artists you love outside on a cold day as easily as inside, and it removes the need for headphones completely.",
     "websites": [
@@ -67,7 +67,7 @@
     "image": ""
   },
   {
-    "category": "Technology",
+    "category": "technology",
     "name": "Couchmaster",
     "description": "Find comfort at the next level with this couch compatible gaming setup.  The Couchmaster is a portable gaming surface with ample space for a laptop and mousepad, allowing you to conveniently enjoy your favorite games from the comfort of your couch. ",
     "websites": [
@@ -77,7 +77,7 @@
     "image": ""
   },
   {
-    "category": "Technology",
+    "category": "technology",
     "name": "Blue Light Glasses",
     "description": "Blue light is one of the main reasons your eyes get tired after prolonged periods of screen activity. With these glasses, you can filter out much of the blue light, reducing eye strain and promoting ocular health.",
     "websites": [
@@ -87,7 +87,7 @@
     "image": ""
   },
   {
-    "category": "Technology",
+    "category": "technology",
     "name": "Oculus VR Headset",
     "description": "Take gaming into the future with the newest Oculus release, the Quest2 all in one VR headset.  Dive into whatever game you choose in the most complete and immersive VR system to date.",
     "websites": [
@@ -97,7 +97,7 @@
     "image": ""
   },
   {
-    "category": "Technology",
+    "category": "technology",
     "name": "Music-Playing Sunglasses",
     "description": "Bluetooth compatible, these sunglasses let you listen hand and cord free to any bluetooth connected device.",
     "websites": [
@@ -107,7 +107,7 @@
     "image": ""
   },
   {
-    "category": "Extreme Sports: Individual",
+    "category": "individualSports",
     "name": "Soft-Top Surfboard",
     "description": "This style of board is known to be the easiest to stand on, making it ideal for beginners.  It is longer and softer than most boards, and is a great way to learn how to catch waves for the first time.",
     "websites": [
@@ -117,7 +117,7 @@
     "image": ""
   },
   {
-    "category": "Extreme Sports: Individual",
+    "category": "individualSports",
     "name": "Hang-Glider",
     "description": "Experience gliding freedom as you soar through the sky.  All it takes is a KittyHawkKite glider and a running start, and your flights can begin.",
     "websites": [
@@ -127,7 +127,7 @@
     "image": ""
   },
   {
-    "category": "Extreme Sports: Individual",
+    "category": "individualSports",
     "name": "Electric Skateboard",
     "description": "The Hiboy dual motor skateboard reaches up to 18.6 mph, and can be controlled by hand through remote control with ease while riding.",
     "websites": [
@@ -137,7 +137,7 @@
     "image": ""
   },
   {
-    "category": "Extreme Sports: Individual",
+    "category": "individualSports",
     "name": "Zorbing Inflatable Bubble",
     "description": "Fully protected while inside this human hamster ball, roll and tumble freely without issue.",
     "websites": [
@@ -147,7 +147,7 @@
     "image": ""
   },
   {
-    "category": "Extreme Sports: Individual",
+    "category": "individualSports",
     "name": "Inflatable Kayak",
     "description": "From Advanced Elements, this 10.5 foot kayak designed for any water conditions.  It is inflatable making it exceptionally portable, but it functions like a rigid shell kayak.",
     "websites": [
@@ -157,7 +157,7 @@
     "image": ""
   },
   {
-    "category": "Extreme Sports: Team",
+    "category": "teamSports",
     "name": "Bubble Soccer 8 Bubble Package",
     "description": "This set comes with 8 bubbles, allowing you to create teams and start your own bubble soccer matches. Safely tumble around and tackle one another as the inflated bubble around you offers ample protection.",
     "websites": [
@@ -167,7 +167,7 @@
     "image": ""
   },
   {
-    "category": "Extreme Sports: Team",
+    "category": "teamSports",
     "name": "3-Day Rafting Trip",
     "description": "Test your endurance and resilience down the rivers toughest points, and enjoy the relaxing current when the whitewater clears.",
     "websites": [
@@ -177,7 +177,7 @@
     "image": ""
   },
   {
-    "category": "Extreme Sports: Team",
+    "category": "teamSports",
     "name": "Horseback Riding Excursion",
     "description": "As a couple or with a group, take a day to experience the outdoors on horseback.",
     "websites": [
@@ -187,7 +187,7 @@
     "image": ""
   },
   {
-    "category": "Extreme Sports: Team",
+    "category": "teamSports",
     "name": "Bungee Jumping",
     "description": "Safely enjoy the rush of freefall in the outdoors, great for couples to do together!",
     "websites": [
@@ -197,7 +197,7 @@
     "image": ""
   },
   {
-    "category": "Extreme Sports: Team",
+    "category": "teamSports",
     "name": "Indoor Skydiving",
     "description": "Another way to enjoy the freefall feeling, but indoors where you can have freedom to explore and experiment with weightlessness.",
     "websites": [
@@ -257,7 +257,7 @@
     "image": "assets/images/suggestions/games/lego.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Hiking",
     "description": "Getting the endorphins going and working up a sweat by hiking together is the most romantic way to spend your Valentine’s Day. Angel’s Landing: Zion National Park(USA) is one of the world's most renowned hikes.",
     "websites": [
@@ -267,7 +267,7 @@
     "image": "assets/images/suggestions/extreme_travelling/hiking.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "White Water Rafting",
     "description": "Thrilling outdoor activity, which gives you an opportunity to get an incredible range of emotions and adrenaline rush in a short period of time. If you are thinking of spending your Valentine’s Day in a warm country, consider going to Thailand and trying White Water Rafting In Chiang Mai.",
     "websites": [
@@ -277,7 +277,7 @@
     "image": "assets/images/suggestions/extreme_travelling/rafting.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Bungee jumping",
     "description": "One of the most enjoyed extreme sports. If your partner loves bungee jumping, jumping off the Skypark Macau Tower(China) will give them an unforgettable experience. This building is 233m high and the Guinness World Record for the Highest Commercial Bungee Jump was made from this building.",
     "websites": [
@@ -287,7 +287,7 @@
     "image": "assets/images/suggestions/extreme_travelling/bungee.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Skydiving",
     "description": "The most thrilling aerial adventure in the world. If you’re looking for a memorable gift for your partner, skydiving in Interlaken(Switzerland) might be the answer. They’ll experience the picturesque view of Alps from the sky and get their own video.",
     "websites": [
@@ -297,7 +297,7 @@
     "image": "assets/images/suggestions/extreme_travelling/skydiving.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Northern Lights",
     "description": "Going to see the northern lights is the perfect couples’ adventure for Valentine’s day. There are many destinations for spotting the northern lights depending on where you are based. Reykjavik(Iceland) is a great place to see as they are easily spotted.",
     "websites": [
@@ -317,7 +317,7 @@
   {
     "category": "spa",
     "name": "Thermae Bath Spa, Bath",
-    "description": "One of the UK’s most dramatic spa, this neo-Georgian building is wrapped in angular glass, with access to three naturally heated spring-fed pools. Head straight for the rooftop pool for views across the city. The thermal experience floor includes a sauna, steam room and a “celestial” relaxation room.",
+    "description": "One of the UK's most dramatic spa, this neo-Georgian building is wrapped in angular glass, with access to three naturally heated spring-fed pools. Head straight for the rooftop pool for views across the city. The thermal experience floor includes a sauna, steam room and a “celestial” relaxation room.",
     "websites": [
           "https://www.thermaebathspa.com/"
     ],
