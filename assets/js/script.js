@@ -106,11 +106,22 @@ document.addEventListener('DOMContentLoaded', function () {
       console.log('clicked');
       modal.style.display = 'flex';
     })
-  })
+  });
   closeModal.addEventListener('click', function () {
     modal.style.display = 'none';
-  })
+  });
+  fetchData();
 });
+
+/**
+ * Fetch json data
+ */
+async function fetchData() {
+  const response = await fetch('assets/js/suggestions.json');
+  const data = await response.json();
+  console.log(data);
+  // return data;
+}
 
 
 
