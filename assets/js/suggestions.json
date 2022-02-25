@@ -161,8 +161,8 @@
     "name": "",
     "description": "",
     "websites": [
-      "https://www...",
-      "https://www..."
+      ["name of the website", "https://www..."],
+      ["name of the website", "https://www..."]
     ],
     "price": "...-...",
     "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
