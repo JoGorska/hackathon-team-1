@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
   resultContent.forEach(result => {
     result.addEventListener('click', function () {
       console.log('clicked');
-      modal.style.display = 'block';
+      modal.style.display = 'flex';
     })
   })
   closeModal.addEventListener('click', function () {

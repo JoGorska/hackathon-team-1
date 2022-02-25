@@ -45,6 +45,15 @@ img {
   object-fit: contain;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
 /* Body */
 body {
   font-size: 1.5rem;
@@ -205,31 +214,61 @@ body {
 .modal__container {
   display: none;
   background-color: #5cbab4;
+  flex: 1 0 auto;
   position: fixed;
   top: 8.6rem;
   left: 0;
   right: 0;
-  bottom: 0;
   z-index: 999;
-  max-height: 100vh;
+  min-height: 100vh;
   overflow-y: auto;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.modal__close {
+  color: var(--clr-neutral--300);
+  background-color: #efa3a9;
+  padding: 0.7em 2em;
+  width: 15rem;
+  font-size: 1.5rem;
+  margin: 2em;
+  cursor: pointer;
+  transition: background-color .15s ease-in-out, color .15s ease-in-out;
+}
+
+.modal__close:hover {
+  background-color: #fcdadd;
+  color: var(--clr-neutral--900);
 }
 
 .modal__content {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
-  padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  padding: 0 2em;
+  min-height: 50vh;
 }
 
 .modal__content--image {
-  width: 50%;
+  justify-self: center;
+  align-self: start;
+  padding: 2em 5em;
+}
+
+.modal__content--image img {
+  border-radius: 0.5em;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+
 }
 
 .modal__content--text {
-  width: 50%;
-  margin-left: 2em;
+  justify-self: center;
+  align-self: start;
+  margin: 2em 5em 0 0;
   padding: 2em;
   background-color: var(--clr-primary--100);
   color: var(--clr-neutral--300);
@@ -237,6 +276,22 @@ body {
   -webkit-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.modal__content--title {
+  text-transform: capitalize;
+  font-size: 2rem;
+  padding-bottom: 1.5em;
+}
+
+.modal__content--description {
+  padding-bottom: 1em;
+}
+
+.modal__content--links {
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Footer */
