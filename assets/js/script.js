@@ -116,16 +116,67 @@ const notFoodieQuestion = {
 //   // displayData(data);
 //   return data
 // }
+
+// var categoryListOfDict = [
+//   {
+//   string: "games",
+//   games: []
+
+//   },
+//   {
+//     string: "animals",
+//     animals: []
+//   }
+// ]
+
+// dictionaryOfDictionaries = {
+//   gamesDict: {
+//     string: "games",
+//     list: []
+//   },
+//   anmialsDict: {
+//     string: "animals",
+//     list: []
+//   }
+// }
+
+// function findMyList(string) {
+//   let list
+//   for (let i = 0; i < categoryListOfDict.length; ++i) {
+//     if (categoryListOfDict[i].string === string) {
+//       list.push(categoryListOfDict[i])
+//     }
+//   }
+//   return list
+// }
+
+// class Category {
+//   constructor(string, list){
+//     this.string = string;
+//     this.list = list;
+//   }
+// }
+
+
+
 var games = []
 var animals = []
+var tech = []
+var individualSports = []
+var teamSports = []
+var travel = []
 
 const data = fetch('assets/js/suggestions.json')
   .then(response => response.json())
   .then(data => {
     console.log(data)
     category = "games"
-    games = findGiftsInCategory(category, data)
-
+    games = findGiftsInCategory("games", data)
+    animals = findGiftsInCategory("animals", data)
+    tech = findGiftsInCategory("technology", data)
+    individualSports = findGiftsInCategory("individualSports", data)
+    teamSports = findGiftsInCategory("teamSports", data)
+    travel = findGiftsInCategory("travel", data)
   });
 
 
@@ -187,164 +238,7 @@ const cookery = [ {
     "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
   }
 ]
-const tech = [ {
-    "category": "",
-    "name": "Tech",
-    "description": "",
-    "websites": [
-      "https://www...",
-      "https://www..."
-    ],
-    "price": "...-...",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-  }
-]
-// const animals = [{
-//     "name": "butterfly",
-//     "description": "These majestic creatures will definitely surprise your partner. Butterflies inspire all people and bring the beauty to the world, and that’s why it would be a perfect idea to chose them to share with your loved ones. Everyone loves butterflies flying around, especially if there flying right in your apartment!",
-//     "websites": [
-//       "https://www.butterflynursery.com/",
-//       "https://www.amazon.com/Live-Butterflies/s?k=Live+Butterflies",
-//       "https://monarchbutterflies.ca/"
-//     ],
-//     "price": "19-120",
-//     "image": "assets/images/suggestions/animals/butterfly.jpg"
-//   },
-//   {
-//     "name": "spider",
-//     "description": "To most people, spiders are super creepy. However, there are still wonderful creatures to many people! There calm, silent, and there are only fewer species which are dangerous to humans! If you want to really surprise your partner, go for spiders!",
-//     "websites": [
-//       "https://www.evolutionreptiles.co.uk/animals/spiders/",
-//       "https://www.joshsfrogs.com/live-insects-feeders/spiders.html",
-//       "https://www.backwaterreptiles.com/tarantulas-for-sale.html"
-//     ],
-//     "price": "32-150",
-//     "image": "assets/images/suggestions/animals/spider.jpg"
-//   },
-//   {
-//     "name": "cockatoo parrot",
-//     "description": "If your half really loves to talk, this bird will be an amazing gift in this case! Cockatoo parrots are highly sociable and just have to be around people. Cockatoos are often described as intelligent and emotional birds and many describe life with a cockatoo as living with a perpetual 2-year-old child, capable of temper tantrums as well as complete silliness.",
-//     "websites": [
-//       "https://megabirdstore.com/bird/buy-cockatoo/",
-//       "https://caliparrotsforsale.com/product-category/cockatoo-parrots/",
-//       "https://www.birdbreeders.com/birds/category/cockatoos"
-//     ],
-//     "price": "700-6000",
-//     "image": "assets/images/suggestions/animals/parrot.jpg"
-//   },
-//   {
-//     "name": "snake",
-//     "description": "Would you like to make a gift really memorable in this Valentine’s Day? Purchasing a snake may really help you. First of all, it is unusual and beautiful!.And don’t forget that snakes are eary to handle and are they are not aggressive! And if you partner doesn’t like to care about about feeding an animal every now and then, a snake can be a great choice! They may not eat for wiiks to month! If you want to learn more: https://vcahospitals.com/know-your-pet/snakes-owning",
-//     "websites": [
-//       "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html",
-//       "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"
-//     ],
-//     "price": "40-500",
-//     "image": "assets/images/suggestions/animals/snake.jpg"
-//   },
-//   {
-//     "name": "hedgehog",
-//     "description": "Hedgehog is a cute pocket pet, which will definitely bring lots of joy to your partner! Moreover, hedgehogs are easy to take care of, ",
-//     "websites": [
-//       "https://www.exoticanimalsforsale.net/hedgehogs-for-sale.asp",
-//       "https://www.dragonstoneranch.com/hedgehogs"
-//     ],
-//     "price": "50-600",
-//     "image": "assets/images/suggestions/animals/hedgehog.jpg"
-//   },
-// ]
 
-
-// [{
-//     "category": "games",
-//     "name": "Catan",
-//     "description": "Award winning board game. It's easy for new players to latch on to and introduces them to hobby games in a fun, accessible way. if you are looking for something to enjoy together with your partner, we highly recommend this addictively fun strategy game.",
-//     "websites": [
-//       "https://www.amazon.com/CATAN-Players-Strategy-Adventure-Playtime/dp/B00486TI3M/ref=sr_1_15?crid=96RW012POR4Y&keywords=catan&qid=1645732699&sprefix=catan%2Caps%2C176&sr=8-15"
-//     ],
-//     "price": "24.94",
-//     "image": "assets/images/suggestions/games/catan.jpg"
-//   },
-//   {
-//     "category": "games",
-//     "name": "Chess board set",
-//     "description": "Chess is one of the most popular classic board games. There is a wide range of prices in the chess board set and this one is a good quality starter if your partner doesn’t have one of their own yet.",
-//     "websites": [
-//       "https://www.amazon.com/Jowisz-Decorative-Folding-Chess-Board/dp/B000Z9CH7U/ref=sr_1_23?crid=16ZUZBZA0VASN&keywords=Chess+board+set&qid=1645732810&sprefix=chess+board+set%2Caps%2C174&sr=8-23"
-//     ],
-//     "price": "36.68",
-//     "image": "assets/images/suggestions/games/chess.jpg"
-//   },
-//   {
-//     "category": "games",
-//     "name": "Ticket to Ride",
-//     "description": "Award winning, cross-country train adventure game. The original version is played on a board depicting a railway map of the US and southern Canada. There are localised editions of other countries, cities and regions you can choose for your partner.",
-//     "websites": [
-//       "https://www.amazon.com/Days-Wonder-DO7201-Ticket-Ride/dp/0975277324/ref=sr_1_2?keywords=ticket+to+ride&qid=1645739563&sr=8-2"
-//     ],
-//     "price": "43.99",
-//     "image": "assets/images/suggestions/games/ticket_to_ride.jpg"
-//   },
-//   {
-//     "category": "games",
-//     "name": "Steam gift card",
-//     "description": "The perfect gift for the video gamers if you’re in a long-distance relationship or your partner seems to have everything. There will always be new games that your partner wants to play on Steam.",
-//     "websites": [
-//       "https://store.steampowered.com/digitalgiftcards/"
-//     ],
-//     "price": "5-100",
-//     "image": "assets/images/suggestions/games/gift_card.jpg"
-//   },
-//   {
-//     "category": "games",
-//     "name": "LEGO Nintendo Entertainment System",
-//     "description": "Authentic reproductions of the original Nintendo Entertainment System console, controller and Game Pak cartridge with a retro-styled 1980s TV. This will trigger your partner’s nostalgic memories if they love video games and enjoyed playing Super Mario back in the day.",
-//     "websites": [
-//       "https://www.lego.com/en-us/product/nintendo-entertainment-system-71374"
-//     ],
-//     "price": "229.99",
-//     "image": "assets/images/suggestions/games/lego.jpg"
-//   }
-// ]
-
-const individualSports = [ {
-    "category": "",
-    "name": "Individual Sports",
-    "description": "",
-    "websites": [
-      "https://www...",
-      "https://www..."
-    ],
-    "price": "...-...",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-  }
-]
-
-const teamSports = [ {
-    "category": "",
-    "name": "Team Sports",
-    "description": "",
-    "websites": [
-      "https://www...",
-      "https://www..."
-    ],
-    "price": "...-...",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-  }
-]
-
-const travel = [ {
-    "category": "",
-    "name": "Travel",
-    "description": "",
-    "websites": [
-      "https://www...",
-      "https://www..."
-    ],
-    "price": "...-...",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-  }
-]
 
 const sportsEvent = [ {
     "category": "",
