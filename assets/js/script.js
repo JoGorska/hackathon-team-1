@@ -102,6 +102,8 @@ var games = []
 var individualSports = []
 var teamSports = []
 var travel = []
+// check where variable spa is being used ???
+var spa = [] 
 var sportsEvent = []
 var themePark = []
 var ride = []
@@ -109,6 +111,34 @@ var eatOut = []
 var cook = []
 var tasting = []
 
+/**
+ * function to fetch data from suggestion.js and than add
+ * an array to each of the variables representing a list
+ * of gifts in the given category
+ */
+
+const data = fetch('assets/js/suggestions.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data)
+    arts = findGiftsInCategory("arts", data)
+    gardening = findGiftsInCategory("gardening", data)
+    cookery = findGiftsInCategory("cookery", data)
+    games = findGiftsInCategory("games", data)
+    animals = findGiftsInCategory("animals", data)
+    tech = findGiftsInCategory("technology", data)
+    individualSports = findGiftsInCategory("individualSports", data)
+    teamSports = findGiftsInCategory("teamSports", data)
+    travel = findGiftsInCategory("travel", data)
+    spa = findGiftsInCategory("spa", data)
+    sportsEvent = findGiftsInCategory("sportsEvent", data)
+    themePark = findGiftsInCategory("themePark", data)
+    ride = findGiftsInCategory("ride", data)
+    eatOut = findGiftsInCategory("eatOut", data)
+    cook = findGiftsInCategory("cook", data)
+    tasting = findGiftsInCategory("tasting", data)
+
+  });
 
 
 
