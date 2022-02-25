@@ -128,7 +128,6 @@ var tasting = []
 const data = fetch('assets/js/suggestions.json')
   .then(response => response.json())
   .then(data => {
-    console.log(data)
     arts = findGiftsInCategory("arts", data)
     gardening = findGiftsInCategory("gardening", data)
     cookery = findGiftsInCategory("cookery", data)
@@ -156,16 +155,13 @@ const data = fetch('assets/js/suggestions.json')
  */
 
  function findGiftsInCategory(category, data) {
-  console.log(`THIS IS data inside findGiftsInCategory ${data[0].category}`);
   let listOfGifts = []
   for (let i = 0; i < data.length; ++i) {
-    console.log(data[i])
+
     if (data[i].category === category) {
       listOfGifts.push(data[i]);
     }
   }
-  console.log(`THIS IS LIST OF GIFTS  ${listOfGifts}`);
-  console.log(listOfGifts)
   return listOfGifts
 }
 
@@ -210,6 +206,12 @@ function displayResults(category) {
     suggestionContainer.appendChild(suggestionCard);
   })
 }
+
+/**
+ * function to check answers, gives next questions or
+ * gives suggested categories to display gift ideas
+ * 
+ */
 
 function checkAnswer(e) {
   if (currentQuestion === firstQuestion) {
@@ -256,7 +258,6 @@ function checkAnswer(e) {
     } else {
       category = cookery
     }
-    console.log(category)
     quizContainer.classList.add('hide')
   }
   else if (currentQuestion === unCreativeQuestion) {
