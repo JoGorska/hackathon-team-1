@@ -3,9 +3,9 @@
     "name": "butterfly",
     "description": "These majestic creatures will definitely surprise your partner. Butterflies inspire all people and bring the beauty to the world, and that’s why it would be a perfect idea to chose them to share with your loved ones. Everyone loves butterflies flying around, especially if there flying right in your apartment!",
     "websites": [
-      "https://www.butterflynursery.com/",
-      "https://www.amazon.com/Live-Butterflies/s?k=Live+Butterflies",
-      "https://monarchbutterflies.ca/"
+      ["butterfly nursery", "https://www.butterflynursery.com/"],
+      ["the butterfly company", "https://www.thebutterflycompany.com/"],
+      ["monarch butterflies", "https://monarchbutterflies.ca/"]
     ],
     "price": "19-120",
     "image": "assets/images/suggestions/animals/butterfly.jpg"
