@@ -418,10 +418,11 @@ const displayModalContent = function (suggestion) {
   <img src="${suggestion.image}" alt="${suggestion.name}">
   `;
   let websitesList = suggestion.websites.map(website => `
-    <li>
+    <li class="modal__content--link">
+      <img src="assets/images/heart-svgrepo-com.svg" alt="" class="hearts" style="width:1.2rem; height:1.2rem;">
       <a href='${website[1]}' target="_blank" rel="noopener"
       aria-label="Visit ${website[0]}">
-        ${website[1]}
+        ${website[0]}
       </a>
     </li>
   `).join('');
@@ -431,9 +432,12 @@ const displayModalContent = function (suggestion) {
       <p class="modal__content--description">
         ${suggestion.description}
       </p>
+      <h4 class="modal__content--websites">Were to find:</h4>
       <ul class="modal__content--links">${websitesList}</ul>
-      <div class="modal__content--price">$ ${suggestion.price}</div>
-      <div>other gifts????</div>
+      <div class="modal__content--price">
+        <h4 class="modal__content--price-title">Price:</h4>
+        <div>$ ${suggestion.price} </div>
+      </div>
   `;
 }
 
