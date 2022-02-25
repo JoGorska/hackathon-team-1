@@ -103,7 +103,9 @@ const suggestionContainer = document.getElementById('suggestion-container');
 let resultContent = document.querySelectorAll('.result__content');
 
 document.addEventListener('DOMContentLoaded', function () {
-
+  closeModal.addEventListener('click', function () {
+    modal.style.display = 'none';
+  });
   fetchData();
 });
 
@@ -122,7 +124,6 @@ async function fetchData() {
  * Display data
  * Send data to the card
  */
-
 const displayData = function (data) {
   suggestionContainer.innerHTML = '';
   data.forEach(suggestion => {
@@ -135,19 +136,35 @@ const displayData = function (data) {
     </div>
     <div class="result__content--modal">learn more</div>
     `;
-    suggestionContainer.appendChild(suggestionCard);
+
     suggestionCard.addEventListener('click', function () {
       console.log('clicked');
       modal.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+      displayModalContent(suggestion);
     })
-    closeModal.addEventListener('click', function () {
-      modal.style.display = 'none';
-    });
+
+    suggestionContainer.appendChild(suggestionCard);
   })
 }
 
 
-
+const displayModalContent = function (suggestion) {
+  const modalImage = document.querySelector('#suggestion-image');
+  const modalInfo = document.querySelector('#suggestion-info');
+  modalImage.innerHTML = `
+  <img src="${suggestion.image}" alt="${suggestion.name}">
+  `;
+  modalInfo.innerHTML = `
+      <h3 class="modal__content--title">${suggestion.name}</h3>
+      <p class="modal__content--description">
+        ${suggestion.description}
+      </p>
+      <div class="modal__content--links">${suggestion.websites}</div>
+      <div class="modal__content--price">$ ${suggestion.price}</div>
+      <div>other gifts????</div>
+  `;
+}
 
 
 //sets the text of the questions and answers. hides button C if there are only 2 options
