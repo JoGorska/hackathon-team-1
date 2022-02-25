@@ -144,6 +144,7 @@ const data = fetch('assets/js/suggestions.json')
  * function to create a list of objects that have the same category
  * the objects come from suggestions.json file that is fetched in the
  * data variable
+ * takes a string (category) and array (data) as variables
  */
 
  function findGiftsInCategory(category, data) {
@@ -163,6 +164,154 @@ const data = fetch('assets/js/suggestions.json')
 let currentQuestion = firstQuestion;
 let category = ''
 
+//sets the text of the questions and answers. hides button C if there are only 2 options
+function displayQuestion(currentQuestion) {
+  questionText.innerText = currentQuestion.question;
+  answerContainerA.innerText = currentQuestion.answerA;
+  answerContainerB.innerText = currentQuestion.answerB;
+  if (currentQuestion.answerC === 'pass') {
+    answerContainerC.classList.add('hide');
+  } else {
+    answerContainerC.classList.remove('hide');
+    answerContainerC.innerText = currentQuestion.answerC;
+  }
+}
+
+displayQuestion(currentQuestion)
+
+function displayResults(category) {
+  quizContainer.classList.add('hide');
+  resultsContainer.classList.remove('hide')
+  category.forEach(suggestion => {
+    const suggestionCard = document.createElement('div');
+    suggestionCard.classList.add('result__content');
+    suggestionCard.innerHTML = `
+    <h3 class="result__content--title">${suggestion.name}</h3>
+    <div class="result__content--image">
+      <img src="${suggestion.image}" alt="${suggestion.name}">
+    </div>
+    <div class="result__content--modal">learn more</div>
+    `;
+
+    suggestionCard.addEventListener('click', function () {
+      console.log('clicked');
+      modal.style.display = 'flex';
+      displayModalContent(suggestion);
+    })
+
+    suggestionContainer.appendChild(suggestionCard);
+  })
+}
+
+function checkAnswer(e) {
+  if (currentQuestion === firstQuestion) {
+    if (e.target.id === 'answer-a') {
+      currentQuestion = homeQuestion;
+    } else {
+      currentQuestion = outQuestion;
+    }
+    displayQuestion(currentQuestion);
+  } else if (currentQuestion === homeQuestion) {
+    if (e.target.id === 'answer-a') {
+      currentQuestion = creativeQuestion;
+    } else {
+      currentQuestion = unCreativeQuestion;
+    }
+    displayQuestion(currentQuestion)
+  } else if (currentQuestion === outQuestion) {
+    if (e.target.id === 'answer-a') {
+      currentQuestion = adventurousQuestion;
+    } else {
+      currentQuestion = leisureQuestion;
+    }
+    displayQuestion(currentQuestion)
+  } else if (currentQuestion === adventurousQuestion) {
+    if (e.target.id === 'answer-a') {
+      currentQuestion = activeQuestion;
+    } else {
+      currentQuestion = notActiveQuestion;
+    }
+    displayQuestion(currentQuestion)
+  } else if (currentQuestion === leisureQuestion) {
+    if (e.target.id === 'answer-a') {
+      currentQuestion = foodieQuestion;
+    } else {
+      currentQuestion = notFoodieQuestion;
+    }
+    displayQuestion(currentQuestion)
+  } 
+  else if (currentQuestion === creativeQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = arts
+    } else if (e.target.id === 'answer-b') {
+      category = gardening
+    } else {
+      category = cookery
+    }
+    console.log(category)
+    quizContainer.classList.add('hide')
+  }
+  else if (currentQuestion === unCreativeQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = tech
+    } else if (e.target.id === 'answer-b') {
+      category = animals
+    } else {
+      category = games
+    }
+    displayResults(category)
+  }
+  else if (currentQuestion === activeQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = individualSports
+    } else if (e.target.id === 'answer-b') {
+      category = teamSports
+    } else {
+      category = travel
+    }
+    displayResults(category)
+  }
+  else if (currentQuestion === notActiveQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = sportsEvent
+    } else if (e.target.id === 'answer-b') {
+      category = themePark
+    } else {
+      category = ride
+    }
+    displayResults(category)
+  }
+  else if (currentQuestion === foodieQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = eatOut
+    } else if (e.target.id === 'answer-b') {
+      suggestion = cook
+    } else {
+      category = tasting
+    }
+    displayResults(category)
+  }
+  else if (currentQuestion === notFoodieQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = museum
+    } else if (e.target.id === 'answer-b') {
+      category = spa
+    } else {
+      category = sightseeing
+    }
+    displayResults(category)
+  }
+}
+
+//event listeners
+answerContainerA.addEventListener('click', checkAnswer);
+answerContainerB.addEventListener('click', checkAnswer);
+answerContainerC.addEventListener('click', checkAnswer);
+
+
+/// displays modal 
+
+
 // variables for modal
 const modal = document.getElementById('modal');
 const modalContent = document.querySelector('.modal-content');
@@ -172,17 +321,6 @@ const suggestionContainer = document.getElementById('suggestion-container');
 let resultContent = document.querySelectorAll('.result__content');
 let quizAnswers = document.querySelector('#quiz-answers').childNodes;
 console.log(quizAnswers)
-
-
-document.addEventListener('DOMContentLoaded', function () {
-  closeModal.addEventListener('click', function () {
-    modal.style.display = 'none';
-  });
-  answerContainerA.addEventListener('click', checkAnswer);
-  answerContainerB.addEventListener('click', checkAnswer);
-  answerContainerC.addEventListener('click', checkAnswer);
-  fetchData();
-});
 
 
 let data;
@@ -197,42 +335,12 @@ async function fetchData() {
 
 }
 
-// answerContainerA.addEventListener('click', function (e) {
-//   // console.log(data);
-//   data.forEach(suggestion => {
-//     let categoryChosen
-//     if (e.target.innerText === suggestion.category) {
-//       categoryChosen = suggestion.category
-//       console.log(categoryChosen)
-//       newData = data.filter(suggestion => suggestion.category === categoryChosen);
-//       console.log(newData);
-//     }
-//   })
-
-//   categoryChosen = e.target.innerHTML;
-
-// });
-// answerContainerB.addEventListener('click', function (e) {
-//   let categoryChosen
-//   data.forEach(suggestion => {
-//     console.log(suggestion.category)
-//     console.log(e.target.innerText)
-//     if (e.target.innerText === suggestion.category) {
-//       categoryChosen = suggestion.category
-//       console.log(categoryChosen)
-//       newData = data.filter(suggestion => suggestion.category === categoryChosen);
-//       console.log(newData);
-//     }
-//   })
-// });
-
-
 /**
  * Classify data
  * Display data
  * Send data to the card
  */
-const displayData = function (data) {
+ const displayData = function (data) {
   // checkAnswer()
   // newData = data.filter(suggestion => suggestion.category === tempVar);
   // console.log(newData);
@@ -294,143 +402,12 @@ const displayModalContent = function (suggestion) {
   `;
 }
 
-
-//sets the text of the questions and answers. hides button C if there are only 2 options
-function displayQuestion(currentQuestion) {
-  questionText.innerText = currentQuestion.question;
-  answerContainerA.innerText = currentQuestion.answerA;
-  answerContainerB.innerText = currentQuestion.answerB;
-  if (currentQuestion.answerC === 'pass') {
-    answerContainerC.classList.add('hide');
-  } else {
-    answerContainerC.classList.remove('hide');
-    answerContainerC.innerText = currentQuestion.answerC;
-  }
-}
-
-displayQuestion(currentQuestion)
-
-// function displayResults(category) {
-//   quizContainer.classList.add('hide');
-//   resultsContainer.classList.remove('hide')
-//   category.forEach(suggestion => {
-//     const suggestionCard = document.createElement('div');
-//     suggestionCard.classList.add('result__content');
-//     suggestionCard.innerHTML = `
-//     <h3 class="result__content--title">${suggestion.name}</h3>
-//     <div class="result__content--image">
-//       <img src="${suggestion.image}" alt="${suggestion.name}">
-//     </div>
-//     <div class="result__content--modal">learn more</div>
-//     `;
-
-//     suggestionCard.addEventListener('click', function () {
-//       console.log('clicked');
-//       modal.style.display = 'flex';
-//       displayModalContent(suggestion);
-//     })
-
-//     suggestionContainer.appendChild(suggestionCard);
-//   })
-// }
-
-const checkAnswer = function (e) {
-
-  let tempVar = e.target.innerText;
-  // console.log(tempVar);
-  if (currentQuestion === firstQuestion) {
-    if (e.target.id === 'answer-a') {
-      currentQuestion = homeQuestion;
-    } else {
-      currentQuestion = outQuestion;
-    }
-    displayQuestion(currentQuestion);
-  } else if (currentQuestion === homeQuestion) {
-    if (e.target.id === 'answer-a') {
-      currentQuestion = creativeQuestion;
-    } else {
-      currentQuestion = unCreativeQuestion;
-    }
-    displayQuestion(currentQuestion)
-  } else if (currentQuestion === outQuestion) {
-    if (e.target.id === 'answer-a') {
-      currentQuestion = adventurousQuestion;
-    } else {
-      currentQuestion = leisureQuestion;
-    }
-    displayQuestion(currentQuestion)
-  } else if (currentQuestion === adventurousQuestion) {
-    if (e.target.id === 'answer-a') {
-      currentQuestion = activeQuestion;
-    } else {
-      currentQuestion = notActiveQuestion;
-    }
-    displayQuestion(currentQuestion)
-  } else if (currentQuestion === leisureQuestion) {
-    if (e.target.id === 'answer-a') {
-      currentQuestion = foodieQuestion;
-    } else {
-      currentQuestion = notFoodieQuestion;
-    }
-    displayQuestion(currentQuestion)
-  } else {
-
-    console.log(tempVar);
-    return tempVar;
-  }
-
-  // else if (currentQuestion === unCreativeQuestion) {
-  //   if (e.target.id === 'answer-a') {
-  //     category = tech
-  //   } else if (e.target.id === 'answer-b') {
-  //     category = 'animals'
-  //   } else {
-  //     category = games
-  //   }
-  //   displayData(category)
-  // } else if (currentQuestion === activeQuestion) {
-  //   if (e.target.id === 'answer-a') {
-  //     category = individualSports
-  //   } else if (e.target.id === 'answer-b') {
-  //     category = teamSports
-  //   } else {
-  //     category = travel
-  //   }
-  //   displayResults(category)
-  // } else if (currentQuestion === notActiveQuestion) {
-  //   if (e.target.id === 'answer-a') {
-  //     category = sportsEvent
-  //   } else if (e.target.id === 'answer-b') {
-  //     category = themePark
-  //   } else {
-  //     suggestion = ride
-  //   }
-  //   displayResults(category)
-  // } else if (currentQuestion === foodieQuestion) {
-  //   if (e.target.id === 'answer-a') {
-  //     suggestion = eatOut
-  //   } else if (e.target.id === 'answer-b') {
-  //     suggestion = cook
-  //   } else {
-  //     suggestion = tasting
-  //   }
-  //   displayResults(category)
-  // } else if (currentQuestion === notFoodieQuestion) {
-  //   if (e.target.id === 'answer-a') {
-  //     suggestion = museum
-  //   } else if (e.target.id === 'answer-b') {
-  //     suggestion = spa
-  //   } else {
-  //     suggestion = sightseeing
-  //   }
-  //   displayResults(category)
-  // }
-}
-
-//event listeners
-// answerContainerA.addEventListener('click', checkAnswer);
-// answerContainerB.addEventListener('click', checkAnswer);
-// answerContainerC.addEventListener('click', checkAnswer);
-
-
-/// displays modal 
+document.addEventListener('DOMContentLoaded', function () {
+  closeModal.addEventListener('click', function () {
+    modal.style.display = 'none';
+  });
+  answerContainerA.addEventListener('click', checkAnswer);
+  answerContainerB.addEventListener('click', checkAnswer);
+  answerContainerC.addEventListener('click', checkAnswer);
+  fetchData();
+});
