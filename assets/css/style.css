@@ -131,6 +131,7 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--clr-neutral--900);
+  padding: 2em;
 }
 
 .results__title {
@@ -198,6 +199,10 @@ body {
 
 .result__content--modal:hover {
   text-decoration: underline;
+}
+
+.modal__container {
+  display: none;
 }
 
 /* Footer */
