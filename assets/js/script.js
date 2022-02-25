@@ -97,19 +97,13 @@ let currentQuestion = firstQuestion;
 // variables for modal
 const modal = document.getElementById('modal');
 const modalContent = document.querySelector('.modal-content');
-let resultContent = document.querySelectorAll('.result__content');
 const closeModal = document.getElementById('modal-close');
+// Variables for suggestions
+const suggestionContainer = document.getElementById('suggestion-container');
+let resultContent = document.querySelectorAll('.result__content');
 
 document.addEventListener('DOMContentLoaded', function () {
-  resultContent.forEach(result => {
-    result.addEventListener('click', function () {
-      console.log('clicked');
-      modal.style.display = 'flex';
-    })
-  });
-  closeModal.addEventListener('click', function () {
-    modal.style.display = 'none';
-  });
+
   fetchData();
 });
 
@@ -120,10 +114,37 @@ async function fetchData() {
   const response = await fetch('assets/js/suggestions.json');
   const data = await response.json();
   console.log(data);
-  // return data;
+  displayData(data);
 }
 
+/**
+ * Classify data
+ * Display data
+ * Send data to the card
+ */
 
+const displayData = function (data) {
+  suggestionContainer.innerHTML = '';
+  data.forEach(suggestion => {
+    const suggestionCard = document.createElement('div');
+    suggestionCard.classList.add('result__content');
+    suggestionCard.innerHTML = `
+    <h3 class="result__content--title">${suggestion.name}</h3>
+    <div class="result__content--image">
+      <img src="${suggestion.image}" alt="${suggestion.name}">
+    </div>
+    <div class="result__content--modal">learn more</div>
+    `;
+    suggestionContainer.appendChild(suggestionCard);
+    suggestionCard.addEventListener('click', function () {
+      console.log('clicked');
+      modal.style.display = 'flex';
+    })
+    closeModal.addEventListener('click', function () {
+      modal.style.display = 'none';
+    });
+  })
+}
 
 
 
