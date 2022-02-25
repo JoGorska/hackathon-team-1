@@ -156,14 +156,21 @@ const displayModalContent = function (suggestion) {
   modalImage.innerHTML = `
   <img src="${suggestion.image}" alt="${suggestion.name}">
   `;
-  let websitesList = suggestion.websites.map(website => `<li>${website}</li>`).join('');
+  let websitesList = suggestion.websites.map(website => `
+    <li>
+      <a href='${website}' target="_blank" rel="noopener"
+      aria-label="Visit ${website}">
+        ${website}
+      </a>
+    </li>
+  `).join('');
   console.log(websitesList);
   modalInfo.innerHTML = `
       <h3 class="modal__content--title">${suggestion.name}</h3>
       <p class="modal__content--description">
         ${suggestion.description}
       </p>
-      <ul class="modal__content--links"><a href='#'>${websitesList}</a></ul>
+      <ul class="modal__content--links">${websitesList}</ul>
       <div class="modal__content--price">$ ${suggestion.price}</div>
       <div>other gifts????</div>
   `;
