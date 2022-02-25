@@ -437,51 +437,51 @@
     "image": "assets/images/suggestions/spas/aire_ancient_baths.jpg"
   },
   {
-    "category": "theme_parks",
+    "category": "themePark",
     "name": "Liseberg, Sweden",
     "description": "Discover the Nordic region's largest amusement park - Liseberg in Gothenburg, Sweden! Present your loved one with a trip to this amazing theme park, and together enjoy the large selection of not only rides, but live music, games, good food and beautiful gardens! Just as amazing in the cold of Swedish winter as it is in the warm summer sunshine!",
     "websites": [
-      "https://www.liseberg.se/"
+      ["liseberg", "https://www.liseberg.se/"]
     ],
     "price": "Ticket prices start from $20",
     "image": "assets/images/suggestions/theme_parks/liseberg.jpg"
   },
   {
-    "category": "theme_parks",
+    "category": "themePark",
     "name": "Europa Park, Germany",
     "description": "Is your partner a thrill-seeker? Surprise them with a trip to Europe's second largest theme park! Dive into the floods at Rulantica, discover the unique VR experiences at YULLBE and spend the night at one of their six themed hotels!",
     "websites": [
-      "https://www.europapark.de/en"
+      ["europapark", "https://www.europapark.de/en"]
     ],
     "price": "Ticket prices start from $32",
     "image": "assets/images/suggestions/theme_parks/europa.jpg"
   },
   {
-    "category": "theme parks",
+    "category": "themePark",
     "name": "Efteling, Netherlands",
     "description": "Pre-dating Disney, and twice as big as Disneyland California, Efteling is a park with a difference! Based in the town of Kaatsheuvel, southern Netherlands, its iconic fairy tale forest features many darker European fairy tales - a unique, mysterious, quirky and yet delightful theme park, worth a weekend away!",
     "websites": [
-      "https://www.efteling.com/"
+      ["efteling", "https://www.efteling.com/"]
     ],
     "price": "Ticket prices start from $43",
     "image": "assets/images/suggestions/theme_parks/efteling.jpg"
   },
   {
-    "category": "theme_parks",
+    "category": "themePark",
     "name": "LEGOLAND, Denmark",
     "description": "Looking to surprise the big kid in your life for Valentine's Day - what about the original LEGOLAND! Located next to the original LEGO factory, take a ride on the Flying Eagle, Dragen and X-treme Racers roller coasters, challenge the ninjas in LEGO® NINJAGO® The Ride, or make your bones rattle with fear in Ghost The Haunted House experience!",
     "websites": [
-      "https://www.legoland.dk/en/"
+      ["legoland", "https://www.legoland.dk/en/"]
     ],
     "price": "Ticket prices start from $48",
     "image": "assets/images/suggestions/theme_parks/legoland.jpg"
   },
   {
-    "category": "theme_parks",
+    "category": "themePark",
     "name": "Futuroscope, France",
     "description": "If the love of your life is simply a step ahead of the rest, what about a trip to Futuroscope - based on multimedia, cinematographic futuroscope and audio-visual techniques, this theme park offers something unique. ",
     "websites": [
-      "https://www.futuroscope.com/en/"
+      ["futuroscope", "https://www.futuroscope.com/en/"]
     ],
     "price": "From $38",
     "image": "assets/images/suggestions/theme_parks/futuroscope.jpg"
@@ -543,7 +543,7 @@
     "name": "Traveling Spoon",
     "description": "Available online and in person, Traveling Spoon connects travelers with local, vetted hosts to share the joy of a homemade meal in their home and learn about their cultural and culinary traditions passed down through generations.",
 	"websites": [
-      "https://www.travelingspoon.com/"
+      ["travelingspoon", "https://www.travelingspoon.com/"]
     ],
     "price": "Check site for prices",
     "image": " "
@@ -553,7 +553,7 @@
     "name": "The Casa Luna Cooking School",
     "description": "The Casa Luna cooking school is a world-famous culinary centre that provides a fascinating insight into Balinese life and culture through learning about its food, cooking and culinary myths.",
 	"websites": [
-      "https://casalunabali.com/casa-luna-cooking-school/"
+      ["casalunabali", "https://casalunabali.com/casa-luna-cooking-school/"]
     ],
     "price": "Check site for prices",
     "image": " "
@@ -563,7 +563,7 @@
     "name": "Tokyo Sushi Academy",
     "description": "If you and your partner enjoy sushi, join an online cooking course with one of Japan's top cooking schools!",
 	"websites": [
-      "https://www.sushischool.jp/"
+      ["sushischool", "https://www.sushischool.jp/"]
     ],
     "price": "Check site for prices",
     "image": " "
@@ -572,9 +572,10 @@
     "category": "cooking_classes",
     "name": "École de Cuisine",
     "description": "For those who love sweet treats, why not look at a course in making French macarons - elegant little sandwiches, made with meringue, almond flour and buttercream. Délicieuse!",
-	"websites": [
+	"websites": [[
+    "ecolecuisine-alainducasse",
       "http://www.ecolecuisine-alainducasse.com/fr/les-cours/pastry-class-in-english-macarons-madness"
-    ],
+  ]],
     "price": "Check site for prices",
     "image": " "
   },

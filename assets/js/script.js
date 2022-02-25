@@ -103,6 +103,7 @@ const notFoodieQuestion = {
 // findGiftsInCategory function, that fetches data from suggestions.json
 var arts = []
 var gardening = []
+// cookery = cookingClassess ??? need to confirm with Helen
 var cookery = []
 var tech = []
 var animals = []
@@ -110,13 +111,12 @@ var games = []
 var individualSports = []
 var teamSports = []
 var travel = []
-// check where variable spa is being used ???
 var spa = [] 
 var sportsEvent = []
 var themePark = []
 var ride = []
 var eatOut = []
-var cook = []
+var cookingClasses = []
 var tasting = []
 
 /**
@@ -142,7 +142,7 @@ const data = fetch('assets/js/suggestions.json')
     themePark = findGiftsInCategory("themePark", data)
     ride = findGiftsInCategory("ride", data)
     eatOut = findGiftsInCategory("eatOut", data)
-    cook = findGiftsInCategory("cook", data)
+    cookingClasses = findGiftsInCategory("cookingClasses", data)
     tasting = findGiftsInCategory("tasting", data)
 
   });
@@ -294,7 +294,7 @@ function checkAnswer(e) {
     if (e.target.id === 'answer-a') {
       category = eatOut
     } else if (e.target.id === 'answer-b') {
-      category = cook
+      category = cookingClasses
     } else {
       category = tasting
     }
