@@ -91,221 +91,26 @@ const notFoodieQuestion = {
   answerB: 'A pamper day at the spa',
   answerC: 'Going sightseeing'
 }
+// variables of each categories - empty arrays filled in by 
+// findGiftsInCategory function, that fetches data from suggestions.json
+var arts = []
+var gardening = []
+var cookery = []
+var tech = []
+var animals = []
+var games = []
+var individualSports = []
+var teamSports = []
+var travel = []
+var sportsEvent = []
+var themePark = []
+var ride = []
+var eatOut = []
+var cook = []
+var tasting = []
 
-// const arts = [{
-//   "category": "",
-//   "name": "Arts and Crafts",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }];
-// const gardening = [{
-//   "category": "",
-//   "name": "Gardening",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }];
-// const cookery = [{
-//   "category": "",
-//   "name": "Cookery",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
-// const tech = [{
-//   "category": "",
-//   "name": "Tech",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
-// const animals = [{
-//     "name": "butterfly",
-//     "description": "These majestic creatures will definitely surprise your partner. Butterflies inspire all people and bring the beauty to the world, and that’s why it would be a perfect idea to chose them to share with your loved ones. Everyone loves butterflies flying around, especially if there flying right in your apartment!",
-//     "websites": [
-//       "https://www.butterflynursery.com/",
-//       "https://www.amazon.com/Live-Butterflies/s?k=Live+Butterflies",
-//       "https://monarchbutterflies.ca/"
-//     ],
-//     "price": "19-120",
-//     "image": "assets/images/suggestions/animals/butterfly.jpg"
-//   },
-//   {
-//     "name": "spider",
-//     "description": "To most people, spiders are super creepy. However, there are still wonderful creatures to many people! There calm, silent, and there are only fewer species which are dangerous to humans! If you want to really surprise your partner, go for spiders!",
-//     "websites": [
-//       "https://www.evolutionreptiles.co.uk/animals/spiders/",
-//       "https://www.joshsfrogs.com/live-insects-feeders/spiders.html",
-//       "https://www.backwaterreptiles.com/tarantulas-for-sale.html"
-//     ],
-//     "price": "32-150",
-//     "image": "assets/images/suggestions/animals/spider.jpg"
-//   },
-//   {
-//     "name": "cockatoo parrot",
-//     "description": "If your half really loves to talk, this bird will be an amazing gift in this case! Cockatoo parrots are highly sociable and just have to be around people. Cockatoos are often described as intelligent and emotional birds and many describe life with a cockatoo as living with a perpetual 2-year-old child, capable of temper tantrums as well as complete silliness.",
-//     "websites": [
-//       "https://megabirdstore.com/bird/buy-cockatoo/",
-//       "https://caliparrotsforsale.com/product-category/cockatoo-parrots/",
-//       "https://www.birdbreeders.com/birds/category/cockatoos"
-//     ],
-//     "price": "700-6000",
-//     "image": "assets/images/suggestions/animals/parrot.jpg"
-//   },
-//   {
-//     "name": "snake",
-//     "description": "Would you like to make a gift really memorable in this Valentine’s Day? Purchasing a snake may really help you. First of all, it is unusual and beautiful!.And don’t forget that snakes are eary to handle and are they are not aggressive! And if you partner doesn’t like to care about about feeding an animal every now and then, a snake can be a great choice! They may not eat for wiiks to month! If you want to learn more: https://vcahospitals.com/know-your-pet/snakes-owning",
-//     "websites": [
-//       "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html",
-//       "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"
-//     ],
-//     "price": "40-500",
-//     "image": "assets/images/suggestions/animals/snake.jpg"
-//   },
-//   {
-//     "name": "hedgehog",
-//     "description": "Hedgehog is a cute pocket pet, which will definitely bring lots of joy to your partner! Moreover, hedgehogs are easy to take care of, ",
-//     "websites": [
-//       "https://www.exoticanimalsforsale.net/hedgehogs-for-sale.asp",
-//       "https://www.dragonstoneranch.com/hedgehogs"
-//     ],
-//     "price": "50-600",
-//     "image": "assets/images/suggestions/animals/hedgehog.jpg"
-//   },
-// ]
 
-// const games = [{
-//   "category": "",
-//   "name": "Games",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
 
-// const individualSports = [{
-//   "category": "",
-//   "name": "Individual Sports",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
-
-// const teamSports = [{
-//   "category": "",
-//   "name": "Team Sports",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
-
-// const travel = [{
-//   "category": "",
-//   "name": "Travel",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
-
-// const sportsEvent = [{
-//   "category": "",
-//   "name": "Sports Event",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
-// const themePark = [{
-//   "category": "",
-//   "name": "Theme Park",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
-// const ride = [{
-//   "category": "",
-//   "name": "Rides",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
-// const eatOut = [{
-//   "category": "",
-//   "name": "Eat Out",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
-// const cook = [{
-//   "category": "",
-//   "name": "cook",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
-
-// const tasting = [{
-//   "category": "",
-//   "name": "tasting",
-//   "description": "",
-//   "websites": [
-//     "https://www...",
-//     "https://www..."
-//   ],
-//   "price": "...-...",
-//   "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-// }]
 
 let currentQuestion = firstQuestion;
 let category = ''
@@ -578,3 +383,6 @@ const checkAnswer = function (e) {
 // answerContainerA.addEventListener('click', checkAnswer);
 // answerContainerB.addEventListener('click', checkAnswer);
 // answerContainerC.addEventListener('click', checkAnswer);
+
+
+/// displays modal 
