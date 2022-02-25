@@ -1,0 +1,209 @@
+[{
+    "category": "animals",
+    "name": "butterfly",
+    "description": "These majestic creatures will definitely surprise your partner. Butterflies inspire all people and bring the beauty to the world, and that’s why it would be a perfect idea to chose them to share with your loved ones. Everyone loves butterflies flying around, especially if there flying right in your apartment!",
+    "websites": [
+      "https://www.butterflynursery.com/",
+      "https://www.amazon.com/Live-Butterflies/s?k=Live+Butterflies",
+      "https://monarchbutterflies.ca/"
+    ],
+    "price": "19-120",
+    "image": "assets/images/suggestions/animals/butterfly.jpg"
+  },
+  {
+    "category": "animals",
+    "name": "spider",
+    "description": "To most people, spiders are super creepy. However, there are still wonderful creatures to many people! There calm, silent, and there are only fewer species which are dangerous to humans! If you want to really surprise your partner, go for spiders!",
+    "websites": [
+      "https://www.evolutionreptiles.co.uk/animals/spiders/",
+      "https://www.joshsfrogs.com/live-insects-feeders/spiders.html",
+      "https://www.backwaterreptiles.com/tarantulas-for-sale.html"
+    ],
+    "price": "32-150",
+    "image": "assets/images/suggestions/animals/spider.jpg"
+  },
+  {
+    "category": "animals",
+    "name": "cockatoo parrot",
+    "description": "If your half really loves to talk, this bird will be an amazing gift in this case! Cockatoo parrots are highly sociable and just have to be around people. Cockatoos are often described as intelligent and emotional birds and many describe life with a cockatoo as living with a perpetual 2-year-old child, capable of temper tantrums as well as complete silliness.",
+    "websites": [
+      "https://megabirdstore.com/bird/buy-cockatoo/",
+      "https://caliparrotsforsale.com/product-category/cockatoo-parrots/",
+      "https://www.birdbreeders.com/birds/category/cockatoos"
+    ],
+    "price": "700-6000",
+    "image": "assets/images/suggestions/animals/parrot.jpg"
+  },
+  {
+    "category": "animals",
+    "name": "snake",
+    "description": "Would you like to make a gift really memorable in this Valentine’s Day? Purchasing a snake may really help you. First of all, it is unusual and beautiful!.And don’t forget that snakes are eary to handle and are they are not aggressive! And if you partner doesn’t like to care about about feeding an animal every now and then, a snake can be a great choice! They may not eat for wiiks to month! If you want to learn more: https://vcahospitals.com/know-your-pet/snakes-owning",
+    "websites": [
+      "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html",
+      "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"
+    ],
+    "price": "40-500",
+    "image": "assets/images/suggestions/animals/snake.jpg"
+  },
+  {
+    "category": "animals",
+    "name": "hedgehog",
+    "description": "Hedgehog is a cute pocket pet, which will definitely bring lots of joy to your partner! Moreover, hedgehogs are easy to take care of, ",
+    "websites": [
+      "https://www.exoticanimalsforsale.net/hedgehogs-for-sale.asp",
+      "https://www.dragonstoneranch.com/hedgehogs"
+    ],
+    "price": "50-600",
+    "image": "assets/images/suggestions/animals/hedgehog.jpg"
+  },
+  {
+    "category": "Technology",
+    "name": "Beanie With Built in Headphones",
+    "description": "Cozy hat with bluetooth compatible built in audio.  Headphone pieces on the ear coverings of the hat let you enjoy the artists you love outside on a cold day as easily as inside, and it removes the need for headphones completely.",
+    "websites": [
+      "https://www...amazon.com/dp/B07FNL22KJ/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-",
+    ],
+    "price": "29.91$",
+    "image": ""
+  },
+  {
+    "category": "Technology",
+    "name": "Couchmaster",
+    "description": "Find comfort at the next level with this couch compatible gaming setup.  The Couchmaster is a portable gaming surface with ample space for a laptop and mousepad, allowing you to conveniently enjoy your favorite games from the comfort of your couch. ",
+    "websites": [
+      "https://www.amazon.com/Couchmaster-CYBOT-Ergonomic-Notebooks-Equipment/dp/B08273BJSS/ref=sr_1_2_sspa?crid=2J2Y9HELDH264&keywords=couchmaster&qid=1645758537&sprefix=couchmaste%2Caps%2C278&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFhNNVRYOURDUkJXJmVuY3J5cHRlZElkPUEwOTg5MTM5MjNBOEJXVURVNURYTyZlbmNyeXB0ZWRBZElkPUEwMzM4NzYyMzlYNUdDVVowRThSWSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
+    ],
+    "price": "156.00$",
+    "image": ""
+  },
+  {
+    "category": "Technology",
+    "name": "Blue Light Glasses",
+    "description": "Blue light is one of the main reasons your eyes get tired after prolonged periods of screen activity. With these glasses, you can filter out much of the blue light, reducing eye strain and promoting ocular health.",
+    "websites": [
+      "https://www.amazon.com/dp/B00BQ7KBV4/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-",
+    ],
+    "price": "17.99$",
+    "image": ""
+  },
+  {
+    "category": "Technology",
+    "name": "Oculus VR Headset",
+    "description": "Take gaming into the future with the newest Oculus release, the Quest2 all in one VR headset.  Dive into whatever game you choose in the most complete and immersive VR system to date.",
+    "websites": [
+      "https://www.oculus.com/",
+    ],
+    "price": "389.62",
+    "image": ""
+  },
+  {
+    "category": "Technology",
+    "name": "Music-Playing Sunglasses",
+    "description": "Bluetooth compatible, these sunglasses let you listen hand and cord free to any bluetooth connected device.",
+    "websites": [
+      "https://www.amazon.com/dp/B07P7VVCDD/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-",
+    ],
+    "price": "153.29$",
+    "image": ""
+  },
+  {
+    "category": "Extreme Sports: Individual",
+    "name": "Soft-Top Surfboard",
+    "description": "This style of board is known to be the easiest to stand on, making it ideal for beginners.  It is longer and softer than most boards, and is a great way to learn how to catch waves for the first time.",
+    "websites": [
+      "https://www.amazon.com/Wavestorm-9-Classic-Pinline-Surfboard/dp/B07HRZTF5B/ref=sr_1_16?crid=O8EHZGBOXGWX&keywords=soft+top+surfboard&qid=1645759884&sprefix=soft+top+surfboa%2Caps%2C237&sr=8-16",
+    ],
+    "price": "364.87$",
+    "image": ""
+  },
+  {
+    "category": "Extreme Sports: Individual",
+    "name": "Hang-Glider",
+    "description": "Experience gliding freedom as you soar through the sky.  All it takes is a KittyHawkKite glider and a running start, and your flights can begin.",
+    "websites": [
+      "https://www.kittyhawk.com/hang-gliders/moyes-malibu-2-188/",
+    ],
+    "price": "4927.00$",
+    "image": ""
+  },
+  {
+    "category": "Extreme Sports: Individual",
+    "name": "Electric Skateboard",
+    "description": "The Hiboy dual motor skateboard reaches up to 18.6 mph, and can be controlled by hand through remote control with ease while riding.",
+    "websites": [
+      "https://www.amazon.com/Hiboy-Electric-Skateboard-Longboard-commuters/dp/B07G4N35RW/ref=sr_1_8?crid=22QYBRD8SA0TC&keywords=electronic+skateboard&qid=1645761067&sprefix=electronic+skateboar%2Caps%2C237&sr=8-8",
+    ],
+    "price": "399.99$",
+    "image": ""
+  },
+  {
+    "category": "Extreme Sports: Individual",
+    "name": "Zorbing Inflatable Bubble",
+    "description": "Fully protected while inside this human hamster ball, roll and tumble freely without issue.",
+    "websites": [
+      "https://www.amazon.com/Qiyun-Inflatable-Zorbing-Human-Hamster/dp/B0181XUVG0/ref=as_li_ss_tl?ie=UTF8&qid=1468647798&sr=8-2&keywords=zorbing+ball&linkCode=sl1&tag=zorbingtimeco-20&linkId=6a8caa3223df169228d5fbbf7c768a86",
+    ],
+    "price": "1450.00$$",
+    "image": ""
+  },
+  {
+    "category": "Extreme Sports: Individual",
+    "name": "Inflatable Kayak",
+    "description": "From Advanced Elements, this 10.5 foot kayak designed for any water conditions.  It is inflatable making it exceptionally portable, but it functions like a rigid shell kayak.",
+    "websites": [
+      "https://www.amazon.com/Advanced-Elements-Frame-Sport-Kayak/dp/B003BUGNKC/ref=sr_1_1_sspa?crid=37RUUAB8SQ1N1&keywords=sport+kayak&qid=1645762455&sprefix=sport+kayak%2Caps%2C202&sr=8-1-spons&psc=1&smid=AGLJA2W19Z5T3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzMlQ4TjJGSVVXQjlWJmVuY3J5cHRlZElkPUEwNzM0MzM5M09FSzVPVFFIMk1ZTCZlbmNyeXB0ZWRBZElkPUEwOTA0NTgzRzVHT1ZIQzZNS1lGJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+    ],
+    "price": "499.00$$",
+    "image": ""
+  },
+  {
+    "category": "Extreme Sports: Team",
+    "name": "Bubble Soccer 8 Bubble Package",
+    "description": "This set comes with 8 bubbles, allowing you to create teams and start your own bubble soccer matches. Safely tumble around and tackle one another as the inflated bubble around you offers ample protection.",
+    "websites": [
+      "https://www.bubble-allstars.com/europe/prices/",
+    ],
+    "price": "2918.41$",
+    "image": ""
+  },
+  {
+    "category": "Extreme Sports: Team",
+    "name": "3-Day Rafting Trip",
+    "description": "Test your endurance and resilience down the rivers toughest points, and enjoy the relaxing current when the whitewater clears.",
+    "websites": [
+      "--?",
+    ],
+    "price": "1000.00-1400.00$",
+    "image": ""
+  },
+  {
+    "category": "Extreme Sports: Team",
+    "name": "Horseback Riding Excursion",
+    "description": "s a couple or with a group, take a day to experience the outdoors on horseback.",
+    "websites": [
+      "--?",
+    ],
+    "price": "80.00-255.00$",
+    "image": ""
+  },
+  {
+    "category": "Extreme Sports: Team",
+    "name": "Bungee Jumping",
+    "description": "Safely enjoy the rush of freefall in the outdoors, great for couples to do together!",
+    "websites": [
+      "--?",
+    ],
+    "price": "30.00-400.00$",
+    "image": ""
+  },
+  {
+    "category": "Extreme Sports: Team",
+    "name": "Indoor Skydiving",
+    "description": "Another way to enjoy the freefall feeling, but indoors where you can have freedom to explore and experiment with weightlessness.",
+    "websites": [
+      "--?",
+    ],
+    "price": "40.00-70.00$$",
+    "image": ""
+  }
+]
