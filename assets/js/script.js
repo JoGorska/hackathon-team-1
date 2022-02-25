@@ -9,6 +9,14 @@ const questionText = document.getElementById('question-text');
 const answerContainerA = document.getElementById('answer-a');
 const answerContainerB = document.getElementById('answer-b');
 const answerContainerC = document.getElementById('answer-c');
+const suggestionContainer = document.getElementById('suggestion-container');
+// // variables for modal
+const modal = document.getElementById('modal');
+const modalContent = document.querySelector('.modal-content');
+const closeModal = document.getElementById('modal-close');
+// // Variables for suggestions
+const resultContent = document.querySelectorAll('.result__content');
+const quizAnswers = document.querySelector('#quiz-answers').childNodes;
 
 
 const firstQuestion = {
@@ -285,7 +293,7 @@ function checkAnswer(e) {
     if (e.target.id === 'answer-a') {
       category = eatOut
     } else if (e.target.id === 'answer-b') {
-      suggestion = cook
+      category = cook
     } else {
       category = tasting
     }
@@ -310,66 +318,6 @@ answerContainerC.addEventListener('click', checkAnswer);
 
 
 /// displays modal 
-
-
-// variables for modal
-const modal = document.getElementById('modal');
-const modalContent = document.querySelector('.modal-content');
-const closeModal = document.getElementById('modal-close');
-// Variables for suggestions
-const suggestionContainer = document.getElementById('suggestion-container');
-let resultContent = document.querySelectorAll('.result__content');
-let quizAnswers = document.querySelector('#quiz-answers').childNodes;
-console.log(quizAnswers)
-
-
-let data;
-/**
- * Fetch json data
- */
-async function fetchData() {
-  const response = await fetch('assets/js/suggestions.json');
-  data = await response.json();
-  console.log(data);
-  displayData(data);
-
-}
-
-/**
- * Classify data
- * Display data
- * Send data to the card
- */
- const displayData = function (data) {
-  // checkAnswer()
-  // newData = data.filter(suggestion => suggestion.category === tempVar);
-  // console.log(newData);
-  suggestionContainer.innerHTML = '';
-  data.forEach(suggestion => {
-    // if (suggestion.category === categoryChosen) {
-    const suggestionCard = document.createElement('div');
-    suggestionCard.classList.add('result__content');
-    suggestionCard.innerHTML = `
-      <h3 class="result__content--title">${suggestion.name}</h3>
-      <div class="result__content--image">
-        <img src="${suggestion.image}" alt="${suggestion.name}">
-      </div>
-      <div class="result__content--modal">learn more</div>
-      `;
-
-    suggestionCard.addEventListener('click', function () {
-      console.log('clicked');
-      modal.style.display = 'flex';
-      // document.body.style.overflow = 'hidden';
-      displayModalContent(suggestion);
-    })
-
-    suggestionContainer.appendChild(suggestionCard);
-    // }
-
-  })
-}
-
 
 const displayModalContent = function (suggestion) {
   console.log(suggestion.websites[0]);
@@ -401,13 +349,3 @@ const displayModalContent = function (suggestion) {
       </div>
   `;
 }
-
-document.addEventListener('DOMContentLoaded', function () {
-  closeModal.addEventListener('click', function () {
-    modal.style.display = 'none';
-  });
-  answerContainerA.addEventListener('click', checkAnswer);
-  answerContainerB.addEventListener('click', checkAnswer);
-  answerContainerC.addEventListener('click', checkAnswer);
-  fetchData();
-});
