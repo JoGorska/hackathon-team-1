@@ -438,7 +438,6 @@ const displayModalContent = function (suggestion) {
         <h4 class="modal__content--price-title">Price:</h4>
         <div>$ ${suggestion.price} </div>
       </div>
-
   `;
 }
 
