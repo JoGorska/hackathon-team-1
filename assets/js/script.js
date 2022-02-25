@@ -140,7 +140,25 @@ const data = fetch('assets/js/suggestions.json')
 
   });
 
+/**
+ * function to create a list of objects that have the same category
+ * the objects come from suggestions.json file that is fetched in the
+ * data variable
+ */
 
+ function findGiftsInCategory(category, data) {
+  console.log(`THIS IS data inside findGiftsInCategory ${data[0].category}`);
+  let listOfGifts = []
+  for (let i = 0; i < data.length; ++i) {
+    console.log(data[i])
+    if (data[i].category === category) {
+      listOfGifts.push(data[i]);
+    }
+  }
+  console.log(`THIS IS LIST OF GIFTS  ${listOfGifts}`);
+  console.log(listOfGifts)
+  return listOfGifts
+}
 
 let currentQuestion = firstQuestion;
 let category = ''
