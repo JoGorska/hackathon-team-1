@@ -150,17 +150,20 @@ const displayData = function (data) {
 
 
 const displayModalContent = function (suggestion) {
+  console.log(suggestion.websites[0]);
   const modalImage = document.querySelector('#suggestion-image');
   const modalInfo = document.querySelector('#suggestion-info');
   modalImage.innerHTML = `
   <img src="${suggestion.image}" alt="${suggestion.name}">
   `;
+  let websitesList = suggestion.websites.map(website => `<li>${website}</li>`).join('');
+  console.log(websitesList);
   modalInfo.innerHTML = `
       <h3 class="modal__content--title">${suggestion.name}</h3>
       <p class="modal__content--description">
         ${suggestion.description}
       </p>
-      <div class="modal__content--links">${suggestion.websites}</div>
+      <ul class="modal__content--links"><a href='#'>${websitesList}</a></ul>
       <div class="modal__content--price">$ ${suggestion.price}</div>
       <div>other gifts????</div>
   `;
