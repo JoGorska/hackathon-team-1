@@ -115,6 +115,24 @@ body {
 
 .description__text {}
 
+
+/* ----- Quiz ----- */
+
+/* suggestions */
+.results__container {}
+
+.results__title {}
+
+.results__content {}
+
+.result__content {}
+
+.result__content--title {}
+
+.result__content--image {}
+
+.result__content--modal {}
+
 /* Footer */
 .footer {
   width: 100%;
