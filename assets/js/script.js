@@ -165,6 +165,7 @@ var tech = []
 var individualSports = []
 var teamSports = []
 var travel = []
+var spa = []
 
 const data = fetch('assets/js/suggestions.json')
   .then(response => response.json())
@@ -177,16 +178,16 @@ const data = fetch('assets/js/suggestions.json')
     individualSports = findGiftsInCategory("individualSports", data)
     teamSports = findGiftsInCategory("teamSports", data)
     travel = findGiftsInCategory("travel", data)
+    spa = findGiftsInCategory("spa", data)
+
   });
 
 
 /**
  * function to create a list of objects that have the same category
- * the objects come from suggestions.json file that is fetched by
+ * the objects come from suggestions.json file that is fetched in the
  * data variable
  */
-
-
 
 function findGiftsInCategory(category, data) {
   console.log(`THIS IS data inside findGiftsInCategory ${data[0].category}`);
@@ -506,27 +507,27 @@ function checkAnswer(e) {
     } else if (e.target.id === 'answer-b') {
       category = themePark
     } else {
-      suggestion = ride
+      category = ride
     }
     displayResults(category)
   }
   else if (currentQuestion === foodieQuestion) {
     if (e.target.id === 'answer-a') {
-      suggestion = eatOut
+      category = eatOut
     } else if (e.target.id === 'answer-b') {
       suggestion = cook
     } else {
-      suggestion = tasting
+      category = tasting
     }
     displayResults(category)
   }
   else if (currentQuestion === notFoodieQuestion) {
     if (e.target.id === 'answer-a') {
-      suggestion = museum
+      category = museum
     } else if (e.target.id === 'answer-b') {
-      suggestion = spa
+      category = spa
     } else {
-      suggestion = sightseeing
+      category = sightseeing
     }
     displayResults(category)
   }
