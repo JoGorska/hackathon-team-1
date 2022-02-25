@@ -92,6 +92,60 @@ const notFoodieQuestion = {
   answerC: 'Going sightseeing'
 }
 
+/**
+ * event listener to initialize fetchData function
+ */
+
+//  document.addEventListener('DOMContentLoaded', function () {
+//   closeModal.addEventListener('click', function () {
+//     modal.style.display = 'none';
+//   });
+//   fetchData();
+// });
+
+/**
+ * asynchronous function to fetch Data from suggestions.json file
+ */
+
+
+// async function fetchData() {
+//   const response = await fetch('assets/js/suggestions.json');
+//   data = await response.json();
+//   // const dataObject = JSON.parse(data)
+//   console.log(`THIS IS DATA VARIABLE ${data[0].category}`);
+//   // displayData(data);
+//   return data
+// }
+
+const data = fetch('assets/js/suggestions.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data)
+    return data
+  });
+
+
+/**
+ * function to create a list of objects that have the same category
+ * the objects come from suggestions.json file that is fetched by
+ * data variable
+ */
+
+const listOfGifts = []
+
+function findGiftsInCategory(category) {
+  console.log(`THIS IS data inside findGiftsInCategory ${data}`);
+
+  for (var item in data) {
+    if (item.category === category) {
+      listOfGifts.push(item);
+    }
+  }
+  console.log(`THIS IS LIST OF GIFTS  ${listOfGifts}`);
+  console.log(listOfGifts)
+  return listOfGifts
+}
+
 const arts = [ {
     "category": "",
     "name": "Arts and Crafts",
@@ -195,18 +249,58 @@ const animals = [{
   },
 ]
 
-const games = [ {
-    "category": "",
-    "name": "Games",
-    "description": "",
-    "websites": [
-      "https://www...",
-      "https://www..."
-    ],
-    "price": "...-...",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-  }
-]
+const games = findGiftsInCategory("games")
+// [{
+//     "category": "games",
+//     "name": "Catan",
+//     "description": "Award winning board game. It's easy for new players to latch on to and introduces them to hobby games in a fun, accessible way. if you are looking for something to enjoy together with your partner, we highly recommend this addictively fun strategy game.",
+//     "websites": [
+//       "https://www.amazon.com/CATAN-Players-Strategy-Adventure-Playtime/dp/B00486TI3M/ref=sr_1_15?crid=96RW012POR4Y&keywords=catan&qid=1645732699&sprefix=catan%2Caps%2C176&sr=8-15"
+//     ],
+//     "price": "24.94",
+//     "image": "assets/images/suggestions/games/catan.jpg"
+//   },
+//   {
+//     "category": "games",
+//     "name": "Chess board set",
+//     "description": "Chess is one of the most popular classic board games. There is a wide range of prices in the chess board set and this one is a good quality starter if your partner doesn’t have one of their own yet.",
+//     "websites": [
+//       "https://www.amazon.com/Jowisz-Decorative-Folding-Chess-Board/dp/B000Z9CH7U/ref=sr_1_23?crid=16ZUZBZA0VASN&keywords=Chess+board+set&qid=1645732810&sprefix=chess+board+set%2Caps%2C174&sr=8-23"
+//     ],
+//     "price": "36.68",
+//     "image": "assets/images/suggestions/games/chess.jpg"
+//   },
+//   {
+//     "category": "games",
+//     "name": "Ticket to Ride",
+//     "description": "Award winning, cross-country train adventure game. The original version is played on a board depicting a railway map of the US and southern Canada. There are localised editions of other countries, cities and regions you can choose for your partner.",
+//     "websites": [
+//       "https://www.amazon.com/Days-Wonder-DO7201-Ticket-Ride/dp/0975277324/ref=sr_1_2?keywords=ticket+to+ride&qid=1645739563&sr=8-2"
+//     ],
+//     "price": "43.99",
+//     "image": "assets/images/suggestions/games/ticket_to_ride.jpg"
+//   },
+//   {
+//     "category": "games",
+//     "name": "Steam gift card",
+//     "description": "The perfect gift for the video gamers if you’re in a long-distance relationship or your partner seems to have everything. There will always be new games that your partner wants to play on Steam.",
+//     "websites": [
+//       "https://store.steampowered.com/digitalgiftcards/"
+//     ],
+//     "price": "5-100",
+//     "image": "assets/images/suggestions/games/gift_card.jpg"
+//   },
+//   {
+//     "category": "games",
+//     "name": "LEGO Nintendo Entertainment System",
+//     "description": "Authentic reproductions of the original Nintendo Entertainment System console, controller and Game Pak cartridge with a retro-styled 1980s TV. This will trigger your partner’s nostalgic memories if they love video games and enjoyed playing Super Mario back in the day.",
+//     "websites": [
+//       "https://www.lego.com/en-us/product/nintendo-entertainment-system-71374"
+//     ],
+//     "price": "229.99",
+//     "image": "assets/images/suggestions/games/lego.jpg"
+//   }
+// ]
 
 const individualSports = [ {
     "category": "",
@@ -332,22 +426,11 @@ const closeModal = document.getElementById('modal-close');
 const suggestionContainer = document.getElementById('suggestion-container');
 let resultContent = document.querySelectorAll('.result__content');
 
-// document.addEventListener('DOMContentLoaded', function () {
-//   closeModal.addEventListener('click', function () {
-//     modal.style.display = 'none';
-//   });
-//   fetchData();
-// });
+//data varialbe gets all data from suggestions.json file
 
-// /**
-//  * Fetch json data
-//  */
-// async function fetchData() {
-//   const response = await fetch('assets/js/suggestions.json');
-//   const data = await response.json();
-//   console.log(data);
-//   displayData(data);
-// }
+
+
+
 
 // /**
 //  * Classify data
@@ -387,10 +470,11 @@ let resultContent = document.querySelectorAll('.result__content');
 //   <img src="${suggestion.image}" alt="${suggestion.name}">
 //   `;
 //   let websitesList = suggestion.websites.map(website => `
-//     <li>
-//       <a href='${website}' target="_blank" rel="noopener"
-//       aria-label="Visit ${website}">
-//         ${website}
+//     <li class="modal__content--link">
+//       <img src="assets/images/heart-svgrepo-com.svg" alt="" class="hearts" style="width:1.2rem; height:1.2rem;">
+//       <a href='${website[1]}' target="_blank" rel="noopener"
+//       aria-label="Visit ${website[0]}">
+//         ${website[0]}
 //       </a>
 //     </li>
 //   `).join('');
@@ -400,9 +484,12 @@ let resultContent = document.querySelectorAll('.result__content');
 //       <p class="modal__content--description">
 //         ${suggestion.description}
 //       </p>
+//       <h4 class="modal__content--websites">Were to find:</h4>
 //       <ul class="modal__content--links">${websitesList}</ul>
-//       <div class="modal__content--price">$ ${suggestion.price}</div>
-//       <div>other gifts????</div>
+//       <div class="modal__content--price">
+//         <h4 class="modal__content--price-title">Price:</h4>
+//         <div>$ ${suggestion.price} </div>
+//       </div>
 //   `;
 // }
 

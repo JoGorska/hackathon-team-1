@@ -312,3 +312,12 @@ body {
 .hide {
   display: none !important;
 }
+
+.background-sunset {
+  background:
+  url('../background/nicole-wilcox-zAWs-hKChYA-unsplash.jpg')
+  /* url('../images/siora-photography-cixohzDpNIo-unsplash\ \(1\).jpg') */
+  top/cover
+  no-repeat
+  fixed;
+}
