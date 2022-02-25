@@ -307,6 +307,54 @@
     "image": "assets/images/suggestions/extreme_travelling/northern_lights.jpg"
   },
   {
+    "category": "spa",
+    "name": "The Blue Lagoon Spa, Iceland",
+    "description": "Enjoy a hydro massage with a difference at one of the world’s most spectacular natural wonders. The Blue Lagoon’s geothermal seawater is surrounded by a volcanic landscape, which feeds minerals into the surroundings.",
+    "websites": [ "https://www.bluelagoon.com/"],    
+    "price": "from $68",
+    "image": "assets/images/suggestions/spas/blue_lagoon.jpg"
+  },
+  {
+    "category": "spa",
+    "name": "Thermae Bath Spa, Bath",
+    "description": "One of the UK’s most dramatic spa, this neo-Georgian building is wrapped in angular glass, with access to three naturally heated spring-fed pools. Head straight for the rooftop pool for views across the city. The thermal experience floor includes a sauna, steam room and a “celestial” relaxation room.",
+    "websites": [
+          "https://www.thermaebathspa.com/"
+    ],
+    "price": "from $64",
+    "image": "assets/images/suggestions/spas/thermae_bath_spa.jpg"
+  },
+  {
+    "category": "spa",
+    "name": "Turkish Baths, Harrogate",
+    "description": "One of only a handful of Victorian Turkish baths still in use, these are beautiful, with Moorish design including Islamic arches, intricate glazed brickwork and painted ceilings. The bathing journey takes you around a series of heated rooms – the hottest being the laconium and the coldest a freezing plunge pool. Try traditional treatments such as a hammam, or more modern treatments including hot stone therapy.",
+    "websites": [
+      "https://www.turkishbathsharrogate.co.uk/"    
+    ],
+    "price": "from $24",
+    "image": "assets/images/suggestions/spas/harrogate_turkish_baths.jpg"
+  },
+  {
+    "category": "spa",
+    "name": "The Live Music Experience: Bota Bota, Montreal",
+    "description": "This spa on the water is housed in a 1960s ferryboat, which, after a stint as a showboat, was transformed into a spa. Its most unique treatment is the 60-minute Bota Bota massage – a single or double massage choreographed to the music of a live harpist.",
+    "websites":  [ 
+      "http://botabota.ca/"
+    ],    
+    "price": "from $70",
+    "image": "assets/images/suggestions/spas/botabota.jpg"
+  },
+  {
+    "category": "spa",
+    "name": "AIRE Ancient Baths, London",
+    "description": "AIRE spaces are temples dedicated to mind and body relaxation, where time does not exist, inspired by ancient civilizations bathing traditions. Minutes away from Covent Garden, you will find an oasis, seamlessly intertwined with its enticing energy.",
+    "websites": [ 
+      "https://beaire.com/en/aire-ancient-baths-london"
+    ],
+    "price": "from $120",
+    "image": "assets/images/suggestions/spas/aire_ancient_baths.jpg"
+  },
+  {
     "category": "",
     "name": "",
     "description": "",
