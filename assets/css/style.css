@@ -39,6 +39,21 @@ a {
   color: var(--clr-neutral--300);
 }
 
+img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
 /* Body */
 body {
   font-size: 1.5rem;
@@ -115,8 +130,174 @@ body {
 
 .description__text {}
 
+
+/* ----- Quiz ----- */
+
+/* suggestions */
+.results__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-neutral--900);
+  padding: 2em;
+}
+
+.results__title {
+  text-align: center;
+  padding: 4rem;
+  font-size: 2.5rem;
+}
+
+.results__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-auto-flow: dense;
+  gap: 1.7rem;
+}
+
+.result__content {
+  padding: 3em 1em;
+  background-color: var(--clr-primary--100);
+  color: var(--clr-neutral--300);
+
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color .15s ease-in-out, color .15s ease-in-out;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.result__content:hover {
+  background-color: #fcdadd;
+  color: var(--clr-neutral--900);
+}
+
+.result__content--title {
+  text-transform: capitalize;
+  padding-bottom: 1em;
+  font-size: 2rem;
+
+}
+
+.result__content--image {
+  max-width: 90%;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
+  -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
+  box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
+  padding: 0.3em;
+}
+
+.result__content--image img {
+  border-radius: 0.5em;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
+  -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
+  box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
+
+}
+
+.result__content--modal {
+  padding-top: 1em;
+}
+
+.result__content--modal:hover {
+  text-decoration: underline;
+}
+
+/* Modal */
+.modal__container {
+  display: none;
+  background-color: #5cbab4;
+  flex: 1 0 auto;
+  position: fixed;
+  top: 8.6rem;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  min-height: 100vh;
+  overflow-y: auto;
+  flex-direction: column;
+  /* overflow-y: hidden; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.modal__close {
+  color: var(--clr-neutral--300);
+  background-color: #efa3a9;
+  padding: 0.7em 2em;
+  width: 15rem;
+  font-size: 1.5rem;
+  margin: 2em;
+  cursor: pointer;
+  transition: background-color .15s ease-in-out, color .15s ease-in-out;
+}
+
+.modal__close:hover {
+  background-color: #fcdadd;
+  color: var(--clr-neutral--900);
+}
+
+.modal__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  padding: 0 2em;
+  min-height: 50vh;
+}
+
+.modal__content--image {
+  justify-self: center;
+  align-self: start;
+  padding: 2em 5em;
+}
+
+.modal__content--image img {
+  border-radius: 0.5em;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.modal__content--text {
+  justify-self: center;
+  align-self: start;
+  margin: 2em 5em 0 0;
+  padding: 2em;
+  background-color: var(--clr-primary--100);
+  color: var(--clr-neutral--300);
+  border-radius: 0.5em;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.modal__content--title {
+  text-transform: capitalize;
+  font-size: 2rem;
+  padding-bottom: 1.5em;
+}
+
+.modal__content--description {
+  padding-bottom: 1em;
+}
+
+.modal__content--links {
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Footer */
 .footer {
+  z-index: 999;
   width: 100%;
   background-color: var(--clr-primary--300);
 }
@@ -129,5 +310,5 @@ body {
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
