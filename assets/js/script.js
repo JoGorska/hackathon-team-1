@@ -421,7 +421,7 @@ const displayModalContent = function (suggestion) {
     <li>
       <a href='${website[1]}' target="_blank" rel="noopener"
       aria-label="Visit ${website[0]}">
-        ${website[1]}
+        ${website[0]}
       </a>
     </li>
   `).join('');
