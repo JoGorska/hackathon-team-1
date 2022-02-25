@@ -140,7 +140,7 @@ const displayData = function (data) {
     suggestionCard.addEventListener('click', function () {
       console.log('clicked');
       modal.style.display = 'flex';
-      document.body.style.overflow = 'hidden';
+      // document.body.style.overflow = 'hidden';
       displayModalContent(suggestion);
     })
 
