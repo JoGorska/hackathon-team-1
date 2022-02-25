@@ -362,7 +362,7 @@
       "https://www.liseberg.se/"
     ],
     "price": "Ticket prices start from $20",
-    "image": " "
+    "image": "assets/images/suggestions/theme_parks/liseberg.jpg"
   },
   {
     "category": "theme_parks",
@@ -372,7 +372,7 @@
       "https://www.europapark.de/en"
     ],
     "price": "Ticket prices start from $32",
-    "image": " "
+    "image": "assets/images/suggestions/theme_parks/europa.jpg"
   },
   {
     "category": "theme parks",
@@ -382,7 +382,7 @@
       "https://www.efteling.com/"
     ],
     "price": "Ticket prices start from $43",
-    "image": " "
+    "image": "assets/images/suggestions/theme_parks/efteling.jpg"
   },
   {
     "category": "theme_parks",
@@ -392,7 +392,7 @@
       "https://www.legoland.dk/en/"
     ],
     "price": "Ticket prices start from $48",
-    "image": " "
+    "image": "assets/images/suggestions/theme_parks/legoland.jpg"
   },
   {
     "category": "theme_parks",
@@ -402,7 +402,7 @@
       "https://www.futuroscope.com/en/"
     ],
     "price": "From $38",
-    "image": " "
+    "image": "assets/images/suggestions/theme_parks/futuroscope.jpg"
   },
   {
     "category": "picnics",
