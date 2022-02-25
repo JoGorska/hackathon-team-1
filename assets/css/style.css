@@ -126,20 +126,28 @@ body {
 
 /* suggestions */
 .results__container {
-  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-neutral--900);
 }
 
-.results__title {}
+.results__title {
+  text-align: center;
+  padding: 4rem;
+  font-size: 2.5rem;
+}
 
 .results__content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   grid-auto-flow: dense;
-  gap: 1rem;
+  gap: 1.7rem;
 }
 
 .result__content {
-  padding: 2em 1em;
+  padding: 3em 1em;
   background-color: var(--clr-primary--100);
   color: var(--clr-neutral--300);
 
@@ -174,7 +182,6 @@ body {
   -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
   box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
   padding: 0.3em;
-
 }
 
 .result__content--image img {
