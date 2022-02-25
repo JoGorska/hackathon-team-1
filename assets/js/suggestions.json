@@ -55,5 +55,16 @@
     }],
     "price": "50-600",
     "image": "assets/images/suggestions/animals/hedgehog.jpg"
+  },
+  {
+    "category": "",
+    "name": "",
+    "description": "",
+    "websites": [{
+      "name of the website": "https://www...",
+      "name of the website": "https://www..."
+    }],
+    "price": "...-...",
+    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
   }
 ]
