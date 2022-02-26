@@ -358,7 +358,7 @@
   {
     "category": "travel",
     "name": "Northern Lights",
-    "description": "Going to see the northern lights is the perfect couples’ adventure for Valentine’s day. There are many destinations for spotting the northern lights depending on where you are based. Reykjavik(Iceland) is a great place to see as they are easily spotted.",
+    "description": "Going to see the northern lights is the perfect couples' adventure for Valentine's day. There are many destinations for spotting the northern lights depending on where you are based. Reykjavik(Iceland) is a great place to see as they are easily spotted.",
     "websites": [
       [
         "adventures",
@@ -369,9 +369,59 @@
     "image": "assets/images/suggestions/extreme_travelling/northern_lights.jpg"
   },
   {
+    "category": "gardening",
+    "name": "Gardening Tool Set",
+    "description": "If you're looking for a practical gift for your partner, the gardening tool set is the perfect one. This set comes with everything your partner needs to grow the garden of their dreams: garden shovels, trowel, mini rake, gardening fork, hand weeder, pruning shears, pair of gardening gloves, spray bottle, washable gardening bag tote.",
+    "websites": [
+      "https://www.amazon.com/Grenebo-Gardening-Tool-Set-Rust-Proof/dp/B09F9C3KFS/ref=sr_1_6?crid=1MSB9B289M3T5&keywords=gardening+tools&qid=1645799540&sprefix=gardening+tools%2Caps%2C178&sr=8-6"
+    ],
+    "price": "27.99",
+    "image": "assets/images/suggestions/gardening/gardening-tools.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "Silicone Rings",
+    "description": "While rings are a wonderful gift, fancy rings don't mix well with hard garden work. These beautiful silicone rings are a safe alternative.",
+    "websites": [
+      "https://ensorings.com/"
+    ],
+    "price": "10.99-49.99",
+    "image": "assets/images/suggestions/gardening/rings.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "A Bouquet of Flowers",
+    "description": "Giving flowers on Valentine's day is a tradition. This tradition couldn't be more perfect than any other gifts, if your partner loves flowers. If you give them flowers often, signing up for a subscription service may be a good choice.",
+    "websites": [
+      "https://urbanstems.com/subscriptions"
+    ],
+    "price": "50-100",
+    "image": "assets/images/suggestions/gardening/flowers.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "Myrtle Tree",
+    "description": "Give your partner a tree as a symbol of your ever-growing love! This gorgeous ornamental myrtle tree has an abundance of dainty, aromatic leaves all year.",
+    "websites": [
+      "https://thepresenttree.com/products/myrtle-tree"
+    ],
+    "price": "66.97",
+    "image": "assets/images/suggestions/gardening/myrtle-tree.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "Indoor Garden Kit",
+    "description": "If your partner dreams of gardening but lives in the city, an indoor garden will make their dreams come true. This smart indoor garden kit is designed with LED grow lights, built-in timer, smart soil and self-watering tank. There are over 50 pre-seeded plant pods for your partner to choose.",
+    "websites": [
+      "https://www.amazon.com/Click-Grow-Smart-Garden-Indoor/dp/B01MRVMKQH/ref=sr_1_21?keywords=indoor+herb+garden&qid=1645795468&sprefix=indoor+herb%2Caps%2C183&sr=8-21"
+    ],
+    "price": "139.95",
+    "image": "assets/images/suggestions/gardening/indoor-garden.jpg"
+  },
+  {
     "category": "spa",
     "name": "The Blue Lagoon Spa, Iceland",
-    "description": "Enjoy a hydro massage with a difference at one of the world’s most spectacular natural wonders. The Blue Lagoon’s geothermal seawater is surrounded by a volcanic landscape, which feeds minerals into the surroundings.",
+    "description": "Enjoy a hydro massage with a difference at one of the world's most spectacular natural wonders. The Blue Lagoon's geothermal seawater is surrounded by a volcanic landscape, which feeds minerals into the surroundings.",
     "websites": [
       ["bluelagoon", "https://www.bluelagoon.com/"]
     ],
@@ -391,7 +441,7 @@
   {
     "category": "spa",
     "name": "Turkish Baths, Harrogate",
-    "description": "One of only a handful of Victorian Turkish baths still in use, these are beautiful, with Moorish design including Islamic arches, intricate glazed brickwork and painted ceilings. The bathing journey takes you around a series of heated rooms – the hottest being the laconium and the coldest a freezing plunge pool. Try traditional treatments such as a hammam, or more modern treatments including hot stone therapy.",
+    "description": "One of only a handful of Victorian Turkish baths still in use, these are beautiful, with Moorish design including Islamic arches, intricate glazed brickwork and painted ceilings. The bathing journey takes you around a series of heated rooms - the hottest being the laconium and the coldest a freezing plunge pool. Try traditional treatments such as a hammam, or more modern treatments including hot stone therapy.",
     "websites": [
 
       ["turkishbathsharrogate", "https://www.turkishbathsharrogate.co.uk/"]
@@ -402,7 +452,7 @@
   {
     "category": "spa",
     "name": "The Live Music Experience: Bota Bota, Montreal",
-    "description": "This spa on the water is housed in a 1960s ferryboat, which, after a stint as a showboat, was transformed into a spa. Its most unique treatment is the 60-minute Bota Bota massage – a single or double massage choreographed to the music of a live harpist.",
+    "description": "This spa on the water is housed in a 1960s ferryboat, which, after a stint as a showboat, was transformed into a spa. Its most unique treatment is the 60-minute Bota Bota massage - a single or double massage choreographed to the music of a live harpist.",
     "websites": [
       ["botabota", "http://botabota.ca/"]
     ],
@@ -414,7 +464,6 @@
     "name": "AIRE Ancient Baths, London",
     "description": "AIRE spaces are temples dedicated to mind and body relaxation, where time does not exist, inspired by ancient civilizations bathing traditions. Minutes away from Covent Garden, you will find an oasis, seamlessly intertwined with its enticing energy.",
     "websites": [
-
       ["beaire", "https://beaire.com/en/aire-ancient-baths-london"]
     ],
     "price": "from $120",
@@ -556,16 +605,11 @@
     "category": "cookingClasses",
     "name": "École de Cuisine",
     "description": "For those who love sweet treats, why not look at a course in making French macarons - elegant little sandwiches, made with meringue, almond flour and buttercream. Délicieuse!",
-<<<<<<< HEAD
-	"websites": [
-    ["ecolecuisine-alainducasse", "http://www.ecolecuisine-alainducasse.com/fr/les-cours/pastry-class-in-english-macarons-madness"]
-=======
     "websites": [
       [
         "ecolecuisine-alainducasse",
         "http://www.ecolecuisine-alainducasse.com/fr/les-cours/pastry-class-in-english-macarons-madness"
       ]
->>>>>>> 0c359f1658467a08e83da6affa4af946899e1098
     ],
     "price": "Check site for prices",
     "image": "assets/images/suggestions/cooking_classes/macarons.jpg"
@@ -595,7 +639,7 @@
   {
     "category": "ride",
     "name": "carriage ride",
-    "description": "If you are looking for a romantic activity on or around Valentines Day, it’s hard to do better then a romantic carriage ride. Just imagine, how fantastic it will be like a fairytale",
+    "description": "If you are looking for a romantic activity on or around Valentines Day, it's hard to do better then a romantic carriage ride. Just imagine, how fantastic it will be like a fairytale",
     "websites": [
       ["windsor", "https://www.windsor.gov.uk/whats-on/ascot-carriages-carriage-rides-in-windsor-great-park-p576301"],
       ["central park carriages", "https://www.centralparkcarriages.com/book-now"],
@@ -619,7 +663,7 @@
   {
     "category": "ride",
     "name": "horse ride",
-    "description": "This may sound a bit boring, but it’s actually a perfect gift for those how love to spend time outdoors and be around kind animals. You may go for a short ride or for many hours ride together! Just don’t forget to feed a horse.",
+    "description": "This may sound a bit boring, but it's actually a perfect gift for those how love to spend time outdoors and be around kind animals. You may go for a short ride or for many hours ride together! Just don't forget to feed a horse.",
     "websites": [
       ["name of the shop/ website", "https://www.tripadvisor.co.uk/Attractions-g186217-Activities-c61-t62-England.html"],
       ["pal-o-mine", "https://pal-o-mine.org/?gclid=EAIaIQobChMIyria-OWc9gIVcgF9Ch37sAeaEAAYAiAAEgIXivD_BwE"],
@@ -655,7 +699,7 @@
   {
     "category": "museums",
     "name": "Science museums",
-    "description": "So you like to make a substantial gift on this Valentine’s Day? Pick a scientific museum for your loved one to visit to learn about world’s breakthroughs in various scientific fields. It may sound nerdy, but there are so many things that may astonish everyone!",
+    "description": "So you like to make a substantial gift on this Valentine's Day? Pick a scientific museum for your loved one to visit to learn about world's breakthroughs in various scientific fields. It may sound nerdy, but there are so many things that may astonish everyone!",
     "websites": [
       ["artsand culture", "https://artsandculture.google.com/story/10-of-the-world-s-most-inspiring-science-museums/HQLCDXFNtsGVIA"],
       ["armenian museum", "https://www.armenianmuseum.org/membership?gclid=EAIaIQobChMIg_KIj7eY9gIVCDdgCh3IfADZEAAYAiAAEgKxWPD_BwE"],
