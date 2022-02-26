@@ -59,152 +59,166 @@
   {
     "category": "Technology",
     "name": "Beanie With Built in Headphones",
-    "description": "Cozy hat with bluetooth compatible built in audio.  Headphone pieces on the ear coverings of the hat let you enjoy the artists you love outside on a cold day as easily as inside, and it removes the need for headphones completely.",
+    "description": "Cozy hat with bluetooth compatible built in audio.  Headphone pieces on the ear coverings of the hat let you enjoy the artists you love outside on a cold day as easily as inside, and it removes the need for separate headphones completely.",
     "websites": [
-      "https://www...amazon.com/dp/B07FNL22KJ/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"
-    ],
-    "price": "29.91$",
-    "image": ""
+      ["amazon", "https://www...amazon.com/dp/B07FNL22KJ/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"],
+      ["walmart", "https://www.walmart.com/ip/Upgraded-Unisex-Knit-Bluetooth-Beanie-Hat-Headphones-V4-2-Unique-Christmas-Tech-Gifts-Men-Dad-Women-Mom-Teen-Boys-Girls-Stocking-Stuffer-w-Built-in-S/340799046?irgwc=1&sourceid=imp_xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&veh=aff&wmlspartner=imp_10078&clickid=xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&sharedid=lifewire.com&affiliates_ad_id=612734&campaign_id=9383"]
+    ]
+    ,
+    "price": "10.00-30.00",
+    "image": "assets/images/suggestions/technology/hat.jpg"
   },
   {
     "category": "Technology",
     "name": "Couchmaster",
     "description": "Find comfort at the next level with this couch compatible gaming setup.  The Couchmaster is a portable gaming surface with ample space for a laptop and mousepad, allowing you to conveniently enjoy your favorite games from the comfort of your couch. ",
     "websites": [
-      "https://www.amazon.com/Couchmaster-CYBOT-Ergonomic-Notebooks-Equipment/dp/B08273BJSS/ref=sr_1_2_sspa?crid=2J2Y9HELDH264&keywords=couchmaster&qid=1645758537&sprefix=couchmaste%2Caps%2C278&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFhNNVRYOURDUkJXJmVuY3J5cHRlZElkPUEwOTg5MTM5MjNBOEJXVURVNURYTyZlbmNyeXB0ZWRBZElkPUEwMzM4NzYyMzlYNUdDVVowRThSWSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+      ["amazon", "https://www.amazon.com/Couchmaster-CYBOT-Ergonomic-Notebooks-Equipment/dp/B08273BJSS/ref=sr_1_2_sspa?crid=2J2Y9HELDH264&keywords=couchmaster&qid=1645758537&sprefix=couchmaste%2Caps%2C278&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFhNNVRYOURDUkJXJmVuY3J5cHRlZElkPUEwOTg5MTM5MjNBOEJXVURVNURYTyZlbmNyeXB0ZWRBZElkPUEwMzM4NzYyMzlYNUdDVVowRThSWSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="],
+      ["nerdytec", "https://www.nerdytec.com/en/mixxxer.php?products_id=32"]
     ],
-    "price": "156.00$",
-    "image": ""
+    "price": "150.00-200.00$",
+    "image": "assets/images/suggestions/technology/couchmaster.jpg"
   },
   {
     "category": "Technology",
     "name": "Blue Light Glasses",
     "description": "Blue light is one of the main reasons your eyes get tired after prolonged periods of screen activity. With these glasses, you can filter out much of the blue light, reducing eye strain and promoting ocular health.",
     "websites": [
-      "https://www.amazon.com/dp/B00BQ7KBV4/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"
+      ["amazon", "https://www.amazon.com/dp/B00BQ7KBV4/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"],
+      ["syghtglass", "https://www.syghtglass.com/collections/gaming-glasses"]
     ],
-    "price": "17.99$",
-    "image": ""
+    "price": "13.00-50.00$",
+    "image": "assets/images/suggestions/technology/glasses.jpg"
   },
   {
     "category": "Technology",
-    "name": "Oculus VR Headset",
-    "description": "Take gaming into the future with the newest Oculus release, the Quest2 all in one VR headset.  Dive into whatever game you choose in the most complete and immersive VR system to date.",
+    "name": "VR Gaming Headset",
+    "description": "Take gaming into the future with the newest VR releases.  Dive into whatever game you choose in the most complete and immersive VR systems to date.",
     "websites": [
-      "https://www.oculus.com/"
+      ["oculus", "https://www.oculus.com/"],
+      ["amazon", "https://www.amazon.co.uk/dp/B094R6QYMX?tag=pcmaguk-21&ascsubtag=02peQoAFycValS3W7UpLUyn"],
+      ["playstation", "https://www.playstation.com/sv-se/ps-vr/bundles/"]
     ],
-    "price": "389.62",
-    "image": ""
+    "price": "350.00-1000.00$",
+    "image": "assets/images/suggestions/technology/vr.jpg"
   },
   {
     "category": "Technology",
     "name": "Music-Playing Sunglasses",
     "description": "Bluetooth compatible, these sunglasses let you listen hand and cord free to any bluetooth connected device.",
     "websites": [
-      "https://www.amazon.com/dp/B07P7VVCDD/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"
+      ["amazon", "https://www.amazon.com/Razer-Anzu-Smart-Glasses-Built/dp/B08ZC9Y33Q/ref=sr_1_3?crid=2VLE9GIMRMSJQ&keywords=audio+sunglasses&qid=1645832196&sprefix=audio+sunglass%2Caps%2C342&sr=8-3"],
+      ["bose", "https://www.bose.com/en_us/products/frames.html"]
     ],
-    "price": "153.29$",
-    "image": ""
+    "price": "80.00-200.00$",
+    "image": "assets/images/suggestions/technology/sunglasses.jpg"
   },
   {
     "category": "Extreme Sports: Individual",
     "name": "Soft-Top Surfboard",
     "description": "This style of board is known to be the easiest to stand on, making it ideal for beginners.  It is longer and softer than most boards, and is a great way to learn how to catch waves for the first time.",
     "websites": [
-      "https://www.amazon.com/Wavestorm-9-Classic-Pinline-Surfboard/dp/B07HRZTF5B/ref=sr_1_16?crid=O8EHZGBOXGWX&keywords=soft+top+surfboard&qid=1645759884&sprefix=soft+top+surfboa%2Caps%2C237&sr=8-16"
+      ["amazon", "https://www.amazon.com/Wavestorm-9-Classic-Pinline-Surfboard/dp/B07HRZTF5B/ref=sr_1_16?crid=O8EHZGBOXGWX&keywords=soft+top+surfboard&qid=1645759884&sprefix=soft+top+surfboa%2Caps%2C237&sr=8-16"],
+      ["degree33", "https://www.degree33surfboards.com/collections/soft-top-surfboards?oid=37&affid=1"]
     ],
-    "price": "364.87$",
-    "image": ""
+    "price": "350.00-1000.00$",
+    "image": "assets/images/suggestions/animals/hedgehog.jpg"
   },
   {
     "category": "Extreme Sports: Individual",
     "name": "Hang-Glider",
     "description": "Experience gliding freedom as you soar through the sky.  All it takes is a KittyHawkKite glider and a running start, and your flights can begin.",
     "websites": [
-      "https://www.kittyhawk.com/hang-gliders/moyes-malibu-2-188/"
+      ["kittyhawk", "https://www.kittyhawk.com/hang-gliders/moyes-malibu-2-188/"],
+      ["avianonline", "http://www.avianonline.co.uk/hang-gliders-c-178.html"]
     ],
-    "price": "4927.00$",
-    "image": ""
+    "price": "2500.00-15000.00$",
+    "image": "assets/images/suggestions/xsports-i/hangglider.jpg"
   },
   {
     "category": "Extreme Sports: Individual",
     "name": "Electric Skateboard",
-    "description": "The Hiboy dual motor skateboard reaches up to 18.6 mph, and can be controlled by hand through remote control with ease while riding.",
+    "description": "These dual motor skateboards reaches up to 18.6 mph, and can be controlled by hand through remote control with ease while riding.",
     "websites": [
-      "https://www.amazon.com/Hiboy-Electric-Skateboard-Longboard-commuters/dp/B07G4N35RW/ref=sr_1_8?crid=22QYBRD8SA0TC&keywords=electronic+skateboard&qid=1645761067&sprefix=electronic+skateboar%2Caps%2C237&sr=8-8"
+      ["amazon", "https://www.amazon.com/Hiboy-Electric-Skateboard-Longboard-commuters/dp/B07G4N35RW/ref=sr_1_8?crid=22QYBRD8SA0TC&keywords=electronic+skateboard&qid=1645761067&sprefix=electronic+skateboar%2Caps%2C237&sr=8-8"],
+      ["banggood", "https://www.banggood.com/EU-DIRECTSYL-06-5000mAh-600W+2-Dual-Motor-Electric-Skateboard-90+51mm-Four-PU-Wheel-40km-or-h-Top-Speed-10-12km-Max-Range-100kg-Max-Load-Wireless-Remote-Control-p-1929728.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=SE&utm_content=minha&utm_campaign=minha-se-en-pc&currency=SEK&cur_warehouse=CZ&createTmp=1&ID=6287830&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=lynna&utm_campaign=lynna-pla-se-all-1020-2021-11sale-21&ad_id=554558944754&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7Acff1UrlZe6p7ygrukHDTFG_-auSk5xm6-9kJPvWVXZfUDapGQE4aAkYTEALw_wcB"]
     ],
-    "price": "399.99$",
-    "image": ""
+    "price": "350.00-600.00$",
+    "image": "assets/images/suggestions/xsports-i/skateboard.jpg"
   },
   {
     "category": "Extreme Sports: Individual",
     "name": "Zorbing Inflatable Bubble",
-    "description": "Fully protected while inside this human hamster ball, roll and tumble freely without issue.",
+    "description": "Fully protected while inside this human hamster ball, roll and tumble freely without issue. Alternatively, choose a water designed ball to float and move across the surface while inside!",
     "websites": [
-      "https://www.amazon.com/Qiyun-Inflatable-Zorbing-Human-Hamster/dp/B0181XUVG0/ref=as_li_ss_tl?ie=UTF8&qid=1468647798&sr=8-2&keywords=zorbing+ball&linkCode=sl1&tag=zorbingtimeco-20&linkId=6a8caa3223df169228d5fbbf7c768a86"
+      ["amazon", "https://www.amazon.com/Qiyun-Inflatable-Zorbing-Human-Hamster/dp/B0181XUVG0/ref=as_li_ss_tl?ie=UTF8&qid=1468647798&sr=8-2&keywords=zorbing+ball&linkCode=sl1&tag=zorbingtimeco-20&linkId=6a8caa3223df169228d5fbbf7c768a86"],
+      ["liveit", "https://www.liveit.se/upplevelser/upplevelsepresenter-waterballs?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF6TMn3VAwvJo5pMuVGX_QN7pUGjNiPIt-hOsw8YaPkI-jlSSCB24mcaAmxEEALw_wcB"]
     ],
-    "price": "1450.00$$",
-    "image": ""
+    "price": "500.00-1450.00$",
+    "image": "assets/images/suggestions/xsports-i/zorb.jpg"
   },
   {
     "category": "Extreme Sports: Individual",
     "name": "Inflatable Kayak",
-    "description": "From Advanced Elements, this 10.5 foot kayak designed for any water conditions.  It is inflatable making it exceptionally portable, but it functions like a rigid shell kayak.",
+    "description": "These kayaks are designed for any water conditions, and this versatility helps suit them any kind of trip you might want to take.  The inflatability making them exceptionally portable, but they function with the integrity of a rigid shell kayak.",
     "websites": [
-      "https://www.amazon.com/Advanced-Elements-Frame-Sport-Kayak/dp/B003BUGNKC/ref=sr_1_1_sspa?crid=37RUUAB8SQ1N1&keywords=sport+kayak&qid=1645762455&sprefix=sport+kayak%2Caps%2C202&sr=8-1-spons&psc=1&smid=AGLJA2W19Z5T3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzMlQ4TjJGSVVXQjlWJmVuY3J5cHRlZElkPUEwNzM0MzM5M09FSzVPVFFIMk1ZTCZlbmNyeXB0ZWRBZElkPUEwOTA0NTgzRzVHT1ZIQzZNS1lGJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+      ["amazon", "https://www.amazon.com/Advanced-Elements-Frame-Sport-Kayak/dp/B003BUGNKC/ref=sr_1_1_sspa?crid=37RUUAB8SQ1N1&keywords=sport+kayak&qid=1645762455&sprefix=sport+kayak%2Caps%2C202&sr=8-1-spons&psc=1&smid=AGLJA2W19Z5T3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzMlQ4TjJGSVVXQjlWJmVuY3J5cHRlZElkPUEwNzM0MzM5M09FSzVPVFFIMk1ZTCZlbmNyeXB0ZWRBZElkPUEwOTA0NTgzRzVHT1ZIQzZNS1lGJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="],
+      ["stockholmkajak", "https://stockholmkajak.se/luftkajaker/advancedframe-convertible?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7E3dpvURspF7mRCbQyHPdWHXlNFtSCsDEE-o_WfwXytsoFqOu7dc8aAnZDEALw_wcB"]
     ],
-    "price": "499.00$$",
-    "image": ""
+    "price": "500.00-1000.00$",
+    "image": "assets/images/suggestions/xsports-i/kayak.jpg"
   },
   {
     "category": "Extreme Sports: Team",
-    "name": "Bubble Soccer 8 Bubble Package",
-    "description": "This set comes with 8 bubbles, allowing you to create teams and start your own bubble soccer matches. Safely tumble around and tackle one another as the inflated bubble around you offers ample protection.",
+    "name": "Bubble Soccer Package",
+    "description": "These sets comes with between 8-24 bubbles, allowing you to create teams of your desired size and start your own bubble soccer matches. Safely tumble around and tackle one another as the inflated bubble around you offers ample protection.",
     "websites": [
-      "https://www.bubble-allstars.com/europe/prices/"
+      ["bubble allstars", "https://www.bubble-allstars.com/europe/prices/"]
     ],
-    "price": "2918.41$",
-    "image": ""
+    "price": "2500.00-6500.00$",
+    "image": "assets/images/suggestions/xsports-team/bubbles.jpg"
   },
   {
     "category": "Extreme Sports: Team",
-    "name": "3-Day Rafting Trip",
+    "name": "1-7 Day Rafting Trip",
     "description": "Test your endurance and resilience down the rivers toughest points, and enjoy the relaxing current when the whitewater clears.",
     "websites": [
-      "--?"
+      ["oars", "https://www.oars.com/rafting/"],
+      ["western river expeditions", "https://www.westernriver.com/"]
     ],
-    "price": "1000.00-1400.00$",
-    "image": ""
+    "price": "300.00-7000.00$",
+    "image": "assets/images/suggestions/xsports-team/rafting.jpg"
   },
   {
     "category": "Extreme Sports: Team",
     "name": "Horseback Riding Excursion",
     "description": "As a couple or with a group, take a day to experience the outdoors on horseback.",
     "websites": [
-      "--?"
+      ["fjallridning", "https://fjallridning.se/vinter/"],
+      ["Helens turridning", "https://helensturridning.se/?page_id=20"]
     ],
     "price": "80.00-255.00$",
-    "image": ""
+    "image": "assets/images/suggestions/xsports-team/horseback.jpg"
   },
   {
     "category": "Extreme Sports: Team",
     "name": "Bungee Jumping",
     "description": "Safely enjoy the rush of freefall in the outdoors, great for couples to do together!",
     "websites": [
-      "--?"
+      ["Bungyjump Stockholm", "https://bungyjumpstockholm.se/"]
     ],
-    "price": "30.00-400.00$",
-    "image": ""
+    "price": "300.00-400.00$",
+    "image": "assets/images/suggestions/xsports-team/bungee.jpg"
   },
   {
     "category": "Extreme Sports: Team",
     "name": "Indoor Skydiving",
     "description": "Another way to enjoy the freefall feeling, but indoors where you can have freedom to explore and experiment with weightlessness.",
     "websites": [
-      "--?"
+      ["bodyflight", "https://en.bodyflight.se/"]
     ],
-    "price": "40.00-70.00$$",
-    "image": ""
+    "price": "70.00-200.00$",
+    "image": "assets/images/suggestions/xsports-team/skydive.jpg"
   },
   {
     "category": "games",
