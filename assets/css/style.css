@@ -155,9 +155,9 @@ body {
 .hero {
   width: 100%;
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 8rem);
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background-color: rgb(31, 31, 31);
   background-image: linear-gradient(14deg,
@@ -177,11 +177,12 @@ body {
   padding: 3em;
   font-size: 1.7rem;
   border-radius: 0.5em;
-  max-width: 40rem;
+  max-width: 45rem;
   text-align: center;
-  position: absolute;
+  margin-top: 10em;
+  /* position: absolute;
   left: 20%;
-  top: 10%;
+  top: 10%; */
 }
 
 
@@ -224,44 +225,6 @@ body {
   color: var(--clr-neutral--100);
 }
 
-.hero__arrow {
-  height: 5rem;
-  width: 5rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: myAnim 2s ease-in-out 0s infinite normal forwards;
-
-}
-
-@keyframes myAnim {
-  0% {
-    animation-timing-function: ease-out;
-    transform: scale(1);
-    transform-origin: center center;
-  }
-
-  10% {
-    animation-timing-function: ease-in;
-    transform: scale(0.91);
-  }
-
-  17% {
-    animation-timing-function: ease-out;
-    transform: scale(0.98);
-  }
-
-  33% {
-    animation-timing-function: ease-in;
-    transform: scale(0.87);
-  }
-
-  45% {
-    animation-timing-function: ease-out;
-    transform: scale(1);
-  }
-}
 
 .hero__quiz--link a {
   color: var(--clr-neutral--100);
