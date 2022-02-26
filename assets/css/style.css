@@ -366,15 +366,22 @@ body {
   z-index: 999;
   width: 100%;
   background-color: var(--clr-primary--300);
+  margin: 0 auto;
 }
 
 .footer__content {
   width: 100%;
   max-width: 120rem;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 2em;
 }
 
 .hide {
   display: none !important;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
 }
