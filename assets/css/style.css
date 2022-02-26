@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 h1,
 h2,
@@ -163,45 +167,93 @@ body {
 .hero__content {
   background-color: #292929d8;
   color: var(--clr-neutral--100);
-  padding: 3em 2em;
+  padding: 3em;
+  font-size: 1.7rem;
   border-radius: 0.5em;
   max-width: 40rem;
   text-align: center;
+  position: absolute;
+  left: 20%;
+  top: 10%;
 }
 
-.hero__main {
-  /* height: 10rem; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+
+.hero__link,
+.contact__link {
   padding-top: 2em;
 }
 
-.hero__main--text {
-  /* padding-top: 2em; */
-  color: var(--clr-primary--100);
-  padding-bottom: 1em;
+
+.hero__link--btn,
+.hero__main--btn,
+.contact__link--btn {
+  padding: 0.5em 2em;
+  border-radius: 0.4em;
+  background-color: var(--clr-primary--300);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--clr-neutral--300);
+  transition: background-color .15s ease-in-out, color .15s ease-in-out;
 }
 
-.hero__main--text:hover {
-  color: var(--clr-primary--900);
+.hero__link--btn {
+  margin-right: 0.5em
 }
 
-.hero__main--image {
-  /* height: 10rem; */
-  /* padding-bottom: 2em; */
+.hero__main--btn {
+  background-color: #f5d4d6;
+  margin-left: 0.5em;
 }
 
+.contact__link--btn:hover,
+.hero__link--btn:hover {
+  background-color: var(--clr-primary--200);
+  color: var(--clr-neutral--900);
+}
 
+.hero__main--btn:hover {
+  background-color: var(--clr-primary--300);
+  color: var(--clr-neutral--100);
+}
 
 .hero__arrow {
-  height: 7rem;
-  width: 7rem;
+  height: 5rem;
+  width: 5rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: myAnim 2s ease-in-out 0s infinite normal forwards;
+
+}
+
+@keyframes myAnim {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
 }
 
 .hero__quiz--link a {
@@ -330,27 +382,6 @@ body {
   color: var(--clr-neutral--100);
 }
 
-.contact__link,
-.hero__link {
-  padding-top: 1.5em;
-}
-
-.contact__link--btn,
-.hero__link--btn {
-  padding: 0.5em 2em;
-  border-radius: 0.4em;
-  background-color: var(--clr-primary--300);
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: var(--clr-neutral--300);
-  transition: background-color .15s ease-in-out, color .15s ease-in-out;
-}
-
-.contact__link--btn:hover,
-.hero__link--btn:hover {
-  background-color: var(--clr-primary--200);
-  color: var(--clr-neutral--900);
-}
 
 /* Please do not change the code above
 Juliia*/
