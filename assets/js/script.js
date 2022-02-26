@@ -312,11 +312,6 @@ answerContainerC.addEventListener('click', checkAnswer);
 
 
 /// displays modal 
-
-closeModal.addEventListener('click', function () {
-  modal.style.display = 'none';
-});
-
 const displayModalContent = function (suggestion) {
   console.log(suggestion.websites[0]);
   const modalImage = document.querySelector('#suggestion-image');
@@ -347,3 +342,13 @@ const displayModalContent = function (suggestion) {
       </div>
   `;
 }
+
+// Close modal
+closeModal.addEventListener('click', function () {
+  modal.style.display = 'none';
+});
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && modal.style.display !== 'none') {
+    modal.style.display = 'none';
+  }
+});
