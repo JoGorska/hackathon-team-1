@@ -89,7 +89,7 @@ const foodieQuestion = {
   question: 'Would your partner rather...',
   answerA: 'Eat out',
   answerB: 'Learn to cook something new',
-  answerC: 'Go for a tasting session'
+  answerC: 'Go for a alcohol tasting session'
 }
 
 
@@ -103,8 +103,8 @@ const notFoodieQuestion = {
 // findGiftsInCategory function, that fetches data from suggestions.json
 var museum = []
 var gardening = []
-// cookery = cookingClassess ??? need to confirm with Helen
 var cookery = []
+var foodExperiment = []
 var tech = []
 var animals = []
 var games = []
@@ -115,9 +115,12 @@ var spa = []
 var sportsEvent = []
 var themePark = []
 var ride = []
-var eatOut = []
+// var eatOut = [] ??? no data so far
+var picnic = []
 var cookingClasses = []
-var tasting = []
+var alcoholTasting = []
+var handcraft = []
+// var sightseeing = [] ??? no data so far
 
 /**
  * function to fetch data from suggestion.js and than add
@@ -128,9 +131,11 @@ var tasting = []
 const data = fetch('assets/js/suggestions.json')
   .then(response => response.json())
   .then(data => {
-    museum = findGiftsInCategory("museums", data)
+    museum = findGiftsInCategory("museum", data)
     gardening = findGiftsInCategory("gardening", data)
     cookery = findGiftsInCategory("cookery", data)
+    // food experiment in json file not used
+    foodExperiment = findGiftsInCategory("foodExperiment", data)
     games = findGiftsInCategory("games", data)
     animals = findGiftsInCategory("animals", data)
     tech = findGiftsInCategory("technology", data)
@@ -138,13 +143,16 @@ const data = fetch('assets/js/suggestions.json')
     teamSports = findGiftsInCategory("teamSports", data)
     travel = findGiftsInCategory("travel", data)
     spa = findGiftsInCategory("spa", data)
+    // watching outddor sports - catherine
     sportsEvent = findGiftsInCategory("sportsEvent", data)
     themePark = findGiftsInCategory("themePark", data)
     ride = findGiftsInCategory("ride", data)
-    eatOut = findGiftsInCategory("eatOut", data)
+    // eatOut = findGiftsInCategory("eatOut", data)
+    picnic = findGiftsInCategory("picnic", data)
     cookingClasses = findGiftsInCategory("cookingClasses", data)
-    tasting = findGiftsInCategory("tasting", data)
-
+    alcoholTasting = findGiftsInCategory("alcoholTasting", data)
+    handcraft = findGiftsInCategory("handcraft", data)
+    sightseeing = findGiftsInCategory("sightseeing", data)
   });
 
 /**
@@ -255,7 +263,7 @@ function checkAnswer(e) {
     displayQuestion(currentQuestion)
   } else if (currentQuestion === creativeQuestion) {
     if (e.target.id === 'answer-a') {
-      category = arts
+      category = handcraft
     } else if (e.target.id === 'answer-b') {
       category = gardening
     } else {
@@ -277,7 +285,7 @@ function checkAnswer(e) {
     } else if (e.target.id === 'answer-b') {
       category = teamSports
     } else {
-      category = travelResults
+      category = travel
     }
     displayResults(category)
   } else if (currentQuestion === notActiveQuestion) {
@@ -291,11 +299,12 @@ function checkAnswer(e) {
     displayResults(category)
   } else if (currentQuestion === foodieQuestion) {
     if (e.target.id === 'answer-a') {
-      category = eatOut
+      // category = eatOut
+      category = picnic
     } else if (e.target.id === 'answer-b') {
       category = cookingClasses
     } else {
-      category = tasting
+      category = alcoholTasting
     }
     displayResults(category)
   } else if (currentQuestion === notFoodieQuestion) {

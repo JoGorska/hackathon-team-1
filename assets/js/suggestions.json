@@ -697,7 +697,7 @@
     "image": "assets/images/suggestions/ride/car.jpg"
   },
   {
-    "category": "museums",
+    "category": "museum",
     "name": "Art museums",
     "description": "If your half is into art, take a look at these museums. It will be a great getaway for both of you! Just one weekend of impressive masterpieces will be remembered forever. You will both benefit from broadening your cultural horizons!",
     "websites": [
@@ -709,7 +709,7 @@
     "image": "assets/images/suggestions/museums/art.jpg"
   },
   {
-    "category": "museums",
+    "category": "museum",
     "name": "Science museums",
     "description": "So you like to make a substantial gift on this Valentine's Day? Pick a scientific museum for your loved one to visit to learn about world's breakthroughs in various scientific fields. It may sound nerdy, but there are so many things that may astonish everyone!",
     "websites": [
@@ -721,7 +721,7 @@
     "image": "assets/images/suggestions/museums/science.jpg"
   },
   {
-    "category": "museums",
+    "category": "museum",
     "name": "History museums",
     "description": "When you have a partner who loves history, you just have look into these options to pick from. History is important and it would a wonderful gift for a history  lovers.",
     "websites": [
@@ -733,7 +733,7 @@
     "image": "assets/images/suggestions/museums/history.jpg"
   },
   {
-    "category": "museums",
+    "category": "museum",
     "name": "Open-air museums",
     "description": "If your partner is not a big fun of indoors museums, it may be a perfect idea to look into these offers. Just imagine walking around stunning buildings that actually have a long history behind them, and enjoying fresh air around…",
     "websites": [
@@ -745,7 +745,7 @@
     "image": "assets/images/suggestions/museums/open_air.jpg"
   },
   {
-    "category": "museums",
+    "category": "museum",
     "name": "Virtual museums",
     "description": "There is always an option when your loved one cannot go anywhere during the holidays. In this case, we suggest you to just make sure that your wife is working well and find a virtual museum that would be appealing to both of you.",
     "websites": [
@@ -767,7 +767,7 @@
     "image": "assets/images/suggestions/homemade-food/chocolate.jpg"
   },
   {
-    "category": "cookery",
+    "category": "foodExperiment",
     "name": "Basil Pesto Pasta(Vegan)",
     "description": "Romantic dinner on Valentine's Day at home is not as hard as it may sound. Check out <a href=“https://tasty.co/recipe/vegan-pesto-pasta” target=“_blank” aria-label=“Recipe on Tasty (opens in a new tab)”>this recipe on Tasty</a>. You just need fresh herbs, lemon juice, garlic, pasta and some ingredients from your cupboard. It takes less than a half an hour.",
     "websites": [
@@ -777,7 +777,7 @@
     "image": "assets/images/suggestions/homemade-food/pasta.jpg"
   },
   {
-    "category": "cookery",
+    "category": "foodExperiment",
     "name": "Ratatouille(Vegan)",
     "description": "For an impressive dish that's both colourful and healthy, make the ratatouille meal for your partner. It might look complex, but it's actually quite easy. Have a look at <a href=“https://tasty.co/recipe/ratatouille” target=“_blank” aria-label=“Recipe on Bianca Tasty (opens in a new tab)”>this recipe on Tasty</a>.",
     "websites": [
@@ -797,7 +797,7 @@
     "image": "assets/images/suggestions/homemade-food/steak.jpg"
   },
   {
-    "category": "cookery",
+    "category": "foodExperiment",
     "name": "Lobster Tail",
     "description": "Lobster is regarded as the most elegant, high-end type of seafood that's usually reserved for special occasions at pricey restaurants. Cooking lobster at home might seem intimidating, but it sure is an excellent gift. If you're not sure how to cook, <a href=“https://therecipecritic.com/lobster-tail-recipe/” target=“_blank” aria-label=“Recipe on The Recipe Critic (opens in a new tab)”>this recipe on The Recipe Critic</a> will guide you to make the perfect Valentine's day meal.",
     "websites": [
@@ -857,7 +857,7 @@
     "image": "assets/images/suggestions/tasting/whisky.jpg"
   },
   {
-    "category": "cookery",
+    "category": "foodExperiment",
     "name": "Shiitake Mushroom Log Kit",
     "description": "Surprise your partner with a unique gift that keeps on giving! Every chef loves working with fresh ingredients — and what's fresher than picking your own home-grown mushrooms from a log you can keep in your kitchen?",
     "websites": [
@@ -879,7 +879,7 @@
   },
 
   {
-    "category": "cookery",
+    "category": "foodExperiment",
     "name": "The Cook Away Recipe Box",
     "description": "Does your partner love trying out exotic new recipes?  Provide them with ingredients and inspiration with a recipe box designed by award-winning chefs. Choose from a range of world cuisines from Europe to the Far East.",
     "websites": [
