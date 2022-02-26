@@ -68,7 +68,7 @@
       ["groupon", "https://www.groupon.com/deals/gg-mp-wireless-bluetooth-beanie-hat-earphone-built-in-hd-stereo-cap-for-men-and-women"]
     ],
     "price": "10.00-30.00",
-    "image": "assets/images/suggestions/technology/hat.jpg"
+    "image": "assets/images/suggestions/technology/hat.jpeg"
   },
   {
     "category": "technology",
@@ -116,7 +116,7 @@
       ["jb hi-fi", "https://www.jbhifi.com.au/products/bose-frames-alto-audio-sunglasses-large?view=pdp"]
     ],
     "price": "80.00-200.00",
-    "image": "assets/images/suggestions/technology/sunglasses.jpg"
+    "image": "assets/images/suggestions/technology/sunglasses.jpeg"
   },
   {
     "category": "individualSports",
@@ -128,7 +128,7 @@
       ["merijaan", "https://merijaan.de/surf/"]
     ],
     "price": "350.00-1000.00",
-    "image": "assets/images/suggestions/sports-i/surf.jpg"
+    "image": "assets/images/suggestions/sports-i/surf.jpeg"
   },
   {
     "category": "individualSports",
@@ -140,7 +140,7 @@
       ["indiamart", "https://dir.indiamart.com/impcat/hang-gliders.html"]
     ],
     "price": "2500.00-15000.00",
-    "image": "assets/images/suggestions/sports-i/hangglider.jpg"
+    "image": "assets/images/suggestions/sports-i/hangglider.jpeg"
   },
   {
     "category": "individualSports",
@@ -179,7 +179,7 @@
 
     ],
     "price": "500.00-1000.00",
-    "image": "assets/images/suggestions/sports-i/kayak.jpg"
+    "image": "assets/images/suggestions/sports-i/kayak.jpeg"
   },
   {
     "category": "teamSports",
@@ -803,7 +803,7 @@
     "websites": [
       ["Walmart", "https://www.walmart.com"]
     ],
-    "price": "17-247.5 (20tails)",
+    "price": "17-247.5",
     "image": "assets/images/suggestions/homemade-food/lobster.jpg"
   },
   {
@@ -814,7 +814,7 @@
       ["Truly Experiences - Champagne Master Class", "https://trulyexperiences.com/uk/champagne-and-sparkling-wine-masterclass-the-london-wine-academy.html"]
     ],
     "price": "140",
-    "image": "assets/images/suggestions/tasting/champagne.jpg"
+    "image": "assets/images/suggestions/tasting/chapmagne.jpg"
   },
   {
     "category": "alcoholTasting",

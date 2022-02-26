@@ -112,15 +112,18 @@ var individualSports = []
 var teamSports = []
 var travel = []
 var spa = []
+// var sportsEvent = [] ??? no data so far - wathcing outdoor sport Catherine
 var sportsEvent = []
 var themePark = []
 var ride = []
-// var eatOut = [] ??? no data so far
+// var eatOut = [] ??? no data so far sam
+var eatOut = []
 var picnic = []
 var cookingClasses = []
 var alcoholTasting = []
 var handcraft = []
-// var sightseeing = [] ??? no data so far
+// var sightseeing = [] ??? no data so far Sejung
+var sightseeing = []
 
 /**
  * function to fetch data from suggestion.js and than add
@@ -143,12 +146,11 @@ const data = fetch('assets/js/suggestions.json')
     teamSports = findGiftsInCategory("teamSports", data)
     travel = findGiftsInCategory("travel", data)
     spa = findGiftsInCategory("spa", data)
-    // watching outddor sports - catherine
     sportsEvent = findGiftsInCategory("sportsEvent", data)
     themePark = findGiftsInCategory("themePark", data)
     ride = findGiftsInCategory("ride", data)
-    // eatOut = findGiftsInCategory("eatOut", data)
-    picnic = findGiftsInCategory("picnic", data)
+    eatOut = findGiftsInCategory("eatOut", data)
+    picnic = findGiftsInCategory("picnics", data)
     cookingClasses = findGiftsInCategory("cookingClasses", data)
     alcoholTasting = findGiftsInCategory("alcoholTasting", data)
     handcraft = findGiftsInCategory("handcraft", data)
@@ -269,7 +271,7 @@ function checkAnswer(e) {
     } else {
       category = cookery
     }
-    quizContainer.classList.add('hide')
+    displayResults(category)
   } else if (currentQuestion === unCreativeQuestion) {
     if (e.target.id === 'answer-a') {
       category = tech
