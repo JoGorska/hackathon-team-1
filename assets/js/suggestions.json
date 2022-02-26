@@ -40,7 +40,8 @@
     "description": "Would you like to make a gift really memorable in this Valentine's Day? Purchasing a snake may really help you. First of all, it is unusual and beautiful!.And don't forget that snakes are eary to handle and are they are not aggressive! And if you partner doesn't like to care about about feeding an animal every now and then, a snake can be a great choice! They may not eat for wiiks to month! If you want to learn more: https://vcahospitals.com/know-your-pet/snakes-owning",
     "websites": [
       ["backwater reptiles", "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html"],
-      ["xyz reptiles", "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"]
+      ["xyz reptiles", "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"],
+      ["amazing amazon", "https://www.amazingamazon.com.au/collections/pythons-snakes-for-sale"]
     ],
     "price": "40-500",
     "image": "assets/images/suggestions/animals/snake.jpg"
@@ -51,7 +52,8 @@
     "description": "Hedgehog is a cute pocket pet, which will definitely bring lots of joy to your partner! Moreover, hedgehogs are easy to take care of, ",
     "websites": [
       ["exotic animals for sale", "https://www.exoticanimalsforsale.net/hedgehogs-for-sale.asp"],
-      ["dragon stone ranch", "https://www.dragonstoneranch.com/hedgehogs"]
+      ["dragon stone ranch", "https://www.dragonstoneranch.com/hedgehogs"],
+      ["peta", "https://www.peta.org/features/hedgehog-pet-industry/"]
     ],
     "price": "50-600",
     "image": "assets/images/suggestions/animals/hedgehog.jpg"
@@ -61,10 +63,9 @@
     "name": "Beanie With Built in Headphones",
     "description": "Cozy hat with bluetooth compatible built in audio.  Headphone pieces on the ear coverings of the hat let you enjoy the artists you love outside on a cold day as easily as inside, and it removes the need for separate headphones completely.",
     "websites": [
-
-      ["amazon", "https://www...amazon.com/dp/B07FNL22KJ/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"],
-      ["walmart", "https://www.walmart.com/ip/Upgraded-Unisex-Knit-Bluetooth-Beanie-Hat-Headphones-V4-2-Unique-Christmas-Tech-Gifts-Men-Dad-Women-Mom-Teen-Boys-Girls-Stocking-Stuffer-w-Built-in-S/340799046?irgwc=1&sourceid=imp_xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&veh=aff&wmlspartner=imp_10078&clickid=xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&sharedid=lifewire.com&affiliates_ad_id=612734&campaign_id=9383"]
-
+      ["amazon", "https://www.amazon.com/Bluetooth-Beanie-Headphones-Built-Microphone/dp/B076C82TG3"],
+      ["walmart", "https://www.walmart.com/ip/Upgraded-Unisex-Knit-Bluetooth-Beanie-Hat-Headphones-V4-2-Unique-Christmas-Tech-Gifts-Men-Dad-Women-Mom-Teen-Boys-Girls-Stocking-Stuffer-w-Built-in-S/340799046?irgwc=1&sourceid=imp_xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&veh=aff&wmlspartner=imp_10078&clickid=xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&sharedid=lifewire.com&affiliates_ad_id=612734&campaign_id=9383"],
+      ["groupon", "https://www.groupon.com/deals/gg-mp-wireless-bluetooth-beanie-hat-earphone-built-in-hd-stereo-cap-for-men-and-women"]
     ],
     "price": "10.00-30.00",
     "image": "assets/images/suggestions/technology/hat.jpg"
@@ -74,12 +75,11 @@
     "name": "Couchmaster",
     "description": "Find comfort at the next level with this couch compatible gaming setup.  The Couchmaster is a portable gaming surface with ample space for a laptop and mousepad, allowing you to conveniently enjoy your favorite games from the comfort of your couch. ",
     "websites": [
-
       ["amazon", "https://www.amazon.com/Couchmaster-CYBOT-Ergonomic-Notebooks-Equipment/dp/B08273BJSS/ref=sr_1_2_sspa?crid=2J2Y9HELDH264&keywords=couchmaster&qid=1645758537&sprefix=couchmaste%2Caps%2C278&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFhNNVRYOURDUkJXJmVuY3J5cHRlZElkPUEwOTg5MTM5MjNBOEJXVURVNURYTyZlbmNyeXB0ZWRBZElkPUEwMzM4NzYyMzlYNUdDVVowRThSWSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="],
-      ["nerdytec", "https://www.nerdytec.com/en/mixxxer.php?products_id=32"]
-
+      ["nerdytec", "https://www.nerdytec.com/en/mixxxer.php?products_id=32"],
+      ["ubuy", "https://www.ubuy.vn/en/product/1SOCDQK-couchmaster-cycon-black-edition-couch-gaming-desk-for-mouse-keyboard-for-pc-ps4-5-xbox-one-series-x"]
     ],
-    "price": "150.00-200.00$",
+    "price": "150.00-200.00",
     "image": "assets/images/suggestions/technology/couchmaster.jpg"
   },
   {
@@ -87,12 +87,11 @@
     "name": "Blue Light Glasses",
     "description": "Blue light is one of the main reasons your eyes get tired after prolonged periods of screen activity. With these glasses, you can filter out much of the blue light, reducing eye strain and promoting ocular health.",
     "websites": [
-
       ["amazon", "https://www.amazon.com/dp/B00BQ7KBV4/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"],
-      ["syghtglass", "https://www.syghtglass.com/collections/gaming-glasses"]
-
+      ["syght glass", "https://www.syghtglass.com/collections/gaming-glasses"],
+      ["eye buy direct", "https://www.eyebuydirect.com/prescription-lens/digital-protection"]
     ],
-    "price": "13.00-50.00$",
+    "price": "13.00-50.00",
     "image": "assets/images/suggestions/technology/glasses.jpg"
   },
   {
@@ -104,7 +103,7 @@
       ["amazon", "https://www.amazon.co.uk/dp/B094R6QYMX?tag=pcmaguk-21&ascsubtag=02peQoAFycValS3W7UpLUyn"],
       ["playstation", "https://www.playstation.com/sv-se/ps-vr/bundles/"]
     ],
-    "price": "350.00-1000.00$",
+    "price": "350.00-1000.00",
     "image": "assets/images/suggestions/technology/vr.jpg"
   },
   {
@@ -112,12 +111,11 @@
     "name": "Music-Playing Sunglasses",
     "description": "Bluetooth compatible, these sunglasses let you listen hand and cord free to any bluetooth connected device.",
     "websites": [
-
       ["amazon", "https://www.amazon.com/Razer-Anzu-Smart-Glasses-Built/dp/B08ZC9Y33Q/ref=sr_1_3?crid=2VLE9GIMRMSJQ&keywords=audio+sunglasses&qid=1645832196&sprefix=audio+sunglass%2Caps%2C342&sr=8-3"],
-      ["bose", "https://www.bose.com/en_us/products/frames.html"]
-
+      ["bose", "https://www.bose.com/en_us/products/frames.html"],
+      ["jb hi-fi", "https://www.jbhifi.com.au/products/bose-frames-alto-audio-sunglasses-large?view=pdp"]
     ],
-    "price": "80.00-200.00$",
+    "price": "80.00-200.00",
     "image": "assets/images/suggestions/technology/sunglasses.jpg"
   },
   {
@@ -125,11 +123,11 @@
     "name": "Soft-Top Surfboard",
     "description": "This style of board is known to be the easiest to stand on, making it ideal for beginners.  It is longer and softer than most boards, and is a great way to learn how to catch waves for the first time.",
     "websites": [
-
       ["amazon", "https://www.amazon.com/Wavestorm-9-Classic-Pinline-Surfboard/dp/B07HRZTF5B/ref=sr_1_16?crid=O8EHZGBOXGWX&keywords=soft+top+surfboard&qid=1645759884&sprefix=soft+top+surfboa%2Caps%2C237&sr=8-16"],
-      ["degree33", "https://www.degree33surfboards.com/collections/soft-top-surfboards?oid=37&affid=1"]
+      ["degree33", "https://www.degree33surfboards.com/collections/soft-top-surfboards?oid=37&affid=1"],
+      ["merijaan", "https://merijaan.de/surf/"]
     ],
-    "price": "350.00-1000.00$",
+    "price": "350.00-1000.00",
     "image": "assets/images/suggestions/sports-i/surf.jpg"
   },
   {
@@ -137,12 +135,11 @@
     "name": "Hang-Glider",
     "description": "Experience gliding freedom as you soar through the sky.  All it takes is a KittyHawkKite glider and a running start, and your flights can begin.",
     "websites": [
-
       ["kittyhawk", "https://www.kittyhawk.com/hang-gliders/moyes-malibu-2-188/"],
-      ["avianonline", "http://www.avianonline.co.uk/hang-gliders-c-178.html"]
-
+      ["avianonline", "http://www.avianonline.co.uk/hang-gliders-c-178.html"],
+      ["indiamart", "https://dir.indiamart.com/impcat/hang-gliders.html"]
     ],
-    "price": "2500.00-15000.00$",
+    "price": "2500.00-15000.00",
     "image": "assets/images/suggestions/sports-i/hangglider.jpg"
   },
   {
@@ -155,7 +152,7 @@
       ["banggood", "https://www.banggood.com/EU-DIRECTSYL-06-5000mAh-600W+2-Dual-Motor-Electric-Skateboard-90+51mm-Four-PU-Wheel-40km-or-h-Top-Speed-10-12km-Max-Range-100kg-Max-Load-Wireless-Remote-Control-p-1929728.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=SE&utm_content=minha&utm_campaign=minha-se-en-pc&currency=SEK&cur_warehouse=CZ&createTmp=1&ID=6287830&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=lynna&utm_campaign=lynna-pla-se-all-1020-2021-11sale-21&ad_id=554558944754&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7Acff1UrlZe6p7ygrukHDTFG_-auSk5xm6-9kJPvWVXZfUDapGQE4aAkYTEALw_wcB"]
 
     ],
-    "price": "350.00-600.00$",
+    "price": "350.00-600.00",
     "image": "assets/images/suggestions/sports-i/skateboard.jpg"
   },
   {
@@ -168,7 +165,7 @@
       ["liveit", "https://www.liveit.se/upplevelser/upplevelsepresenter-waterballs?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF6TMn3VAwvJo5pMuVGX_QN7pUGjNiPIt-hOsw8YaPkI-jlSSCB24mcaAmxEEALw_wcB"]
 
     ],
-    "price": "500.00-1450.00$",
+    "price": "500.00-1450.00",
     "image": "assets/images/suggestions/sports-i/zorb.jpg"
   },
   {
@@ -181,7 +178,7 @@
       ["stockholmkajak", "https://stockholmkajak.se/luftkajaker/advancedframe-convertible?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7E3dpvURspF7mRCbQyHPdWHXlNFtSCsDEE-o_WfwXytsoFqOu7dc8aAnZDEALw_wcB"]
 
     ],
-    "price": "500.00-1000.00$",
+    "price": "500.00-1000.00",
     "image": "assets/images/suggestions/sports-i/kayak.jpg"
   },
   {
@@ -193,7 +190,7 @@
       ["bubble allstars", "https://www.bubble-allstars.com/europe/prices/"]
 
     ],
-    "price": "2500.00-6500.00$",
+    "price": "2500.00-6500.00",
     "image": "assets/images/suggestions/sports-team/bubbles.jpg"
   },
   {
@@ -204,7 +201,7 @@
       ["oars", "https://www.oars.com/rafting/"],
       ["western river expeditions", "https://www.westernriver.com/"]
     ],
-    "price": "300.00-7000.00$",
+    "price": "300.00-7000.00",
     "image": "assets/images/suggestions/sports-team/rafting.jpg"
   },
   {
@@ -215,7 +212,7 @@
       ["fjallridning", "https://fjallridning.se/vinter/"],
       ["Helens turridning", "https://helensturridning.se/?page_id=20"]
     ],
-    "price": "80.00-255.00$",
+    "price": "80.00-255.00",
     "image": "assets/images/suggestions/sports-team/horseback.jpg"
   },
   {
@@ -225,7 +222,7 @@
     "websites": [
       ["Bungyjump Stockholm", "https://bungyjumpstockholm.se/"]
     ],
-    "price": "300.00-400.00$",
+    "price": "300.00-400.00",
     "image": "assets/images/suggestions/sports-team/bungee.jpg"
   },
   {
@@ -235,7 +232,7 @@
     "websites": [
       ["bodyflight", "https://en.bodyflight.se/"]
     ],
-    "price": "70.00-200.00$",
+    "price": "70.00-200.00",
     "image": "assets/images/suggestions/sports-team/skydive.jpg"
   },
   {
@@ -440,7 +437,7 @@
     "websites": [
       ["bluelagoon", "https://www.bluelagoon.com/"]
     ],
-    "price": "from $68",
+    "price": "68-500",
     "image": "assets/images/suggestions/spas/blue_lagoon.jpg"
   },
   {
@@ -450,7 +447,7 @@
     "websites": [
       ["thermaebathspa", "https://www.thermaebathspa.com/"]
     ],
-    "price": "from $64",
+    "price": "64-560",
     "image": "assets/images/suggestions/spas/thermae_bath_spa.jpg"
   },
   {
@@ -461,7 +458,7 @@
 
       ["turkishbathsharrogate", "https://www.turkishbathsharrogate.co.uk/"]
     ],
-    "price": "from $24",
+    "price": "24-120",
     "image": "assets/images/suggestions/spas/harrogate_turkish_baths.jpg"
   },
   {
@@ -471,7 +468,7 @@
     "websites": [
       ["botabota", "http://botabota.ca/"]
     ],
-    "price": "from $70",
+    "price": "24-90",
     "image": "assets/images/suggestions/spas/botabota.jpg"
   },
   {
@@ -481,7 +478,7 @@
     "websites": [
       ["beaire", "https://beaire.com/en/aire-ancient-baths-london"]
     ],
-    "price": "from $120",
+    "price": "120-250",
     "image": "assets/images/suggestions/spas/aire_ancient_baths.jpg"
   },
   {
@@ -491,7 +488,7 @@
     "websites": [
       ["liseberg", "https://www.liseberg.se/"]
     ],
-    "price": "Ticket prices start from $20",
+    "price": "20-80",
     "image": "assets/images/suggestions/theme_parks/liseberg.jpg"
   },
   {
@@ -501,7 +498,7 @@
     "websites": [
       ["europapark", "https://www.europapark.de/en"]
     ],
-    "price": "Ticket prices start from $32",
+    "price": "32-150",
     "image": "assets/images/suggestions/theme_parks/europa.jpg"
   },
   {
@@ -511,7 +508,7 @@
     "websites": [
       ["efteling", "https://www.efteling.com/"]
     ],
-    "price": "Ticket prices start from $43",
+    "price": "43-300",
     "image": "assets/images/suggestions/theme_parks/efteling.jpg"
   },
   {
@@ -521,7 +518,7 @@
     "websites": [
       ["legoland", "https://www.legoland.dk/en/"]
     ],
-    "price": "Ticket prices start from $48",
+    "price": "48-400",
     "image": "assets/images/suggestions/theme_parks/legoland.jpg"
   },
   {
@@ -531,7 +528,7 @@
     "websites": [
       ["futuroscope", "https://www.futuroscope.com/en/"]
     ],
-    "price": "From $38",
+    "price": "38-400",
     "image": "assets/images/suggestions/theme_parks/futuroscope.jpg"
   },
   {
@@ -541,7 +538,7 @@
     "websites": [
       ""
     ],
-    "price": "Various",
+    "price": "150-5000",
     "image": "assets/images/suggestions/picnics/picnics_world.jpg"
   },
 
@@ -552,7 +549,7 @@
     "websites": [
       ""
     ],
-    "price": "Various",
+    "price": "150-5000",
     "image": "assets/images/suggestions/picnics/by_the_sea.jpg"
   },
 
@@ -563,7 +560,7 @@
     "websites": [
       ""
     ],
-    "price": "Various",
+    "price": "150-5000",
     "image": "assets/images/suggestions/picnics/heart_food.jpg"
   },
   {
@@ -573,7 +570,7 @@
     "websites": [
       ""
     ],
-    "price": "Various",
+    "price": "150-5000",
     "image": "assets/images/suggestions/picnics/sweets.jpg"
   },
   {
@@ -583,7 +580,7 @@
     "websites": [
       ""
     ],
-    "price": "Various",
+    "price": "150-5000",
     "image": "assets/images/suggestions/picnics/take_out.jpg"
   },
   {
@@ -593,7 +590,7 @@
     "websites": [
       ["travelingspoon", "https://www.travelingspoon.com/"]
     ],
-    "price": "Check site for prices",
+    "price": "250-5000",
     "image": "assets/images/suggestions/cooking_classes/traveling_spoon.jpg"
   },
   {
@@ -603,7 +600,7 @@
     "websites": [
       ["casalunabali", "https://casalunabali.com/casa-luna-cooking-school/"]
     ],
-    "price": "Check site for prices",
+    "price": "150-200",
     "image": "assets/images/suggestions/cooking_classes/casa_luna.jpg"
   },
   {
@@ -613,7 +610,7 @@
     "websites": [
       ["sushischool", "https://www.sushischool.jp/"]
     ],
-    "price": "Check site for prices",
+    "price": "75-150",
     "image": "assets/images/suggestions/cooking_classes/tokyo_academy.jpg"
   },
   {
@@ -626,7 +623,7 @@
         "http://www.ecolecuisine-alainducasse.com/fr/les-cours/pastry-class-in-english-macarons-madness"
       ]
     ],
-    "price": "Check site for prices",
+    "price": "50-250",
     "image": "assets/images/suggestions/cooking_classes/macarons.jpg"
   },
   {
@@ -636,7 +633,7 @@
     "websites": [
       ""
     ],
-    "price": "As much or as little as you like!",
+    "price": "0-900",
     "image": "assets/images/suggestions/cooking_classes/cook_at_home.jpg"
   },
   {
@@ -756,7 +753,7 @@
       ["freud", "https://www.freud.org.uk/visit/virtual-tour/?gclid=EAIaIQobChMIsqGWsb-Y9gIVyGSLCh0s8gdFEAAYASAAEgJmyvD_BwE"],
       ["traveland leisure", "https://www.travelandleisure.com/attractions/museums-galleries/museums-with-virtual-tours"]
     ],
-    "price": "$0",
+    "price": "0",
     "image": "assets/images/suggestions/museums/virtual.jpg"
   },
   {
@@ -796,7 +793,7 @@
     "websites": [
       ["Walmart", "https://www.walmart.com"]
     ],
-    "price": "11-200(6ct)",
+    "price": "11-200 (6ct)",
     "image": "assets/images/suggestions/homemade-food/steak.jpg"
   },
   {
@@ -806,7 +803,7 @@
     "websites": [
       ["Walmart", "https://www.walmart.com"]
     ],
-    "price": "17-247.5(20tails)",
+    "price": "17-247.5 (20tails)",
     "image": "assets/images/suggestions/homemade-food/lobster.jpg"
   },
   {
@@ -816,7 +813,7 @@
     "websites": [
       ["Truly Experiences - Champagne Master Class", "https://trulyexperiences.com/uk/champagne-and-sparkling-wine-masterclass-the-london-wine-academy.html"]
     ],
-    "price": "$140",
+    "price": "140",
     "image": "assets/images/suggestions/tasting/champagne.jpg"
   },
   {
@@ -826,7 +823,7 @@
     "websites": [
       ["Bluebell Vineyard", "https://trulyexperiences.com/uk/champagne-and-sparkling-wine-masterclass-the-london-wine-academy.html"]
     ],
-    "price": "$39",
+    "price": "39",
     "image": "assets/images/suggestions/tasting/vineyard.jpg"
   },
   {
@@ -836,7 +833,7 @@
     "websites": [
       ["Truly Experiences - Molecular Mixology Class", "https://trulyexperiences.com/uk/molecular-mixology-cocktail-masterclass-purl-london.html"]
     ],
-    "price": "$65",
+    "price": "65",
     "image": "assets/images/suggestions/tasting/cocktails.jpg"
   },
   {
@@ -846,7 +843,7 @@
     "websites": [
       ["The Spirit of Manchester Distillery", "https://manchestergin.co.uk/distillery/"]
     ],
-    "price": "$126",
+    "price": "126",
     "image": "assets/images/suggestions/tasting/gin.jpg"
   },
   {
@@ -856,59 +853,66 @@
     "websites": [
       ["The Scotch Whisky Experience", "https://www.scotchwhiskyexperience.co.uk/tour-experiences/the-platinum-tour"]
     ],
-    "price": "$55",
+    "price": "55",
     "image": "assets/images/suggestions/tasting/whisky.jpg"
   },
   {
     "category": "cookery",
     "name": "Shiitake Mushroom Log Kit",
     "description": "Surprise your partner with a unique gift that keeps on giving! Every chef loves working with fresh ingredients — and what's fresher than picking your own home-grown mushrooms from a log you can keep in your kitchen?",
-    "websites": [ ["Shitake Mushroom Log Kit", "https://www.uncommongoods.com/product/shiitake-mushroom-log-kit?clickid=yqU0rKUdaxyIUCi1A8Rh1UuSUkGW0e32j0b73I0&irgwc=1&utm_source=Hearst%20Magazines&utm_medium=affiliates&utm_campaign=8444&utm_term=Online%20Tracking%20Link&trafficSource=Impact&sharedid="]],    
-    "price": "$30",
+    "websites": [
+      ["Shitake Mushroom Log Kit", "https://www.uncommongoods.com/product/shiitake-mushroom-log-kit?clickid=yqU0rKUdaxyIUCi1A8Rh1UuSUkGW0e32j0b73I0&irgwc=1&utm_source=Hearst%20Magazines&utm_medium=affiliates&utm_campaign=8444&utm_term=Online%20Tracking%20Link&trafficSource=Impact&sharedid="]
+    ],
+    "price": "30",
     "image": "assets/images/suggestions/cookery/shitake.jpg"
-},
-{
+  },
+  {
     "category": "cookery",
     "name": "The Art of Chocolate Making",
     "description": "Does your parner drool at the idea of the perfect sea salted caramel truffle? This course will cover all the skills, troubleshooting and practise that you need to be able to achieve stunning results.",
-    "websites": [ ["Learning with the Experts - The Art of Chocolate Making", "https://www.learningwithexperts.com/foodanddrink/courses/chocolate"]],    
-    "price": "$60",
+    "websites": [
+      ["Learning with the Experts - The Art of Chocolate Making", "https://www.learningwithexperts.com/foodanddrink/courses/chocolate"]
+    ],
+    "price": "60",
     "image": "assets/images/suggestions/cookery/chocolate.jpg"
 
-},
+  },
 
-{
+  {
     "category": "cookery",
     "name": "The Cook Away Recipe Box",
     "description": "Does your partner love trying out exotic new recipes?  Provide them with ingredients and inspiration with a recipe box designed by award-winning chefs. Choose from a range of world cuisines from Europe to the Far East.",
-    "websites": [ ["The Cook Away", "https://www.thecookaway.com/"]],    
-    "price": "$60",
+    "websites": [
+      ["The Cook Away", "https://www.thecookaway.com/"]
+    ],
+    "price": "60",
     "image": "assets/images/suggestions/cookery/recipe.jpg"
 
-},
+  },
 
-{
+  {
     "category": "cookery",
     "name": "Outdoor Pizza Oven",
     "description": "For a romantic night in how about a bottle of wine and a delicious freshly made pizza straight from your very own pizza oven?",
-    "websites": [ ["Ooni Karu 12 Pizza Oven - John Lewis", "https://john-lewis-and-partners.pxf.io/c/221109/913132/12148?prodsku=238422415&u=https%3A%2F%2Fwww.johnlewis.com%2Fooni-karu-12-dual-fuel-portable-outdoor-pizza-oven%2Fp4805175%3Fsku%3D238422415%26&intsrc=CATF_7189&subId1=idealhome-gb-1340081639673454300&sharedId=idealhome-gb"],
-                ["Monster Shop Pizza Oven - Amazon", "https://target.georiot.com/Proxy.ashx?tsid=107653&GR_URL=https%3A%2F%2Fwww.amazon.co.uk%2Fdp%2FB08HHB5NV9%3Ftag%3Dhawk-future-21%26linkCode%3Dogi%26th%3D1%26psc%3D1%26ascsubtag%3Didealhome-gb-5847620396786739000-21"]],    
-    "price": "$229 - $409",
+    "websites": [
+      ["Ooni Karu 12 Pizza Oven - John Lewis", "https://john-lewis-and-partners.pxf.io/c/221109/913132/12148?prodsku=238422415&u=https%3A%2F%2Fwww.johnlewis.com%2Fooni-karu-12-dual-fuel-portable-outdoor-pizza-oven%2Fp4805175%3Fsku%3D238422415%26&intsrc=CATF_7189&subId1=idealhome-gb-1340081639673454300&sharedId=idealhome-gb"],
+      ["Monster Shop Pizza Oven - Amazon", "https://target.georiot.com/Proxy.ashx?tsid=107653&GR_URL=https%3A%2F%2Fwww.amazon.co.uk%2Fdp%2FB08HHB5NV9%3Ftag%3Dhawk-future-21%26linkCode%3Dogi%26th%3D1%26psc%3D1%26ascsubtag%3Didealhome-gb-5847620396786739000-21"]
+    ],
+    "price": "229-409",
     "image": "assets/images/suggestions/cookery/pizza.jpg"
 
-},
-
-
-{
+  },
+  {
     "category": "cookery",
     "name": "Become a Master Baker!",
     "description": "From focaccia to flatbreads, Bread Ahead offer a variety of online courses to teach you to bake breads from all corners of the globe. As a beginner or even an experienced baker, these live session with expert bakery teachers will have you confidently baking bread in just a few short hours.",
-    "websites": [ ["Bread Ahead", "https://www.breadahead.com/elearning"]],    
-    "price": "$32",
+    "websites": [
+      ["Bread Ahead", "https://www.breadahead.com/elearning"]
+    ],
+    "price": "32",
     "image": "assets/images/suggestions/cookery/bread.jpg"
-},
-{
-
+  },
+  {
     "category": "handcraft",
     "name": "Embroidery Kit",
     "description": "Embroidery is a forgotten art, but you can't argue with the results. If your partner loves doing handcrafts and hasn't tried embroidery yet, they will love this kit which includes everything they need to get started.",
