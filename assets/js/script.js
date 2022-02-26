@@ -196,7 +196,6 @@ function displayResults(category) {
     </div>
     <div class="result__content--modal">learn more</div>
     `;
-
     suggestionCard.addEventListener('click', function () {
       console.log('clicked');
       modal.style.display = 'flex';
