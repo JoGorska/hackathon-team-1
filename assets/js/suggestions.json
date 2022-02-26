@@ -157,6 +157,56 @@
     "image": "assets/images/suggestions/extreme_travelling/northern_lights.jpg"
   },
   {
+    "category": "gardening",
+    "name": "Gardening Tool Set",
+    "description": "If you’re looking for a practical gift for your partner, the gardening tool set is the perfect one. This set comes with everything your partner needs to grow the garden of their dreams: garden shovels, trowel, mini rake, gardening fork, hand weeder, pruning shears, pair of gardening gloves, spray bottle, washable gardening bag tote.",
+    "websites": [
+      "https://www.amazon.com/Grenebo-Gardening-Tool-Set-Rust-Proof/dp/B09F9C3KFS/ref=sr_1_6?crid=1MSB9B289M3T5&keywords=gardening+tools&qid=1645799540&sprefix=gardening+tools%2Caps%2C178&sr=8-6"
+    ],
+    "price": "27.99",
+    "image": "assets/images/suggestions/gardening/gardening-tools.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "Silicone Rings",
+    "description": "While rings are a wonderful gift, fancy rings don’t mix well with hard garden work. These beautiful silicone rings are a safe alternative.",
+    "websites": [
+      "https://ensorings.com/"
+    ],
+    "price": "10.99-49.99",
+    "image": "assets/images/suggestions/gardening/rings.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "A Bouquet of Flowers",
+    "description": "Giving flowers on Valentine’s day is a tradition. This tradition couldn’t be more perfect than any other gifts, if your partner loves flowers. If you give them flowers often, signing up for a subscription service may be a good choice.",
+    "websites": [
+      "https://urbanstems.com/subscriptions"
+    ],
+    "price": "50-100",
+    "image": "assets/images/suggestions/gardening/flowers.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "Myrtle Tree",
+    "description": "Give your partner a tree as a symbol of your ever-growing love! This gorgeous ornamental myrtle tree has an abundance of dainty, aromatic leaves all year.",
+    "websites": [
+      "https://thepresenttree.com/products/myrtle-tree"
+    ],
+    "price": "66.97",
+    "image": "assets/images/suggestions/gardening/myrtle-tree.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "Indoor Garden Kit",
+    "description": "If your partner dreams of gardening but lives in the city, an indoor garden will make their dreams come true. This smart indoor garden kit is designed with LED grow lights, built-in timer, smart soil and self-watering tank. There are over 50 pre-seeded plant pods for your partner to choose.",
+    "websites": [
+      "https://www.amazon.com/Click-Grow-Smart-Garden-Indoor/dp/B01MRVMKQH/ref=sr_1_21?keywords=indoor+herb+garden&qid=1645795468&sprefix=indoor+herb%2Caps%2C183&sr=8-21"
+    ],
+    "price": "139.95",
+    "image": "assets/images/suggestions/gardening/indoor-garden.jpg"
+  },
+  {
     "category": "",
     "name": "",
     "description": "",
