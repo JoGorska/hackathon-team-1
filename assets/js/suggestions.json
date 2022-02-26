@@ -478,7 +478,7 @@
       ""
     ],
     "price": "Various",
-    "image": " "
+    "image": "assets/images/suggestions/picnics/picnics_world.jpg"
   },
 
   {
@@ -489,7 +489,7 @@
       ""
     ],
     "price": "Various",
-    "image": " "
+    "image": "assets/images/suggestions/picnics/by_the_sea.jpg"
   },
 
   {
@@ -500,7 +500,7 @@
       ""
     ],
     "price": "Various",
-    "image": " "
+    "image": "assets/images/suggestions/picnics/heart_food.jpg"
   },
   {
     "category": "picnics",
@@ -510,7 +510,7 @@
       ""
     ],
     "price": "Various",
-    "image": " "
+    "image": "assets/images/suggestions/picnics/sweets.jpg"
   },
   {
     "category": "picnics",
@@ -520,60 +520,65 @@
       ""
     ],
     "price": "Various",
-    "image": " "
+    "image": "assets/images/suggestions/picnics/take_out.jpg"
   },
   {
-    "category": "cooking_classes",
+    "category": "cookingClasses",
     "name": "Traveling Spoon",
     "description": "Available online and in person, Traveling Spoon connects travelers with local, vetted hosts to share the joy of a homemade meal in their home and learn about their cultural and culinary traditions passed down through generations.",
     "websites": [
       ["travelingspoon", "https://www.travelingspoon.com/"]
     ],
     "price": "Check site for prices",
-    "image": " "
+    "image": "assets/images/suggestions/cooking_classes/traveling_spoon.jpg"
   },
   {
-    "category": "cooking_classes",
+    "category": "cookingClasses",
     "name": "The Casa Luna Cooking School",
     "description": "The Casa Luna cooking school is a world-famous culinary centre that provides a fascinating insight into Balinese life and culture through learning about its food, cooking and culinary myths.",
     "websites": [
       ["casalunabali", "https://casalunabali.com/casa-luna-cooking-school/"]
     ],
     "price": "Check site for prices",
-    "image": " "
+    "image": "assets/images/suggestions/cooking_classes/casa_luna.jpg"
   },
   {
-    "category": "cooking_classes",
+    "category": "cookingClasses",
     "name": "Tokyo Sushi Academy",
     "description": "If you and your partner enjoy sushi, join an online cooking course with one of Japan's top cooking schools!",
     "websites": [
       ["sushischool", "https://www.sushischool.jp/"]
     ],
     "price": "Check site for prices",
-    "image": " "
+    "image": "assets/images/suggestions/cooking_classes/tokyo_academy.jpg"
   },
   {
-    "category": "cooking_classes",
+    "category": "cookingClasses",
     "name": "École de Cuisine",
     "description": "For those who love sweet treats, why not look at a course in making French macarons - elegant little sandwiches, made with meringue, almond flour and buttercream. Délicieuse!",
+<<<<<<< HEAD
+	"websites": [
+    ["ecolecuisine-alainducasse", "http://www.ecolecuisine-alainducasse.com/fr/les-cours/pastry-class-in-english-macarons-madness"]
+=======
     "websites": [
       [
         "ecolecuisine-alainducasse",
         "http://www.ecolecuisine-alainducasse.com/fr/les-cours/pastry-class-in-english-macarons-madness"
       ]
+>>>>>>> 0c359f1658467a08e83da6affa4af946899e1098
     ],
     "price": "Check site for prices",
-    "image": " "
+    "image": "assets/images/suggestions/cooking_classes/macarons.jpg"
   },
   {
-    "category": "cooking_classes",
+    "category": "cookingClasses",
     "name": "Cook at home",
     "description": "Do you always do the cooking at home? Is it normally you that takes charge of what's for dinner? How about teaching your partner your own secrets and family recipes, step-by-step in your own at home cooking class. WARNING: patience may be required!",
     "websites": [
       ""
     ],
     "price": "As much or as little as you like!",
-    "image": " "
+    "image": "assets/images/suggestions/cooking_classes/cook_at_home.jpg"
   },
   {
     "category": "ride",
