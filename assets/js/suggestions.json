@@ -860,7 +860,6 @@
     "image": "assets/images/suggestions/tasting/whisky.jpg"
   },
   {
-<<<<<<< HEAD
     "category": "cookery",
     "name": "Shiitake Mushroom Log Kit",
     "description": "Surprise your partner with a unique gift that keeps on giving! Every chef loves working with fresh ingredients — and what's fresher than picking your own home-grown mushrooms from a log you can keep in your kitchen?",
@@ -908,8 +907,8 @@
     "price": "$32",
     "image": "assets/images/suggestions/cookery/bread.jpg"
 },
+{
 
-=======
     "category": "handcraft",
     "name": "Embroidery Kit",
     "description": "Embroidery is a forgotten art, but you can't argue with the results. If your partner loves doing handcrafts and hasn't tried embroidery yet, they will love this kit which includes everything they need to get started.",
@@ -959,7 +958,6 @@
     "price": "179.99-399.99",
     "image": "assets/images/suggestions/handcrafts/cutting-machine.jpg"
   },
->>>>>>> 26b921f37f4be1e508e17717a90b2d7a3d82b0dc
   {
     "category": "",
     "name": "",
