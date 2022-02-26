@@ -745,6 +745,46 @@
     "image": "assets/images/suggestions/museums/virtual.jpg"
   },
   {
+    "category": "alcoholTasting",
+    "name": "Bow Down To Bubbly Champagne Master Class",
+    "description": "The perfect gift for a day out with sparkle! On the Champagne and Sparkling Wine Masterclass, they'll be guided through the world of fizz; from Cava and Cremant De Loire, to Prosecco and New World Bubbly.",
+    "websites": [ ["Truly Experiences - Champagne Master Class", "https://trulyexperiences.com/uk/champagne-and-sparkling-wine-masterclass-the-london-wine-academy.html"]],
+    "price": "$140",
+    "image": "assets/images/suggestions/tasting/champagne.jpg"
+},
+{
+    "category": "alcoholTasting",
+    "name": "Bluebell Vineyard Wine and Cheese Tour",
+    "description": "A brie-lliant experience for cheese and wine lovers! Take a tour of the Bluebell vineyard in and winery in the heart of Sussex to learn how English Sparkling & Still Wine is made, before embarking on a portfolio tasting of their Ashdown still wines and Hindleap sparkling wines, each individually matched to a variety of beautiful British cheeses from High Weald Dairy. ",
+    "websites": [ ["Bluebell Vineyard", "https://trulyexperiences.com/uk/champagne-and-sparkling-wine-masterclass-the-london-wine-academy.html"]],
+    "price": "$39",
+    "image": "assets/images/suggestions/tasting/vineyard.jpg"
+},
+{
+    "category": "alcoholTasting",
+    "name": "Molecular Mixology Class",
+    "description":"Concoct luscious cocktails with your loved one at the Purl in Marylbone. The authentic basement bar is home to cutting-edge cocktail creations with a newfound focus on engaging all the senses. In the company of Purl’s experienced mixologist, learn the various techniques used to mix the delicious cocktails from aromas and fogs to airs and foams that beautifully balance each cocktail between traditional mixing and inventive, molecular techniques - enhancing every sip you take ",
+    "websites": [ ["Truly Experiences - Molecular Mixology Class", "https://trulyexperiences.com/uk/molecular-mixology-cocktail-masterclass-purl-london.html"]],
+    "price": "$65",
+    "image": "assets/images/suggestions/tasting/cocktails.jpg"
+},
+{
+    "category": "alcoholTasting",
+    "name": "Make Your Own Gin in Manchester",
+    "description":"With a gin and tonic in hand, you'll be taken on a tour of the distillery followed by a tasting to discover the styles of gin you prefer and also your favourite botanicals. You’ll be guided through choosing your own botanicals, weighing each of them and finally distilling your own unique bottle to take home.",
+    "websites": [ ["The Spirit of Manchester Distillery", "https://manchestergin.co.uk/distillery/"]],
+    "price": "$126",
+    "image": "assets/images/suggestions/tasting/gin.jpg"
+},
+{
+    "category": "alcoholTasting",
+    "name": "The Scotch Whisky Experience - Platinum Tour",
+    "description":"A whisky lover's dream: an early evening tour, with an extended viewing of The World's Largest Collection of Scotch Whisky. The tour includes a Whisky barrel ride through the production of Scotch whisky, a tutored tasting of 5 specially selected whiskies and a boxed crystal whisky tasting glass",
+    "websites": [ ["The Scotch Whisky Experience", "https://www.scotchwhiskyexperience.co.uk/tour-experiences/the-platinum-tour"]],
+    "price": "$55",
+    "image": "assets/images/suggestions/tasting/whisky.jpg"
+},
+  {
     "category": "",
     "name": "",
     "description": "",
@@ -754,5 +794,7 @@
     ],
     "price": "...-...",
     "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
-  }
+  },
+  
+
 ]
