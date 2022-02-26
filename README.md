@@ -125,6 +125,24 @@ The site uses xxx color scheme.
 
 Copy of images used and source links.
 
+skydive.jpg--https://en.bodyflight.se/
+bungee.jpg--https://unsplash.com/
+horseback.jpg--https://unsplash.com/
+rafting.jpg--https://unsplash.com/
+bubbles.jpg--https://www.bubble-allstars.com/
+kayak.jpg--https://www.pexels.com/
+zorb.jpg--https://sv.wikipedia.org/wiki/Zorb
+skateboard.jpg--https://unsplash.com/
+hangglider.jpg--https://www.pexels.com/
+surf.jpg--https://www.pexels.com/
+sunglasses.jpg--https://www.bose.com/en_us/products/frames.html
+vr.jpg--https://unsplash.com/
+couchmaster.jpg--https://www.nerdytec.com/en/mixxxer.php?products_id=34
+glasses.jpg--https://www.syghtglass.com/collections/gaming-glasses
+hat.jpg--https://www.walmart.com/
+
+
+
 # Technologies Used
 
 The project uses the following languages;
