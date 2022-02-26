@@ -150,7 +150,8 @@ body {
 }
 
 .description,
-.incentive {
+.incentive,
+.range {
   display: flex;
   flex-direction: column;
 }
@@ -161,7 +162,8 @@ body {
 
 
 .description__container,
-.incentive__container {
+.incentive__container,
+.range__container {
   max-width: 120rem;
   margin: 0 auto;
   display: flex;
@@ -182,16 +184,20 @@ body {
 }
 
 .description__content--title,
-.incentive__content--title {
+.incentive__content--title,
+.range__content--title,
+.contact__content--title {
   font-size: 2.5rem;
   line-height: 3.5rem;
   margin-bottom: 0.6em;
-  font-family: var(--ff-accent);
+  /* font-family: var(--ff-accent); */
   font-weight: 700;
 }
 
 .description__content--text,
-.incentive__content--text {
+.incentive__content--text,
+.range__content--text,
+.contact__content--text {
   font-size: 1.7rem;
   /* line-height: 2.7rem; */
   margin-bottom: 0.6em;
@@ -208,25 +214,70 @@ body {
 }
 
 .description__image,
-.incentive__image {
+.incentive__image,
+.range__image {
   width: 50%;
 }
 
+.range__image {
+  width: 45%;
+}
+
+
+
 /* Incentive */
-.incentive__content {
+.incentive__content,
+.range__content {
   width: 50%;
   background-color: #5cbab4;
-  padding: 2em 0;
+  padding: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.incentive__content--text {
+.incentive__content--text,
+.range__content--text {
   width: 80%;
   text-align: center;
 }
+
+.contact {
+  width: 100%;
+  background-color: #474747;
+}
+
+.contact__container {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  background-color: #5cbab4;
+}
+
+.contact__content {
+  width: 50%;
+  text-align: left;
+  padding: 2em 2em 2em 0;
+  color: var(--clr-neutral--100);
+  background-color: #efa3a9;
+}
+
+.contact__form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0 2em;
+  background-color: #464646;
+}
+
+/* Form */
 
 /* ----- Quiz ----- */
 
