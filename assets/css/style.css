@@ -85,7 +85,8 @@ body {
 .header {
   width: 100%;
   background-color: var(--clr-neutral--900);
-  position: fixed;
+  /* position: fixed; */
+  /* needed unfix the position, as it was covering contact form - Joanna */
 }
 
 .navbar {
