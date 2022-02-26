@@ -8,6 +8,7 @@ const questionText = document.getElementById('question-text');
 const answerContainerA = document.getElementById('answer-a');
 const answerContainerB = document.getElementById('answer-b');
 const answerContainerC = document.getElementById('answer-c');
+const suggestionHeader = document.getElementById('suggestion-header');
 const suggestionContainer = document.getElementById('suggestion-container');
 // // variables for modal
 const modal = document.getElementById('modal');
@@ -186,13 +187,10 @@ function startTheQuiz() {
   resetButton.classList.remove('hide');
 }
 
-function resetTheQuiz() {
-  displayQuestion(firstQuestion);
-}
-
 function displayResults(category) {
   quizContainer.classList.add('hide');
   resultsContainer.classList.remove('hide')
+  suggestionHeader.classList.remove('hide')
   category.forEach(suggestion => {
     const suggestionCard = document.createElement('div');
     suggestionCard.classList.add('result__content');
@@ -314,7 +312,6 @@ function checkAnswer(e) {
 
 //event listeners
 startButton.addEventListener('click', startTheQuiz)
-resetButton.addEventListener('click', resetTheQuiz)
 answerContainerA.addEventListener('click', checkAnswer);
 answerContainerB.addEventListener('click', checkAnswer);
 answerContainerC.addEventListener('click', checkAnswer);
