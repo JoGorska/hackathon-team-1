@@ -101,7 +101,7 @@ const notFoodieQuestion = {
 }
 // variables of each categories - empty arrays filled in by 
 // findGiftsInCategory function, that fetches data from suggestions.json
-var arts = []
+var museum = []
 var gardening = []
 // cookery = cookingClassess ??? need to confirm with Helen
 var cookery = []
@@ -128,7 +128,7 @@ var tasting = []
 const data = fetch('assets/js/suggestions.json')
   .then(response => response.json())
   .then(data => {
-    arts = findGiftsInCategory("arts", data)
+    museum = findGiftsInCategory("museums", data)
     gardening = findGiftsInCategory("gardening", data)
     cookery = findGiftsInCategory("cookery", data)
     games = findGiftsInCategory("games", data)

@@ -663,7 +663,7 @@
       ["jacada travel", "https://www.jacadatravel.com/asia/travel-guides/top-10-art-galleries-in-south-east-asia/"]
     ],
     "price": "15-2000",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
+    "image": "assets/images/suggestions/museums/art.jpg"
   },
   {
     "category": "museums",
@@ -675,7 +675,7 @@
       ["trip advisor", "https://www.tripadvisor.co.uk/Attractions-g186217-Activities-c49-t35-England.html"]
     ],
     "price": "15-2000",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
+    "image": "assets/images/suggestions/museums/science.jpg"
   },
   {
     "category": "museums",
@@ -687,7 +687,7 @@
       ["inspirock", "https://www.inspirock.com/history-museums-in-asia"]
     ],
     "price": "15-2000",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
+    "image": "assets/images/suggestions/museums/history.jpg"
   },
   {
     "category": "museums",
@@ -699,7 +699,7 @@
       ["japan travel", "https://www.japan.travel/en/spot/1564/"]
     ],
     "price": "15-2000",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
+    "image": "assets/images/suggestions/museums/open_air.jpg"
   },
   {
     "category": "museums",
@@ -711,7 +711,7 @@
       ["traveland leisure", "https://www.travelandleisure.com/attractions/museums-galleries/museums-with-virtual-tours"]
     ],
     "price": "$0",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
+    "image": "assets/images/suggestions/museums/virtual.jpg"
   },
   {
     "category": "",
