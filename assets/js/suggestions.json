@@ -860,6 +860,55 @@
     "image": "assets/images/suggestions/tasting/whisky.jpg"
   },
   {
+    "category": "cookery",
+    "name": "Shiitake Mushroom Log Kit",
+    "description": "Surprise your partner with a unique gift that keeps on giving! Every chef loves working with fresh ingredients — and what's fresher than picking your own home-grown mushrooms from a log you can keep in your kitchen?",
+    "websites": [ ["Shitake Mushroom Log Kit", "https://www.uncommongoods.com/product/shiitake-mushroom-log-kit?clickid=yqU0rKUdaxyIUCi1A8Rh1UuSUkGW0e32j0b73I0&irgwc=1&utm_source=Hearst%20Magazines&utm_medium=affiliates&utm_campaign=8444&utm_term=Online%20Tracking%20Link&trafficSource=Impact&sharedid="]],    
+    "price": "$30",
+    "image": "assets/images/suggestions/cookery/shitake.jpg"
+},
+{
+    "category": "cookery",
+    "name": "The Art of Chocolate Making",
+    "description": "Does your parner drool at the idea of the perfect sea salted caramel truffle? This course will cover all the skills, troubleshooting and practise that you need to be able to achieve stunning results.",
+    "websites": [ ["Learning with the Experts - The Art of Chocolate Making", "https://www.learningwithexperts.com/foodanddrink/courses/chocolate"]],    
+    "price": "$60",
+    "image": "assets/images/suggestions/cookery/chocolate.jpg"
+
+},
+
+{
+    "category": "cookery",
+    "name": "The Cook Away Recipe Box",
+    "description": "Does your partner love trying out exotic new recipes?  Provide them with ingredients and inspiration with a recipe box designed by award-winning chefs. Choose from a range of world cuisines from Europe to the Far East.",
+    "websites": [ ["The Cook Away", "https://www.thecookaway.com/"]],    
+    "price": "$60",
+    "image": "assets/images/suggestions/cookery/recipe.jpg"
+
+},
+
+{
+    "category": "cookery",
+    "name": "Outdoor Pizza Oven",
+    "description": "For a romantic night in how about a bottle of wine and a delicious freshly made pizza straight from your very own pizza oven?",
+    "websites": [ ["Ooni Karu 12 Pizza Oven - John Lewis", "https://john-lewis-and-partners.pxf.io/c/221109/913132/12148?prodsku=238422415&u=https%3A%2F%2Fwww.johnlewis.com%2Fooni-karu-12-dual-fuel-portable-outdoor-pizza-oven%2Fp4805175%3Fsku%3D238422415%26&intsrc=CATF_7189&subId1=idealhome-gb-1340081639673454300&sharedId=idealhome-gb"],
+                ["Monster Shop Pizza Oven - Amazon", "https://target.georiot.com/Proxy.ashx?tsid=107653&GR_URL=https%3A%2F%2Fwww.amazon.co.uk%2Fdp%2FB08HHB5NV9%3Ftag%3Dhawk-future-21%26linkCode%3Dogi%26th%3D1%26psc%3D1%26ascsubtag%3Didealhome-gb-5847620396786739000-21"]],    
+    "price": "$229 - $409",
+    "image": "assets/images/suggestions/cookery/pizza.jpg"
+
+},
+
+
+{
+    "category": "cookery",
+    "name": "Become a Master Baker!",
+    "description": "From focaccia to flatbreads, Bread Ahead offer a variety of online courses to teach you to bake breads from all corners of the globe. As a beginner or even an experienced baker, these live session with expert bakery teachers will have you confidently baking bread in just a few short hours.",
+    "websites": [ ["Bread Ahead", "https://www.breadahead.com/elearning"]],    
+    "price": "$32",
+    "image": "assets/images/suggestions/cookery/bread.jpg"
+},
+
+  {
     "category": "",
     "name": "",
     "description": "",
