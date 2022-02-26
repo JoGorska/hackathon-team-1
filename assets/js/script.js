@@ -181,7 +181,10 @@ function displayQuestion(currentQuestion) {
   }
 }
 
-displayQuestion(currentQuestion)
+function startTheQuiz() {
+  displayQuestion(currentQuestion);
+  startButton.classList.add('hide');
+}
 
 function displayResults(category) {
   quizContainer.classList.add('hide');
@@ -306,6 +309,7 @@ function checkAnswer(e) {
 }
 
 //event listeners
+startButton.addEventListener('click', startTheQuiz)
 answerContainerA.addEventListener('click', checkAnswer);
 answerContainerB.addEventListener('click', checkAnswer);
 answerContainerC.addEventListener('click', checkAnswer);
