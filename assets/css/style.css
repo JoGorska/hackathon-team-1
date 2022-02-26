@@ -141,6 +141,60 @@ body {
 }
 
 /* Index.html Content */
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 31, 31);
+}
+
+.hero__images {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  height: 30rem;
+  /* background-color: #5cbab4; */
+  /* padding: 1em 0; */
+  padding: 0 2em;
+  padding-top: 5.5em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.hero__image {
+  /* height: 30rem; */
+}
+
+.hero__quiz {
+  width: 100%;
+
+  margin: 0 auto;
+  background-color: #474747;
+  height: 8rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.hero__quiz--link {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  /* margin-bottom: 0.6em; */
+  /* font-family: var(--ff-accent); */
+  color: var(--clr-neutral--100);
+  font-weight: 700;
+}
+
+.hero__quiz--link a {
+  color: var(--clr-neutral--100);
+}
+
 .bg {
   background-image: url('../images/bg1.svg');
   background-repeat: no-repeat;
@@ -282,7 +336,23 @@ body {
   color: var(--clr-neutral--900);
 }
 
+/* Please do not change the code above
+Juliia*/
 /* ----- Quiz ----- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Please do not change the code below
+Juliia*/
 
 /* suggestions */
 .results__container {
