@@ -603,7 +603,7 @@
       ["husky co", "https://www.huskyco.fi/"]
     ],
     "price": "50-750",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
+    "image": "assets/images/suggestions/ride/husky.jpg"
   },
   {
     "category": "ride",
@@ -615,7 +615,7 @@
       ["civitatis", "https://www.civitatis.com/en/wroclaw/horse-and-carriage-ride/"]
     ],
     "price": "200-1000",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
+    "image": "assets/images/suggestions/ride/carriage.jpg"
   },
   {
     "category": "ride",
@@ -627,7 +627,7 @@
       ["orlando heli-tours", "https://www.orlandohelitours.com/?gclid=EAIaIQobChMIi-Ok1OWc9gIVUSGtBh21uA6tEAAYAiAAEgKTD_D_BwE"]
     ],
     "price": "50-2000",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
+    "image": "assets/images/suggestions/ride/helicopter.jpg"
   },
   {
     "category": "ride",
@@ -639,7 +639,7 @@
       ["fare harbor", "https://fareharbor.com/for/horseback-riding/"]
     ],
     "price": "50-140",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
+    "image": "assets/images/suggestions/ride/horse_ride.jpg"
   },
   {
     "category": "ride",
@@ -651,7 +651,7 @@
       ["turo", "https://turo.com/us/en/exotic-luxury-rental/united-states"]
     ],
     "price": "500-5000",
-    "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
+    "image": "assets/images/suggestions/ride/car.jpg"
   },
   {
     "category": "museums",
