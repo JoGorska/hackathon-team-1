@@ -144,51 +144,64 @@ body {
 .hero {
   width: 100%;
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgb(31, 31, 31);
-}
-
-.hero__images {
-  width: 100%;
-  max-width: 120rem;
-  margin: 0 auto;
-  height: 30rem;
-  /* background-color: #5cbab4; */
-  /* padding: 1em 0; */
+  background-image: linear-gradient(14deg,
+      rgba(236, 230, 236, 0.377) 0%,
+      rgba(247, 229, 238, 0.356) 6%,
+      rgba(248, 158, 213, 0.5) 100%),
+    url('../images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
   padding: 0 2em;
-  padding-top: 5.5em;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
 }
 
-.hero__image {
-  /* height: 30rem; */
+.hero__content {
+  background-color: #292929d8;
+  color: var(--clr-neutral--100);
+  padding: 3em 2em;
+  border-radius: 0.5em;
+  max-width: 40rem;
+  text-align: center;
 }
 
-.hero__quiz {
-  width: 100%;
-
-  margin: 0 auto;
-  background-color: #474747;
-  height: 8rem;
-
+.hero__main {
+  /* height: 10rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-
+  align-items: center;
+  padding-top: 2em;
 }
 
-.hero__quiz--link {
-  font-size: 2.5rem;
-  line-height: 3.5rem;
-  /* margin-bottom: 0.6em; */
-  /* font-family: var(--ff-accent); */
-  color: var(--clr-neutral--100);
-  font-weight: 700;
+.hero__main--text {
+  /* padding-top: 2em; */
+  color: var(--clr-primary--100);
+  padding-bottom: 1em;
+}
+
+.hero__main--text:hover {
+  color: var(--clr-primary--900);
+}
+
+.hero__main--image {
+  /* height: 10rem; */
+  /* padding-bottom: 2em; */
+}
+
+
+
+.hero__arrow {
+  height: 7rem;
+  width: 7rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero__quiz--link a {
@@ -317,11 +330,13 @@ body {
   color: var(--clr-neutral--100);
 }
 
-.contact__link {
+.contact__link,
+.hero__link {
   padding-top: 1.5em;
 }
 
-.contact__link--btn {
+.contact__link--btn,
+.hero__link--btn {
   padding: 0.5em 2em;
   border-radius: 0.4em;
   background-color: var(--clr-primary--300);
@@ -331,7 +346,8 @@ body {
   transition: background-color .15s ease-in-out, color .15s ease-in-out;
 }
 
-.contact__link--btn:hover {
+.contact__link--btn:hover,
+.hero__link--btn:hover {
   background-color: var(--clr-primary--200);
   color: var(--clr-neutral--900);
 }
