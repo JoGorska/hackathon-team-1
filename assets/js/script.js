@@ -272,7 +272,7 @@ function checkAnswer(e) {
     } else if (e.target.id === 'answer-b') {
       category = teamSports
     } else {
-      category = travel
+      category = travelResults
     }
     displayResults(category)
   } else if (currentQuestion === notActiveQuestion) {
