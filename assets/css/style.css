@@ -120,6 +120,17 @@ body {
 /* Main */
 .main {
   width: 100%;
+  /* max-width: 120rem; */
+  margin: 0 auto;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__content {
+  width: 100%;
   max-width: 120rem;
   margin: 0 auto;
   flex: 1 0 auto;
@@ -129,15 +140,56 @@ body {
   align-items: center;
 }
 
-.description {
-  background-color: var(--clr-primary--100);
-  display: flex;
-  flex-direction: column;
+/* Index.html Content */
+.bg {
+  background-image: url('../images/bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.description__title {}
+.description {
+  display: flex;
+  flex-direction: column;
 
-.description__text {}
+}
+
+
+.description__container {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em 5em 25em 5em;
+}
+
+.description__content {
+  width: 50%;
+  max-width: 39rem;
+  text-align: left;
+}
+
+.description__content--title {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin-bottom: 0.6em;
+  font-family: var(--ff-accent);
+  font-weight: 700;
+}
+
+.description__content--text {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  margin-bottom: 1em;
+  font-weight: 400;
+  color: var(--clr-primary--900);
+}
+
+.description__image {
+  width: 50%;
+}
 
 
 /* ----- Quiz ----- */
