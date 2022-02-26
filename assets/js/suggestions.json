@@ -3,9 +3,9 @@
     "name": "butterfly",
     "description": "These majestic creatures will definitely surprise your partner. Butterflies inspire all people and bring the beauty to the world, and that’s why it would be a perfect idea to chose them to share with your loved ones. Everyone loves butterflies flying around, especially if there flying right in your apartment!",
     "websites": [
-      "https://www.butterflynursery.com/",
-      "https://www.amazon.com/Live-Butterflies/s?k=Live+Butterflies",
-      "https://monarchbutterflies.ca/"
+      ["butterfly nursery", "https://www.butterflynursery.com/"],
+      ["the butterfly company", "https://www.thebutterflycompany.com/"],
+      ["monarch butterflies", "https://monarchbutterflies.ca/"]
     ],
     "price": "19-120",
     "image": "assets/images/suggestions/animals/butterfly.jpg"
@@ -15,9 +15,9 @@
     "name": "spider",
     "description": "To most people, spiders are super creepy. However, there are still wonderful creatures to many people! There calm, silent, and there are only fewer species which are dangerous to humans! If you want to really surprise your partner, go for spiders!",
     "websites": [
-      "https://www.evolutionreptiles.co.uk/animals/spiders/",
-      "https://www.joshsfrogs.com/live-insects-feeders/spiders.html",
-      "https://www.backwaterreptiles.com/tarantulas-for-sale.html"
+      ["evolution reptiles", "https://www.evolutionreptiles.co.uk/animals/spiders/"],
+      ["josh's frogs", "https://www.joshsfrogs.com/live-insects-feeders/spiders.html"],
+      ["backwater reptiles", "https://www.backwaterreptiles.com/tarantulas-for-sale.html"]
     ],
     "price": "32-150",
     "image": "assets/images/suggestions/animals/spider.jpg"
@@ -27,9 +27,9 @@
     "name": "cockatoo parrot",
     "description": "If your half really loves to talk, this bird will be an amazing gift in this case! Cockatoo parrots are highly sociable and just have to be around people. Cockatoos are often described as intelligent and emotional birds and many describe life with a cockatoo as living with a perpetual 2-year-old child, capable of temper tantrums as well as complete silliness.",
     "websites": [
-      "https://megabirdstore.com/bird/buy-cockatoo/",
-      "https://caliparrotsforsale.com/product-category/cockatoo-parrots/",
-      "https://www.birdbreeders.com/birds/category/cockatoos"
+      ["megabird store", "https://megabirdstore.com/bird/buy-cockatoo/"],
+      ["caliparrots for sale", "https://caliparrotsforsale.com/product-category/cockatoo-parrots/"],
+      ["bird breeders", "https://www.birdbreeders.com/birds/category/cockatoos"]
     ],
     "price": "700-6000",
     "image": "assets/images/suggestions/animals/parrot.jpg"
@@ -39,8 +39,8 @@
     "name": "snake",
     "description": "Would you like to make a gift really memorable in this Valentine’s Day? Purchasing a snake may really help you. First of all, it is unusual and beautiful!.And don’t forget that snakes are eary to handle and are they are not aggressive! And if you partner doesn’t like to care about about feeding an animal every now and then, a snake can be a great choice! They may not eat for wiiks to month! If you want to learn more: https://vcahospitals.com/know-your-pet/snakes-owning",
     "websites": [
-      "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html",
-      "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"
+      ["backwater reptiles", "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html"],
+      ["xyz reptiles", "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"]
     ],
     "price": "40-500",
     "image": "assets/images/suggestions/animals/snake.jpg"
@@ -50,18 +50,203 @@
     "name": "hedgehog",
     "description": "Hedgehog is a cute pocket pet, which will definitely bring lots of joy to your partner! Moreover, hedgehogs are easy to take care of, ",
     "websites": [
-      "https://www.exoticanimalsforsale.net/hedgehogs-for-sale.asp",
-      "https://www.dragonstoneranch.com/hedgehogs"
+      ["exotic animals for sale", "https://www.exoticanimalsforsale.net/hedgehogs-for-sale.asp"],
+      ["dragon stone ranch", "https://www.dragonstoneranch.com/hedgehogs"]
     ],
     "price": "50-600",
     "image": "assets/images/suggestions/animals/hedgehog.jpg"
+  },
+  {
+    "category": "technology",
+    "name": "Beanie With Built in Headphones",
+    "description": "Cozy hat with bluetooth compatible built in audio.  Headphone pieces on the ear coverings of the hat let you enjoy the artists you love outside on a cold day as easily as inside, and it removes the need for separate headphones completely.",
+    "websites": [
+
+      ["amazon", "https://www...amazon.com/dp/B07FNL22KJ/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"],
+      ["walmart", "https://www.walmart.com/ip/Upgraded-Unisex-Knit-Bluetooth-Beanie-Hat-Headphones-V4-2-Unique-Christmas-Tech-Gifts-Men-Dad-Women-Mom-Teen-Boys-Girls-Stocking-Stuffer-w-Built-in-S/340799046?irgwc=1&sourceid=imp_xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&veh=aff&wmlspartner=imp_10078&clickid=xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&sharedid=lifewire.com&affiliates_ad_id=612734&campaign_id=9383"]
+
+    ],
+    "price": "10.00-30.00",
+    "image": "assets/images/suggestions/technology/hat.jpg"
+  },
+  {
+    "category": "technology",
+    "name": "Couchmaster",
+    "description": "Find comfort at the next level with this couch compatible gaming setup.  The Couchmaster is a portable gaming surface with ample space for a laptop and mousepad, allowing you to conveniently enjoy your favorite games from the comfort of your couch. ",
+    "websites": [
+
+      ["amazon", "https://www.amazon.com/Couchmaster-CYBOT-Ergonomic-Notebooks-Equipment/dp/B08273BJSS/ref=sr_1_2_sspa?crid=2J2Y9HELDH264&keywords=couchmaster&qid=1645758537&sprefix=couchmaste%2Caps%2C278&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFhNNVRYOURDUkJXJmVuY3J5cHRlZElkPUEwOTg5MTM5MjNBOEJXVURVNURYTyZlbmNyeXB0ZWRBZElkPUEwMzM4NzYyMzlYNUdDVVowRThSWSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="],
+      ["nerdytec", "https://www.nerdytec.com/en/mixxxer.php?products_id=32"]
+
+    ],
+    "price": "150.00-200.00$",
+    "image": "assets/images/suggestions/technology/couchmaster.jpg"
+  },
+  {
+    "category": "technology",
+    "name": "Blue Light Glasses",
+    "description": "Blue light is one of the main reasons your eyes get tired after prolonged periods of screen activity. With these glasses, you can filter out much of the blue light, reducing eye strain and promoting ocular health.",
+    "websites": [
+
+      ["amazon", "https://www.amazon.com/dp/B00BQ7KBV4/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"],
+      ["syghtglass", "https://www.syghtglass.com/collections/gaming-glasses"]
+
+    ],
+    "price": "13.00-50.00$",
+    "image": "assets/images/suggestions/technology/glasses.jpg"
+  },
+  {
+    "category": "technology",
+    "name": "VR Gaming Headset",
+    "description": "Take gaming into the future with the newest VR releases.  Dive into whatever game you choose in the most complete and immersive VR systems to date.",
+    "websites": [
+      ["oculus", "https://www.oculus.com/"],
+      ["amazon", "https://www.amazon.co.uk/dp/B094R6QYMX?tag=pcmaguk-21&ascsubtag=02peQoAFycValS3W7UpLUyn"],
+      ["playstation", "https://www.playstation.com/sv-se/ps-vr/bundles/"]
+    ],
+    "price": "350.00-1000.00$",
+    "image": "assets/images/suggestions/technology/vr.jpg"
+  },
+  {
+    "category": "technology",
+    "name": "Music-Playing Sunglasses",
+    "description": "Bluetooth compatible, these sunglasses let you listen hand and cord free to any bluetooth connected device.",
+    "websites": [
+
+      ["amazon", "https://www.amazon.com/Razer-Anzu-Smart-Glasses-Built/dp/B08ZC9Y33Q/ref=sr_1_3?crid=2VLE9GIMRMSJQ&keywords=audio+sunglasses&qid=1645832196&sprefix=audio+sunglass%2Caps%2C342&sr=8-3"],
+      ["bose", "https://www.bose.com/en_us/products/frames.html"]
+
+    ],
+    "price": "80.00-200.00$",
+    "image": "assets/images/suggestions/technology/sunglasses.jpg"
+  },
+  {
+    "category": "individualSports",
+    "name": "Soft-Top Surfboard",
+    "description": "This style of board is known to be the easiest to stand on, making it ideal for beginners.  It is longer and softer than most boards, and is a great way to learn how to catch waves for the first time.",
+    "websites": [
+
+      ["amazon", "https://www.amazon.com/Wavestorm-9-Classic-Pinline-Surfboard/dp/B07HRZTF5B/ref=sr_1_16?crid=O8EHZGBOXGWX&keywords=soft+top+surfboard&qid=1645759884&sprefix=soft+top+surfboa%2Caps%2C237&sr=8-16"],
+      ["degree33", "https://www.degree33surfboards.com/collections/soft-top-surfboards?oid=37&affid=1"]
+    ],
+    "price": "350.00-1000.00$",
+    "image": "assets/images/suggestions/sports-i/surf.jpg"
+  },
+  {
+    "category": "individualSports",
+    "name": "Hang-Glider",
+    "description": "Experience gliding freedom as you soar through the sky.  All it takes is a KittyHawkKite glider and a running start, and your flights can begin.",
+    "websites": [
+
+      ["kittyhawk", "https://www.kittyhawk.com/hang-gliders/moyes-malibu-2-188/"],
+      ["avianonline", "http://www.avianonline.co.uk/hang-gliders-c-178.html"]
+
+    ],
+    "price": "2500.00-15000.00$",
+    "image": "assets/images/suggestions/sports-i/hangglider.jpg"
+  },
+  {
+    "category": "individualSports",
+    "name": "Electric Skateboard",
+    "description": "These dual motor skateboards reaches up to 18.6 mph, and can be controlled by hand through remote control with ease while riding.",
+    "websites": [
+
+      ["amazon", "https://www.amazon.com/Hiboy-Electric-Skateboard-Longboard-commuters/dp/B07G4N35RW/ref=sr_1_8?crid=22QYBRD8SA0TC&keywords=electronic+skateboard&qid=1645761067&sprefix=electronic+skateboar%2Caps%2C237&sr=8-8"],
+      ["banggood", "https://www.banggood.com/EU-DIRECTSYL-06-5000mAh-600W+2-Dual-Motor-Electric-Skateboard-90+51mm-Four-PU-Wheel-40km-or-h-Top-Speed-10-12km-Max-Range-100kg-Max-Load-Wireless-Remote-Control-p-1929728.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=SE&utm_content=minha&utm_campaign=minha-se-en-pc&currency=SEK&cur_warehouse=CZ&createTmp=1&ID=6287830&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=lynna&utm_campaign=lynna-pla-se-all-1020-2021-11sale-21&ad_id=554558944754&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7Acff1UrlZe6p7ygrukHDTFG_-auSk5xm6-9kJPvWVXZfUDapGQE4aAkYTEALw_wcB"]
+
+    ],
+    "price": "350.00-600.00$",
+    "image": "assets/images/suggestions/sports-i/skateboard.jpg"
+  },
+  {
+    "category": "individualSports",
+    "name": "Zorbing Inflatable Bubble",
+    "description": "Fully protected while inside this human hamster ball, roll and tumble freely without issue. Alternatively, choose a water designed ball to float and move across the surface while inside!",
+    "websites": [
+
+      ["amazon", "https://www.amazon.com/Qiyun-Inflatable-Zorbing-Human-Hamster/dp/B0181XUVG0/ref=as_li_ss_tl?ie=UTF8&qid=1468647798&sr=8-2&keywords=zorbing+ball&linkCode=sl1&tag=zorbingtimeco-20&linkId=6a8caa3223df169228d5fbbf7c768a86"],
+      ["liveit", "https://www.liveit.se/upplevelser/upplevelsepresenter-waterballs?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF6TMn3VAwvJo5pMuVGX_QN7pUGjNiPIt-hOsw8YaPkI-jlSSCB24mcaAmxEEALw_wcB"]
+
+    ],
+    "price": "500.00-1450.00$",
+    "image": "assets/images/suggestions/sports-i/zorb.jpg"
+  },
+  {
+    "category": "individualSports",
+    "name": "Inflatable Kayak",
+    "description": "These kayaks are designed for any water conditions, and this versatility helps suit them any kind of trip you might want to take.  The inflatability making them exceptionally portable, but they function with the integrity of a rigid shell kayak.",
+    "websites": [
+
+      ["amazon", "https://www.amazon.com/Advanced-Elements-Frame-Sport-Kayak/dp/B003BUGNKC/ref=sr_1_1_sspa?crid=37RUUAB8SQ1N1&keywords=sport+kayak&qid=1645762455&sprefix=sport+kayak%2Caps%2C202&sr=8-1-spons&psc=1&smid=AGLJA2W19Z5T3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzMlQ4TjJGSVVXQjlWJmVuY3J5cHRlZElkPUEwNzM0MzM5M09FSzVPVFFIMk1ZTCZlbmNyeXB0ZWRBZElkPUEwOTA0NTgzRzVHT1ZIQzZNS1lGJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="],
+      ["stockholmkajak", "https://stockholmkajak.se/luftkajaker/advancedframe-convertible?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7E3dpvURspF7mRCbQyHPdWHXlNFtSCsDEE-o_WfwXytsoFqOu7dc8aAnZDEALw_wcB"]
+
+    ],
+    "price": "500.00-1000.00$",
+    "image": "assets/images/suggestions/sports-i/kayak.jpg"
+  },
+  {
+    "category": "teamSports",
+    "name": "Bubble Soccer Package",
+    "description": "These sets comes with between 8-24 bubbles, allowing you to create teams of your desired size and start your own bubble soccer matches. Safely tumble around and tackle one another as the inflated bubble around you offers ample protection.",
+    "websites": [
+
+      ["bubble allstars", "https://www.bubble-allstars.com/europe/prices/"]
+
+    ],
+    "price": "2500.00-6500.00$",
+    "image": "assets/images/suggestions/sports-team/bubbles.jpg"
+  },
+  {
+    "category": "teamSports",
+    "name": "1-7 Day Rafting Trip",
+    "description": "Test your endurance and resilience down the rivers toughest points, and enjoy the relaxing current when the whitewater clears.",
+    "websites": [
+      ["oars", "https://www.oars.com/rafting/"],
+      ["western river expeditions", "https://www.westernriver.com/"]
+    ],
+    "price": "300.00-7000.00$",
+    "image": "assets/images/suggestions/sports-team/rafting.jpg"
+  },
+  {
+    "category": "teamSports",
+    "name": "Horseback Riding Excursion",
+    "description": "As a couple or with a group, take a day to experience the outdoors on horseback.",
+    "websites": [
+      ["fjallridning", "https://fjallridning.se/vinter/"],
+      ["Helens turridning", "https://helensturridning.se/?page_id=20"]
+    ],
+    "price": "80.00-255.00$",
+    "image": "assets/images/suggestions/sports-team/horseback.jpg"
+  },
+  {
+    "category": "teamSports",
+    "name": "Bungee Jumping",
+    "description": "Safely enjoy the rush of freefall in the outdoors, great for couples to do together!",
+    "websites": [
+      ["Bungyjump Stockholm", "https://bungyjumpstockholm.se/"]
+    ],
+    "price": "300.00-400.00$",
+    "image": "assets/images/suggestions/sports-team/bungee.jpg"
+  },
+  {
+    "category": "teamSports",
+    "name": "Indoor Skydiving",
+    "description": "Another way to enjoy the freefall feeling, but indoors where you can have freedom to explore and experiment with weightlessness.",
+    "websites": [
+      ["bodyflight", "https://en.bodyflight.se/"]
+    ],
+    "price": "70.00-200.00$",
+    "image": "assets/images/suggestions/sports-team/skydive.jpg"
   },
   {
     "category": "games",
     "name": "Catan",
     "description": "Award winning board game. It's easy for new players to latch on to and introduces them to hobby games in a fun, accessible way. if you are looking for something to enjoy together with your partner, we highly recommend this addictively fun strategy game.",
     "websites": [
-      "https://www.amazon.com/CATAN-Players-Strategy-Adventure-Playtime/dp/B00486TI3M/ref=sr_1_15?crid=96RW012POR4Y&keywords=catan&qid=1645732699&sprefix=catan%2Caps%2C176&sr=8-15"
+      [
+        "amazon",
+        "https://www.amazon.com/CATAN-Players-Strategy-Adventure-Playtime/dp/B00486TI3M/ref=sr_1_15?crid=96RW012POR4Y&keywords=catan&qid=1645732699&sprefix=catan%2Caps%2C176&sr=8-15"
+      ]
     ],
     "price": "24.94",
     "image": "assets/images/suggestions/games/catan.jpg"
@@ -71,7 +256,10 @@
     "name": "Chess board set",
     "description": "Chess is one of the most popular classic board games. There is a wide range of prices in the chess board set and this one is a good quality starter if your partner doesn’t have one of their own yet.",
     "websites": [
-      "https://www.amazon.com/Jowisz-Decorative-Folding-Chess-Board/dp/B000Z9CH7U/ref=sr_1_23?crid=16ZUZBZA0VASN&keywords=Chess+board+set&qid=1645732810&sprefix=chess+board+set%2Caps%2C174&sr=8-23"
+      [
+        "amazon",
+        "https://www.amazon.com/Jowisz-Decorative-Folding-Chess-Board/dp/B000Z9CH7U/ref=sr_1_23?crid=16ZUZBZA0VASN&keywords=Chess+board+set&qid=1645732810&sprefix=chess+board+set%2Caps%2C174&sr=8-23"
+      ]
     ],
     "price": "36.68",
     "image": "assets/images/suggestions/games/chess.jpg"
@@ -81,7 +269,10 @@
     "name": "Ticket to Ride",
     "description": "Award winning, cross-country train adventure game. The original version is played on a board depicting a railway map of the US and southern Canada. There are localised editions of other countries, cities and regions you can choose for your partner.",
     "websites": [
-      "https://www.amazon.com/Days-Wonder-DO7201-Ticket-Ride/dp/0975277324/ref=sr_1_2?keywords=ticket+to+ride&qid=1645739563&sr=8-2"
+      [
+        "amazon",
+        "https://www.amazon.com/Days-Wonder-DO7201-Ticket-Ride/dp/0975277324/ref=sr_1_2?keywords=ticket+to+ride&qid=1645739563&sr=8-2"
+      ]
     ],
     "price": "43.99",
     "image": "assets/images/suggestions/games/ticket_to_ride.jpg"
@@ -91,7 +282,10 @@
     "name": "Steam gift card",
     "description": "The perfect gift for the video gamers if you’re in a long-distance relationship or your partner seems to have everything. There will always be new games that your partner wants to play on Steam.",
     "websites": [
-      "https://store.steampowered.com/digitalgiftcards/"
+      [
+        "steam powered",
+        "https://store.steampowered.com/digitalgiftcards/"
+      ]
     ],
     "price": "5-100",
     "image": "assets/images/suggestions/games/gift_card.jpg"
@@ -101,57 +295,75 @@
     "name": "LEGO Nintendo Entertainment System",
     "description": "Authentic reproductions of the original Nintendo Entertainment System console, controller and Game Pak cartridge with a retro-styled 1980s TV. This will trigger your partner’s nostalgic memories if they love video games and enjoyed playing Super Mario back in the day.",
     "websites": [
-      "https://www.lego.com/en-us/product/nintendo-entertainment-system-71374"
+      [
+        "lego",
+        "https://www.lego.com/en-us/product/nintendo-entertainment-system-71374"
+      ]
     ],
     "price": "229.99",
     "image": "assets/images/suggestions/games/lego.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Hiking",
     "description": "Getting the endorphins going and working up a sweat by hiking together is the most romantic way to spend your Valentine’s Day. Angel’s Landing: Zion National Park(USA) is one of the world's most renowned hikes.",
     "websites": [
-      "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
+      [
+        "nps",
+        "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
+      ]
     ],
     "price": "20",
     "image": "assets/images/suggestions/extreme_travelling/hiking.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "White Water Rafting",
     "description": "Thrilling outdoor activity, which gives you an opportunity to get an incredible range of emotions and adrenaline rush in a short period of time. If you are thinking of spending your Valentine’s Day in a warm country, consider going to Thailand and trying White Water Rafting In Chiang Mai.",
     "websites": [
-      "https://8adventures.com/whitewater-rafting-chiang-mai/"
+      [
+        "8adventures",
+        "https://8adventures.com/whitewater-rafting-chiang-mai/"
+      ]
     ],
     "price": "92.49",
     "image": "assets/images/suggestions/extreme_travelling/rafting.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Bungee jumping",
     "description": "One of the most enjoyed extreme sports. If your partner loves bungee jumping, jumping off the Skypark Macau Tower(China) will give them an unforgettable experience. This building is 233m high and the Guinness World Record for the Highest Commercial Bungee Jump was made from this building.",
     "websites": [
-      "https://www.befreetour.com/en/detail/140-macau-tower-bungy-jump"
+      [
+        "befreetour",
+        "https://www.befreetour.com/en/detail/140-macau-tower-bungy-jump"
+      ]
     ],
     "price": "447.84",
     "image": "assets/images/suggestions/extreme_travelling/bungee.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Skydiving",
     "description": "The most thrilling aerial adventure in the world. If you’re looking for a memorable gift for your partner, skydiving in Interlaken(Switzerland) might be the answer. They’ll experience the picturesque view of Alps from the sky and get their own video.",
     "websites": [
-      "https://www.skydiveinterlaken.ch/experiences/helicopter-skydive-interlaken/"
+      [
+        "skydiveinterlaken",
+        "https://www.skydiveinterlaken.ch/experiences/helicopter-skydive-interlaken/"
+      ]
     ],
     "price": "464.25-745.03",
     "image": "assets/images/suggestions/extreme_travelling/skydiving.jpg"
   },
   {
-    "category": "extreme_travelling",
+    "category": "travel",
     "name": "Northern Lights",
-    "description": "Going to see the northern lights is the perfect couples’ adventure for Valentine’s day. There are many destinations for spotting the northern lights depending on where you are based. Reykjavik(Iceland) is a great place to see as they are easily spotted.",
+    "description": "Going to see the northern lights is the perfect couples' adventure for Valentine's day. There are many destinations for spotting the northern lights depending on where you are based. Reykjavik(Iceland) is a great place to see as they are easily spotted.",
     "websites": [
-      "https://adventures.is/blog/northern-lights-in-iceland/#:~:text=Yes%2C%20it's%20possible%20to%20see,bedroom%20windows%20during%20bright%20auroras!"
+      [
+        "adventures",
+        "https://adventures.is/blog/northern-lights-in-iceland/#:~:text=Yes%2C%20it's%20possible%20to%20see,bedroom%20windows%20during%20bright%20auroras!"
+      ]
     ],
     "price": "80-1994",
     "image": "assets/images/suggestions/extreme_travelling/northern_lights.jpg"
@@ -159,7 +371,7 @@
   {
     "category": "gardening",
     "name": "Gardening Tool Set",
-    "description": "If you’re looking for a practical gift for your partner, the gardening tool set is the perfect one. This set comes with everything your partner needs to grow the garden of their dreams: garden shovels, trowel, mini rake, gardening fork, hand weeder, pruning shears, pair of gardening gloves, spray bottle, washable gardening bag tote.",
+    "description": "If you're looking for a practical gift for your partner, the gardening tool set is the perfect one. This set comes with everything your partner needs to grow the garden of their dreams: garden shovels, trowel, mini rake, gardening fork, hand weeder, pruning shears, pair of gardening gloves, spray bottle, washable gardening bag tote.",
     "websites": [
       "https://www.amazon.com/Grenebo-Gardening-Tool-Set-Rust-Proof/dp/B09F9C3KFS/ref=sr_1_6?crid=1MSB9B289M3T5&keywords=gardening+tools&qid=1645799540&sprefix=gardening+tools%2Caps%2C178&sr=8-6"
     ],
@@ -169,7 +381,7 @@
   {
     "category": "gardening",
     "name": "Silicone Rings",
-    "description": "While rings are a wonderful gift, fancy rings don’t mix well with hard garden work. These beautiful silicone rings are a safe alternative.",
+    "description": "While rings are a wonderful gift, fancy rings don't mix well with hard garden work. These beautiful silicone rings are a safe alternative.",
     "websites": [
       "https://ensorings.com/"
     ],
@@ -179,7 +391,7 @@
   {
     "category": "gardening",
     "name": "A Bouquet of Flowers",
-    "description": "Giving flowers on Valentine’s day is a tradition. This tradition couldn’t be more perfect than any other gifts, if your partner loves flowers. If you give them flowers often, signing up for a subscription service may be a good choice.",
+    "description": "Giving flowers on Valentine's day is a tradition. This tradition couldn't be more perfect than any other gifts, if your partner loves flowers. If you give them flowers often, signing up for a subscription service may be a good choice.",
     "websites": [
       "https://urbanstems.com/subscriptions"
     ],
@@ -207,12 +419,338 @@
     "image": "assets/images/suggestions/gardening/indoor-garden.jpg"
   },
   {
+    "category": "spa",
+    "name": "The Blue Lagoon Spa, Iceland",
+    "description": "Enjoy a hydro massage with a difference at one of the world's most spectacular natural wonders. The Blue Lagoon's geothermal seawater is surrounded by a volcanic landscape, which feeds minerals into the surroundings.",
+    "websites": [
+      ["bluelagoon", "https://www.bluelagoon.com/"]
+    ],
+    "price": "from $68",
+    "image": "assets/images/suggestions/spas/blue_lagoon.jpg"
+  },
+  {
+    "category": "spa",
+    "name": "Thermae Bath Spa, Bath",
+    "description": "One of the UK's most dramatic spa, this neo-Georgian building is wrapped in angular glass, with access to three naturally heated spring-fed pools. Head straight for the rooftop pool for views across the city. The thermal experience floor includes a sauna, steam room and a “celestial” relaxation room.",
+    "websites": [
+      ["thermaebathspa", "https://www.thermaebathspa.com/"]
+    ],
+    "price": "from $64",
+    "image": "assets/images/suggestions/spas/thermae_bath_spa.jpg"
+  },
+  {
+    "category": "spa",
+    "name": "Turkish Baths, Harrogate",
+    "description": "One of only a handful of Victorian Turkish baths still in use, these are beautiful, with Moorish design including Islamic arches, intricate glazed brickwork and painted ceilings. The bathing journey takes you around a series of heated rooms - the hottest being the laconium and the coldest a freezing plunge pool. Try traditional treatments such as a hammam, or more modern treatments including hot stone therapy.",
+    "websites": [
+
+      ["turkishbathsharrogate", "https://www.turkishbathsharrogate.co.uk/"]
+    ],
+    "price": "from $24",
+    "image": "assets/images/suggestions/spas/harrogate_turkish_baths.jpg"
+  },
+  {
+    "category": "spa",
+    "name": "The Live Music Experience: Bota Bota, Montreal",
+    "description": "This spa on the water is housed in a 1960s ferryboat, which, after a stint as a showboat, was transformed into a spa. Its most unique treatment is the 60-minute Bota Bota massage - a single or double massage choreographed to the music of a live harpist.",
+    "websites": [
+      ["botabota", "http://botabota.ca/"]
+    ],
+    "price": "from $70",
+    "image": "assets/images/suggestions/spas/botabota.jpg"
+  },
+  {
+    "category": "spa",
+    "name": "AIRE Ancient Baths, London",
+    "description": "AIRE spaces are temples dedicated to mind and body relaxation, where time does not exist, inspired by ancient civilizations bathing traditions. Minutes away from Covent Garden, you will find an oasis, seamlessly intertwined with its enticing energy.",
+    "websites": [
+      ["beaire", "https://beaire.com/en/aire-ancient-baths-london"]
+    ],
+    "price": "from $120",
+    "image": "assets/images/suggestions/spas/aire_ancient_baths.jpg"
+  },
+  {
+    "category": "themePark",
+    "name": "Liseberg, Sweden",
+    "description": "Discover the Nordic region's largest amusement park - Liseberg in Gothenburg, Sweden! Present your loved one with a trip to this amazing theme park, and together enjoy the large selection of not only rides, but live music, games, good food and beautiful gardens! Just as amazing in the cold of Swedish winter as it is in the warm summer sunshine!",
+    "websites": [
+      ["liseberg", "https://www.liseberg.se/"]
+    ],
+    "price": "Ticket prices start from $20",
+    "image": "assets/images/suggestions/theme_parks/liseberg.jpg"
+  },
+  {
+    "category": "themePark",
+    "name": "Europa Park, Germany",
+    "description": "Is your partner a thrill-seeker? Surprise them with a trip to Europe's second largest theme park! Dive into the floods at Rulantica, discover the unique VR experiences at YULLBE and spend the night at one of their six themed hotels!",
+    "websites": [
+      ["europapark", "https://www.europapark.de/en"]
+    ],
+    "price": "Ticket prices start from $32",
+    "image": "assets/images/suggestions/theme_parks/europa.jpg"
+  },
+  {
+    "category": "themePark",
+    "name": "Efteling, Netherlands",
+    "description": "Pre-dating Disney, and twice as big as Disneyland California, Efteling is a park with a difference! Based in the town of Kaatsheuvel, southern Netherlands, its iconic fairy tale forest features many darker European fairy tales - a unique, mysterious, quirky and yet delightful theme park, worth a weekend away!",
+    "websites": [
+      ["efteling", "https://www.efteling.com/"]
+    ],
+    "price": "Ticket prices start from $43",
+    "image": "assets/images/suggestions/theme_parks/efteling.jpg"
+  },
+  {
+    "category": "themePark",
+    "name": "LEGOLAND, Denmark",
+    "description": "Looking to surprise the big kid in your life for Valentine's Day - what about the original LEGOLAND! Located next to the original LEGO factory, take a ride on the Flying Eagle, Dragen and X-treme Racers roller coasters, challenge the ninjas in LEGO® NINJAGO® The Ride, or make your bones rattle with fear in Ghost The Haunted House experience!",
+    "websites": [
+      ["legoland", "https://www.legoland.dk/en/"]
+    ],
+    "price": "Ticket prices start from $48",
+    "image": "assets/images/suggestions/theme_parks/legoland.jpg"
+  },
+  {
+    "category": "themePark",
+    "name": "Futuroscope, France",
+    "description": "If the love of your life is simply a step ahead of the rest, what about a trip to Futuroscope - based on multimedia, cinematographic futuroscope and audio-visual techniques, this theme park offers something unique. ",
+    "websites": [
+      ["futuroscope", "https://www.futuroscope.com/en/"]
+    ],
+    "price": "From $38",
+    "image": "assets/images/suggestions/theme_parks/futuroscope.jpg"
+  },
+  {
+    "category": "picnics",
+    "name": "Around the World",
+    "description": "From caribbean chicken and swedish meatballs, to french baguettes and american sliders, why not make finger foods from around the world!",
+    "websites": [
+      ""
+    ],
+    "price": "Various",
+    "image": "assets/images/suggestions/picnics/picnics_world.jpg"
+  },
+
+  {
+    "category": "picnics",
+    "name": "By-the-sea",
+    "description": "If that special someone in your life enjoys seafood and fish, consider making a platter from the sea! Smoked salmon, cooked prawns and perhaps even crab sticks can make for a fantastic themed picnic. Do you live near the coast? Take your seafood picnic to the next level and serve it by the sea!",
+    "websites": [
+      ""
+    ],
+    "price": "Various",
+    "image": "assets/images/suggestions/picnics/by_the_sea.jpg"
+  },
+
+  {
+    "category": "picnics",
+    "name": "My heart belongs to you",
+    "description": "Since it's Valentine's Day, what about a heart-themed picnic? Try making strawberry jam sandwiches, pancakes with chocolate and pastries, all in the shape of hearts! It will make their heart race for sure!",
+    "websites": [
+      ""
+    ],
+    "price": "Various",
+    "image": "assets/images/suggestions/picnics/heart_food.jpg"
+  },
+  {
+    "category": "picnics",
+    "name": "Sweets for my sweet",
+    "description": "Does the love of your life have a sweet tooth!? Let's be honest, secretly we all do! Why not surprise them with an outdoor selection of their favourite treats and chocolates!",
+    "websites": [
+      ""
+    ],
+    "price": "Various",
+    "image": "assets/images/suggestions/picnics/sweets.jpg"
+  },
+  {
+    "category": "picnics",
+    "name": "Take your take-out, out!",
+    "description": "Whether you enjoy a weekly take away, or it is a once in a while treat, why not find a local beauty spot and take your favourite take away with you! Whether it is a chow mein, fish and chips, or a pizza, spend some quality time together outside!",
+    "websites": [
+      ""
+    ],
+    "price": "Various",
+    "image": "assets/images/suggestions/picnics/take_out.jpg"
+  },
+  {
+    "category": "cookingClasses",
+    "name": "Traveling Spoon",
+    "description": "Available online and in person, Traveling Spoon connects travelers with local, vetted hosts to share the joy of a homemade meal in their home and learn about their cultural and culinary traditions passed down through generations.",
+    "websites": [
+      ["travelingspoon", "https://www.travelingspoon.com/"]
+    ],
+    "price": "Check site for prices",
+    "image": "assets/images/suggestions/cooking_classes/traveling_spoon.jpg"
+  },
+  {
+    "category": "cookingClasses",
+    "name": "The Casa Luna Cooking School",
+    "description": "The Casa Luna cooking school is a world-famous culinary centre that provides a fascinating insight into Balinese life and culture through learning about its food, cooking and culinary myths.",
+    "websites": [
+      ["casalunabali", "https://casalunabali.com/casa-luna-cooking-school/"]
+    ],
+    "price": "Check site for prices",
+    "image": "assets/images/suggestions/cooking_classes/casa_luna.jpg"
+  },
+  {
+    "category": "cookingClasses",
+    "name": "Tokyo Sushi Academy",
+    "description": "If you and your partner enjoy sushi, join an online cooking course with one of Japan's top cooking schools!",
+    "websites": [
+      ["sushischool", "https://www.sushischool.jp/"]
+    ],
+    "price": "Check site for prices",
+    "image": "assets/images/suggestions/cooking_classes/tokyo_academy.jpg"
+  },
+  {
+    "category": "cookingClasses",
+    "name": "École de Cuisine",
+    "description": "For those who love sweet treats, why not look at a course in making French macarons - elegant little sandwiches, made with meringue, almond flour and buttercream. Délicieuse!",
+    "websites": [
+      [
+        "ecolecuisine-alainducasse",
+        "http://www.ecolecuisine-alainducasse.com/fr/les-cours/pastry-class-in-english-macarons-madness"
+      ]
+    ],
+    "price": "Check site for prices",
+    "image": "assets/images/suggestions/cooking_classes/macarons.jpg"
+  },
+  {
+    "category": "cookingClasses",
+    "name": "Cook at home",
+    "description": "Do you always do the cooking at home? Is it normally you that takes charge of what's for dinner? How about teaching your partner your own secrets and family recipes, step-by-step in your own at home cooking class. WARNING: patience may be required!",
+    "websites": [
+      ""
+    ],
+    "price": "As much or as little as you like!",
+    "image": "assets/images/suggestions/cooking_classes/cook_at_home.jpg"
+  },
+  {
+    "category": "ride",
+    "name": "husky ride",
+    "description": "Here is another unusual idea for you to gift lots of positive emotions and unforgivable memories to your partner! Fresh air, best animals in the world, and lots of happiness! And remember, huskies are more than friendly animals, they truly love people, love being with them, love sharing their joy!",
+    "websites": [
+      ["arctic quest", "https://www.arcticquest.co.uk/"],
+      ["husky works", "http://www.huskyworks.com/"],
+      ["husky co", "https://www.huskyco.fi/"]
+    ],
+    "price": "50-750",
+    "image": "assets/images/suggestions/ride/husky.jpg"
+  },
+  {
+    "category": "ride",
+    "name": "carriage ride",
+    "description": "If you are looking for a romantic activity on or around Valentines Day, it's hard to do better then a romantic carriage ride. Just imagine, how fantastic it will be like a fairytale",
+    "websites": [
+      ["windsor", "https://www.windsor.gov.uk/whats-on/ascot-carriages-carriage-rides-in-windsor-great-park-p576301"],
+      ["central park carriages", "https://www.centralparkcarriages.com/book-now"],
+      ["civitatis", "https://www.civitatis.com/en/wroclaw/horse-and-carriage-ride/"]
+    ],
+    "price": "200-1000",
+    "image": "assets/images/suggestions/ride/carriage.jpg"
+  },
+  {
+    "category": "ride",
+    "name": "helicopter",
+    "description": "If go for this option, your partner will love you even more! You are gifting not just a ride in the helicopter, but the whole adventure in the sky! ",
+    "websites": [
+      ["adventure001", "https://www.adventure001.com/Activity/Aviation/Helicopter-Rides/43"],
+      ["viator", "https://www.viator.com/New-York-City-tours/Helicopter-Tours/d687-g1-c2?m=28353&supag=76382119571&supca=1939178107&supsc=dsa-647668688366&supai=420120885771&supdv=c&supnt=g&suplp=9061444&supli=&supti=dsa-647668688366&tsem=true&supci=dsa-647668688366&supap1=&supap2=&gclid=EAIaIQobChMIi-Ok1OWc9gIVUSGtBh21uA6tEAAYASAAEgJgfPD_BwE"],
+      ["orlando heli-tours", "https://www.orlandohelitours.com/?gclid=EAIaIQobChMIi-Ok1OWc9gIVUSGtBh21uA6tEAAYAiAAEgKTD_D_BwE"]
+    ],
+    "price": "50-2000",
+    "image": "assets/images/suggestions/ride/helicopter.jpg"
+  },
+  {
+    "category": "ride",
+    "name": "horse ride",
+    "description": "This may sound a bit boring, but it's actually a perfect gift for those how love to spend time outdoors and be around kind animals. You may go for a short ride or for many hours ride together! Just don't forget to feed a horse.",
+    "websites": [
+      ["name of the shop/ website", "https://www.tripadvisor.co.uk/Attractions-g186217-Activities-c61-t62-England.html"],
+      ["pal-o-mine", "https://pal-o-mine.org/?gclid=EAIaIQobChMIyria-OWc9gIVcgF9Ch37sAeaEAAYAiAAEgIXivD_BwE"],
+      ["fare harbor", "https://fareharbor.com/for/horseback-riding/"]
+    ],
+    "price": "50-140",
+    "image": "assets/images/suggestions/ride/horse_ride.jpg"
+  },
+  {
+    "category": "ride",
+    "name": "car ride",
+    "description": "This type of gifts will shock and excite many people. Just imagine what kind of  emotions you partner can get while riding a luxury car, while feeling yourself a superstar!",
+    "websites": [
+      ["sixt", "https://www.sixt.com/luxury-cars/"],
+      ["book luxury car", "https://bookluxurycar.com/"],
+      ["turo", "https://turo.com/us/en/exotic-luxury-rental/united-states"]
+    ],
+    "price": "500-5000",
+    "image": "assets/images/suggestions/ride/car.jpg"
+  },
+  {
+    "category": "museums",
+    "name": "Art museums",
+    "description": "If your half is into art, take a look at these museums. It will be a great getaway for both of you! Just one weekend of impressive masterpieces will be remembered forever. You will both benefit from broadening your cultural horizons!",
+    "websites": [
+      ["st-christophers", "https://www.st-christophers.co.uk/travel-blog/the-top-art-galleries-europe/"],
+      ["amazon", "https://www.amazon.it/stores/page/5162C05E-A2C5-4798-B879-919BFE94AA3C?ingress=3"],
+      ["jacada travel", "https://www.jacadatravel.com/asia/travel-guides/top-10-art-galleries-in-south-east-asia/"]
+    ],
+    "price": "15-2000",
+    "image": "assets/images/suggestions/museums/art.jpg"
+  },
+  {
+    "category": "museums",
+    "name": "Science museums",
+    "description": "So you like to make a substantial gift on this Valentine's Day? Pick a scientific museum for your loved one to visit to learn about world's breakthroughs in various scientific fields. It may sound nerdy, but there are so many things that may astonish everyone!",
+    "websites": [
+      ["artsand culture", "https://artsandculture.google.com/story/10-of-the-world-s-most-inspiring-science-museums/HQLCDXFNtsGVIA"],
+      ["armenian museum", "https://www.armenianmuseum.org/membership?gclid=EAIaIQobChMIg_KIj7eY9gIVCDdgCh3IfADZEAAYAiAAEgKxWPD_BwE"],
+      ["trip advisor", "https://www.tripadvisor.co.uk/Attractions-g186217-Activities-c49-t35-England.html"]
+    ],
+    "price": "15-2000",
+    "image": "assets/images/suggestions/museums/science.jpg"
+  },
+  {
+    "category": "museums",
+    "name": "History museums",
+    "description": "When you have a partner who loves history, you just have look into these options to pick from. History is important and it would a wonderful gift for a history  lovers.",
+    "websites": [
+      ["trip advisor", "https://www.tripadvisor.com/Attractions-g153339-Activities-c49-t30-Canada.html"],
+      ["the culture trip", "https://theculturetrip.com/europe/articles/12-history-museums-you-should-visit-at-least-once/"],
+      ["inspirock", "https://www.inspirock.com/history-museums-in-asia"]
+    ],
+    "price": "15-2000",
+    "image": "assets/images/suggestions/museums/history.jpg"
+  },
+  {
+    "category": "museums",
+    "name": "Open-air museums",
+    "description": "If your partner is not a big fun of indoors museums, it may be a perfect idea to look into these offers. Just imagine walking around stunning buildings that actually have a long history behind them, and enjoying fresh air around…",
+    "websites": [
+      ["veranda", "https://www.veranda.com/travel/g32969072/best-open-air-museums/"],
+      ["wikipedia", "https://en.wikipedia.org/wiki/List_of_open-air_and_living_history_museums_in_the_United_States"],
+      ["japan travel", "https://www.japan.travel/en/spot/1564/"]
+    ],
+    "price": "15-2000",
+    "image": "assets/images/suggestions/museums/open_air.jpg"
+  },
+  {
+    "category": "museums",
+    "name": "Virtual museums",
+    "description": "There is always an option when your loved one cannot go anywhere during the holidays. In this case, we suggest you to just make sure that your wife is working well and find a virtual museum that would be appealing to both of you.",
+    "websites": [
+      ["ncyark", "https://www.cyark.org/?gclid=EAIaIQobChMIsqGWsb-Y9gIVyGSLCh0s8gdFEAAYAiAAEgIZXfD_BwE"],
+      ["freud", "https://www.freud.org.uk/visit/virtual-tour/?gclid=EAIaIQobChMIsqGWsb-Y9gIVyGSLCh0s8gdFEAAYASAAEgJmyvD_BwE"],
+      ["traveland leisure", "https://www.travelandleisure.com/attractions/museums-galleries/museums-with-virtual-tours"]
+    ],
+    "price": "$0",
+    "image": "assets/images/suggestions/museums/virtual.jpg"
+  },
+  {
     "category": "",
     "name": "",
     "description": "",
     "websites": [
-      "https://www...",
-      "https://www..."
+      ["name of the shop/ website", "https://www..."],
+      ["name of second shop/ website website", "https://www..."]
     ],
     "price": "...-...",
     "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"

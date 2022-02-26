@@ -9,6 +9,14 @@ const questionText = document.getElementById('question-text');
 const answerContainerA = document.getElementById('answer-a');
 const answerContainerB = document.getElementById('answer-b');
 const answerContainerC = document.getElementById('answer-c');
+const suggestionContainer = document.getElementById('suggestion-container');
+// // variables for modal
+const modal = document.getElementById('modal');
+const modalContent = document.querySelector('.modal-content');
+const closeModal = document.getElementById('modal-close');
+// // Variables for suggestions
+const resultContent = document.querySelectorAll('.result__content');
+const quizAnswers = document.querySelector('#quiz-answers').childNodes;
 
 
 const firstQuestion = {
@@ -22,7 +30,7 @@ const homeQuestion = {
   question: 'Does your partner enjoy being creative?',
   answerA: 'Yes',
   answerB: 'No',
-  answerC: 'Pass'
+  answerC: 'pass'
 }
 
 const creativeQuestion = {
@@ -91,91 +99,74 @@ const notFoodieQuestion = {
   answerB: 'A pamper day at the spa',
   answerC: 'Going sightseeing'
 }
+// variables of each categories - empty arrays filled in by 
+// findGiftsInCategory function, that fetches data from suggestions.json
+var museum = []
+var gardening = []
+// cookery = cookingClassess ??? need to confirm with Helen
+var cookery = []
+var tech = []
+var animals = []
+var games = []
+var individualSports = []
+var teamSports = []
+var travel = []
+var spa = []
+var sportsEvent = []
+var themePark = []
+var ride = []
+var eatOut = []
+var cookingClasses = []
+var tasting = []
+
+/**
+ * function to fetch data from suggestion.js and than add
+ * an array to each of the variables representing a list
+ * of gifts in the given category
+ */
+
+const data = fetch('assets/js/suggestions.json')
+  .then(response => response.json())
+  .then(data => {
+    museum = findGiftsInCategory("museums", data)
+    gardening = findGiftsInCategory("gardening", data)
+    cookery = findGiftsInCategory("cookery", data)
+    games = findGiftsInCategory("games", data)
+    animals = findGiftsInCategory("animals", data)
+    tech = findGiftsInCategory("technology", data)
+    individualSports = findGiftsInCategory("individualSports", data)
+    teamSports = findGiftsInCategory("teamSports", data)
+    travel = findGiftsInCategory("travel", data)
+    spa = findGiftsInCategory("spa", data)
+    sportsEvent = findGiftsInCategory("sportsEvent", data)
+    themePark = findGiftsInCategory("themePark", data)
+    ride = findGiftsInCategory("ride", data)
+    eatOut = findGiftsInCategory("eatOut", data)
+    cookingClasses = findGiftsInCategory("cookingClasses", data)
+    tasting = findGiftsInCategory("tasting", data)
+
+  });
+
+/**
+ * function to create a list of objects that have the same category
+ * the objects come from suggestions.json file that is fetched in the
+ * data variable
+ * takes a string (category) and array (data) as variables
+ */
+
+function findGiftsInCategory(category, data) {
+  let listOfGifts = []
+  for (let i = 0; i < data.length; ++i) {
+
+    if (data[i].category === category) {
+      listOfGifts.push(data[i]);
+    }
+  }
+  return listOfGifts
+}
 
 let currentQuestion = firstQuestion;
-
-// variables for modal
-const modal = document.getElementById('modal');
-const modalContent = document.querySelector('.modal-content');
-const closeModal = document.getElementById('modal-close');
-// Variables for suggestions
-const suggestionContainer = document.getElementById('suggestion-container');
-let resultContent = document.querySelectorAll('.result__content');
-
-document.addEventListener('DOMContentLoaded', function () {
-  closeModal.addEventListener('click', function () {
-    modal.style.display = 'none';
-  });
-  fetchData();
-});
-
-/**
- * Fetch json data
- */
-async function fetchData() {
-  const response = await fetch('assets/js/suggestions.json');
-  const data = await response.json();
-  console.log(data);
-  displayData(data);
-}
-
-/**
- * Classify data
- * Display data
- * Send data to the card
- */
-const displayData = function (data) {
-  suggestionContainer.innerHTML = '';
-  data.forEach(suggestion => {
-    const suggestionCard = document.createElement('div');
-    suggestionCard.classList.add('result__content');
-    suggestionCard.innerHTML = `
-    <h3 class="result__content--title">${suggestion.name}</h3>
-    <div class="result__content--image">
-      <img src="${suggestion.image}" alt="${suggestion.name}">
-    </div>
-    <div class="result__content--modal">learn more</div>
-    `;
-
-    suggestionCard.addEventListener('click', function () {
-      console.log('clicked');
-      modal.style.display = 'flex';
-      // document.body.style.overflow = 'hidden';
-      displayModalContent(suggestion);
-    })
-
-    suggestionContainer.appendChild(suggestionCard);
-  })
-}
-
-
-const displayModalContent = function (suggestion) {
-  console.log(suggestion.websites[0]);
-  const modalImage = document.querySelector('#suggestion-image');
-  const modalInfo = document.querySelector('#suggestion-info');
-  modalImage.innerHTML = `
-  <img src="${suggestion.image}" alt="${suggestion.name}">
-  `;
-  let websitesList = suggestion.websites.map(website => `
-    <li>
-      <a href='${website}' target="_blank" rel="noopener"
-      aria-label="Visit ${website}">
-        ${website}
-      </a>
-    </li>
-  `).join('');
-  console.log(websitesList);
-  modalInfo.innerHTML = `
-      <h3 class="modal__content--title">${suggestion.name}</h3>
-      <p class="modal__content--description">
-        ${suggestion.description}
-      </p>
-      <ul class="modal__content--links">${websitesList}</ul>
-      <div class="modal__content--price">$ ${suggestion.price}</div>
-      <div>other gifts????</div>
-  `;
-}
-
+let category = ''
 
 //sets the text of the questions and answers. hides button C if there are only 2 options
 function displayQuestion(currentQuestion) {
@@ -191,6 +182,35 @@ function displayQuestion(currentQuestion) {
 }
 
 displayQuestion(currentQuestion)
+
+function displayResults(category) {
+  quizContainer.classList.add('hide');
+  resultsContainer.classList.remove('hide')
+  category.forEach(suggestion => {
+    const suggestionCard = document.createElement('div');
+    suggestionCard.classList.add('result__content');
+    suggestionCard.innerHTML = `
+    <h3 class="result__content--title">${suggestion.name}</h3>
+    <div class="result__content--image">
+      <img src="${suggestion.image}" alt="${suggestion.name}">
+    </div>
+    <div class="result__content--modal">learn more</div>
+    `;
+    suggestionCard.addEventListener('click', function () {
+      console.log('clicked');
+      modal.style.display = 'flex';
+      displayModalContent(suggestion);
+    })
+
+    suggestionContainer.appendChild(suggestionCard);
+  })
+}
+
+/**
+ * function to check answers, gives next questions or
+ * gives suggested categories to display gift ideas
+ * 
+ */
 
 function checkAnswer(e) {
   if (currentQuestion === firstQuestion) {
@@ -228,11 +248,107 @@ function checkAnswer(e) {
       currentQuestion = notFoodieQuestion;
     }
     displayQuestion(currentQuestion)
+  } else if (currentQuestion === creativeQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = arts
+    } else if (e.target.id === 'answer-b') {
+      category = gardening
+    } else {
+      category = cookery
+    }
+    quizContainer.classList.add('hide')
+  } else if (currentQuestion === unCreativeQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = tech
+    } else if (e.target.id === 'answer-b') {
+      category = animals
+    } else {
+      category = games
+    }
+    displayResults(category)
+  } else if (currentQuestion === activeQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = individualSports
+    } else if (e.target.id === 'answer-b') {
+      category = teamSports
+    } else {
+      category = travelResults
+    }
+    displayResults(category)
+  } else if (currentQuestion === notActiveQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = sportsEvent
+    } else if (e.target.id === 'answer-b') {
+      category = themePark
+    } else {
+      category = ride
+    }
+    displayResults(category)
+  } else if (currentQuestion === foodieQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = eatOut
+    } else if (e.target.id === 'answer-b') {
+      category = cookingClasses
+    } else {
+      category = tasting
+    }
+    displayResults(category)
+  } else if (currentQuestion === notFoodieQuestion) {
+    if (e.target.id === 'answer-a') {
+      category = museum
+    } else if (e.target.id === 'answer-b') {
+      category = spa
+    } else {
+      category = sightseeing
+    }
+    displayResults(category)
   }
-
 }
 
 //event listeners
 answerContainerA.addEventListener('click', checkAnswer);
 answerContainerB.addEventListener('click', checkAnswer);
 answerContainerC.addEventListener('click', checkAnswer);
+
+
+/// displays modal 
+const displayModalContent = function (suggestion) {
+  console.log(suggestion.websites[0]);
+  const modalImage = document.querySelector('#suggestion-image');
+  const modalInfo = document.querySelector('#suggestion-info');
+  modalImage.innerHTML = `
+  <img src="${suggestion.image}" alt="${suggestion.name}">
+  `;
+  let websitesList = suggestion.websites.map(website => `
+    <li class="modal__content--link">
+      <img src="assets/images/heart-svgrepo-com.svg" alt="" class="hearts" style="width:1.2rem; height:1.2rem;">
+      <a href='${website[1]}' target="_blank" rel="noopener"
+      aria-label="Visit ${website[0]}">
+        ${website[0]}
+      </a>
+    </li>
+  `).join('');
+  console.log(websitesList);
+  modalInfo.innerHTML = `
+      <h3 class="modal__content--title">${suggestion.name}</h3>
+      <p class="modal__content--description">
+        ${suggestion.description}
+      </p>
+      <h4 class="modal__content--websites">Were to find:</h4>
+      <ul class="modal__content--links">${websitesList}</ul>
+      <div class="modal__content--price">
+        <h4 class="modal__content--price-title">Price:</h4>
+        <div>$ ${suggestion.price} </div>
+      </div>
+  `;
+}
+
+// Close modal
+closeModal.addEventListener('click', function () {
+  modal.style.display = 'none';
+});
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && modal.style.display !== 'none') {
+    modal.style.display = 'none';
+  }
+});
