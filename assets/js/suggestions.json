@@ -546,7 +546,7 @@
       ["travelingspoon", "https://www.travelingspoon.com/"]
     ],
     "price": "Check site for prices",
-    "image": " "
+    "image": "assets/images/suggestions/cooking_classes/traveling_spoon.jpg"
   },
   {
     "category": "cookingClasses",
@@ -556,7 +556,7 @@
       ["casalunabali", "https://casalunabali.com/casa-luna-cooking-school/"]
     ],
     "price": "Check site for prices",
-    "image": " "
+    "image": "assets/images/suggestions/cooking_classes/casa_luna.jpg"
   },
   {
     "category": "cookingClasses",
@@ -566,7 +566,7 @@
       ["sushischool", "https://www.sushischool.jp/"]
     ],
     "price": "Check site for prices",
-    "image": " "
+    "image": "assets/images/suggestions/cooking_classes/tokyo_academy.jpg"
   },
   {
     "category": "cookingClasses",
@@ -576,7 +576,7 @@
     ["ecolecuisine-alainducasse", "http://www.ecolecuisine-alainducasse.com/fr/les-cours/pastry-class-in-english-macarons-madness"]
     ],
     "price": "Check site for prices",
-    "image": " "
+    "image": "assets/images/suggestions/cooking_classes/macarons.jpg"
   },
   {
     "category": "cookingClasses",
@@ -586,7 +586,7 @@
       ""
     ],
     "price": "As much or as little as you like!",
-    "image": " "
+    "image": "assets/images/suggestions/cooking_classes/cook_at_home.jpg"
   },
   {
     "category": "",
