@@ -313,6 +313,10 @@ answerContainerC.addEventListener('click', checkAnswer);
 
 /// displays modal 
 
+closeModal.addEventListener('click', function () {
+  modal.style.display = 'none';
+});
+
 const displayModalContent = function (suggestion) {
   console.log(suggestion.websites[0]);
   const modalImage = document.querySelector('#suggestion-image');

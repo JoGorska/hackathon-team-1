@@ -66,6 +66,7 @@ body {
   min-height: 100vh;
   background-color: var(--clr-neutral--100);
   font-family: var(--ff-primary);
+  position: relative;
 }
 
 /* Header */
@@ -378,9 +379,12 @@ body {
 
 /* Footer */
 .footer {
-  /* z-index: 999; */
+
   width: 100%;
   background-color: var(--clr-primary--300);
+  /* z-index: 999;
+  position: absolute;
+  bottom: 0; */
 }
 
 .footer__content {
