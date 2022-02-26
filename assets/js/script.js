@@ -3,7 +3,6 @@ const quizContainer = document.getElementById('quiz-container');
 const resultsContainer = document.getElementById('results-container');
 const startButton = document.getElementById('start-button');
 const resetButton = document.getElementById('reset-button');
-const resultsButton = document.getElementById('results-button');
 const quizContent = document.getElementById('quiz-content');
 const questionText = document.getElementById('question-text');
 const answerContainerA = document.getElementById('answer-a');
@@ -184,6 +183,11 @@ function displayQuestion(currentQuestion) {
 function startTheQuiz() {
   displayQuestion(currentQuestion);
   startButton.classList.add('hide');
+  resetButton.classList.remove('hide');
+}
+
+function resetTheQuiz() {
+  displayQuestion(firstQuestion);
 }
 
 function displayResults(category) {
@@ -310,6 +314,7 @@ function checkAnswer(e) {
 
 //event listeners
 startButton.addEventListener('click', startTheQuiz)
+resetButton.addEventListener('click', resetTheQuiz)
 answerContainerA.addEventListener('click', checkAnswer);
 answerContainerB.addEventListener('click', checkAnswer);
 answerContainerC.addEventListener('click', checkAnswer);
