@@ -101,7 +101,7 @@ const notFoodieQuestion = {
 }
 // variables of each categories - empty arrays filled in by 
 // findGiftsInCategory function, that fetches data from suggestions.json
-var arts = []
+var museum = []
 var gardening = []
 // cookery = cookingClassess ??? need to confirm with Helen
 var cookery = []
@@ -111,7 +111,7 @@ var games = []
 var individualSports = []
 var teamSports = []
 var travel = []
-var spa = [] 
+var spa = []
 var sportsEvent = []
 var themePark = []
 var ride = []
@@ -128,7 +128,7 @@ var tasting = []
 const data = fetch('assets/js/suggestions.json')
   .then(response => response.json())
   .then(data => {
-    arts = findGiftsInCategory("arts", data)
+    museum = findGiftsInCategory("museums", data)
     gardening = findGiftsInCategory("gardening", data)
     cookery = findGiftsInCategory("cookery", data)
     games = findGiftsInCategory("games", data)
@@ -154,7 +154,7 @@ const data = fetch('assets/js/suggestions.json')
  * takes a string (category) and array (data) as variables
  */
 
- function findGiftsInCategory(category, data) {
+function findGiftsInCategory(category, data) {
   let listOfGifts = []
   for (let i = 0; i < data.length; ++i) {
 
@@ -196,7 +196,6 @@ function displayResults(category) {
     </div>
     <div class="result__content--modal">learn more</div>
     `;
-
     suggestionCard.addEventListener('click', function () {
       console.log('clicked');
       modal.style.display = 'flex';
@@ -249,8 +248,7 @@ function checkAnswer(e) {
       currentQuestion = notFoodieQuestion;
     }
     displayQuestion(currentQuestion)
-  } 
-  else if (currentQuestion === creativeQuestion) {
+  } else if (currentQuestion === creativeQuestion) {
     if (e.target.id === 'answer-a') {
       category = arts
     } else if (e.target.id === 'answer-b') {
@@ -259,8 +257,7 @@ function checkAnswer(e) {
       category = cookery
     }
     quizContainer.classList.add('hide')
-  }
-  else if (currentQuestion === unCreativeQuestion) {
+  } else if (currentQuestion === unCreativeQuestion) {
     if (e.target.id === 'answer-a') {
       category = tech
     } else if (e.target.id === 'answer-b') {
@@ -269,18 +266,16 @@ function checkAnswer(e) {
       category = games
     }
     displayResults(category)
-  }
-  else if (currentQuestion === activeQuestion) {
+  } else if (currentQuestion === activeQuestion) {
     if (e.target.id === 'answer-a') {
       category = individualSports
     } else if (e.target.id === 'answer-b') {
       category = teamSports
     } else {
-      category = travel
+      category = travelResults
     }
     displayResults(category)
-  }
-  else if (currentQuestion === notActiveQuestion) {
+  } else if (currentQuestion === notActiveQuestion) {
     if (e.target.id === 'answer-a') {
       category = sportsEvent
     } else if (e.target.id === 'answer-b') {
@@ -289,8 +284,7 @@ function checkAnswer(e) {
       category = ride
     }
     displayResults(category)
-  }
-  else if (currentQuestion === foodieQuestion) {
+  } else if (currentQuestion === foodieQuestion) {
     if (e.target.id === 'answer-a') {
       category = eatOut
     } else if (e.target.id === 'answer-b') {
@@ -299,8 +293,7 @@ function checkAnswer(e) {
       category = tasting
     }
     displayResults(category)
-  }
-  else if (currentQuestion === notFoodieQuestion) {
+  } else if (currentQuestion === notFoodieQuestion) {
     if (e.target.id === 'answer-a') {
       category = museum
     } else if (e.target.id === 'answer-b') {
@@ -319,7 +312,6 @@ answerContainerC.addEventListener('click', checkAnswer);
 
 
 /// displays modal 
-
 const displayModalContent = function (suggestion) {
   console.log(suggestion.websites[0]);
   const modalImage = document.querySelector('#suggestion-image');
@@ -350,3 +342,13 @@ const displayModalContent = function (suggestion) {
       </div>
   `;
 }
+
+// Close modal
+closeModal.addEventListener('click', function () {
+  modal.style.display = 'none';
+});
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && modal.style.display !== 'none') {
+    modal.style.display = 'none';
+  }
+});
