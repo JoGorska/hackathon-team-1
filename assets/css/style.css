@@ -199,9 +199,7 @@ body {
 .range__content--text,
 .contact__content--text {
   font-size: 1.7rem;
-  /* line-height: 2.7rem; */
   margin-bottom: 0.6em;
-  /* font-weight: 700; */
 }
 
 .description__content--accent {
@@ -255,29 +253,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2em;
-  background-color: #5cbab4;
+  padding: 4em 2em 6em 2em;
+  /* background-color: #5cbab4; */
 }
 
 .contact__content {
   width: 50%;
-  text-align: left;
-  padding: 2em 2em 2em 0;
+  text-align: center;
   color: var(--clr-neutral--100);
-  background-color: #efa3a9;
 }
 
-.contact__form {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  padding: 0 2em;
-  background-color: #464646;
+.contact__link {
+  padding-top: 1.5em;
 }
 
-/* Form */
+.contact__link--btn {
+  padding: 0.5em 2em;
+  border-radius: 0.4em;
+  background-color: var(--clr-primary--300);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--clr-neutral--300);
+  transition: background-color .15s ease-in-out, color .15s ease-in-out;
+}
+
+.contact__link--btn:hover {
+  background-color: var(--clr-primary--200);
+  color: var(--clr-neutral--900);
+}
 
 /* ----- Quiz ----- */
 
