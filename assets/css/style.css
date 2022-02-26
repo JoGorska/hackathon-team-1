@@ -149,42 +149,53 @@ body {
   background-attachment: fixed;
 }
 
-.description {
+.description,
+.incentive {
   display: flex;
   flex-direction: column;
-  padding: 3em 0;
+}
+
+.description {
+  padding-top: 3em;
 }
 
 
-.description__container {
+.description__container,
+.incentive__container {
   max-width: 120rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5em 5em 25em 5em;
+}
+
+.description__container {
+  padding-top: 5em;
 }
 
 .description__content {
   width: 50%;
   max-width: 39rem;
   text-align: left;
-  background-color: #fbfbfbb7;
+  background-color: #5cbab4;
+  padding: 2em;
 }
 
-/* .description__content--title {
+.description__content--title,
+.incentive__content--title {
   font-size: 2.5rem;
   line-height: 3.5rem;
   margin-bottom: 0.6em;
   font-family: var(--ff-accent);
   font-weight: 700;
-} */
+}
 
-.description__content--text {
-  font-size: 2rem;
-  line-height: 2.7rem;
+.description__content--text,
+.incentive__content--text {
+  font-size: 1.7rem;
+  /* line-height: 2.7rem; */
   margin-bottom: 0.6em;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .description__content--accent {
@@ -196,10 +207,26 @@ body {
   color: var(--clr-primary--900);
 }
 
-.description__image {
+.description__image,
+.incentive__image {
   width: 50%;
 }
 
+/* Incentive */
+.incentive__content {
+  width: 50%;
+  background-color: #5cbab4;
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.incentive__content--text {
+  width: 80%;
+  text-align: center;
+}
 
 /* ----- Quiz ----- */
 
