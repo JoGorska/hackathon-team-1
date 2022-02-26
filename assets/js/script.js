@@ -111,7 +111,7 @@ var games = []
 var individualSports = []
 var teamSports = []
 var travel = []
-var spa = [] 
+var spa = []
 var sportsEvent = []
 var themePark = []
 var ride = []
@@ -154,7 +154,7 @@ const data = fetch('assets/js/suggestions.json')
  * takes a string (category) and array (data) as variables
  */
 
- function findGiftsInCategory(category, data) {
+function findGiftsInCategory(category, data) {
   let listOfGifts = []
   for (let i = 0; i < data.length; ++i) {
 
@@ -249,8 +249,7 @@ function checkAnswer(e) {
       currentQuestion = notFoodieQuestion;
     }
     displayQuestion(currentQuestion)
-  } 
-  else if (currentQuestion === creativeQuestion) {
+  } else if (currentQuestion === creativeQuestion) {
     if (e.target.id === 'answer-a') {
       category = arts
     } else if (e.target.id === 'answer-b') {
@@ -259,8 +258,7 @@ function checkAnswer(e) {
       category = cookery
     }
     quizContainer.classList.add('hide')
-  }
-  else if (currentQuestion === unCreativeQuestion) {
+  } else if (currentQuestion === unCreativeQuestion) {
     if (e.target.id === 'answer-a') {
       category = tech
     } else if (e.target.id === 'answer-b') {
@@ -269,8 +267,7 @@ function checkAnswer(e) {
       category = games
     }
     displayResults(category)
-  }
-  else if (currentQuestion === activeQuestion) {
+  } else if (currentQuestion === activeQuestion) {
     if (e.target.id === 'answer-a') {
       category = individualSports
     } else if (e.target.id === 'answer-b') {
@@ -279,8 +276,7 @@ function checkAnswer(e) {
       category = travel
     }
     displayResults(category)
-  }
-  else if (currentQuestion === notActiveQuestion) {
+  } else if (currentQuestion === notActiveQuestion) {
     if (e.target.id === 'answer-a') {
       category = sportsEvent
     } else if (e.target.id === 'answer-b') {
@@ -289,8 +285,7 @@ function checkAnswer(e) {
       category = ride
     }
     displayResults(category)
-  }
-  else if (currentQuestion === foodieQuestion) {
+  } else if (currentQuestion === foodieQuestion) {
     if (e.target.id === 'answer-a') {
       category = eatOut
     } else if (e.target.id === 'answer-b') {
@@ -299,8 +294,7 @@ function checkAnswer(e) {
       category = tasting
     }
     displayResults(category)
-  }
-  else if (currentQuestion === notFoodieQuestion) {
+  } else if (currentQuestion === notFoodieQuestion) {
     if (e.target.id === 'answer-a') {
       category = museum
     } else if (e.target.id === 'answer-b') {
