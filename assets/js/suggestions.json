@@ -963,6 +963,56 @@
     "image": "assets/images/suggestions/handcrafts/cutting-machine.jpg"
   },
   {
+    "category": "sightseeing",
+    "name": "Eiffel Tower(France)",
+    "description": "The Eiffel Tower is not only a Paris icon but also becomes a symbol of love for many couples from all over the world. The Eiffel Tower's lighting and sparkling lights are on for 5 minutes on the hour every hour after nightfall until 1am. We also recommend entering the tower and enjoying the memorable views of the city.",
+    "websites": [
+      ["The Official Eiffel Tower Website", "https://www.toureiffel.paris/en"]
+    ],
+    "price": "38.56-46(for couple)",
+    "image": "assets/images/suggestions/sightseeing/paris.jpg"
+  },
+  {
+    "category": "sightseeing",
+    "name": "The Empire State Building(USA)",
+    "description": "New York's Empire State Building has been the setting for a number of romantic movies. From the observation deck, you can see an incredible view of New York. If you visit after 9pm, you'll have a more romantic time with the night sky and city lights.",
+    "websites": [
+      ["Empire State Building", "https://www.esbnyc.com/"]
+    ],
+    "price": "88-272(for couple)",
+    "image": "assets/images/suggestions/sightseeing/ny.jpg"
+  },
+  {
+    "category": "sightseeing",
+    "name": "Gondola Rides in Venice(Italy)",
+    "description": "The gondola ride is as romantic as it gets. You will be able to see the famous grand canal, iconic bridges and Venice's romantic landmarks on a gondola.",
+    "websites": [
+      ["Venice Tours", "https://www.venicetours.eu/en/activity/78684/romantic-private-gondola-ride"]
+    ],
+    "price": "125-145",
+    "image": "assets/images/suggestions/sightseeing/venice.jpg"
+  },
+  {
+    "category": "sightseeing",
+    "name": "Wicklow Mountains National Park(Ireland)",
+    "description": "Do you remember the scene from <cite>P.S. I Love You</cite> where Gerry and Holly first met with a beautiful blooming purple heather flowers background? This scene took place in the Wicklow Mountains in Ireland. If your partner is fond of nature, they will love this place.",
+    "websites": [
+      ["Wicklow Mountains National Park", "https://www.wicklowmountainsnationalpark.ie/"]
+    ],
+    "price": "0",
+    "image": "assets/images/suggestions/sightseeing/wicklow.jpg"
+  },
+  {
+    "category": "sightseeing",
+    "name": "Notting Hill(UK)",
+    "description": "Julia Roberts stood in front of Hugh Grant in a travel book shop, asking him to love her. It is one of the most famous romantic-comedy scenes in history. Since then, It is one of London's most famous locations. There are colourful streets, popular market, the Notting Hill bookshop and more.",
+    "websites": [
+      ["Visit London", "https://www.visitlondon.com/"]
+    ],
+    "price": "0",
+    "image": "assets/images/suggestions/sightseeing/london.jpg"
+  },
+  {
     "category": "",
     "name": "",
     "description": "",
@@ -973,4 +1023,5 @@
     "price": "...-...",
     "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
   }
+
 ]
