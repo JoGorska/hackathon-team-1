@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
 
 :root {
-  --clr-primary--100: #ffe3e7;
+  --clr-primary--100: #fff3f5;
+  --clr-primary--200: #ffe3e7;
   --clr-primary--300: #efa3a9;
   --clr-primary--900: #ff125f;
   --clr-neutral--100: #fafafa;
@@ -33,7 +34,8 @@ ul {
   list-style: none;
 }
 
-ul li {
+a {
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -72,7 +74,7 @@ body {
 /* Header */
 .header {
   width: 100%;
-  background-color: var(--clr-primary--300);
+  background-color: var(--clr-neutral--900);
   position: fixed;
 }
 
@@ -93,11 +95,12 @@ body {
 
 .navbar__item {
   font-size: 1.8rem;
-  color: var(--clr-neutral--300);
+  color: var(--clr-primary--100);
 }
 
 .navbar__item a {
   font-weight: 900;
+  color: var(--clr-primary--100);
 }
 
 .navbar__item:hover {
@@ -106,7 +109,7 @@ body {
 }
 
 .navbar__item a:hover {
-  color: var(--clr-neutral--900);
+  color: var(--clr-primary--100);
   text-decoration: underline;
 }
 
@@ -169,8 +172,8 @@ body {
 
 .result__content {
   padding: 0 1em;
-  background-color: var(--clr-primary--100);
-  color: var(--clr-neutral--300);
+  background-color: #464646;
+  color: var(--clr-primary--100);
   border-radius: 0.5em;
   cursor: pointer;
   display: grid;
@@ -178,10 +181,11 @@ body {
   -webkit-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+  transition: background-color .15s ease-in-out, color .15s ease-in-out;
 }
 
 .result__content:hover {
-  background-color: #fcdadd;
+  background-color: var(--primary-900);
   color: var(--clr-neutral--900);
 }
 
@@ -192,15 +196,12 @@ body {
   text-align: center;
   align-self: center;
   justify-self: center;
-  /* color: var(--clr-primary--900); */
 }
 
 .result__content--image {
   border-radius: 0.5em;
   width: 90%;
   margin: 0 auto;
-  /* background-color: #ff125f; */
-
   -webkit-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
   -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
   box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2) inset;
@@ -215,7 +216,6 @@ body {
   text-align: center;
   align-self: center;
   justify-self: center;
-  /* padding-top: 1em; */
 }
 
 .result__content--modal:hover {
@@ -260,13 +260,14 @@ body {
 
 .modal__close {
   color: var(--clr-neutral--300);
-  background-color: #ffcace;
+  background-color: #464646;
   text-align: center;
   font-weight: 700;
   padding: 0.5em 0;
   padding-left: 2vw;
   padding-right: 2vw;
-  max-width: 20vw;
+  width: 20vw;
+  max-width: 15rem;
   border-radius: 0.3em;
   font-size: 1.7rem;
   cursor: pointer;
@@ -286,12 +287,11 @@ body {
 }
 
 .btn__back--text {
-  /* margin-left: 1em; */
-  color: #ff125f;
+  color: var(--clr-primary--100);
 }
 
 .modal__close:hover {
-  background-color: #fcdadd;
+  background-color: #6b6b6b;
   color: var(--clr-neutral--900);
 }
 
@@ -321,8 +321,9 @@ body {
   margin-left: 5vw;
   max-width: 45rem;
   padding: 2em;
-  background-color: #fff1f2;
-  color: var(--clr-neutral--300);
+  background-color: #fbfbfb;
+  color: var(--clr-neutral--900);
+  font-size: 1.7rem;
   border-radius: 0.5em;
   -webkit-box-shadow: 0px 2px 27px 0px #360c1a80;
   -moz-box-shadow: 0px 2px 27px 0px #360c1a80;
@@ -333,7 +334,8 @@ body {
   text-transform: capitalize;
   font-size: 2rem;
   padding-bottom: 1em;
-  color: var(--clr-primary--900);
+  color: var(--clr-neutral--900);
+  /* color: black; */
 }
 
 .modal__content--description {
@@ -344,6 +346,8 @@ body {
 .modal__content--price-title {
   color: var(--clr-primary--900);
   padding-bottom: 0.2em;
+  color: var(--clr-neutral--900);
+  /* color: black; */
 }
 
 .modal__content--links {
@@ -393,7 +397,7 @@ body {
 .footer {
 
   width: 100%;
-  background-color: var(--clr-primary--300);
+  background-color: var(--clr-neutral--900);
   /* z-index: 999;
   position: absolute;
   bottom: 0; */
@@ -404,6 +408,7 @@ body {
   max-width: 120rem;
   margin: 0 auto;
   padding: 2em;
+  color: var(--clr-primary--100)
 }
 
 .hide {
@@ -441,7 +446,8 @@ body {
 
   .modal__content--image {
     all: unset;
-    width: 15rem;
+    /* width: 15rem; */
+    width: 100%;
     margin: 0 auto;
     display: flex;
     margin-top: 2vh;
