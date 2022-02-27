@@ -90,6 +90,48 @@ The final result of the search will be a category that the user has got to while
 
 **Features**
 
+The site contains 3 pages: Home, Gift search, Partnering. And the header and footer are identical on every page.
+
+- The header
+  - The fully responsive navigation bar includes links to the Home, Gift search and Partnering page and is identical in each page to allow for easy navigation.
+  - The navigation menu collapses on small devices less than 768px width.
+<!-- screentshot -->
+
+- The footer
+  - The footer contains collaborators’ names and links to their GitHub and LinkedIn Pages which open in a new tab.
+<!-- screentshot -->
+
+- Landing Page
+  - The landing page includes an image of a signpost with text overlay to allow the user to see exactly what the site is about.
+<!-- screentshot -->
+  - The “Gift search” button links to the Gift search page and the “Discover more” button links to the feature section of the home page.
+<!-- screentshot -->
+  - The Feature section contains detailed descriptions about the site: who is the site for, how it works and what the user can expect.
+<!-- screentshot -->
+  - The “Fill out the form” button links to the Partnering page.
+<!-- screentshot -->
+
+- Gift search Page
+  - The gift search page features a fully responsive design.
+  - This page includes guided questions, 18 categories, 5 gift ideas for each category and the detail page for each gift idea.
+  - The page starts with a text “GiftiFY Quiz” and “Start” button.
+<!-- screentshot -->
+  - Each page has a “Reset Questions” button which links to the first page of the Gift search page.
+<!-- screentshot -->
+  - The guided questions has 2 options the user can choose and the next question renders depending on the user’s answer to the previous question.
+<!-- screentshot -->
+  - When the user chooses a category, 5 gift ideas with the “Learn more” button render.
+<!-- screentshot -->
+  - The detail page contains a “back” button which allows the user to choose different ideas, an item image and description with external links and price. The external links open in a new tab so that the user can stay on the site.
+<!-- screentshot -->
+
+- Partnering Page
+  - This page allows the user to submit their product or service for the “GiftiFY” team to review.
+<!-- screentshot -->
+  - The “send” button submits the information the user supplied and the “reset” button removes their information in the form.
+<!-- screentshot -->
+
+
 | Feature  | Details  |
 |---|---|
 | Nav bar | ??? |
