@@ -673,21 +673,36 @@ Juliia*/
   width: 100%;
   max-width: 120rem;
   margin: 0 auto;
-  padding: 2em;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: row;
+  padding: 4em 2em;
   color: var(--clr-primary--100)
 }
 
+.collaborators{
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  align-items: center; 
+  text-align:left;
+  gap:  */
+  /* background-color:green; */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.collaborators-item{
+  align-self: start;
+  justify-self: start;
+
+}
 .hide {
   display: none !important;
 }
 
-.grid-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 auto;
-  align-items: center;
-  text-align:center;
-}
 
 @media all and (max-width: 1030px) {
 
