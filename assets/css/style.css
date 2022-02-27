@@ -174,9 +174,9 @@ body {
   max-width: 45rem;
   text-align: center;
   margin-top: 20vh;
-  /* position: absolute;
-  left: 20%;
-  top: 10%; */
+  position: absolute;
+  left: 17%;
+  top: 6%;
 }
 
 
@@ -202,12 +202,20 @@ body {
 }
 
 .hero__link--btn {
+  background-color: #02c3b6;
+  /* margin-left: 0.5em; */
+  color: white;
+}
+
+.hero__link--btn {
   margin-right: 0.5em
 }
 
 .hero__main--btn {
-  background-color: #f5d4d6;
+  /* background-color: #f5d4d6; */
+  background-color: #30a59d;
   margin-left: 0.5em;
+  color: white;
 }
 
 .contact__link--btn:hover,
@@ -266,7 +274,9 @@ body {
   width: 50%;
   max-width: 39rem;
   text-align: left;
-  background-color: #5cbab4;
+  background-color: #5cbab4a6;
+  border-radius: 0.5em;
+  color: rgb(47, 47, 47);
   padding: 2em;
 }
 
@@ -380,7 +390,7 @@ Juliia*/
   color: var(--clr-neutral--900);
   padding: 0 2em;
   width: 100%;
-  margin: 0 2em;
+  margin: 2em;
   position: relative;
 }
 
@@ -410,6 +420,8 @@ Juliia*/
   right: 1.2rem;
   padding: 1em 2em;
   margin: 2em;
+  font-size: 1.5rem;
+  padding: 0.5em 1.5em;
 }
 
 .results__content {
@@ -436,7 +448,8 @@ Juliia*/
 }
 
 .result__content:hover {
-  background-color: var(--primary-900);
+  /* background-color: var(--primary-900); */
+  background-color: var(--clr-accent--100);
   color: var(--clr-neutral--900);
 }
 
