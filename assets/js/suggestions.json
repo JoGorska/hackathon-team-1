@@ -1,47 +1,47 @@
 [{
     "category": "animals",
-    "name": "butterfly",
-    "description": "These majestic creatures will definitely surprise your partner. Butterflies inspire all people and bring the beauty to the world, and that's why it would be a perfect idea to chose them to share with your loved ones. Everyone loves butterflies flying around, especially if there flying right in your apartment!",
+    "name": "Butterfly",
+    "description": "These majestic creatures will definitely surprise your partner. Butterflies bring such inspiration and beauty to the world, making them the perfect idea for your loved one. Everyone loves butterflies flying around, especially if in your own home!",
     "websites": [
-      ["butterfly nursery", "https://www.butterflynursery.com/"],
-      ["the butterfly company", "https://www.thebutterflycompany.com/"],
-      ["monarch butterflies", "https://monarchbutterflies.ca/"]
+      ["Butterfly Nursery", "https://www.butterflynursery.com/"],
+      ["The Butterfly Company", "https://www.thebutterflycompany.com/"],
+      ["Monarch Butterflies", "https://monarchbutterflies.ca/"]
     ],
     "price": "19-120",
     "image": "assets/images/suggestions/animals/butterfly.jpg"
   },
   {
     "category": "animals",
-    "name": "spider",
-    "description": "To most people, spiders are super creepy. However, there are still wonderful creatures to many people! There calm, silent, and there are only fewer species which are dangerous to humans! If you want to really surprise your partner, go for spiders!",
+    "name": "Spider",
+    "description": "To most people, spiders are super creepy. However, they are still wonderful creatures for many! Calm, silent, and with only a few species dangerous to humans, to really surprise your partner, go for spiders!",
     "websites": [
-      ["evolution reptiles", "https://www.evolutionreptiles.co.uk/animals/spiders/"],
-      ["josh's frogs", "https://www.joshsfrogs.com/live-insects-feeders/spiders.html"],
-      ["backwater reptiles", "https://www.backwaterreptiles.com/tarantulas-for-sale.html"]
+      ["Evolution Reptiles", "https://www.evolutionreptiles.co.uk/animals/spiders/"],
+      ["Josh's Frogs", "https://www.joshsfrogs.com/live-insects-feeders/spiders.html"],
+      ["Backwater Reptiles", "https://www.backwaterreptiles.com/tarantulas-for-sale.html"]
     ],
     "price": "32-150",
     "image": "assets/images/suggestions/animals/spider.jpg"
   },
   {
     "category": "animals",
-    "name": "cockatoo parrot",
-    "description": "If your half really loves to talk, this bird will be an amazing gift in this case! Cockatoo parrots are highly sociable and just have to be around people. Cockatoos are often described as intelligent and emotional birds and many describe life with a cockatoo as living with a perpetual 2-year-old child, capable of temper tantrums as well as complete silliness.",
+    "name": "Cockatoo Parrot",
+    "description": "If your other half really loves to talk, this bird will be an amazing gift! Cockatoo parrots are highly sociable and just have to be around people. Often described as intelligent, emotional birds, life with a cockatoo is often comapred to that of living with a perpetual 2-year-old child; capable of temper tantrums as well as complete silliness!",
     "websites": [
-      ["megabird store", "https://megabirdstore.com/bird/buy-cockatoo/"],
-      ["caliparrots for sale", "https://caliparrotsforsale.com/product-category/cockatoo-parrots/"],
-      ["bird breeders", "https://www.birdbreeders.com/birds/category/cockatoos"]
+      ["Megabird Store", "https://megabirdstore.com/bird/buy-cockatoo/"],
+      ["Caliparrots for sale", "https://caliparrotsforsale.com/product-category/cockatoo-parrots/"],
+      ["Bird Breeders", "https://www.birdbreeders.com/birds/category/cockatoos"]
     ],
     "price": "700-6000",
     "image": "assets/images/suggestions/animals/parrot.jpg"
   },
   {
     "category": "animals",
-    "name": "snake",
-    "description": "Would you like to make a gift really memorable in this Valentine's Day? Purchasing a snake may really help you. First of all, it is unusual and beautiful!.And don't forget that snakes are eary to handle and are they are not aggressive! And if you partner doesn't like to care about about feeding an animal every now and then, a snake can be a great choice! They may not eat for wiiks to month!",
+    "name": "Snake",
+    "description": "Looking for a truly memorable gift in this Valentine's Day? Purchasing a snake maybe the answer! First of all, it is unusual and beautiful present! And don't forget, snakes are easy to handle and not aggressive! If your partner would like a low-maintenance pet, snakes may not eat for weeks at a time!",
     "websites": [
-      ["backwater reptiles", "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html"],
-      ["xyz reptiles", "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"],
-      ["amazing amazon", "https://www.amazingamazon.com.au/collections/pythons-snakes-for-sale"]
+      ["Backwater Reptiles", "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html"],
+      ["XYZ reptiles", "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"],
+      ["Amazing Amazon", "https://www.amazingamazon.com.au/collections/pythons-snakes-for-sale"]
     ],
     "price": "40-500",
     "image": "assets/images/suggestions/animals/snake.jpg"
@@ -49,11 +49,11 @@
   {
     "category": "animals",
     "name": "hedgehog",
-    "description": "Hedgehog is a cute pocket pet, which will definitely bring lots of joy to your partner! Moreover, hedgehogs are easy to take care of, ",
+    "description": "Hedgehogs make for a cute pocket pet, which will definitely bring lots of joy to your partner! Moreover, hedgehogs are easy to take care of.",
     "websites": [
-      ["exotic animals for sale", "https://www.exoticanimalsforsale.net/hedgehogs-for-sale.asp"],
-      ["dragon stone ranch", "https://www.dragonstoneranch.com/hedgehogs"],
-      ["peta", "https://www.peta.org/features/hedgehog-pet-industry/"]
+      ["Exotic animals for sale", "https://www.exoticanimalsforsale.net/hedgehogs-for-sale.asp"],
+      ["Dragon stone ranch", "https://www.dragonstoneranch.com/hedgehogs"],
+      ["Peta", "https://www.peta.org/features/hedgehog-pet-industry/"]
     ],
     "price": "50-600",
     "image": "assets/images/suggestions/animals/hedgehog.jpg"
