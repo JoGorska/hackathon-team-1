@@ -37,7 +37,7 @@
   {
     "category": "animals",
     "name": "snake",
-    "description": "Would you like to make a gift really memorable in this Valentine's Day? Purchasing a snake may really help you. First of all, it is unusual and beautiful!.And don't forget that snakes are eary to handle and are they are not aggressive! And if you partner doesn't like to care about about feeding an animal every now and then, a snake can be a great choice! They may not eat for wiiks to month! If you want to learn more: https://vcahospitals.com/know-your-pet/snakes-owning",
+    "description": "Would you like to make a gift really memorable in this Valentine's Day? Purchasing a snake may really help you. First of all, it is unusual and beautiful!.And don't forget that snakes are eary to handle and are they are not aggressive! And if you partner doesn't like to care about about feeding an animal every now and then, a snake can be a great choice! They may not eat for wiiks to month!",
     "websites": [
       ["backwater reptiles", "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html"],
       ["xyz reptiles", "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"],
@@ -475,11 +475,13 @@
     "category": "spa",
     "name": "Terme di Saturnia, Italy",
     "description": "Nestled in the Tuscan hills, these waterfalls are made of several natural pools of warm thermal water and are free to enter. Spoil your partner afterwards with a pamper treatment at the luxury spa.",
-    "websites": [ ["Terme di Saturnia", "https://www.termedisaturnia.it/en/hot-spring-pools.html"]],    
+    "websites": [
+      ["Terme di Saturnia", "https://www.termedisaturnia.it/en/hot-spring-pools.html"]
+    ],
     "price": "0-200",
     "image": "assets/images/suggestions/spa/saturnia.jpg"
 
-},
+  },
   {
     "category": "themePark",
     "name": "Liseberg, Sweden",
