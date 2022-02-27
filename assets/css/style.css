@@ -371,12 +371,14 @@ Juliia*/
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
 }
 
 #quiz-header {
   background-color: #464646;
   border-radius: 0.4em;
   width: 100%;
+  margin-top: 1rem;
   margin-bottom: 2em;
   display: flex;
   flex-direction: column;
@@ -396,7 +398,8 @@ Juliia*/
   font-weight: 900;
 }
 
-#start-button {
+#start-button,
+.answer-button {
   padding: 0.5em 2em;
   border-radius: 0.4em;
   background-color: var(--clr-primary--300);
@@ -406,25 +409,38 @@ Juliia*/
   transition: background-color .15s ease-in-out, color .15s ease-in-out;
   background-color: #30a59d;
   color: white;
-  margin-bottom: 1rem;
+  margin: 1rem;
+  width: 300px;
 }
 
-#start-button:hover {
+#start-button:hover,
+.answer-button:hover {
   background-color: var(--clr-primary--300);
   color: var(--clr-neutral--100);
 }
 
+#quiz-content {
+  background-color: #464646;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#question-text {
+  color: white;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+#quiz-answers {
+  display: flex;
+  flex-direction: column;
 
 
-
-
-
-
-
-
-
-
-
+}
 
 /* Please do not change the code below
 Juliia*/
