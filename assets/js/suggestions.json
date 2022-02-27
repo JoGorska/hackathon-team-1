@@ -1023,7 +1023,7 @@
       ["Cheese Rolling", "https://radseason.com/event/cheese-rolling-coopers-hill-gloucester-united-kingdom/"]
     ],
     "price": "0",
-    "image": ""
+    "image": "assets/images/suggestions/sportsEvent/cheese.jpg"
   },
 {
     "category": "sportsEvent",
@@ -1035,7 +1035,7 @@
       	["Chio Aachen World Equistrian Event, Germany", "https://www.chioaachen.de/en/"]
     ],
     "price": "0",
-    "image": ""
+    "image": "assets/images/suggestions/sportsEvent/horse.jpg"
   },
 {
     "category": "sportsEvent",
@@ -1047,7 +1047,7 @@
       	["British Truck Racing Event, UK", "https://www.barc.net/championship/british-truck-racing-championship/"]
     ],
     "price": "0",
-    "image": ""
+    "image": "assets/images/suggestions/sportsEvent/truck_racing.jpg"
   },
 {
     "category": "sportsEvent",
@@ -1059,7 +1059,7 @@
       	["British Rugby Clubs, UK", "https://www.premiershiprugby.com/clubs/"]
     ],
     "price": "0",
-    "image": ""
+    "image": "assets/images/suggestions/sportsEvent/rugby.jpg"
   },
 {
     "category": "sportsEvent",
@@ -1069,7 +1069,7 @@
 	["Golf Channel", "https://www.golfchannel.com/tours"]
     ],
     "price": "0",
-    "image": ""
+    "image": "assets/images/suggestions/sportsEvent/golf.jpg"
   },  
   {
     "category": "",
