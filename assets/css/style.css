@@ -91,11 +91,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* positions added for absolute position of navbar__components - Sejung */
   position: relative;
 }
-
-/* Navbar toggler hidden for big screens - Sejung */
 
 .navbar__toggler {
   display: none;
@@ -112,14 +109,8 @@ body {
 }
 
 .navbar__item a {
-  /* font-weight: 900; */
   color: var(--clr-primary--100);
 }
-
-/* .navbar__item a:hover {
-
-  text-decoration: underline;
-} */
 
 .navbar__item a:hover {
   color: #30a59d;
@@ -133,7 +124,6 @@ body {
 /* Main */
 .main {
   width: 100%;
-  /* max-width: 120rem; */
   margin: 0 auto;
   flex: 1 0 auto;
   display: flex;
@@ -159,7 +149,6 @@ body {
   display: flex;
   height: calc(100vh - 8rem);
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   background-color: rgb(31, 31, 31);
   background-image: linear-gradient(14deg,
@@ -186,8 +175,6 @@ body {
   left: 17%;
   top: 4%;
 }
-
-
 
 .hero__link,
 .contact__link {
@@ -227,7 +214,6 @@ body {
   color: white;
   text-transform: uppercase;
   font-weight: 900;
-  /* color: var(--clr-neutral--900); */
 }
 
 .hero__main--btn {
@@ -395,7 +381,7 @@ body {
 }
 
 /* ----- Quiz ----- */
-
+/* Questions */
 #quiz-container {
   display: flex;
   flex-direction: column;
@@ -470,7 +456,7 @@ body {
   flex-direction: column;
 }
 
-/* suggestions */
+/* Quiz Suggestions */
 .results__container {
   display: flex;
   flex-direction: column;
@@ -479,7 +465,7 @@ body {
   color: var(--clr-neutral--900);
   padding: 0 2em;
   width: 100%;
-  max-width: 75rem;
+  max-width: 120rem;
 }
 
 .results__header {
@@ -819,11 +805,9 @@ body {
   .contact__content {
     width: 70%;
   }
-
 }
 
 @media all and (max-width: 1050px) {
-
   .results__title {
     padding-bottom: 0.7em;
     font-size: 2rem;
@@ -921,6 +905,7 @@ body {
 
 @media screen and (max-width: 768px) {
 
+  /* Navbar */
   .navbar__components {
     background-color: var(--clr-neutral--900);
     flex-direction: column;
@@ -1028,7 +1013,6 @@ body {
   .modal__content {
     max-width: 100%;
   }
-
 
   /* Home */
   .description {
