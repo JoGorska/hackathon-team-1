@@ -195,6 +195,9 @@ function startTheQuiz() {
   displayQuestion(currentQuestion);
   startButton.classList.add('hide');
   resetButton.classList.remove('hide');
+  quizContent.classList.remove('hide');
+  answerContainerA.classList.remove('hide');
+  answerContainerB.classList.remove('hide');  
 }
 
 function displayResults(category) {
