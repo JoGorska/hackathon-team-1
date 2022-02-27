@@ -112,17 +112,17 @@ body {
 }
 
 .navbar__item a {
-  font-weight: 900;
+  /* font-weight: 900; */
   color: var(--clr-primary--100);
 }
 
-.navbar__item:hover {
-  color: var(--clr-neutral--900);
+/* .navbar__item a:hover {
+
   text-decoration: underline;
-}
+} */
 
 .navbar__item a:hover {
-  color: var(--clr-primary--100);
+  color: #30a59d;
   text-decoration: underline;
 }
 
@@ -184,7 +184,7 @@ body {
   margin-top: 20vh;
   position: absolute;
   left: 17%;
-  top: 6%;
+  top: 4%;
 }
 
 
@@ -222,14 +222,24 @@ body {
   color: var(--clr-neutral--100);
 }
 
+.hero__link--btn {
+  background-color: var(--clr-primary--900);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  /* color: var(--clr-neutral--900); */
+}
+
 .hero__main--btn {
   background-color: #30a59d;
   color: white;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 .hero__link--btn,
 .hero__main--btn {
-  width: 15rem;
+  width: 14rem;
   font-size: 1.5rem;
   letter-spacing: 0.05rem;
 }
@@ -335,8 +345,6 @@ body {
   width: 45%;
 }
 
-
-
 /* Incentive */
 .incentive__content,
 .range__content {
@@ -385,10 +393,6 @@ body {
   text-align: center;
   color: var(--clr-neutral--100);
 }
-
-
-/* Please do not change the code above
-Juliia*/
 
 /* ----- Quiz ----- */
 
@@ -465,10 +469,6 @@ Juliia*/
   display: flex;
   flex-direction: column;
 }
-
-/* Please do not change the code below
-Juliia*/
-
 
 /* suggestions */
 .results__container {
@@ -988,6 +988,10 @@ Juliia*/
     margin-bottom: 1em;
   }
 
+  .contact__content {
+    width: 90%;
+  }
+
   /* Modal */
   .modal__main {
     grid-template-rows: 0.1fr 2fr;
@@ -1019,11 +1023,29 @@ Juliia*/
     width: 100%;
     padding: 1.5em;
   }
-}
 
-@media screen and (max-width: 768px) {
   .modal__content {
     max-width: 100%;
   }
+}
 
+@media screen and (max-width: 768px) {
+
+  .description {
+    padding: 3em 1em 2em 1em;
+  }
+
+  .incentive {
+    padding: 0 1em 2em 1em;
+  }
+
+  .range {
+    padding: 0 1em 3em 1em;
+  }
+
+  .description__content,
+  .incentive__content,
+  .range__content {
+    width: 100%;
+  }
 }
