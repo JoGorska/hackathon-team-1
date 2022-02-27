@@ -204,7 +204,6 @@ function displayResults(category) {
   quizContainer.classList.add('hide');
   resultsContainer.classList.remove('hide');
   suggestionHeader.classList.remove('hide');
-  // results-container
   document.getElementById('results-container').style.margin = '2em'
   document.getElementById('results-header').style.backgroundColor = '#464646';
   document.getElementById('results-header').style.padding = '1em';

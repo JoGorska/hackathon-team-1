@@ -81,7 +81,6 @@ body {
   background-color: var(--clr-neutral--900);
   position: fixed;
   z-index: 999;
-  /* needed unfix the position, as it was covering contact form - Joanna */
 }
 
 .navbar {
@@ -171,7 +170,7 @@ body {
     url('../images/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
   padding: 0 2em;
 }
 
@@ -196,6 +195,13 @@ body {
   padding-top: 2em;
 }
 
+.hero__link {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .hero__link--btn,
 .hero__main--btn,
@@ -217,14 +223,8 @@ body {
   color: var(--clr-neutral--100);
 }
 
-.hero__link--btn {
-  margin-right: 0.5em
-}
-
 .hero__main--btn {
-  /* background-color: #f5d4d6; */
   background-color: #30a59d;
-  margin-left: 0.5em;
   color: white;
 }
 
@@ -752,6 +752,17 @@ Juliia*/
   text-align: center;
 }
 
+@media all and (max-width: 1600px) {
+  .hero__content {
+    position: unset;
+  }
+
+  .hero__link--btn,
+  .hero__main--btn {
+    padding: 0.5em 1.5em;
+  }
+}
+
 @media all and (max-width: 1050px) {
 
   .results__title {
@@ -788,7 +799,8 @@ Juliia*/
   }
 }
 
-/* For Navigation - Sejung */
+@media screen and (max-width: 768px) {}
+
 @media screen and (max-width: 768px) {
 
   .navbar__components {
@@ -843,6 +855,20 @@ Juliia*/
   .navbar__open path,
   .navbar__close path {
     fill: var(--clr-primary--100);
+  }
+
+  /* Hero */
+  .hero__content {
+    width: 95%;
+  }
+
+  .hero__link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero__link--btn {
+    margin-bottom: 1em;
   }
 
   /* Modal */
