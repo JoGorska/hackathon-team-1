@@ -438,7 +438,7 @@
       ["bluelagoon", "https://www.bluelagoon.com/"]
     ],
     "price": "68-500",
-    "image": "assets/images/suggestions/spas/blue_lagoon.jpg"
+    "image": "assets/images/suggestions/spa/blue_lagoon.jpg"
   },
   {
     "category": "spa",
@@ -448,7 +448,7 @@
       ["thermaebathspa", "https://www.thermaebathspa.com/"]
     ],
     "price": "64-560",
-    "image": "assets/images/suggestions/spas/bath_thermae.jpg"
+    "image": "assets/images/suggestions/spa/bath_thermae.jpg"
   },
   {
     "category": "spa",
@@ -459,7 +459,7 @@
       ["turkishbathsharrogate", "https://www.turkishbathsharrogate.co.uk/"]
     ],
     "price": "24-120",
-    "image": "assets/images/suggestions/spas/moorish1.jpg"
+    "image": "assets/images/suggestions/spa/moorish1.jpg"
   },
   {
     "category": "spa",
@@ -469,7 +469,7 @@
       ["botabota", "http://botabota.ca/"]
     ],
     "price": "24-90",
-    "image": "assets/images/suggestions/spas/botabota.jpg"
+    "image": "assets/images/suggestions/spa/botabota.jpg"
   },
   {
     "category": "spa",
