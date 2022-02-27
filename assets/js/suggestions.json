@@ -1,7 +1,7 @@
 [{
     "category": "animals",
     "name": "butterfly",
-    "description": "These majestic creatures will definitely surprise your partner. Butterflies inspire all people and bring the beauty to the world, and that’s why it would be a perfect idea to chose them to share with your loved ones. Everyone loves butterflies flying around, especially if there flying right in your apartment!",
+    "description": "These majestic creatures will definitely surprise your partner. Butterflies inspire all people and bring the beauty to the world, and that's why it would be a perfect idea to chose them to share with your loved ones. Everyone loves butterflies flying around, especially if there flying right in your apartment!",
     "websites": [
       ["butterfly nursery", "https://www.butterflynursery.com/"],
       ["the butterfly company", "https://www.thebutterflycompany.com/"],
@@ -37,10 +37,11 @@
   {
     "category": "animals",
     "name": "snake",
-    "description": "Would you like to make a gift really memorable in this Valentine’s Day? Purchasing a snake may really help you. First of all, it is unusual and beautiful!.And don’t forget that snakes are eary to handle and are they are not aggressive! And if you partner doesn’t like to care about about feeding an animal every now and then, a snake can be a great choice! They may not eat for wiiks to month! If you want to learn more: https://vcahospitals.com/know-your-pet/snakes-owning",
+    "description": "Would you like to make a gift really memorable in this Valentine's Day? Purchasing a snake may really help you. First of all, it is unusual and beautiful!.And don't forget that snakes are eary to handle and are they are not aggressive! And if you partner doesn't like to care about about feeding an animal every now and then, a snake can be a great choice! They may not eat for wiiks to month! If you want to learn more: https://vcahospitals.com/know-your-pet/snakes-owning",
     "websites": [
       ["backwater reptiles", "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html"],
-      ["xyz reptiles", "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"]
+      ["xyz reptiles", "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"],
+      ["amazing amazon", "https://www.amazingamazon.com.au/collections/pythons-snakes-for-sale"]
     ],
     "price": "40-500",
     "image": "assets/images/suggestions/animals/snake.jpg"
@@ -51,7 +52,8 @@
     "description": "Hedgehog is a cute pocket pet, which will definitely bring lots of joy to your partner! Moreover, hedgehogs are easy to take care of, ",
     "websites": [
       ["exotic animals for sale", "https://www.exoticanimalsforsale.net/hedgehogs-for-sale.asp"],
-      ["dragon stone ranch", "https://www.dragonstoneranch.com/hedgehogs"]
+      ["dragon stone ranch", "https://www.dragonstoneranch.com/hedgehogs"],
+      ["peta", "https://www.peta.org/features/hedgehog-pet-industry/"]
     ],
     "price": "50-600",
     "image": "assets/images/suggestions/animals/hedgehog.jpg"
@@ -61,8 +63,9 @@
     "name": "Beanie With Built in Headphones",
     "description": "Cozy hat with bluetooth compatible built in audio.  Headphone pieces on the ear coverings of the hat let you enjoy the artists you love outside on a cold day as easily as inside, and it removes the need for separate headphones completely.",
     "websites": [
-      ["amazon", "https://www...amazon.com/dp/B07FNL22KJ/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"],
-      ["walmart", "https://www.walmart.com/ip/Upgraded-Unisex-Knit-Bluetooth-Beanie-Hat-Headphones-V4-2-Unique-Christmas-Tech-Gifts-Men-Dad-Women-Mom-Teen-Boys-Girls-Stocking-Stuffer-w-Built-in-S/340799046?irgwc=1&sourceid=imp_xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&veh=aff&wmlspartner=imp_10078&clickid=xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&sharedid=lifewire.com&affiliates_ad_id=612734&campaign_id=9383"]
+      ["amazon", "https://www.amazon.com/Bluetooth-Beanie-Headphones-Built-Microphone/dp/B076C82TG3"],
+      ["walmart", "https://www.walmart.com/ip/Upgraded-Unisex-Knit-Bluetooth-Beanie-Hat-Headphones-V4-2-Unique-Christmas-Tech-Gifts-Men-Dad-Women-Mom-Teen-Boys-Girls-Stocking-Stuffer-w-Built-in-S/340799046?irgwc=1&sourceid=imp_xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&veh=aff&wmlspartner=imp_10078&clickid=xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&sharedid=lifewire.com&affiliates_ad_id=612734&campaign_id=9383"],
+      ["groupon", "https://www.groupon.com/deals/gg-mp-wireless-bluetooth-beanie-hat-earphone-built-in-hd-stereo-cap-for-men-and-women"]
     ],
     "price": "10.00-30.00",
     "image": "assets/images/suggestions/technology/hat.jpeg"
@@ -73,10 +76,16 @@
     "description": "Find comfort at the next level with this couch compatible gaming setup.  The Couchmaster is a portable gaming surface with ample space for a laptop and mousepad, allowing you to conveniently enjoy your favorite games from the comfort of your couch. ",
     "websites": [
       ["amazon", "https://www.amazon.com/Couchmaster-CYBOT-Ergonomic-Notebooks-Equipment/dp/B08273BJSS/ref=sr_1_2_sspa?crid=2J2Y9HELDH264&keywords=couchmaster&qid=1645758537&sprefix=couchmaste%2Caps%2C278&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFhNNVRYOURDUkJXJmVuY3J5cHRlZElkPUEwOTg5MTM5MjNBOEJXVURVNURYTyZlbmNyeXB0ZWRBZElkPUEwMzM4NzYyMzlYNUdDVVowRThSWSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="],
-      ["nerdytec", "https://www.nerdytec.com/en/mixxxer.php?products_id=32"]
+      ["nerdytec", "https://www.nerdytec.com/en/mixxxer.php?products_id=32"],
+      ["ubuy", "https://www.ubuy.vn/en/product/1SOCDQK-couchmaster-cycon-black-edition-couch-gaming-desk-for-mouse-keyboard-for-pc-ps4-5-xbox-one-series-x"]
     ],
+<<<<<<< HEAD
     "price": "150.00-200.00$",
     "image": "assets/images/suggestions/technology/couchmaster1.jpg"
+=======
+    "price": "150.00-200.00",
+    "image": "assets/images/suggestions/technology/couchmaster.jpg"
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "technology",
@@ -84,10 +93,16 @@
     "description": "Blue light is one of the main reasons your eyes get tired after prolonged periods of screen activity. With these glasses, you can filter out much of the blue light, reducing eye strain and promoting ocular health.",
     "websites": [
       ["amazon", "https://www.amazon.com/dp/B00BQ7KBV4/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"],
-      ["syghtglass", "https://www.syghtglass.com/collections/gaming-glasses"]
+      ["syght glass", "https://www.syghtglass.com/collections/gaming-glasses"],
+      ["eye buy direct", "https://www.eyebuydirect.com/prescription-lens/digital-protection"]
     ],
+<<<<<<< HEAD
     "price": "13.00-50.00$",
     "image": "assets/images/suggestions/technology/glasses1.jpg"
+=======
+    "price": "13.00-50.00",
+    "image": "assets/images/suggestions/technology/glasses.jpg"
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "technology",
@@ -98,7 +113,7 @@
       ["amazon", "https://www.amazon.co.uk/dp/B094R6QYMX?tag=pcmaguk-21&ascsubtag=02peQoAFycValS3W7UpLUyn"],
       ["playstation", "https://www.playstation.com/sv-se/ps-vr/bundles/"]
     ],
-    "price": "350.00-1000.00$",
+    "price": "350.00-1000.00",
     "image": "assets/images/suggestions/technology/vr.jpg"
   },
   {
@@ -107,10 +122,16 @@
     "description": "Bluetooth compatible, these sunglasses let you listen hand and cord free to any bluetooth connected device.",
     "websites": [
       ["amazon", "https://www.amazon.com/Razer-Anzu-Smart-Glasses-Built/dp/B08ZC9Y33Q/ref=sr_1_3?crid=2VLE9GIMRMSJQ&keywords=audio+sunglasses&qid=1645832196&sprefix=audio+sunglass%2Caps%2C342&sr=8-3"],
-      ["bose", "https://www.bose.com/en_us/products/frames.html"]
+      ["bose", "https://www.bose.com/en_us/products/frames.html"],
+      ["jb hi-fi", "https://www.jbhifi.com.au/products/bose-frames-alto-audio-sunglasses-large?view=pdp"]
     ],
+<<<<<<< HEAD
     "price": "80.00-200.00$",
     "image": "assets/images/suggestions/technology/sunglasses1.JPG"
+=======
+    "price": "80.00-200.00",
+    "image": "assets/images/suggestions/technology/sunglasses.jpeg"
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "individualSports",
@@ -118,9 +139,14 @@
     "description": "This style of board is known to be the easiest to stand on, making it ideal for beginners.  It is longer and softer than most boards, and is a great way to learn how to catch waves for the first time.",
     "websites": [
       ["amazon", "https://www.amazon.com/Wavestorm-9-Classic-Pinline-Surfboard/dp/B07HRZTF5B/ref=sr_1_16?crid=O8EHZGBOXGWX&keywords=soft+top+surfboard&qid=1645759884&sprefix=soft+top+surfboa%2Caps%2C237&sr=8-16"],
-      ["degree33", "https://www.degree33surfboards.com/collections/soft-top-surfboards?oid=37&affid=1"]
+      ["degree33", "https://www.degree33surfboards.com/collections/soft-top-surfboards?oid=37&affid=1"],
+      ["merijaan", "https://merijaan.de/surf/"]
     ],
+<<<<<<< HEAD
     "price": "350.00-1000.00$",
+=======
+    "price": "350.00-1000.00",
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
     "image": "assets/images/suggestions/sports-i/surf.jpeg"
   },
   {
@@ -129,53 +155,87 @@
     "description": "Experience gliding freedom as you soar through the sky.  All it takes is a KittyHawkKite glider and a running start, and your flights can begin.",
     "websites": [
       ["kittyhawk", "https://www.kittyhawk.com/hang-gliders/moyes-malibu-2-188/"],
-      ["avianonline", "http://www.avianonline.co.uk/hang-gliders-c-178.html"]
+      ["avianonline", "http://www.avianonline.co.uk/hang-gliders-c-178.html"],
+      ["indiamart", "https://dir.indiamart.com/impcat/hang-gliders.html"]
     ],
+<<<<<<< HEAD
     "price": "2500.00-15000.00$",
     "image": "assets/images/suggestions/sports-i/hangglider1.jpeg"
+=======
+    "price": "2500.00-15000.00",
+    "image": "assets/images/suggestions/sports-i/hangglider.jpeg"
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "individualSports",
     "name": "Electric Skateboard",
     "description": "These dual motor skateboards reaches up to 18.6 mph, and can be controlled by hand through remote control with ease while riding.",
     "websites": [
+
       ["amazon", "https://www.amazon.com/Hiboy-Electric-Skateboard-Longboard-commuters/dp/B07G4N35RW/ref=sr_1_8?crid=22QYBRD8SA0TC&keywords=electronic+skateboard&qid=1645761067&sprefix=electronic+skateboar%2Caps%2C237&sr=8-8"],
       ["banggood", "https://www.banggood.com/EU-DIRECTSYL-06-5000mAh-600W+2-Dual-Motor-Electric-Skateboard-90+51mm-Four-PU-Wheel-40km-or-h-Top-Speed-10-12km-Max-Range-100kg-Max-Load-Wireless-Remote-Control-p-1929728.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=SE&utm_content=minha&utm_campaign=minha-se-en-pc&currency=SEK&cur_warehouse=CZ&createTmp=1&ID=6287830&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=lynna&utm_campaign=lynna-pla-se-all-1020-2021-11sale-21&ad_id=554558944754&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7Acff1UrlZe6p7ygrukHDTFG_-auSk5xm6-9kJPvWVXZfUDapGQE4aAkYTEALw_wcB"]
+
     ],
+<<<<<<< HEAD
     "price": "350.00-600.00$",
     "image": "assets/images/suggestions/sports-i/skateboard1.jpg"
+=======
+    "price": "350.00-600.00",
+    "image": "assets/images/suggestions/sports-i/skateboard.jpg"
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "individualSports",
     "name": "Zorbing Inflatable Bubble",
     "description": "Fully protected while inside this human hamster ball, roll and tumble freely without issue. Alternatively, choose a water designed ball to float and move across the surface while inside!",
     "websites": [
+
       ["amazon", "https://www.amazon.com/Qiyun-Inflatable-Zorbing-Human-Hamster/dp/B0181XUVG0/ref=as_li_ss_tl?ie=UTF8&qid=1468647798&sr=8-2&keywords=zorbing+ball&linkCode=sl1&tag=zorbingtimeco-20&linkId=6a8caa3223df169228d5fbbf7c768a86"],
       ["liveit", "https://www.liveit.se/upplevelser/upplevelsepresenter-waterballs?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF6TMn3VAwvJo5pMuVGX_QN7pUGjNiPIt-hOsw8YaPkI-jlSSCB24mcaAmxEEALw_wcB"]
+
     ],
+<<<<<<< HEAD
     "price": "500.00-1450.00$",
     "image": "assets/images/suggestions/sports-i/zorb1.jpg"
+=======
+    "price": "500.00-1450.00",
+    "image": "assets/images/suggestions/sports-i/zorb.jpg"
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "individualSports",
     "name": "Inflatable Kayak",
     "description": "These kayaks are designed for any water conditions, and this versatility helps suit them any kind of trip you might want to take.  The inflatability making them exceptionally portable, but they function with the integrity of a rigid shell kayak.",
     "websites": [
+
       ["amazon", "https://www.amazon.com/Advanced-Elements-Frame-Sport-Kayak/dp/B003BUGNKC/ref=sr_1_1_sspa?crid=37RUUAB8SQ1N1&keywords=sport+kayak&qid=1645762455&sprefix=sport+kayak%2Caps%2C202&sr=8-1-spons&psc=1&smid=AGLJA2W19Z5T3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzMlQ4TjJGSVVXQjlWJmVuY3J5cHRlZElkPUEwNzM0MzM5M09FSzVPVFFIMk1ZTCZlbmNyeXB0ZWRBZElkPUEwOTA0NTgzRzVHT1ZIQzZNS1lGJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="],
       ["stockholmkajak", "https://stockholmkajak.se/luftkajaker/advancedframe-convertible?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7E3dpvURspF7mRCbQyHPdWHXlNFtSCsDEE-o_WfwXytsoFqOu7dc8aAnZDEALw_wcB"]
+
     ],
+<<<<<<< HEAD
     "price": "500.00-1000.00$",
     "image": "assets/images/suggestions/sports-i/kayak1.jpeg"
+=======
+    "price": "500.00-1000.00",
+    "image": "assets/images/suggestions/sports-i/kayak.jpeg"
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "teamSports",
     "name": "Bubble Soccer Package",
     "description": "These sets comes with between 8-24 bubbles, allowing you to create teams of your desired size and start your own bubble soccer matches. Safely tumble around and tackle one another as the inflated bubble around you offers ample protection.",
     "websites": [
+
       ["bubble allstars", "https://www.bubble-allstars.com/europe/prices/"]
+
     ],
+<<<<<<< HEAD
     "price": "2500.00-6500.00$",
     "image": "assets/images/suggestions/sports-team/bubbles1.jpg"
+=======
+    "price": "2500.00-6500.00",
+    "image": "assets/images/suggestions/sports-team/bubbles.jpg"
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "teamSports",
@@ -185,8 +245,13 @@
       ["oars", "https://www.oars.com/rafting/"],
       ["western river expeditions", "https://www.westernriver.com/"]
     ],
+<<<<<<< HEAD
     "price": "300.00-7000.00$",
     "image": "assets/images/suggestions/sports-team/rafting1.jpg"
+=======
+    "price": "300.00-7000.00",
+    "image": "assets/images/suggestions/sports-team/rafting.jpg"
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "teamSports",
@@ -196,8 +261,13 @@
       ["fjallridning", "https://fjallridning.se/vinter/"],
       ["Helens turridning", "https://helensturridning.se/?page_id=20"]
     ],
+<<<<<<< HEAD
     "price": "80.00-255.00$",
     "image": "assets/images/suggestions/sports-team/horseback1.jpg"
+=======
+    "price": "80.00-255.00",
+    "image": "assets/images/suggestions/sports-team/horseback.jpg"
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "teamSports",
@@ -206,7 +276,7 @@
     "websites": [
       ["Bungyjump Stockholm", "https://bungyjumpstockholm.se/"]
     ],
-    "price": "300.00-400.00$",
+    "price": "300.00-400.00",
     "image": "assets/images/suggestions/sports-team/bungee.jpg"
   },
   {
@@ -216,8 +286,13 @@
     "websites": [
       ["bodyflight", "https://en.bodyflight.se/"]
     ],
+<<<<<<< HEAD
     "price": "70.00-200.00$",
     "image": "assets/images/suggestions/sports-team/skydive1.jpg"
+=======
+    "price": "70.00-200.00",
+    "image": "assets/images/suggestions/sports-team/skydive.jpg"
+>>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "games",
@@ -226,7 +301,7 @@
     "websites": [
       [
         "amazon",
-      "https://www.amazon.com/CATAN-Players-Strategy-Adventure-Playtime/dp/B00486TI3M/ref=sr_1_15?crid=96RW012POR4Y&keywords=catan&qid=1645732699&sprefix=catan%2Caps%2C176&sr=8-15"
+        "https://www.amazon.com/CATAN-Players-Strategy-Adventure-Playtime/dp/B00486TI3M/ref=sr_1_15?crid=96RW012POR4Y&keywords=catan&qid=1645732699&sprefix=catan%2Caps%2C176&sr=8-15"
       ]
     ],
     "price": "24.94",
@@ -235,11 +310,11 @@
   {
     "category": "games",
     "name": "Chess board set",
-    "description": "Chess is one of the most popular classic board games. There is a wide range of prices in the chess board set and this one is a good quality starter if your partner doesn’t have one of their own yet.",
+    "description": "Chess is one of the most popular classic board games. There is a wide range of prices in the chess board set and this one is a good quality starter if your partner doesn't have one of their own yet.",
     "websites": [
       [
         "amazon",
-      "https://www.amazon.com/Jowisz-Decorative-Folding-Chess-Board/dp/B000Z9CH7U/ref=sr_1_23?crid=16ZUZBZA0VASN&keywords=Chess+board+set&qid=1645732810&sprefix=chess+board+set%2Caps%2C174&sr=8-23"
+        "https://www.amazon.com/Jowisz-Decorative-Folding-Chess-Board/dp/B000Z9CH7U/ref=sr_1_23?crid=16ZUZBZA0VASN&keywords=Chess+board+set&qid=1645732810&sprefix=chess+board+set%2Caps%2C174&sr=8-23"
       ]
     ],
     "price": "36.68",
@@ -252,7 +327,7 @@
     "websites": [
       [
         "amazon",
-      "https://www.amazon.com/Days-Wonder-DO7201-Ticket-Ride/dp/0975277324/ref=sr_1_2?keywords=ticket+to+ride&qid=1645739563&sr=8-2"
+        "https://www.amazon.com/Days-Wonder-DO7201-Ticket-Ride/dp/0975277324/ref=sr_1_2?keywords=ticket+to+ride&qid=1645739563&sr=8-2"
       ]
     ],
     "price": "43.99",
@@ -261,11 +336,11 @@
   {
     "category": "games",
     "name": "Steam gift card",
-    "description": "The perfect gift for the video gamers if you’re in a long-distance relationship or your partner seems to have everything. There will always be new games that your partner wants to play on Steam.",
+    "description": "The perfect gift for the video gamers if you're in a long-distance relationship or your partner seems to have everything. There will always be new games that your partner wants to play on Steam.",
     "websites": [
       [
         "steam powered",
-      "https://store.steampowered.com/digitalgiftcards/"
+        "https://store.steampowered.com/digitalgiftcards/"
       ]
     ],
     "price": "5-100",
@@ -274,11 +349,11 @@
   {
     "category": "games",
     "name": "LEGO Nintendo Entertainment System",
-    "description": "Authentic reproductions of the original Nintendo Entertainment System console, controller and Game Pak cartridge with a retro-styled 1980s TV. This will trigger your partner’s nostalgic memories if they love video games and enjoyed playing Super Mario back in the day.",
+    "description": "Authentic reproductions of the original Nintendo Entertainment System console, controller and Game Pak cartridge with a retro-styled 1980s TV. This will trigger your partner's nostalgic memories if they love video games and enjoyed playing Super Mario back in the day.",
     "websites": [
       [
         "lego",
-      "https://www.lego.com/en-us/product/nintendo-entertainment-system-71374"
+        "https://www.lego.com/en-us/product/nintendo-entertainment-system-71374"
       ]
     ],
     "price": "229.99",
@@ -287,11 +362,11 @@
   {
     "category": "travel",
     "name": "Hiking",
-    "description": "Getting the endorphins going and working up a sweat by hiking together is the most romantic way to spend your Valentine’s Day. Angel’s Landing: Zion National Park(USA) is one of the world's most renowned hikes.",
+    "description": "Getting the endorphins going and working up a sweat by hiking together is the most romantic way to spend your Valentine's Day. Angel's Landing: Zion National Park(USA) is one of the world's most renowned hikes.",
     "websites": [
       [
         "nps",
-      "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
+        "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
       ]
     ],
     "price": "20",
@@ -300,11 +375,11 @@
   {
     "category": "travel",
     "name": "White Water Rafting",
-    "description": "Thrilling outdoor activity, which gives you an opportunity to get an incredible range of emotions and adrenaline rush in a short period of time. If you are thinking of spending your Valentine’s Day in a warm country, consider going to Thailand and trying White Water Rafting In Chiang Mai.",
+    "description": "Thrilling outdoor activity, which gives you an opportunity to get an incredible range of emotions and adrenaline rush in a short period of time. If you are thinking of spending your Valentine's Day in a warm country, consider going to Thailand and trying White Water Rafting In Chiang Mai.",
     "websites": [
       [
         "8adventures",
-      "https://8adventures.com/whitewater-rafting-chiang-mai/"
+        "https://8adventures.com/whitewater-rafting-chiang-mai/"
       ]
     ],
     "price": "92.49",
@@ -317,7 +392,7 @@
     "websites": [
       [
         "befreetour",
-      "https://www.befreetour.com/en/detail/140-macau-tower-bungy-jump"
+        "https://www.befreetour.com/en/detail/140-macau-tower-bungy-jump"
       ]
     ],
     "price": "447.84",
@@ -326,11 +401,11 @@
   {
     "category": "travel",
     "name": "Skydiving",
-    "description": "The most thrilling aerial adventure in the world. If you’re looking for a memorable gift for your partner, skydiving in Interlaken(Switzerland) might be the answer. They’ll experience the picturesque view of Alps from the sky and get their own video.",
+    "description": "The most thrilling aerial adventure in the world. If you're looking for a memorable gift for your partner, skydiving in Interlaken(Switzerland) might be the answer. They'll experience the picturesque view of Alps from the sky and get their own video.",
     "websites": [
       [
         "skydiveinterlaken",
-      "https://www.skydiveinterlaken.ch/experiences/helicopter-skydive-interlaken/"
+        "https://www.skydiveinterlaken.ch/experiences/helicopter-skydive-interlaken/"
       ]
     ],
     "price": "464.25-745.03",
@@ -339,22 +414,89 @@
   {
     "category": "travel",
     "name": "Northern Lights",
-    "description": "Going to see the northern lights is the perfect couples’ adventure for Valentine’s day. There are many destinations for spotting the northern lights depending on where you are based. Reykjavik(Iceland) is a great place to see as they are easily spotted.",
+    "description": "Going to see the northern lights is the perfect couples' adventure for Valentine's day. There are many destinations for spotting the northern lights depending on where you are based. Reykjavik(Iceland) is a great place to see as they are easily spotted.",
     "websites": [
       [
         "adventures",
-      "https://adventures.is/blog/northern-lights-in-iceland/#:~:text=Yes%2C%20it's%20possible%20to%20see,bedroom%20windows%20during%20bright%20auroras!"
+        "https://adventures.is/blog/northern-lights-in-iceland/#:~:text=Yes%2C%20it's%20possible%20to%20see,bedroom%20windows%20during%20bright%20auroras!"
       ]
     ],
     "price": "80-1994",
     "image": "assets/images/suggestions/extreme_travelling/northern_lights.jpg"
   },
   {
+    "category": "gardening",
+    "name": "Gardening Tool Set",
+    "description": "If you're looking for a practical gift for your partner, the gardening tool set is the perfect one. This set comes with everything your partner needs to grow the garden of their dreams: garden shovels, trowel, mini rake, gardening fork, hand weeder, pruning shears, pair of gardening gloves, spray bottle, washable gardening bag tote.",
+    "websites": [
+      [
+        "Amazon",
+        "https://www.amazon.com/Grenebo-Gardening-Tool-Set-Rust-Proof/dp/B09F9C3KFS/ref=sr_1_6?crid=1MSB9B289M3T5&keywords=gardening+tools&qid=1645799540&sprefix=gardening+tools%2Caps%2C178&sr=8-6"
+      ]
+    ],
+    "price": "27.99",
+    "image": "assets/images/suggestions/gardening/gardening-tools.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "Silicone Rings",
+    "description": "While rings are a wonderful gift, fancy rings don't mix well with hard garden work. These beautiful silicone rings are a safe alternative.",
+    "websites": [
+      [
+        "Enso Rings",
+        "https://ensorings.com/"
+      ]
+    ],
+    "price": "10.99-49.99",
+    "image": "assets/images/suggestions/gardening/rings.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "A Bouquet of Flowers",
+    "description": "Giving flowers on Valentine's day is a tradition. This tradition couldn't be more perfect than any other gifts, if your partner loves flowers. If you give them flowers often, signing up for a subscription service may be a good choice.",
+    "websites": [
+      [
+        "Urbanstems",
+        "https://urbanstems.com/subscriptions"
+      ]
+    ],
+    "price": "50-100",
+    "image": "assets/images/suggestions/gardening/flowers.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "Myrtle Tree",
+    "description": "Give your partner a tree as a symbol of your ever-growing love! This gorgeous ornamental myrtle tree has an abundance of dainty, aromatic leaves all year.",
+    "websites": [
+      [
+        "The Present Tree",
+        "https://thepresenttree.com/products/myrtle-tree"
+      ]
+    ],
+    "price": "66.97",
+    "image": "assets/images/suggestions/gardening/myrtle-tree.jpg"
+  },
+  {
+    "category": "gardening",
+    "name": "Indoor Garden Kit",
+    "description": "If your partner dreams of gardening but lives in the city, an indoor garden will make their dreams come true. This smart indoor garden kit is designed with LED grow lights, built-in timer, smart soil and self-watering tank. There are over 50 pre-seeded plant pods for your partner to choose.",
+    "websites": [
+      [
+        "Amazon",
+        "https://www.amazon.com/Click-Grow-Smart-Garden-Indoor/dp/B01MRVMKQH/ref=sr_1_21?keywords=indoor+herb+garden&qid=1645795468&sprefix=indoor+herb%2Caps%2C183&sr=8-21"
+      ]
+    ],
+    "price": "139.95",
+    "image": "assets/images/suggestions/gardening/indoor-garden.jpg"
+  },
+  {
     "category": "spa",
     "name": "The Blue Lagoon Spa, Iceland",
-    "description": "Enjoy a hydro massage with a difference at one of the world’s most spectacular natural wonders. The Blue Lagoon’s geothermal seawater is surrounded by a volcanic landscape, which feeds minerals into the surroundings.",
-    "websites": [ ["bluelagoon", "https://www.bluelagoon.com/"]],    
-    "price": "from $68",
+    "description": "Enjoy a hydro massage with a difference at one of the world's most spectacular natural wonders. The Blue Lagoon's geothermal seawater is surrounded by a volcanic landscape, which feeds minerals into the surroundings.",
+    "websites": [
+      ["bluelagoon", "https://www.bluelagoon.com/"]
+    ],
+    "price": "68-500",
     "image": "assets/images/suggestions/spas/blue_lagoon.jpg"
   },
   {
@@ -362,41 +504,40 @@
     "name": "Thermae Bath Spa, Bath",
     "description": "One of the UK's most dramatic spa, this neo-Georgian building is wrapped in angular glass, with access to three naturally heated spring-fed pools. Head straight for the rooftop pool for views across the city. The thermal experience floor includes a sauna, steam room and a “celestial” relaxation room.",
     "websites": [
-          ["thermaebathspa", "https://www.thermaebathspa.com/"]
+      ["thermaebathspa", "https://www.thermaebathspa.com/"]
     ],
-    "price": "from $64",
+    "price": "64-560",
     "image": "assets/images/suggestions/spas/thermae_bath_spa.jpg"
   },
   {
     "category": "spa",
     "name": "Turkish Baths, Harrogate",
-    "description": "One of only a handful of Victorian Turkish baths still in use, these are beautiful, with Moorish design including Islamic arches, intricate glazed brickwork and painted ceilings. The bathing journey takes you around a series of heated rooms – the hottest being the laconium and the coldest a freezing plunge pool. Try traditional treatments such as a hammam, or more modern treatments including hot stone therapy.",
+    "description": "One of only a handful of Victorian Turkish baths still in use, these are beautiful, with Moorish design including Islamic arches, intricate glazed brickwork and painted ceilings. The bathing journey takes you around a series of heated rooms - the hottest being the laconium and the coldest a freezing plunge pool. Try traditional treatments such as a hammam, or more modern treatments including hot stone therapy.",
     "websites": [
-      
+
       ["turkishbathsharrogate", "https://www.turkishbathsharrogate.co.uk/"]
     ],
-    "price": "from $24",
+    "price": "24-120",
     "image": "assets/images/suggestions/spas/harrogate_turkish_baths.jpg"
   },
   {
     "category": "spa",
     "name": "The Live Music Experience: Bota Bota, Montreal",
-    "description": "This spa on the water is housed in a 1960s ferryboat, which, after a stint as a showboat, was transformed into a spa. Its most unique treatment is the 60-minute Bota Bota massage – a single or double massage choreographed to the music of a live harpist.",
-    "websites":  [ 
+    "description": "This spa on the water is housed in a 1960s ferryboat, which, after a stint as a showboat, was transformed into a spa. Its most unique treatment is the 60-minute Bota Bota massage - a single or double massage choreographed to the music of a live harpist.",
+    "websites": [
       ["botabota", "http://botabota.ca/"]
-    ],    
-    "price": "from $70",
+    ],
+    "price": "24-90",
     "image": "assets/images/suggestions/spas/botabota.jpg"
   },
   {
     "category": "spa",
     "name": "AIRE Ancient Baths, London",
     "description": "AIRE spaces are temples dedicated to mind and body relaxation, where time does not exist, inspired by ancient civilizations bathing traditions. Minutes away from Covent Garden, you will find an oasis, seamlessly intertwined with its enticing energy.",
-    "websites": [ 
-
+    "websites": [
       ["beaire", "https://beaire.com/en/aire-ancient-baths-london"]
     ],
-    "price": "from $120",
+    "price": "120-250",
     "image": "assets/images/suggestions/spas/aire_ancient_baths.jpg"
   },
   {
@@ -406,7 +547,7 @@
     "websites": [
       ["liseberg", "https://www.liseberg.se/"]
     ],
-    "price": "Ticket prices start from $20",
+    "price": "20-80",
     "image": "assets/images/suggestions/theme_parks/liseberg.jpg"
   },
   {
@@ -416,7 +557,7 @@
     "websites": [
       ["europapark", "https://www.europapark.de/en"]
     ],
-    "price": "Ticket prices start from $32",
+    "price": "32-150",
     "image": "assets/images/suggestions/theme_parks/europa.jpg"
   },
   {
@@ -426,7 +567,7 @@
     "websites": [
       ["efteling", "https://www.efteling.com/"]
     ],
-    "price": "Ticket prices start from $43",
+    "price": "43-300",
     "image": "assets/images/suggestions/theme_parks/efteling.jpg"
   },
   {
@@ -436,7 +577,7 @@
     "websites": [
       ["legoland", "https://www.legoland.dk/en/"]
     ],
-    "price": "Ticket prices start from $48",
+    "price": "48-400",
     "image": "assets/images/suggestions/theme_parks/legoland.jpg"
   },
   {
@@ -446,7 +587,7 @@
     "websites": [
       ["futuroscope", "https://www.futuroscope.com/en/"]
     ],
-    "price": "From $38",
+    "price": "38-400",
     "image": "assets/images/suggestions/theme_parks/futuroscope.jpg"
   },
   {
@@ -456,30 +597,30 @@
     "websites": [
       ""
     ],
-    "price": "Various",
-    "image": " "
+    "price": "150-5000",
+    "image": "assets/images/suggestions/picnics/picnics_world.jpg"
   },
 
-{
+  {
     "category": "picnics",
     "name": "By-the-sea",
     "description": "If that special someone in your life enjoys seafood and fish, consider making a platter from the sea! Smoked salmon, cooked prawns and perhaps even crab sticks can make for a fantastic themed picnic. Do you live near the coast? Take your seafood picnic to the next level and serve it by the sea!",
     "websites": [
       ""
     ],
-    "price": "Various",
-    "image": " "
+    "price": "150-5000",
+    "image": "assets/images/suggestions/picnics/by_the_sea.jpg"
   },
 
-{
+  {
     "category": "picnics",
     "name": "My heart belongs to you",
     "description": "Since it's Valentine's Day, what about a heart-themed picnic? Try making strawberry jam sandwiches, pancakes with chocolate and pastries, all in the shape of hearts! It will make their heart race for sure!",
     "websites": [
       ""
     ],
-    "price": "Various",
-    "image": " "
+    "price": "150-5000",
+    "image": "assets/images/suggestions/picnics/heart_food.jpg"
   },
   {
     "category": "picnics",
@@ -488,8 +629,8 @@
     "websites": [
       ""
     ],
-    "price": "Various",
-    "image": " "
+    "price": "150-5000",
+    "image": "assets/images/suggestions/picnics/sweets.jpg"
   },
   {
     "category": "picnics",
@@ -498,59 +639,437 @@
     "websites": [
       ""
     ],
-    "price": "Various",
-    "image": " "
+    "price": "150-5000",
+    "image": "assets/images/suggestions/picnics/take_out.jpg"
   },
   {
-    "category": "cooking_classes",
+    "category": "cookingClasses",
     "name": "Traveling Spoon",
     "description": "Available online and in person, Traveling Spoon connects travelers with local, vetted hosts to share the joy of a homemade meal in their home and learn about their cultural and culinary traditions passed down through generations.",
-	"websites": [
+    "websites": [
       ["travelingspoon", "https://www.travelingspoon.com/"]
     ],
-    "price": "Check site for prices",
-    "image": " "
+    "price": "250-5000",
+    "image": "assets/images/suggestions/cooking_classes/traveling_spoon.jpg"
   },
   {
-    "category": "cooking_classes",
+    "category": "cookingClasses",
     "name": "The Casa Luna Cooking School",
     "description": "The Casa Luna cooking school is a world-famous culinary centre that provides a fascinating insight into Balinese life and culture through learning about its food, cooking and culinary myths.",
-	"websites": [
+    "websites": [
       ["casalunabali", "https://casalunabali.com/casa-luna-cooking-school/"]
     ],
-    "price": "Check site for prices",
-    "image": " "
+    "price": "150-200",
+    "image": "assets/images/suggestions/cooking_classes/casa_luna.jpg"
   },
   {
-    "category": "cooking_classes",
+    "category": "cookingClasses",
     "name": "Tokyo Sushi Academy",
     "description": "If you and your partner enjoy sushi, join an online cooking course with one of Japan's top cooking schools!",
-	"websites": [
+    "websites": [
       ["sushischool", "https://www.sushischool.jp/"]
     ],
-    "price": "Check site for prices",
-    "image": " "
+    "price": "75-150",
+    "image": "assets/images/suggestions/cooking_classes/tokyo_academy.jpg"
   },
   {
-    "category": "cooking_classes",
+    "category": "cookingClasses",
     "name": "École de Cuisine",
     "description": "For those who love sweet treats, why not look at a course in making French macarons - elegant little sandwiches, made with meringue, almond flour and buttercream. Délicieuse!",
-	"websites": [[
-    "ecolecuisine-alainducasse",
-      "http://www.ecolecuisine-alainducasse.com/fr/les-cours/pastry-class-in-english-macarons-madness"
-  ]],
-    "price": "Check site for prices",
-    "image": " "
+    "websites": [
+      [
+        "ecolecuisine-alainducasse",
+        "http://www.ecolecuisine-alainducasse.com/fr/les-cours/pastry-class-in-english-macarons-madness"
+      ]
+    ],
+    "price": "50-250",
+    "image": "assets/images/suggestions/cooking_classes/macarons.jpg"
   },
   {
-    "category": "cooking_classes",
+    "category": "cookingClasses",
     "name": "Cook at home",
     "description": "Do you always do the cooking at home? Is it normally you that takes charge of what's for dinner? How about teaching your partner your own secrets and family recipes, step-by-step in your own at home cooking class. WARNING: patience may be required!",
-	"websites": [
+    "websites": [
       ""
     ],
-    "price": "As much or as little as you like!",
-    "image": " "
+    "price": "0-900",
+    "image": "assets/images/suggestions/cooking_classes/cook_at_home.jpg"
+  },
+  {
+    "category": "ride",
+    "name": "husky ride",
+    "description": "Here is another unusual idea for you to gift lots of positive emotions and unforgivable memories to your partner! Fresh air, best animals in the world, and lots of happiness! And remember, huskies are more than friendly animals, they truly love people, love being with them, love sharing their joy!",
+    "websites": [
+      ["arctic quest", "https://www.arcticquest.co.uk/"],
+      ["husky works", "http://www.huskyworks.com/"],
+      ["husky co", "https://www.huskyco.fi/"]
+    ],
+    "price": "50-750",
+    "image": "assets/images/suggestions/ride/husky.jpg"
+  },
+  {
+    "category": "ride",
+    "name": "carriage ride",
+    "description": "If you are looking for a romantic activity on or around Valentines Day, it's hard to do better then a romantic carriage ride. Just imagine, how fantastic it will be like a fairytale",
+    "websites": [
+      ["windsor", "https://www.windsor.gov.uk/whats-on/ascot-carriages-carriage-rides-in-windsor-great-park-p576301"],
+      ["central park carriages", "https://www.centralparkcarriages.com/book-now"],
+      ["civitatis", "https://www.civitatis.com/en/wroclaw/horse-and-carriage-ride/"]
+    ],
+    "price": "200-1000",
+    "image": "assets/images/suggestions/ride/carriage.jpg"
+  },
+  {
+    "category": "ride",
+    "name": "helicopter",
+    "description": "If go for this option, your partner will love you even more! You are gifting not just a ride in the helicopter, but the whole adventure in the sky! ",
+    "websites": [
+      ["adventure001", "https://www.adventure001.com/Activity/Aviation/Helicopter-Rides/43"],
+      ["viator", "https://www.viator.com/New-York-City-tours/Helicopter-Tours/d687-g1-c2?m=28353&supag=76382119571&supca=1939178107&supsc=dsa-647668688366&supai=420120885771&supdv=c&supnt=g&suplp=9061444&supli=&supti=dsa-647668688366&tsem=true&supci=dsa-647668688366&supap1=&supap2=&gclid=EAIaIQobChMIi-Ok1OWc9gIVUSGtBh21uA6tEAAYASAAEgJgfPD_BwE"],
+      ["orlando heli-tours", "https://www.orlandohelitours.com/?gclid=EAIaIQobChMIi-Ok1OWc9gIVUSGtBh21uA6tEAAYAiAAEgKTD_D_BwE"]
+    ],
+    "price": "50-2000",
+    "image": "assets/images/suggestions/ride/helicopter.jpg"
+  },
+  {
+    "category": "ride",
+    "name": "horse ride",
+    "description": "This may sound a bit boring, but it's actually a perfect gift for those how love to spend time outdoors and be around kind animals. You may go for a short ride or for many hours ride together! Just don't forget to feed a horse.",
+    "websites": [
+      ["name of the shop/ website", "https://www.tripadvisor.co.uk/Attractions-g186217-Activities-c61-t62-England.html"],
+      ["pal-o-mine", "https://pal-o-mine.org/?gclid=EAIaIQobChMIyria-OWc9gIVcgF9Ch37sAeaEAAYAiAAEgIXivD_BwE"],
+      ["fare harbor", "https://fareharbor.com/for/horseback-riding/"]
+    ],
+    "price": "50-140",
+    "image": "assets/images/suggestions/ride/horse_ride.jpg"
+  },
+  {
+    "category": "ride",
+    "name": "car ride",
+    "description": "This type of gifts will shock and excite many people. Just imagine what kind of  emotions you partner can get while riding a luxury car, while feeling yourself a superstar!",
+    "websites": [
+      ["sixt", "https://www.sixt.com/luxury-cars/"],
+      ["book luxury car", "https://bookluxurycar.com/"],
+      ["turo", "https://turo.com/us/en/exotic-luxury-rental/united-states"]
+    ],
+    "price": "500-5000",
+    "image": "assets/images/suggestions/ride/car.jpg"
+  },
+  {
+    "category": "museum",
+    "name": "Art museums",
+    "description": "If your half is into art, take a look at these museums. It will be a great getaway for both of you! Just one weekend of impressive masterpieces will be remembered forever. You will both benefit from broadening your cultural horizons!",
+    "websites": [
+      ["st-christophers", "https://www.st-christophers.co.uk/travel-blog/the-top-art-galleries-europe/"],
+      ["amazon", "https://www.amazon.it/stores/page/5162C05E-A2C5-4798-B879-919BFE94AA3C?ingress=3"],
+      ["jacada travel", "https://www.jacadatravel.com/asia/travel-guides/top-10-art-galleries-in-south-east-asia/"]
+    ],
+    "price": "15-2000",
+    "image": "assets/images/suggestions/museums/art.jpg"
+  },
+  {
+    "category": "museum",
+    "name": "Science museums",
+    "description": "So you like to make a substantial gift on this Valentine's Day? Pick a scientific museum for your loved one to visit to learn about world's breakthroughs in various scientific fields. It may sound nerdy, but there are so many things that may astonish everyone!",
+    "websites": [
+      ["artsand culture", "https://artsandculture.google.com/story/10-of-the-world-s-most-inspiring-science-museums/HQLCDXFNtsGVIA"],
+      ["armenian museum", "https://www.armenianmuseum.org/membership?gclid=EAIaIQobChMIg_KIj7eY9gIVCDdgCh3IfADZEAAYAiAAEgKxWPD_BwE"],
+      ["trip advisor", "https://www.tripadvisor.co.uk/Attractions-g186217-Activities-c49-t35-England.html"]
+    ],
+    "price": "15-2000",
+    "image": "assets/images/suggestions/museums/science.jpg"
+  },
+  {
+    "category": "museum",
+    "name": "History museums",
+    "description": "When you have a partner who loves history, you just have look into these options to pick from. History is important and it would a wonderful gift for a history  lovers.",
+    "websites": [
+      ["trip advisor", "https://www.tripadvisor.com/Attractions-g153339-Activities-c49-t30-Canada.html"],
+      ["the culture trip", "https://theculturetrip.com/europe/articles/12-history-museums-you-should-visit-at-least-once/"],
+      ["inspirock", "https://www.inspirock.com/history-museums-in-asia"]
+    ],
+    "price": "15-2000",
+    "image": "assets/images/suggestions/museums/history.jpg"
+  },
+  {
+    "category": "museum",
+    "name": "Open-air museums",
+    "description": "If your partner is not a big fun of indoors museums, it may be a perfect idea to look into these offers. Just imagine walking around stunning buildings that actually have a long history behind them, and enjoying fresh air around…",
+    "websites": [
+      ["veranda", "https://www.veranda.com/travel/g32969072/best-open-air-museums/"],
+      ["wikipedia", "https://en.wikipedia.org/wiki/List_of_open-air_and_living_history_museums_in_the_United_States"],
+      ["japan travel", "https://www.japan.travel/en/spot/1564/"]
+    ],
+    "price": "15-2000",
+    "image": "assets/images/suggestions/museums/open_air.jpg"
+  },
+  {
+    "category": "museum",
+    "name": "Virtual museums",
+    "description": "There is always an option when your loved one cannot go anywhere during the holidays. In this case, we suggest you to just make sure that your wife is working well and find a virtual museum that would be appealing to both of you.",
+    "websites": [
+      ["ncyark", "https://www.cyark.org/?gclid=EAIaIQobChMIsqGWsb-Y9gIVyGSLCh0s8gdFEAAYAiAAEgIZXfD_BwE"],
+      ["freud", "https://www.freud.org.uk/visit/virtual-tour/?gclid=EAIaIQobChMIsqGWsb-Y9gIVyGSLCh0s8gdFEAAYASAAEgJmyvD_BwE"],
+      ["traveland leisure", "https://www.travelandleisure.com/attractions/museums-galleries/museums-with-virtual-tours"]
+    ],
+    "price": "0",
+    "image": "assets/images/suggestions/museums/virtual.jpg"
+  },
+  {
+    "category": "cookery",
+    "name": "Chocolate",
+    "description": "Chocolate is the most common gift on Valentine's Day. But your homemade chocolate can be as special as fancy gifts. You just need chocolate melts and something that your partner likes. <a href=“https://www.tasteofhome.com/collection/homemade-valentines-day-chocolates/” target=“_blank” aria-label=“Recipes on Taste of Home (opens in a new tab)”>This post</a> shows 21 different types of homemade chocolates.",
+    "websites": [
+      ["Stover&Company", "https://stovercompany.com/merckensmilkchocolatemelts"]
+    ],
+    "price": "6.99-107.99",
+    "image": "assets/images/suggestions/homemade-food/chocolate.jpg"
+  },
+  {
+    "category": "foodExperiment",
+    "name": "Basil Pesto Pasta(Vegan)",
+    "description": "Romantic dinner on Valentine's Day at home is not as hard as it may sound. Check out <a href=“https://tasty.co/recipe/vegan-pesto-pasta” target=“_blank” aria-label=“Recipe on Tasty (opens in a new tab)”>this recipe on Tasty</a>. You just need fresh herbs, lemon juice, garlic, pasta and some ingredients from your cupboard. It takes less than a half an hour.",
+    "websites": [
+      ["Walmart", "https://www.walmart.com"]
+    ],
+    "price": "10",
+    "image": "assets/images/suggestions/homemade-food/pasta.jpg"
+  },
+  {
+    "category": "foodExperiment",
+    "name": "Ratatouille(Vegan)",
+    "description": "For an impressive dish that's both colourful and healthy, make the ratatouille meal for your partner. It might look complex, but it's actually quite easy. Have a look at <a href=“https://tasty.co/recipe/ratatouille” target=“_blank” aria-label=“Recipe on Bianca Tasty (opens in a new tab)”>this recipe on Tasty</a>.",
+    "websites": [
+      ["Walmart", "https://www.walmart.com"]
+    ],
+    "price": "10",
+    "image": "assets/images/suggestions/homemade-food/ratatouille.jpg"
+  },
+  {
+    "category": "cookery",
+    "name": "Steak",
+    "description": "Eat out for a steak dinner on Valentine's day is a common way for couples to celebrate. But a steak dinner at home with some romantic music will make your Valentine's day much more special. If you are not sure how to cook steaks like a pro, <a href=“https://tasty.co/article/christinebyrne/how-to-sear-the-perfect-steak-for-your-valentine” target=“_blank” aria-label=“Recipe on Tasty (opens in a new tab)”>this post on Tasty</a> will help you out.",
+    "websites": [
+      ["Walmart", "https://www.walmart.com"]
+    ],
+    "price": "11-200 (6ct)",
+    "image": "assets/images/suggestions/homemade-food/steak.jpg"
+  },
+  {
+    "category": "foodExperiment",
+    "name": "Lobster Tail",
+    "description": "Lobster is regarded as the most elegant, high-end type of seafood that's usually reserved for special occasions at pricey restaurants. Cooking lobster at home might seem intimidating, but it sure is an excellent gift. If you're not sure how to cook, <a href=“https://therecipecritic.com/lobster-tail-recipe/” target=“_blank” aria-label=“Recipe on The Recipe Critic (opens in a new tab)”>this recipe on The Recipe Critic</a> will guide you to make the perfect Valentine's day meal.",
+    "websites": [
+      ["Walmart", "https://www.walmart.com"]
+    ],
+    "price": "17-247.5",
+    "image": "assets/images/suggestions/homemade-food/lobster.jpg"
+  },
+  {
+    "category": "alcoholTasting",
+    "name": "Bow Down To Bubbly Champagne Master Class",
+    "description": "The perfect gift for a day out with sparkle! On the Champagne and Sparkling Wine Masterclass, they'll be guided through the world of fizz; from Cava and Cremant De Loire, to Prosecco and New World Bubbly.",
+    "websites": [
+      ["Truly Experiences - Champagne Master Class", "https://trulyexperiences.com/uk/champagne-and-sparkling-wine-masterclass-the-london-wine-academy.html"]
+    ],
+    "price": "140",
+    "image": "assets/images/suggestions/tasting/chapmagne.jpg"
+  },
+  {
+    "category": "alcoholTasting",
+    "name": "Bluebell Vineyard Wine and Cheese Tour",
+    "description": "A brie-lliant experience for cheese and wine lovers! Take a tour of the Bluebell vineyard in and winery in the heart of Sussex to learn how English Sparkling & Still Wine is made, before embarking on a portfolio tasting of their Ashdown still wines and Hindleap sparkling wines, each individually matched to a variety of beautiful British cheeses from High Weald Dairy. ",
+    "websites": [
+      ["Bluebell Vineyard", "https://trulyexperiences.com/uk/champagne-and-sparkling-wine-masterclass-the-london-wine-academy.html"]
+    ],
+    "price": "39",
+    "image": "assets/images/suggestions/tasting/vineyard.jpg"
+  },
+  {
+    "category": "alcoholTasting",
+    "name": "Molecular Mixology Class",
+    "description": "Concoct luscious cocktails with your loved one at the Purl in Marylbone. The authentic basement bar is home to cutting-edge cocktail creations with a newfound focus on engaging all the senses. In the company of Purl's experienced mixologist, learn the various techniques used to mix the delicious cocktails from aromas and fogs to airs and foams that beautifully balance each cocktail between traditional mixing and inventive, molecular techniques - enhancing every sip you take ",
+    "websites": [
+      ["Truly Experiences - Molecular Mixology Class", "https://trulyexperiences.com/uk/molecular-mixology-cocktail-masterclass-purl-london.html"]
+    ],
+    "price": "65",
+    "image": "assets/images/suggestions/tasting/cocktails.jpg"
+  },
+  {
+    "category": "alcoholTasting",
+    "name": "Make Your Own Gin in Manchester",
+    "description": "With a gin and tonic in hand, you'll be taken on a tour of the distillery followed by a tasting to discover the styles of gin you prefer and also your favourite botanicals. You'll be guided through choosing your own botanicals, weighing each of them and finally distilling your own unique bottle to take home.",
+    "websites": [
+      ["The Spirit of Manchester Distillery", "https://manchestergin.co.uk/distillery/"]
+    ],
+    "price": "126",
+    "image": "assets/images/suggestions/tasting/gin.jpg"
+  },
+  {
+    "category": "alcoholTasting",
+    "name": "The Scotch Whisky Experience - Platinum Tour",
+    "description": "A whisky lover's dream: an early evening tour, with an extended viewing of The World's Largest Collection of Scotch Whisky. The tour includes a Whisky barrel ride through the production of Scotch whisky, a tutored tasting of 5 specially selected whiskies and a boxed crystal whisky tasting glass",
+    "websites": [
+      ["The Scotch Whisky Experience", "https://www.scotchwhiskyexperience.co.uk/tour-experiences/the-platinum-tour"]
+    ],
+    "price": "55",
+    "image": "assets/images/suggestions/tasting/whisky.jpg"
+  },
+  {
+    "category": "foodExperiment",
+    "name": "Shiitake Mushroom Log Kit",
+    "description": "Surprise your partner with a unique gift that keeps on giving! Every chef loves working with fresh ingredients — and what's fresher than picking your own home-grown mushrooms from a log you can keep in your kitchen?",
+    "websites": [
+      ["Shitake Mushroom Log Kit", "https://www.uncommongoods.com/product/shiitake-mushroom-log-kit?clickid=yqU0rKUdaxyIUCi1A8Rh1UuSUkGW0e32j0b73I0&irgwc=1&utm_source=Hearst%20Magazines&utm_medium=affiliates&utm_campaign=8444&utm_term=Online%20Tracking%20Link&trafficSource=Impact&sharedid="]
+    ],
+    "price": "30",
+    "image": "assets/images/suggestions/cookery/shitake.jpg"
+  },
+  {
+    "category": "cookery",
+    "name": "The Art of Chocolate Making",
+    "description": "Does your parner drool at the idea of the perfect sea salted caramel truffle? This course will cover all the skills, troubleshooting and practise that you need to be able to achieve stunning results.",
+    "websites": [
+      ["Learning with the Experts - The Art of Chocolate Making", "https://www.learningwithexperts.com/foodanddrink/courses/chocolate"]
+    ],
+    "price": "60",
+    "image": "assets/images/suggestions/cookery/chocolate.jpg"
+
+  },
+
+  {
+    "category": "foodExperiment",
+    "name": "The Cook Away Recipe Box",
+    "description": "Does your partner love trying out exotic new recipes?  Provide them with ingredients and inspiration with a recipe box designed by award-winning chefs. Choose from a range of world cuisines from Europe to the Far East.",
+    "websites": [
+      ["The Cook Away", "https://www.thecookaway.com/"]
+    ],
+    "price": "60",
+    "image": "assets/images/suggestions/cookery/recipe.jpg"
+
+  },
+
+  {
+    "category": "cookery",
+    "name": "Outdoor Pizza Oven",
+    "description": "For a romantic night in how about a bottle of wine and a delicious freshly made pizza straight from your very own pizza oven?",
+    "websites": [
+      ["Ooni Karu 12 Pizza Oven - John Lewis", "https://john-lewis-and-partners.pxf.io/c/221109/913132/12148?prodsku=238422415&u=https%3A%2F%2Fwww.johnlewis.com%2Fooni-karu-12-dual-fuel-portable-outdoor-pizza-oven%2Fp4805175%3Fsku%3D238422415%26&intsrc=CATF_7189&subId1=idealhome-gb-1340081639673454300&sharedId=idealhome-gb"],
+      ["Monster Shop Pizza Oven - Amazon", "https://target.georiot.com/Proxy.ashx?tsid=107653&GR_URL=https%3A%2F%2Fwww.amazon.co.uk%2Fdp%2FB08HHB5NV9%3Ftag%3Dhawk-future-21%26linkCode%3Dogi%26th%3D1%26psc%3D1%26ascsubtag%3Didealhome-gb-5847620396786739000-21"]
+    ],
+    "price": "229-409",
+    "image": "assets/images/suggestions/cookery/pizza.jpg"
+
+  },
+  {
+    "category": "cookery",
+    "name": "Become a Master Baker!",
+    "description": "From focaccia to flatbreads, Bread Ahead offer a variety of online courses to teach you to bake breads from all corners of the globe. As a beginner or even an experienced baker, these live session with expert bakery teachers will have you confidently baking bread in just a few short hours.",
+    "websites": [
+      ["Bread Ahead", "https://www.breadahead.com/elearning"]
+    ],
+    "price": "32",
+    "image": "assets/images/suggestions/cookery/bread.jpg"
+  },
+  {
+    "category": "handcraft",
+    "name": "Embroidery Kit",
+    "description": "Embroidery is a forgotten art, but you can't argue with the results. If your partner loves doing handcrafts and hasn't tried embroidery yet, they will love this kit which includes everything they need to get started.",
+    "websites": [
+      ["Etsy", "https://www.etsy.com/ie/listing/965215892/beginner-embroidery-kit-with-video?click_key=1b9a307fef25cc62c42a883ccbc9eefd008d8e73%3A965215892&click_sum=942e3748&ref=related-3&variation0=1882049035"]
+    ],
+    "price": "31.97",
+    "image": "assets/images/suggestions/handcrafts/embroidery.jpg"
+  },
+  {
+    "category": "handcraft",
+    "name": "Painting Set",
+    "description": "There are lots of benefits of art. Art will help your partner's relaxation, creativity and optimistic attitude to name a few. There are many art materials for doodling, calligraphy, colouring and different types of paintings. Here we're suggesting an acrylic paint set.",
+    "websites": [
+      ["Amazon", "https://www.amazon.com/Professional-Painting-Supplies-Hobbyists-Beginners/dp/B08L7K5N4Z/ref=sr_1_6?crid=31GLKTEHLORDV&keywords=painting+kit&qid=1645813947&sprefix=painting+ki%2Caps%2C192&sr=8-6"]
+    ],
+    "price": "24.99",
+    "image": "assets/images/suggestions/handcrafts/painting.jpg"
+  },
+  {
+    "category": "handcraft",
+    "name": "Wood Carving Tool Set",
+    "description": "Wood carving is not simply making things out of wood. It is a way to rest and relax, to forget about your busy day and to boost creativity and inspiration. This set includes 30 pcs wooden circles and 12pcs wood carving tools.",
+    "websites": [
+      ["Amazon", "https://www.amazon.com/WAYCOM-Natural-Wood-Slices-Different/dp/B09MLTP9W9"]
+    ],
+    "price": "46.89",
+    "image": "assets/images/suggestions/handcrafts/wood-carving.jpg"
+  },
+  {
+    "category": "handcraft",
+    "name": "Crafting Courses",
+    "description": "Does your partner prefers to learn from experts? Isn't there enough space at home to do the handcrafts they would like to do? There are a lot of crafting courses out there. One of the courses near you will be a great gift.",
+    "websites": [
+      ["Craft Courses", "https://www.craftcourses.com/"]
+    ],
+    "price": "20-350",
+    "image": "assets/images/suggestions/handcrafts/crafting-courses.jpg"
+  },
+  {
+    "category": "handcraft",
+    "name": "Cutting Machine",
+    "description": "With a cutting machine one can make a ton of crafty art: occasion cards, party decorations, stickers, personalised clothing to name a few. This little gadget cuts over 100 materials from card stock, vinyl & iron-on to glitter paper & bonded fabric.",
+    "websites": [
+      ["Cricut", "https://cricut.com/en_us/machines/cricut-explore-3-machine-2008337.html?"]
+    ],
+    "price": "179.99-399.99",
+    "image": "assets/images/suggestions/handcrafts/cutting-machine.jpg"
+  },
+  {
+    "category": "sightseeing",
+    "name": "Eiffel Tower(France)",
+    "description": "The Eiffel Tower is not only a Paris icon but also becomes a symbol of love for many couples from all over the world. The Eiffel Tower's lighting and sparkling lights are on for 5 minutes on the hour every hour after nightfall until 1am. We also recommend entering the tower and enjoying the memorable views of the city.",
+    "websites": [
+      ["The Official Eiffel Tower Website", "https://www.toureiffel.paris/en"]
+    ],
+    "price": "38.56-46(for couple)",
+    "image": "assets/images/suggestions/sightseeing/paris.jpg"
+  },
+  {
+    "category": "sightseeing",
+    "name": "The Empire State Building(USA)",
+    "description": "New York's Empire State Building has been the setting for a number of romantic movies. From the observation deck, you can see an incredible view of New York. If you visit after 9pm, you'll have a more romantic time with the night sky and city lights.",
+    "websites": [
+      ["Empire State Building", "https://www.esbnyc.com/"]
+    ],
+    "price": "88-272(for couple)",
+    "image": "assets/images/suggestions/sightseeing/ny.jpg"
+  },
+  {
+    "category": "sightseeing",
+    "name": "Gondola Rides in Venice(Italy)",
+    "description": "The gondola ride is as romantic as it gets. You will be able to see the famous grand canal, iconic bridges and Venice's romantic landmarks on a gondola.",
+    "websites": [
+      ["Venice Tours", "https://www.venicetours.eu/en/activity/78684/romantic-private-gondola-ride"]
+    ],
+    "price": "125-145",
+    "image": "assets/images/suggestions/sightseeing/venice.jpg"
+  },
+  {
+    "category": "sightseeing",
+    "name": "Wicklow Mountains National Park(Ireland)",
+    "description": "Do you remember the scene from <cite>P.S. I Love You</cite> where Gerry and Holly first met with a beautiful blooming purple heather flowers background? This scene took place in the Wicklow Mountains in Ireland. If your partner is fond of nature, they will love this place.",
+    "websites": [
+      ["Wicklow Mountains National Park", "https://www.wicklowmountainsnationalpark.ie/"]
+    ],
+    "price": "0",
+    "image": "assets/images/suggestions/sightseeing/wicklow.jpg"
+  },
+  {
+    "category": "sightseeing",
+    "name": "Notting Hill(UK)",
+    "description": "Julia Roberts stood in front of Hugh Grant in a travel book shop, asking him to love her. It is one of the most famous romantic-comedy scenes in history. Since then, It is one of London's most famous locations. There are colourful streets, popular market, the Notting Hill bookshop and more.",
+    "websites": [
+      ["Visit London", "https://www.visitlondon.com/"]
+    ],
+    "price": "0",
+    "image": "assets/images/suggestions/sightseeing/london.jpg"
   },
   {
     "category": "",
@@ -563,4 +1082,5 @@
     "price": "...-...",
     "image": "assets/images/suggestions/.../image_name_lower_snake_case.jpg"
   }
+
 ]

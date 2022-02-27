@@ -3,12 +3,12 @@ const quizContainer = document.getElementById('quiz-container');
 const resultsContainer = document.getElementById('results-container');
 const startButton = document.getElementById('start-button');
 const resetButton = document.getElementById('reset-button');
-const resultsButton = document.getElementById('results-button');
 const quizContent = document.getElementById('quiz-content');
 const questionText = document.getElementById('question-text');
 const answerContainerA = document.getElementById('answer-a');
 const answerContainerB = document.getElementById('answer-b');
 const answerContainerC = document.getElementById('answer-c');
+const suggestionHeader = document.getElementById('suggestion-header');
 const suggestionContainer = document.getElementById('suggestion-container');
 // // variables for modal
 const modal = document.getElementById('modal');
@@ -89,7 +89,7 @@ const foodieQuestion = {
   question: 'Would your partner rather...',
   answerA: 'Eat out',
   answerB: 'Learn to cook something new',
-  answerC: 'Go for a tasting session'
+  answerC: 'Go for a alcohol tasting session'
 }
 
 
@@ -101,23 +101,29 @@ const notFoodieQuestion = {
 }
 // variables of each categories - empty arrays filled in by 
 // findGiftsInCategory function, that fetches data from suggestions.json
-var arts = []
+var museum = []
 var gardening = []
-// cookery = cookingClassess ??? need to confirm with Helen
 var cookery = []
+var foodExperiment = []
 var tech = []
 var animals = []
 var games = []
 var individualSports = []
 var teamSports = []
 var travel = []
-var spa = [] 
+var spa = []
+// var sportsEvent = [] ??? no data so far - wathcing outdoor sport Catherine
 var sportsEvent = []
 var themePark = []
 var ride = []
+// var eatOut = [] ??? no data so far sam
 var eatOut = []
+var picnic = []
 var cookingClasses = []
-var tasting = []
+var alcoholTasting = []
+var handcraft = []
+// var sightseeing = [] ??? no data so far Sejung
+var sightseeing = []
 
 /**
  * function to fetch data from suggestion.js and than add
@@ -128,9 +134,11 @@ var tasting = []
 const data = fetch('assets/js/suggestions.json')
   .then(response => response.json())
   .then(data => {
-    arts = findGiftsInCategory("arts", data)
+    museum = findGiftsInCategory("museum", data)
     gardening = findGiftsInCategory("gardening", data)
     cookery = findGiftsInCategory("cookery", data)
+    // food experiment in json file not used
+    foodExperiment = findGiftsInCategory("foodExperiment", data)
     games = findGiftsInCategory("games", data)
     animals = findGiftsInCategory("animals", data)
     tech = findGiftsInCategory("technology", data)
@@ -142,9 +150,11 @@ const data = fetch('assets/js/suggestions.json')
     themePark = findGiftsInCategory("themePark", data)
     ride = findGiftsInCategory("ride", data)
     eatOut = findGiftsInCategory("eatOut", data)
+    picnic = findGiftsInCategory("picnics", data)
     cookingClasses = findGiftsInCategory("cookingClasses", data)
-    tasting = findGiftsInCategory("tasting", data)
-
+    alcoholTasting = findGiftsInCategory("alcoholTasting", data)
+    handcraft = findGiftsInCategory("handcraft", data)
+    sightseeing = findGiftsInCategory("sightseeing", data)
   });
 
 /**
@@ -154,7 +164,7 @@ const data = fetch('assets/js/suggestions.json')
  * takes a string (category) and array (data) as variables
  */
 
- function findGiftsInCategory(category, data) {
+function findGiftsInCategory(category, data) {
   let listOfGifts = []
   for (let i = 0; i < data.length; ++i) {
 
@@ -181,11 +191,16 @@ function displayQuestion(currentQuestion) {
   }
 }
 
-displayQuestion(currentQuestion)
+function startTheQuiz() {
+  displayQuestion(currentQuestion);
+  startButton.classList.add('hide');
+  resetButton.classList.remove('hide');
+}
 
 function displayResults(category) {
   quizContainer.classList.add('hide');
   resultsContainer.classList.remove('hide')
+  suggestionHeader.classList.remove('hide')
   category.forEach(suggestion => {
     const suggestionCard = document.createElement('div');
     suggestionCard.classList.add('result__content');
@@ -196,7 +211,6 @@ function displayResults(category) {
     </div>
     <div class="result__content--modal">learn more</div>
     `;
-
     suggestionCard.addEventListener('click', function () {
       console.log('clicked');
       modal.style.display = 'flex';
@@ -249,18 +263,16 @@ function checkAnswer(e) {
       currentQuestion = notFoodieQuestion;
     }
     displayQuestion(currentQuestion)
-  } 
-  else if (currentQuestion === creativeQuestion) {
+  } else if (currentQuestion === creativeQuestion) {
     if (e.target.id === 'answer-a') {
-      category = arts
+      category = handcraft
     } else if (e.target.id === 'answer-b') {
       category = gardening
     } else {
       category = cookery
     }
-    quizContainer.classList.add('hide')
-  }
-  else if (currentQuestion === unCreativeQuestion) {
+    displayResults(category)
+  } else if (currentQuestion === unCreativeQuestion) {
     if (e.target.id === 'answer-a') {
       category = tech
     } else if (e.target.id === 'answer-b') {
@@ -269,8 +281,7 @@ function checkAnswer(e) {
       category = games
     }
     displayResults(category)
-  }
-  else if (currentQuestion === activeQuestion) {
+  } else if (currentQuestion === activeQuestion) {
     if (e.target.id === 'answer-a') {
       category = individualSports
     } else if (e.target.id === 'answer-b') {
@@ -279,8 +290,7 @@ function checkAnswer(e) {
       category = travel
     }
     displayResults(category)
-  }
-  else if (currentQuestion === notActiveQuestion) {
+  } else if (currentQuestion === notActiveQuestion) {
     if (e.target.id === 'answer-a') {
       category = sportsEvent
     } else if (e.target.id === 'answer-b') {
@@ -289,18 +299,17 @@ function checkAnswer(e) {
       category = ride
     }
     displayResults(category)
-  }
-  else if (currentQuestion === foodieQuestion) {
+  } else if (currentQuestion === foodieQuestion) {
     if (e.target.id === 'answer-a') {
-      category = eatOut
+      // category = eatOut
+      category = picnic
     } else if (e.target.id === 'answer-b') {
       category = cookingClasses
     } else {
-      category = tasting
+      category = alcoholTasting
     }
     displayResults(category)
-  }
-  else if (currentQuestion === notFoodieQuestion) {
+  } else if (currentQuestion === notFoodieQuestion) {
     if (e.target.id === 'answer-a') {
       category = museum
     } else if (e.target.id === 'answer-b') {
@@ -313,13 +322,13 @@ function checkAnswer(e) {
 }
 
 //event listeners
+startButton.addEventListener('click', startTheQuiz)
 answerContainerA.addEventListener('click', checkAnswer);
 answerContainerB.addEventListener('click', checkAnswer);
 answerContainerC.addEventListener('click', checkAnswer);
 
 
 /// displays modal 
-
 const displayModalContent = function (suggestion) {
   console.log(suggestion.websites[0]);
   const modalImage = document.querySelector('#suggestion-image');
@@ -350,3 +359,13 @@ const displayModalContent = function (suggestion) {
       </div>
   `;
 }
+
+// Close modal
+closeModal.addEventListener('click', function () {
+  modal.style.display = 'none';
+});
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && modal.style.display !== 'none') {
+    modal.style.display = 'none';
+  }
+});
