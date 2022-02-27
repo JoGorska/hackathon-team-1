@@ -112,7 +112,6 @@ var individualSports = []
 var teamSports = []
 var travel = []
 var spa = []
-// var sportsEvent = [] ??? no data so far - wathcing outdoor sport Catherine
 var sportsEvent = []
 var themePark = []
 var ride = []
