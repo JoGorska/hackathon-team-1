@@ -21,29 +21,62 @@
           <a href="index.html">Home</a>
         </li>
         <li class="navbar__item">
-          <a href="quiz.html">Pick a gift</a>
+          <a href="quiz.html">Gift search</a>
+        </li>
+        <li class="navbar__item">
+          <a href="contact.html">Contact</a>
         </li>
       </ul>
     </nav>
   </header>
-  <main class="main">
-    <div class="quiz__container" id="quiz-container">
-      <h2 id="quiz-title">Quiz title</h2>
-      <button id="start-button">Start</button>
-      <button id="back-button">Go to previous</button>
-      <div id="quiz-content">
+  <main class="main bg">
+    <div class="main__content">
+      <div class="quiz__container" id="quiz-container">
+        <h2 id="quiz-title">GiftiFY Quiz</h2>
+        <button id="start-button">Start</button>
 
-        <p id="question-text"></p>
-        <div id="quiz-answers">
-          <button ><p id="answer-a"></p></button>
-          <button id="answer-b"></button>
-          <button id="answer-c"></button>
+        <div id="quiz-content">
+
+          <p id="question-text"></p>
+          <div id="quiz-answers">
+            <button>
+              <p id="answer-a"></p>
+            </button>
+            <button id="answer-b"></button>
+            <button id="answer-c"></button>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="results__container" id="results-container" class="hide">
+        <div class="results__header">
+          <h2 class="results__title hide" id="suggestion-header">Gifts Suggestions</h2>
+          <a href="quiz.html" class="hide results__reset" id="reset-button">Reset Questions</a>
+        </div>
+        <div class="results__content" id="suggestion-container">
+
+        </div>
+      </div>
+    </div>
+  </main>
+  <aside class="modal__container" id="modal">
+    <div class="modal__main">
+      <div class="modal__btn">
+        <div class="btn modal__close" id="modal-close">
+          <img src="assets/images/icon-arrow-down.svg" alt="" class="arrow__back">
+          <div class="btn__back--text">back</div>
         </div>
       </div>
 
+      <div class="modal__content--image" id="suggestion-image">
+
+      </div>
+      <div class="modal__content--text" id="suggestion-info">
+
+      </div>
     </div>
-    <div class="results__container" id="results-container"></div>
-  </main>
+  </aside>
   <footer class="footer">
     <div class="footer__content">
       footer content goes here
