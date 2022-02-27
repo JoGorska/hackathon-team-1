@@ -692,13 +692,44 @@ Juliia*/
   display: flex;
   width: 100%;
   justify-content: space-between;
-
 }
-.collaborators-item{
-  align-self: start;
-  justify-self: start;
-
+.collaborators__item{
+  /* width: 100%; */
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
 }
+.collaborators__item:not(:not-lastchild){
+  margin-right: 2em;
+}
+
+.collaborators__item--links{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.collaborators__item--links a{
+  color:white;
+  font-size:2rem;
+}
+.collaborators__item--links a:first-child{
+  margin-right:0.2em;
+}
+
+.collaborators__item--links a:last-child{
+  margin-left:0.2em;
+}
+.collaborators__item--name{
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  width:100%;
+  margin:0 auto;
+  display:flex;
+  justify-content:center;
+}
+
 .hide {
   display: none !important;
 }
