@@ -448,7 +448,7 @@
       ["thermaebathspa", "https://www.thermaebathspa.com/"]
     ],
     "price": "64-560",
-    "image": "assets/images/suggestions/spas/thermae_bath_spa.jpg"
+    "image": "assets/images/suggestions/spas/bath_thermae.jpg"
   },
   {
     "category": "spa",
@@ -459,7 +459,7 @@
       ["turkishbathsharrogate", "https://www.turkishbathsharrogate.co.uk/"]
     ],
     "price": "24-120",
-    "image": "assets/images/suggestions/spas/harrogate_turkish_baths.jpg"
+    "image": "assets/images/suggestions/spas/moorish1.jpg"
   },
   {
     "category": "spa",
@@ -473,14 +473,13 @@
   },
   {
     "category": "spa",
-    "name": "AIRE Ancient Baths, London",
-    "description": "AIRE spaces are temples dedicated to mind and body relaxation, where time does not exist, inspired by ancient civilizations bathing traditions. Minutes away from Covent Garden, you will find an oasis, seamlessly intertwined with its enticing energy.",
-    "websites": [
-      ["beaire", "https://beaire.com/en/aire-ancient-baths-london"]
-    ],
-    "price": "120-250",
-    "image": "assets/images/suggestions/spas/aire_ancient_baths.jpg"
-  },
+    "name": "Terme di Saturnia, Italy",
+    "description": "Nestled in the Tuscan hills, these waterfalls are made of several natural pools of warm thermal water and are free to enter. Spoil your partner afterwards with a pamper treatment at the luxury spa.",
+    "websites": [ ["Terme di Saturnia", "https://www.termedisaturnia.it/en/hot-spring-pools.html"]],    
+    "price": "0-200",
+    "image": "assets/images/suggestions/spa/saturnia.jpg"
+
+},
   {
     "category": "themePark",
     "name": "Liseberg, Sweden",
