@@ -535,11 +535,13 @@
   {
     "category": "picnics",
     "name": "Around the World",
-    "description": "From caribbean chicken and swedish meatballs, to french baguettes and american sliders, why not make finger foods from around the world!",
+    "description": "From Jamaican chicken drumsticks and swedish meatballs, to french baguettes and american sliders, why not make finger foods from around the world!",
     "websites": [
-      ""
+      ["Jerk chicken", "https://www.recipetineats.com/jamaican-jerk-chicken-drumsticks-with-caribbean-rice-with-beans/"],
+      ["Swedish meatballs", "https://www.ica.se/recept/klassiska-kottbullar-712807/"],
+      ["American sliders", "https://www.thespruceeats.com/all-american-sliders-479161"] 
     ],
-    "price": "150-5000",
+    "price": "50-500",
     "image": "assets/images/suggestions/picnics/picnics_world.jpg"
   },
 
@@ -548,9 +550,9 @@
     "name": "By-the-sea",
     "description": "If that special someone in your life enjoys seafood and fish, consider making a platter from the sea! Smoked salmon, cooked prawns and perhaps even crab sticks can make for a fantastic themed picnic. Do you live near the coast? Take your seafood picnic to the next level and serve it by the sea!",
     "websites": [
-      ""
+      ["Seafood platter", "https://www.honestfoodtalks.com/seafood-platter-ideas/"]
     ],
-    "price": "150-5000",
+    "price": "50-500",
     "image": "assets/images/suggestions/picnics/by_the_sea.jpg"
   },
 
@@ -559,9 +561,9 @@
     "name": "My heart belongs to you",
     "description": "Since it's Valentine's Day, what about a heart-themed picnic? Try making strawberry jam sandwiches, pancakes with chocolate and pastries, all in the shape of hearts! It will make their heart race for sure!",
     "websites": [
-      ""
+      ["Heart-shaped food", "https://www.marthastewart.com/318925/heart-pancakes"]
     ],
-    "price": "150-5000",
+    "price": "50-500",
     "image": "assets/images/suggestions/picnics/heart_food.jpg"
   },
   {
@@ -569,9 +571,9 @@
     "name": "Sweets for my sweet",
     "description": "Does the love of your life have a sweet tooth!? Let's be honest, secretly we all do! Why not surprise them with an outdoor selection of their favourite treats and chocolates!",
     "websites": [
-      ""
+      ["Make a Sweets table", "https://www.pinterest.com/mychocolatesoul/sweet-tables/"]
     ],
-    "price": "150-5000",
+    "price": "50-500",
     "image": "assets/images/suggestions/picnics/sweets.jpg"
   },
   {
@@ -579,9 +581,9 @@
     "name": "Take your take-out, out!",
     "description": "Whether you enjoy a weekly take away, or it is a once in a while treat, why not find a local beauty spot and take your favourite take away with you! Whether it is a chow mein, fish and chips, or a pizza, spend some quality time together outside!",
     "websites": [
-      ""
+      ["Uber Eats", "https://www.ubereats.com/"]
     ],
-    "price": "150-5000",
+    "price": "50-500",
     "image": "assets/images/suggestions/picnics/take_out.jpg"
   },
   {
