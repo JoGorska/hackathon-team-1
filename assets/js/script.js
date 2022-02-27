@@ -357,7 +357,7 @@ const displayModalContent = function (suggestion) {
       <p class="modal__content--description">
         ${suggestion.description}
       </p>
-      <h4 class="modal__content--websites">Were to find:</h4>
+      <h4 class="modal__content--websites">Where to find:</h4>
       <ul class="modal__content--links">${websitesList}</ul>
       <div class="modal__content--price">
         <h4 class="modal__content--price-title">Price:</h4>
