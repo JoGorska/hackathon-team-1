@@ -29,12 +29,12 @@
       </ul>
     </nav>
   </header>
-  <main class="main">
+  <main class="main bg">
     <div class="main__content">
       <div class="quiz__container" id="quiz-container">
         <h2 id="quiz-title">GiftiFY Quiz</h2>
         <button id="start-button">Start</button>
-        
+
         <div id="quiz-content">
 
           <p id="question-text"></p>
@@ -50,9 +50,10 @@
 
       </div>
       <div class="results__container" id="results-container" class="hide">
-
-        <h1 class="results__title hide" id="suggestion-header">Gifts Suggestions</h1>
-        <a href="quiz.html" class="hide" id="reset-button">Reset Questions</a>
+        <div class="results__header">
+          <h2 class="results__title hide" id="suggestion-header">Gifts Suggestions</h2>
+          <a href="quiz.html" class="hide results__reset" id="reset-button">Reset Questions</a>
+        </div>
         <div class="results__content" id="suggestion-container">
 
         </div>

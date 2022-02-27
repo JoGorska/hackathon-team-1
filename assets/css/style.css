@@ -1,9 +1,3 @@
-/* this is added just for testing, remove / delete/ burn down when needed*/
-#reset-button {
-  background-color: red;
-}
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
 
 :root {
@@ -155,9 +149,9 @@ body {
 .hero {
   width: 100%;
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 8rem);
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background-color: rgb(31, 31, 31);
   background-image: linear-gradient(14deg,
@@ -177,11 +171,12 @@ body {
   padding: 3em;
   font-size: 1.7rem;
   border-radius: 0.5em;
-  max-width: 40rem;
+  max-width: 45rem;
   text-align: center;
+  margin-top: 20vh;
   position: absolute;
-  left: 20%;
-  top: 10%;
+  left: 17%;
+  top: 6%;
 }
 
 
@@ -194,7 +189,9 @@ body {
 
 .hero__link--btn,
 .hero__main--btn,
-.contact__link--btn {
+.contact__link--btn,
+.result__content--btn,
+.results__reset {
   padding: 0.5em 2em;
   border-radius: 0.4em;
   background-color: var(--clr-primary--300);
@@ -205,16 +202,26 @@ body {
 }
 
 .hero__link--btn {
+  background-color: #02c3b6;
+  /* margin-left: 0.5em; */
+  color: white;
+}
+
+.hero__link--btn {
   margin-right: 0.5em
 }
 
 .hero__main--btn {
-  background-color: #f5d4d6;
+  /* background-color: #f5d4d6; */
+  background-color: #30a59d;
   margin-left: 0.5em;
+  color: white;
 }
 
 .contact__link--btn:hover,
-.hero__link--btn:hover {
+.hero__link--btn:hover,
+.result__content--btn:hover,
+.results__reset:hover {
   background-color: var(--clr-primary--200);
   color: var(--clr-neutral--900);
 }
@@ -224,44 +231,6 @@ body {
   color: var(--clr-neutral--100);
 }
 
-.hero__arrow {
-  height: 5rem;
-  width: 5rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: myAnim 2s ease-in-out 0s infinite normal forwards;
-
-}
-
-@keyframes myAnim {
-  0% {
-    animation-timing-function: ease-out;
-    transform: scale(1);
-    transform-origin: center center;
-  }
-
-  10% {
-    animation-timing-function: ease-in;
-    transform: scale(0.91);
-  }
-
-  17% {
-    animation-timing-function: ease-out;
-    transform: scale(0.98);
-  }
-
-  33% {
-    animation-timing-function: ease-in;
-    transform: scale(0.87);
-  }
-
-  45% {
-    animation-timing-function: ease-out;
-    transform: scale(1);
-  }
-}
 
 .hero__quiz--link a {
   color: var(--clr-neutral--100);
@@ -305,7 +274,9 @@ body {
   width: 50%;
   max-width: 39rem;
   text-align: left;
-  background-color: #5cbab4;
+  background-color: #5cbab4a6;
+  border-radius: 0.5em;
+  color: rgb(47, 47, 47);
   padding: 2em;
 }
 
@@ -409,6 +380,7 @@ Juliia*/
 /* Please do not change the code below
 Juliia*/
 
+
 /* suggestions */
 .results__container {
   display: flex;
@@ -416,16 +388,40 @@ Juliia*/
   justify-content: center;
   align-items: center;
   color: var(--clr-neutral--900);
-  padding: 2em;
+  padding: 0 2em;
   width: 100%;
   margin: 2em;
+  position: relative;
+}
+
+.results__header {
+  background-color: #464646;
+  border-radius: 0.4em;
+  width: 100%;
+  margin-bottom: 2em;
 }
 
 .results__title {
+  text-transform: capitalize;
+  color: white;
+  padding: 1.5em;
+
+  font-size: 3rem;
+  letter-spacing: 0.05rem;
   text-align: center;
-  padding: 4rem;
-  font-size: 1.7rem;
-  font-weight: 400;
+  align-self: center;
+  justify-self: center;
+  font-weight: 900;
+}
+
+.results__reset {
+  position: absolute;
+  top: -1.7rem;
+  right: 1.2rem;
+  padding: 1em 2em;
+  margin: 2em;
+  font-size: 1.5rem;
+  padding: 0.5em 1.5em;
 }
 
 .results__content {
@@ -438,7 +434,7 @@ Juliia*/
 }
 
 .result__content {
-  padding: 0 1em;
+  padding: 0 1em 1em 1em;
   background-color: #464646;
   color: var(--clr-primary--100);
   border-radius: 0.5em;
@@ -452,7 +448,8 @@ Juliia*/
 }
 
 .result__content:hover {
-  background-color: var(--primary-900);
+  /* background-color: var(--primary-900); */
+  background-color: var(--clr-accent--100);
   color: var(--clr-neutral--900);
 }
 
@@ -486,7 +483,8 @@ Juliia*/
 }
 
 .result__content--modal:hover {
-  text-decoration: underline;
+  background-color: #464646;
+  color: var(--clr-neutral--100);
 }
 
 /* Modal */
