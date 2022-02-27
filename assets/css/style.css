@@ -244,6 +244,20 @@ body {
   /* background-attachment: fixed; */
 }
 
+.bg-for-form {
+  background-image: url('../images/bg2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.6 !important; */
+  /* background-attachment: fixed; */
+}
+
+.bg-form-container {
+  background-color: rgba(239, 163, 169, .5);
+  border-radius: 3%;
+}
+
 .description,
 .incentive,
 .range {
