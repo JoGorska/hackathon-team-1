@@ -903,7 +903,9 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+
+
+@media all and (max-width: 768px) {
 
   /* Navbar */
   .navbar__components {
