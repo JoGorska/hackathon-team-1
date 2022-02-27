@@ -1,3 +1,4 @@
+/* jshint esversion: 8 */
 const homePageContainer = document.getElementById('home-page-container');
 const quizContainer = document.getElementById('quiz-container');
 const resultsContainer = document.getElementById('results-container');
@@ -24,58 +25,56 @@ const firstQuestion = {
   answerA: 'Staying home',
   answerB: 'Going out',
   answerC: 'pass'
-}
+};
 
 const homeQuestion = {
   question: 'Does your partner enjoy being creative?',
   answerA: 'Yes',
   answerB: 'No',
   answerC: 'pass'
-}
+};
 
 const creativeQuestion = {
   question: 'Which of the following activities would most interest your partner?',
   answerA: 'Arts and crafts',
   answerB: 'Gardening',
   answerC: 'Cookery'
-}
+};
 
 const unCreativeQuestion = {
   question: 'Which of the following is your partner most interested in?',
   answerA: 'Technology',
   answerB: 'Animals',
   answerC: 'Games'
-}
+};
 
 const outQuestion = {
   question: 'Would your partner prefer an adventurous day out or would they rather relax?',
   answerA: 'Adventure',
   answerB: 'Relaxation',
   answerC: 'pass'
-}
+};
 
 const adventurousQuestion = {
   question: 'Does your partner prefer to do something active?',
   answerA: 'Yes',
   answerB: 'No',
   answerC: 'pass'
-
-}
+};
 
 const leisureQuestion = {
   question: 'Is your partner a bit of a foodie?',
   answerA: 'Yes',
   answerB: 'No',
   answerC: 'pass'
-
-}
+};
 
 const activeQuestion = {
   question: 'Which of the following activities would your partner prefer?',
   answerA: 'Individual sports',
   answerB: 'Team sports',
   answerC: 'Travel'
-}
+};
 
 const notActiveQuestion = {
   question: 'Which of the following activities would your partner prefer?',
@@ -97,7 +96,8 @@ const notFoodieQuestion = {
   answerA: 'A visit to a museum',
   answerB: 'A pamper day at the spa',
   answerC: 'Going sightseeing'
-}
+};
+
 // variables of each categories - empty arrays filled in by 
 // findGiftsInCategory function, that fetches data from suggestions.json
 var museum = []
@@ -115,13 +115,13 @@ var sportsEvent = []
 var themePark = []
 var ride = []
 // var eatOut = [] ??? no data so far sam
-var eatOut = []
-var picnic = []
-var cookingClasses = []
-var alcoholTasting = []
-var handcraft = []
+var eatOut = [];
+var picnic = [];
+var cookingClasses = [];
+var alcoholTasting = [];
+var handcraft = [];
 // var sightseeing = [] ??? no data so far Sejung
-var sightseeing = []
+var sightseeing = [];
 
 /**
  * function to fetch data from suggestion.js and than add
@@ -132,27 +132,27 @@ var sightseeing = []
 const data = fetch('assets/js/suggestions.json')
   .then(response => response.json())
   .then(data => {
-    museum = findGiftsInCategory("museum", data)
-    gardening = findGiftsInCategory("gardening", data)
-    cookery = findGiftsInCategory("cookery", data)
+    museum = findGiftsInCategory("museum", data);
+    gardening = findGiftsInCategory("gardening", data);
+    cookery = findGiftsInCategory("cookery", data);
     // food experiment in json file not used
-    foodExperiment = findGiftsInCategory("foodExperiment", data)
-    games = findGiftsInCategory("games", data)
-    animals = findGiftsInCategory("animals", data)
-    tech = findGiftsInCategory("technology", data)
-    individualSports = findGiftsInCategory("individualSports", data)
-    teamSports = findGiftsInCategory("teamSports", data)
-    travel = findGiftsInCategory("travel", data)
-    spa = findGiftsInCategory("spa", data)
-    sportsEvent = findGiftsInCategory("sportsEvent", data)
-    themePark = findGiftsInCategory("themePark", data)
-    ride = findGiftsInCategory("ride", data)
-    eatOut = findGiftsInCategory("eatOut", data)
-    picnic = findGiftsInCategory("picnics", data)
-    cookingClasses = findGiftsInCategory("cookingClasses", data)
-    alcoholTasting = findGiftsInCategory("alcoholTasting", data)
-    handcraft = findGiftsInCategory("handcraft", data)
-    sightseeing = findGiftsInCategory("sightseeing", data)
+    foodExperiment = findGiftsInCategory("foodExperiment", data);
+    games = findGiftsInCategory("games", data);
+    animals = findGiftsInCategory("animals", data);
+    tech = findGiftsInCategory("technology", data);
+    individualSports = findGiftsInCategory("individualSports", data);
+    teamSports = findGiftsInCategory("teamSports", data);
+    travel = findGiftsInCategory("travel", data);
+    spa = findGiftsInCategory("spa", data);
+    sportsEvent = findGiftsInCategory("sportsEvent", data);
+    themePark = findGiftsInCategory("themePark", data);
+    ride = findGiftsInCategory("ride", data);
+    eatOut = findGiftsInCategory("eatOut", data);
+    picnic = findGiftsInCategory("picnics", data);
+    cookingClasses = findGiftsInCategory("cookingClasses", data);
+    alcoholTasting = findGiftsInCategory("alcoholTasting", data);
+    handcraft = findGiftsInCategory("handcraft", data);
+    sightseeing = findGiftsInCategory("sightseeing", data);
   });
 
 /**
@@ -163,18 +163,18 @@ const data = fetch('assets/js/suggestions.json')
  */
 
 function findGiftsInCategory(category, data) {
-  let listOfGifts = []
+  let listOfGifts = [];
   for (let i = 0; i < data.length; ++i) {
 
     if (data[i].category === category) {
       listOfGifts.push(data[i]);
     }
   }
-  return listOfGifts
+  return listOfGifts;
 }
 
 let currentQuestion = firstQuestion;
-let category = ''
+let category = '';
 
 //sets the text of the questions and answers. hides button C if there are only 2 options
 function displayQuestion(currentQuestion) {
@@ -202,29 +202,28 @@ function displayResults(category) {
   quizContainer.classList.add('hide');
   resultsContainer.classList.remove('hide');
   suggestionHeader.classList.remove('hide');
-  // results-container
-  document.getElementById('results-container').style.margin = '2em'
+  document.getElementById('results-container').style.margin = '2em';
   document.getElementById('results-header').style.backgroundColor = '#464646';
   document.getElementById('results-header').style.padding = '1em';
   category.forEach(suggestion => {
     const suggestionCard = document.createElement('div');
     suggestionCard.classList.add('result__content');
     suggestionCard.innerHTML = `
-    <h3 class="result__content--title">${suggestion.name}</h3>
-    <div class="result__content--image">
-      <img src="${suggestion.image}" alt="${suggestion.name}">
-    </div>
-    <div class="result__content--modal result__content--btn">learn more</div>
-    `;
+     <h3 class="result__content--title">${suggestion.name}</h3>
+     <div class="result__content--image">
+       <img src="${suggestion.image}" alt="${suggestion.name}">
+     </div>
+     <div class="result__content--modal result__content--btn">learn more</div>
+     `;
     suggestionCard.addEventListener('click', function () {
       console.log('clicked');
       modal.style.display = 'block';
       document.body.style.overflow = 'hidden';
       displayModalContent(suggestion);
-    })
+    });
 
     suggestionContainer.appendChild(suggestionCard);
-  })
+  });
 }
 
 /**
@@ -247,94 +246,94 @@ function checkAnswer(e) {
     } else {
       currentQuestion = unCreativeQuestion;
     }
-    displayQuestion(currentQuestion)
+    displayQuestion(currentQuestion);
   } else if (currentQuestion === outQuestion) {
     if (e.target.id === 'answer-a') {
       currentQuestion = adventurousQuestion;
     } else {
       currentQuestion = leisureQuestion;
     }
-    displayQuestion(currentQuestion)
+    displayQuestion(currentQuestion);
   } else if (currentQuestion === adventurousQuestion) {
     if (e.target.id === 'answer-a') {
       currentQuestion = activeQuestion;
     } else {
       currentQuestion = notActiveQuestion;
     }
-    displayQuestion(currentQuestion)
+    displayQuestion(currentQuestion);
   } else if (currentQuestion === leisureQuestion) {
     if (e.target.id === 'answer-a') {
       currentQuestion = foodieQuestion;
     } else {
       currentQuestion = notFoodieQuestion;
     }
-    displayQuestion(currentQuestion)
+    displayQuestion(currentQuestion);
   } else if (currentQuestion === creativeQuestion) {
     if (e.target.id === 'answer-a') {
-      category = handcraft
+      category = handcraft;
     } else if (e.target.id === 'answer-b') {
-      category = gardening
+      category = gardening;
     } else {
-      category = cookery
+      category = cookery;
     }
-    displayResults(category)
+    displayResults(category);
   } else if (currentQuestion === unCreativeQuestion) {
     if (e.target.id === 'answer-a') {
-      category = tech
+      category = tech;
     } else if (e.target.id === 'answer-b') {
-      category = animals
+      category = animals;
     } else {
-      category = games
+      category = games;
     }
-    displayResults(category)
+    displayResults(category);
   } else if (currentQuestion === activeQuestion) {
     if (e.target.id === 'answer-a') {
-      category = individualSports
+      category = individualSports;
     } else if (e.target.id === 'answer-b') {
-      category = teamSports
+      category = teamSports;
     } else {
-      category = travel
+      category = travel;
     }
-    displayResults(category)
+    displayResults(category);
   } else if (currentQuestion === notActiveQuestion) {
     if (e.target.id === 'answer-a') {
-      category = sportsEvent
+      category = sportsEvent;
     } else if (e.target.id === 'answer-b') {
-      category = themePark
+      category = themePark;
     } else {
-      category = ride
+      category = ride;
     }
-    displayResults(category)
+    displayResults(category);
   } else if (currentQuestion === foodieQuestion) {
     if (e.target.id === 'answer-a') {
       // category = eatOut
-      category = picnic
+      category = picnic;
     } else if (e.target.id === 'answer-b') {
-      category = cookingClasses
+      category = cookingClasses;
     } else {
-      category = alcoholTasting
+      category = alcoholTasting;
     }
-    displayResults(category)
+    displayResults(category);
   } else if (currentQuestion === notFoodieQuestion) {
     if (e.target.id === 'answer-a') {
-      category = museum
+      category = museum;
     } else if (e.target.id === 'answer-b') {
-      category = spa
+      category = spa;
     } else {
-      category = sightseeing
+      category = sightseeing;
     }
-    displayResults(category)
+    displayResults(category);
   }
 }
 
 //event listeners
-startButton.addEventListener('click', startTheQuiz)
+startButton.addEventListener('click', startTheQuiz);
 answerContainerA.addEventListener('click', checkAnswer);
 answerContainerB.addEventListener('click', checkAnswer);
 answerContainerC.addEventListener('click', checkAnswer);
 
 
-/// displays modal 
+// displays modal 
 const displayModalContent = function (suggestion) {
   console.log(suggestion.websites[0]);
   const modalImage = document.querySelector('#suggestion-image');
@@ -364,7 +363,7 @@ const displayModalContent = function (suggestion) {
         <div>$ ${suggestion.price} </div>
       </div>
   `;
-}
+};
 
 // Close modal
 closeModal.addEventListener('click', function () {

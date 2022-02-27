@@ -81,7 +81,6 @@ body {
   background-color: var(--clr-neutral--900);
   position: fixed;
   z-index: 999;
-  /* needed unfix the position, as it was covering contact form - Joanna */
 }
 
 .navbar {
@@ -92,11 +91,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* positions added for absolute position of navbar__components - Sejung */
   position: relative;
 }
-
-/* Navbar toggler hidden for big screens - Sejung */
 
 .navbar__toggler {
   display: none;
@@ -113,17 +109,11 @@ body {
 }
 
 .navbar__item a {
-  font-weight: 900;
   color: var(--clr-primary--100);
-}
-
-.navbar__item:hover {
-  color: var(--clr-neutral--900);
-  text-decoration: underline;
 }
 
 .navbar__item a:hover {
-  color: var(--clr-primary--100);
+  color: #30a59d;
   text-decoration: underline;
 }
 
@@ -134,7 +124,6 @@ body {
 /* Main */
 .main {
   width: 100%;
-  /* max-width: 120rem; */
   margin: 0 auto;
   flex: 1 0 auto;
   display: flex;
@@ -146,7 +135,6 @@ body {
 
 .main__content {
   width: 100%;
-  max-width: 120rem;
   margin: 0 auto;
   flex: 1 0 auto;
   display: flex;
@@ -161,7 +149,6 @@ body {
   display: flex;
   height: calc(100vh - 8rem);
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   background-color: rgb(31, 31, 31);
   background-image: linear-gradient(14deg,
@@ -171,7 +158,7 @@ body {
     url('../images/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
   padding: 0 2em;
 }
 
@@ -186,16 +173,21 @@ body {
   margin-top: 20vh;
   position: absolute;
   left: 17%;
-  top: 6%;
+  top: 4%;
 }
-
-
 
 .hero__link,
 .contact__link {
   padding-top: 2em;
 }
 
+.hero__link {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .hero__link--btn,
 .hero__main--btn,
@@ -218,19 +210,22 @@ body {
 }
 
 .hero__link--btn {
-  margin-right: 0.5em
+  background-color: var(--clr-primary--900);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 .hero__main--btn {
-  /* background-color: #f5d4d6; */
   background-color: #30a59d;
-  margin-left: 0.5em;
   color: white;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 .hero__link--btn,
 .hero__main--btn {
-  width: 15rem;
+  width: 14rem;
   font-size: 1.5rem;
   letter-spacing: 0.05rem;
 }
@@ -260,6 +255,11 @@ body {
 .range {
   display: flex;
   flex-direction: column;
+  padding: 0 2em;
+}
+
+.range {
+  padding-bottom: 3em;
 }
 
 .description {
@@ -288,6 +288,7 @@ body {
   border-radius: 0.5em;
   color: rgb(47, 47, 47);
   padding: 2em;
+  margin-right: 2em;
 }
 
 .description__content--title,
@@ -305,7 +306,6 @@ body {
 .range__content--text,
 .contact__content--text {
   font-size: 1.7rem;
-  margin-bottom: 0.6em;
 }
 
 .description__content--accent {
@@ -313,7 +313,7 @@ body {
   margin-left: 2em;
   font-size: 1.7rem;
   line-height: 1.5rem;
-  margin-bottom: 0.3em;
+  margin-top: 0.6em;
   color: var(--clr-primary--900);
 }
 
@@ -331,8 +331,6 @@ body {
   width: 45%;
 }
 
-
-
 /* Incentive */
 .incentive__content,
 .range__content {
@@ -345,6 +343,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.incentive__content {
+  margin-left: 2em;
+}
+
+.range__content {
+  margin-right: 2em;
 }
 
 .incentive__content--text,
@@ -374,12 +380,8 @@ body {
   color: var(--clr-neutral--100);
 }
 
-
-/* Please do not change the code above
-Juliia*/
-
 /* ----- Quiz ----- */
-
+/* Questions */
 #quiz-container {
   display: flex;
   flex-direction: column;
@@ -454,11 +456,7 @@ Juliia*/
   flex-direction: column;
 }
 
-/* Please do not change the code below
-Juliia*/
-
-
-/* suggestions */
+/* Quiz Suggestions */
 .results__container {
   display: flex;
   flex-direction: column;
@@ -467,6 +465,7 @@ Juliia*/
   color: var(--clr-neutral--900);
   padding: 0 2em;
   width: 100%;
+  max-width: 120rem;
 }
 
 .results__header {
@@ -736,24 +735,135 @@ Juliia*/
   width: 100%;
   max-width: 120rem;
   margin: 0 auto;
-  padding: 2em;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: row;
+  padding: 4em 2em;
   color: var(--clr-primary--100)
+}
+
+.collaborators{
+  display: flex;
+  /* put media queries for small devices+add margin-bottoms for collaborators item"
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  .collaborators__item:not(:last-child){
+  margin-right:0;
+  margin-bottom: 2em;
+}
+  */
+  width: 100%;
+  justify-content: space-between;
+}
+
+.collaborators__item{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.collaborators__item:not(:last-child){
+  margin-right: 2em;
+}
+
+.collaborators__item--links{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.collaborators__item--links a{
+  color:white;
+  font-size:2rem;
+  margin:0;
+  padding:0;
+}
+
+.collaborators__item--links a:hover{
+  color: var(--clr-accent--100);
+}
+
+.collaborators__item--links a:first-child{
+  margin-right:0.2em;
+}
+
+.collaborators__item--links a:last-child{
+  margin-left:0.2em;
+}
+
+.collaborators__item--name{
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  width:100%;
+  margin:0 auto;
+  display:flex;
+  justify-content:center;
 }
 
 .hide {
   display: none !important;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 auto;
-  align-items: center;
-  text-align: center;
+@media all and (max-width: 1600px) {
+  .hero__content {
+    position: unset;
+  }
+
+  .hero__link--btn,
+  .hero__main--btn {
+    padding: 0.5em 1.5em;
+  }
+}
+
+@media all and (max-width: 1375px) {
+  .description__container {
+    padding-top: 0;
+  }
+
+  .description__content--title,
+  .incentive__content--title,
+  .range__content--title,
+  .contact__content--title {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.3em;
+  }
+
+  .description__content--text,
+  .incentive__content--text,
+  .range__content--text,
+  .contact__content--text {
+    font-size: 1.4rem;
+  }
+
+  .description__content--accent {
+    font-size: 1.2rem;
+    line-height: unset;
+    margin-top: 0.1em;
+  }
+
+  .description__content--last {
+    margin-bottom: 0.2em;
+  }
+
+  .incentive__content--text,
+  .range__content--text {
+    width: 100%;
+  }
+
+  .contact__container {
+    padding: 3em 2em 4em 2em;
+  }
+
+  .contact__content {
+    width: 70%;
+  }
 }
 
 @media all and (max-width: 1050px) {
-
   .results__title {
     padding-bottom: 0.7em;
     font-size: 2rem;
@@ -788,9 +898,72 @@ Juliia*/
   }
 }
 
-/* For Navigation - Sejung */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1032px) {
+  .range {
+    margin-bottom: 3em;
+  }
 
+  .description__container,
+  .range__container {
+    flex-direction: column-reverse;
+  }
+
+  .incentive__container {
+    flex-direction: column;
+  }
+
+  .description__content,
+  .incentive__content,
+  .range__content {
+    width: 90%;
+    margin: 0;
+  }
+
+  .description__content--title,
+  .incentive__content--title,
+  .range__content--title,
+  .contact__content--title {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.3em;
+  }
+
+  .description__content--text,
+  .incentive__content--text,
+  .range__content--text,
+  .contact__content--text {
+    font-size: 1.4rem;
+  }
+
+  .description__content--accent {
+    font-size: 1.2rem;
+    line-height: unset;
+    margin-top: 0.1em;
+  }
+
+  .description__content--last {
+    margin-bottom: 0.2em;
+  }
+
+  .incentive__content--text,
+  .range__content--text {
+    width: 100%;
+  }
+
+  .contact__container {
+    padding: 3em 2em 4em 2em;
+  }
+
+  .contact__content {
+    width: 70%;
+  }
+}
+
+
+
+@media all and (max-width: 768px) {
+
+  /* Navbar */
   .navbar__components {
     background-color: var(--clr-neutral--900);
     flex-direction: column;
@@ -845,6 +1018,24 @@ Juliia*/
     fill: var(--clr-primary--100);
   }
 
+  /* Hero */
+  .hero__content {
+    width: 95%;
+  }
+
+  .hero__link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero__link--btn {
+    margin-bottom: 1em;
+  }
+
+  .contact__content {
+    width: 90%;
+  }
+
   /* Modal */
   .modal__main {
     grid-template-rows: 0.1fr 2fr;
@@ -876,11 +1067,67 @@ Juliia*/
     width: 100%;
     padding: 1.5em;
   }
-}
 
-@media screen and (max-width: 768px) {
   .modal__content {
     max-width: 100%;
   }
 
+  /* Home */
+  .description {
+    padding: 3em 1em 2em 1em;
+  }
+
+  .incentive {
+    padding: 0 1em 2em 1em;
+  }
+
+  .range {
+    padding: 0 1em 3em 1em;
+  }
+
+  .description__content,
+  .incentive__content,
+  .range__content {
+    width: 100%;
+  }
+
+  /* Quiz */
+  .results__content {
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  }
+
+  .result__content {
+    grid-template-rows: 0.6fr 1.7fr 0.5fr;
+  }
+
+  .result__content--title {
+    font-size: 1.3rem;
+  }
+
+  .result__content--modal {
+    padding: 0.3em 1em 0.4em 1em;
+    width: 82%;
+    font-size: 1.2rem;
+  }
+}
+
+@media all and (max-width: 559px) {
+  .results__container {
+    padding: 1em;
+  }
+
+  .results__title {
+    font-size: 1.5rem;
+  }
+
+  .results__content {
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 0.5em;
+  }
+
+  .result__content--modal {
+    padding: 0.5em 1em 0.6em 1em;
+    width: 82%;
+    font-size: 1.2rem;
+  }
 }
