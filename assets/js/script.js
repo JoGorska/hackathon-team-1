@@ -36,14 +36,14 @@ const homeQuestion = {
 
 const creativeQuestion = {
   question: 'Which of the following activities would most interest your partner?',
-  answerA: 'Arts and cratfs',
+  answerA: 'Arts and crafts',
   answerB: 'Gardening',
   answerC: 'Cookery'
 };
 
 const unCreativeQuestion = {
   question: 'Which of the following is your partner most interested in?',
-  answerA: 'Tech',
+  answerA: 'Technology',
   answerB: 'Animals',
   answerC: 'Games'
 };
@@ -80,16 +80,15 @@ const notActiveQuestion = {
   question: 'Which of the following activities would your partner prefer?',
   answerA: 'Go to watch a sports event',
   answerB: 'Visit a theme park',
-  answerC: 'Go on an adrenaline fueled ride'
-};
-
+  answerC: 'Go on an adrenaline-fueled ride'
+}
 
 const foodieQuestion = {
   question: 'Would your partner rather...',
   answerA: 'Eat out',
   answerB: 'Learn to cook something new',
-  answerC: 'Go for a alcohol tasting session'
-};
+  answerC: 'Go for an alcohol tasting session'
+}
 
 
 const notFoodieQuestion = {
@@ -101,21 +100,20 @@ const notFoodieQuestion = {
 
 // variables of each categories - empty arrays filled in by 
 // findGiftsInCategory function, that fetches data from suggestions.json
-var museum = [];
-var gardening = [];
-var cookery = [];
-var foodExperiment = [];
-var tech = [];
-var animals = [];
-var games = [];
-var individualSports = [];
-var teamSports = [];
-var travel = [];
-var spa = [];
-// var sportsEvent = [] ??? no data so far - wathcing outdoor sport Catherine
-var sportsEvent = [];
-var themePark = [];
-var ride = [];
+var museum = []
+var gardening = []
+var cookery = []
+var foodExperiment = []
+var tech = []
+var animals = []
+var games = []
+var individualSports = []
+var teamSports = []
+var travel = []
+var spa = []
+var sportsEvent = []
+var themePark = []
+var ride = []
 // var eatOut = [] ??? no data so far sam
 var eatOut = [];
 var picnic = [];
@@ -358,7 +356,7 @@ const displayModalContent = function (suggestion) {
       <p class="modal__content--description">
         ${suggestion.description}
       </p>
-      <h4 class="modal__content--websites">Were to find:</h4>
+      <h4 class="modal__content--websites">Where to find:</h4>
       <ul class="modal__content--links">${websitesList}</ul>
       <div class="modal__content--price">
         <h4 class="modal__content--price-title">Price:</h4>
