@@ -7,15 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
+    <!-- our css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact</title>
     </head>
 
     <body>
         <header class="header">
-            <nav class="navbar mb-5">
+            <nav class="navbar">
             <div class="logo__container">
                 <!-- <img src="" alt="Logo"> -->
                 <h1>Logo</h1>
@@ -54,20 +54,20 @@
                 <form action="https://formspree.io/f/mqkwgzoe" method="POST" target="_blank">
                     <div class="mb-3">
                         <label class="form-label mt-5" for="contact-name">Name</label>
-                        <input class="form-control mb-3" type="text" name="contact-name" id="contact-name" title="Please write your name without any numbers or special characters">
-                        <div id="contact-name-help" class="invalid-feedback my-invisible fw-bold">Please use only letters and special characters in the Name field</div>
+                        <input required class="form-control" type="text" name="contact-name" id="contact-name" title="Please write your name without any numbers or special characters">
+                        <div id="contact-name-help" class="form-text fs-6">Please use only letters and special characters in the Name field</div>
                         
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="email">Email address</label>
-                        <input class="form-control mb-3" type="email" id="email" name="email" title="Please enter a valid email address for example example@domain.uk">
-                        <div id="email-help" class="invalid-feedback my-invisible">Please enter a valid email address for example example@domain.uk</div>
+                        <input required class="form-control" type="email" id="email" name="email" title="Please enter a valid email address for example example@domain.uk">
+                        <div id="email-help" class="form-text fs-6">Please enter a valid email address for example example@domain.uk</div>
                         
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="telephone">Telephone</label>
-                        <input class="form-control mb-3" type="text" id="telephone" name="telephone" title="Please enter a valid UK phone number (11 digits)">
-                        <div id="telephone-help" class="invalid-feedback my-invisible">Please put valid UK phone number (11 digits)</div>
+                        <input required class="form-control" type="text" id="telephone" name="telephone" title="Please enter a valid UK phone number (11 digits)">
+                        <div id="telephone-help" class="form-text fs-6">Please put valid phone number (11 digits)</div>
                     </div>
 
 
@@ -75,10 +75,10 @@
                     <!-- category -->
 
 
-                    <div class="mb-5">
+                    <div class="mb-3">
                         <label class="form-label" for="input-category">Category</label>
-                        <input class="form-control mb-3" type="text" name="category" id="input-category" list="category-list" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160">
-                        <div id="input-category-help" class="form-text my-invisible"></div>
+                        <input required class="form-control" type="text" name="category" id="input-category" list="category-list" placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160">
+                        <div id="input-category-help" class="form-text fs-6"></div>
                         <datalist id="category-list">
                             <option>None</option>
                             <option>Museum</option>
@@ -108,8 +108,8 @@
                     <!-- name of the product -->
                     <div class="mb-3">
                         <label class="form-label mt-5" for="product-name">Name of the product or service</label>
-                        <input class="form-control mb-3" type="text" name="product-name" id="product-name" title="Please write your product name without any numbers or special characters">
-                        <div id="product-name-help" class="invalid-feedback my-invisible fw-bold">Please use only letters and special characters in the product name field</div>
+                        <input required class="form-control" type="text" name="product-name" id="product-name" title="Please write your product name without any numbers or special characters">
+                        <div id="product-name-help" class="form-text fs-6">Please use only letters and special characters in the product name field</div>
                         
                     </div>
 
@@ -117,16 +117,16 @@
 
                     <div class="mb-3">
                         <label class="form-label" for="description">Short description</label>
-                        <textarea class="form-control mb-3" id="description" name="description" rows="3"></textarea>
-                        <div id="description-help" class="invalid-feedback my-invisible">Please use only letters and special characters in the Enquiry field</div>
+                        <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                        <div id="description-help" class="form-text fs-6">Please use only letters and special characters in the Enquiry field</div>
                     </div>
 
                     <!-- name of the shop -->
                     <div class="mb-3">
                         <div class="mb-3">
-                            <label class="form-label mt-5" for="shop-name">Name of the shop tha sells this product</label>
-                            <input class="form-control mb-3" type="text" name="shop-name" id="shop-name" title="Please write your shop name without any numbers or special characters">
-                            <div id="shop-name-help" class="invalid-feedback my-invisible fw-bold">Please use only letters and special characters in the product name field</div>
+                            <label class="form-label mt-5" for="shop-name">Name of the shop</label>
+                            <input required class="form-control" type="text" name="shop-name" id="shop-name" title="Please write your shop name without any numbers or special characters">
+                            <div id="shop-name-help" class="form-text fs-6">Please use only letters and special characters in the product name field</div>
                             
                         </div>
                     </div>
@@ -136,8 +136,8 @@
                     <div class="mb-3">
                         <div class="mb-3">
                             <label class="form-label mt-5" for="price">Provide the price of the product</label>
-                            <input class="form-control mb-3" type="text" name="price" id="price" title="Please write numbers only without special characters">
-                            <div id="price-help" class="invalid-feedback my-invisible fw-bold">Please provide price in American dolars without typing the dolar sign</div>
+                            <input required class="form-control" type="text" name="price" id="price" title="Please write numbers only without special characters">
+                            <div id="price-help" class="form-text fs-6">Please provide price in American dolars without typing the dolar sign</div>
                             
                         </div>
                     </div>
@@ -146,8 +146,8 @@
                     <div class="mb-3">
                         <div class="mb-3">
                             <label class="form-label mt-5" for="website">Website where we can buy it</label>
-                            <input class="form-control mb-3" type="text" name="website" id="website" title="Paste exact URL address here">
-                            <div id="website-help" class="invalid-feedback my-invisible fw-bold">Please paste full URL here</div>
+                            <input required class="form-control" type="text" name="website" id="website" title="Paste exact URL address here">
+                            <div id="website-help" class="form-text fs-6">Please paste full URL here</div>
                             
                         </div>
                     </div>
@@ -156,8 +156,8 @@
                     <div class="mb-3">
                         <div class="mb-3">
                             <label class="form-label mt-5" for="image">Link to the image</label>
-                            <input class="form-control mb-3" type="text" name="image" id="image" title="Paste exact URL to the image here">
-                            <div id="image-help" class="invalid-feedback my-invisible fw-bold">Please paste full URL here</div>
+                            <input class="form-control" type="text" name="image" id="image" title="Paste exact URL to the image here">
+                            <div id="image-help" class="form-text fs-6">Please paste full URL here</div>
                             
                         </div>
                     </div>
@@ -167,10 +167,10 @@
                     <div class="container text-center p-5">
                         <div class="row">
                           <div class="col p-3">      
-                            <button type="submit" class="btn btn-success text-dark">Send</button>
+                            <button type="submit" class="btn btn-outline-success text-dark">Send</button>
                           </div>
                           <div class="col p-3">
-                            <button type="reset" class="btn btn-danger text-dark">Reset</button>
+                            <button type="reset" class="btn btn-outline-danger text-dark">Reset</button>
                           </div>  
                         </div>
                       </div>
