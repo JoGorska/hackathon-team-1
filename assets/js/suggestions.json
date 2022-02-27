@@ -76,7 +76,7 @@
       ["nerdytec", "https://www.nerdytec.com/en/mixxxer.php?products_id=32"]
     ],
     "price": "150.00-200.00$",
-    "image": "assets/images/suggestions/technology/couchmaster.jpg"
+    "image": "assets/images/suggestions/technology/couchmaster1.jpg"
   },
   {
     "category": "technology",
@@ -87,7 +87,7 @@
       ["syghtglass", "https://www.syghtglass.com/collections/gaming-glasses"]
     ],
     "price": "13.00-50.00$",
-    "image": "assets/images/suggestions/technology/glasses.jpg"
+    "image": "assets/images/suggestions/technology/glasses1.jpg"
   },
   {
     "category": "technology",
@@ -110,7 +110,7 @@
       ["bose", "https://www.bose.com/en_us/products/frames.html"]
     ],
     "price": "80.00-200.00$",
-    "image": "assets/images/suggestions/technology/sunglasses.jpg"
+    "image": "assets/images/suggestions/technology/sunglasses1.JPG"
   },
   {
     "category": "individualSports",
@@ -121,7 +121,7 @@
       ["degree33", "https://www.degree33surfboards.com/collections/soft-top-surfboards?oid=37&affid=1"]
     ],
     "price": "350.00-1000.00$",
-    "image": "assets/images/suggestions/sports-i/surf.jpg"
+    "image": "assets/images/suggestions/sports-i/surf.jpeg"
   },
   {
     "category": "individualSports",
@@ -132,7 +132,7 @@
       ["avianonline", "http://www.avianonline.co.uk/hang-gliders-c-178.html"]
     ],
     "price": "2500.00-15000.00$",
-    "image": "assets/images/suggestions/sports-i/hangglider.jpg"
+    "image": "assets/images/suggestions/sports-i/hangglider1.jpg"
   },
   {
     "category": "individualSports",
@@ -143,7 +143,7 @@
       ["banggood", "https://www.banggood.com/EU-DIRECTSYL-06-5000mAh-600W+2-Dual-Motor-Electric-Skateboard-90+51mm-Four-PU-Wheel-40km-or-h-Top-Speed-10-12km-Max-Range-100kg-Max-Load-Wireless-Remote-Control-p-1929728.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=SE&utm_content=minha&utm_campaign=minha-se-en-pc&currency=SEK&cur_warehouse=CZ&createTmp=1&ID=6287830&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=lynna&utm_campaign=lynna-pla-se-all-1020-2021-11sale-21&ad_id=554558944754&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7Acff1UrlZe6p7ygrukHDTFG_-auSk5xm6-9kJPvWVXZfUDapGQE4aAkYTEALw_wcB"]
     ],
     "price": "350.00-600.00$",
-    "image": "assets/images/suggestions/sports-i/skateboard.jpg"
+    "image": "assets/images/suggestions/sports-i/skateboard1.jpg"
   },
   {
     "category": "individualSports",
@@ -154,7 +154,7 @@
       ["liveit", "https://www.liveit.se/upplevelser/upplevelsepresenter-waterballs?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF6TMn3VAwvJo5pMuVGX_QN7pUGjNiPIt-hOsw8YaPkI-jlSSCB24mcaAmxEEALw_wcB"]
     ],
     "price": "500.00-1450.00$",
-    "image": "assets/images/suggestions/sports-i/zorb.jpg"
+    "image": "assets/images/suggestions/sports-i/zorb1.jpg"
   },
   {
     "category": "individualSports",
@@ -165,7 +165,7 @@
       ["stockholmkajak", "https://stockholmkajak.se/luftkajaker/advancedframe-convertible?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7E3dpvURspF7mRCbQyHPdWHXlNFtSCsDEE-o_WfwXytsoFqOu7dc8aAnZDEALw_wcB"]
     ],
     "price": "500.00-1000.00$",
-    "image": "assets/images/suggestions/sports-i/kayak.jpg"
+    "image": "assets/images/suggestions/sports-i/kayak1.jpeg"
   },
   {
     "category": "teamSports",
@@ -175,7 +175,7 @@
       ["bubble allstars", "https://www.bubble-allstars.com/europe/prices/"]
     ],
     "price": "2500.00-6500.00$",
-    "image": "assets/images/suggestions/sports-team/bubbles.jpg"
+    "image": "assets/images/suggestions/sports-team/bubbles1.jpg"
   },
   {
     "category": "teamSports",
@@ -186,7 +186,7 @@
       ["western river expeditions", "https://www.westernriver.com/"]
     ],
     "price": "300.00-7000.00$",
-    "image": "assets/images/suggestions/sports-team/rafting.jpg"
+    "image": "assets/images/suggestions/sports-team/rafting1.jpg"
   },
   {
     "category": "teamSports",
@@ -197,7 +197,7 @@
       ["Helens turridning", "https://helensturridning.se/?page_id=20"]
     ],
     "price": "80.00-255.00$",
-    "image": "assets/images/suggestions/sports-team/horseback.jpg"
+    "image": "assets/images/suggestions/sports-team/horseback1.jpg"
   },
   {
     "category": "teamSports",
@@ -217,7 +217,7 @@
       ["bodyflight", "https://en.bodyflight.se/"]
     ],
     "price": "70.00-200.00$",
-    "image": "assets/images/suggestions/sports-team/skydive.jpg"
+    "image": "assets/images/suggestions/sports-team/skydive1.jpg"
   },
   {
     "category": "games",
