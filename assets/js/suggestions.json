@@ -79,13 +79,8 @@
       ["nerdytec", "https://www.nerdytec.com/en/mixxxer.php?products_id=32"],
       ["ubuy", "https://www.ubuy.vn/en/product/1SOCDQK-couchmaster-cycon-black-edition-couch-gaming-desk-for-mouse-keyboard-for-pc-ps4-5-xbox-one-series-x"]
     ],
-<<<<<<< HEAD
     "price": "150.00-200.00$",
     "image": "assets/images/suggestions/technology/couchmaster1.jpg"
-=======
-    "price": "150.00-200.00",
-    "image": "assets/images/suggestions/technology/couchmaster.jpg"
->>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "technology",
@@ -96,13 +91,8 @@
       ["syght glass", "https://www.syghtglass.com/collections/gaming-glasses"],
       ["eye buy direct", "https://www.eyebuydirect.com/prescription-lens/digital-protection"]
     ],
-<<<<<<< HEAD
     "price": "13.00-50.00$",
     "image": "assets/images/suggestions/technology/glasses1.jpg"
-=======
-    "price": "13.00-50.00",
-    "image": "assets/images/suggestions/technology/glasses.jpg"
->>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "technology",
@@ -125,13 +115,8 @@
       ["bose", "https://www.bose.com/en_us/products/frames.html"],
       ["jb hi-fi", "https://www.jbhifi.com.au/products/bose-frames-alto-audio-sunglasses-large?view=pdp"]
     ],
-<<<<<<< HEAD
     "price": "80.00-200.00$",
     "image": "assets/images/suggestions/technology/sunglasses1.JPG"
-=======
-    "price": "80.00-200.00",
-    "image": "assets/images/suggestions/technology/sunglasses.jpeg"
->>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "individualSports",
@@ -142,11 +127,7 @@
       ["degree33", "https://www.degree33surfboards.com/collections/soft-top-surfboards?oid=37&affid=1"],
       ["merijaan", "https://merijaan.de/surf/"]
     ],
-<<<<<<< HEAD
     "price": "350.00-1000.00$",
-=======
-    "price": "350.00-1000.00",
->>>>>>> 80ead508298a702238a5e285893190448545bbef
     "image": "assets/images/suggestions/sports-i/surf.jpeg"
   },
   {
@@ -158,13 +139,8 @@
       ["avianonline", "http://www.avianonline.co.uk/hang-gliders-c-178.html"],
       ["indiamart", "https://dir.indiamart.com/impcat/hang-gliders.html"]
     ],
-<<<<<<< HEAD
     "price": "2500.00-15000.00$",
     "image": "assets/images/suggestions/sports-i/hangglider1.jpeg"
-=======
-    "price": "2500.00-15000.00",
-    "image": "assets/images/suggestions/sports-i/hangglider.jpeg"
->>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "individualSports",
@@ -176,13 +152,8 @@
       ["banggood", "https://www.banggood.com/EU-DIRECTSYL-06-5000mAh-600W+2-Dual-Motor-Electric-Skateboard-90+51mm-Four-PU-Wheel-40km-or-h-Top-Speed-10-12km-Max-Range-100kg-Max-Load-Wireless-Remote-Control-p-1929728.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=SE&utm_content=minha&utm_campaign=minha-se-en-pc&currency=SEK&cur_warehouse=CZ&createTmp=1&ID=6287830&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=lynna&utm_campaign=lynna-pla-se-all-1020-2021-11sale-21&ad_id=554558944754&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7Acff1UrlZe6p7ygrukHDTFG_-auSk5xm6-9kJPvWVXZfUDapGQE4aAkYTEALw_wcB"]
 
     ],
-<<<<<<< HEAD
     "price": "350.00-600.00$",
     "image": "assets/images/suggestions/sports-i/skateboard1.jpg"
-=======
-    "price": "350.00-600.00",
-    "image": "assets/images/suggestions/sports-i/skateboard.jpg"
->>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "individualSports",
@@ -194,13 +165,8 @@
       ["liveit", "https://www.liveit.se/upplevelser/upplevelsepresenter-waterballs?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF6TMn3VAwvJo5pMuVGX_QN7pUGjNiPIt-hOsw8YaPkI-jlSSCB24mcaAmxEEALw_wcB"]
 
     ],
-<<<<<<< HEAD
     "price": "500.00-1450.00$",
     "image": "assets/images/suggestions/sports-i/zorb1.jpg"
-=======
-    "price": "500.00-1450.00",
-    "image": "assets/images/suggestions/sports-i/zorb.jpg"
->>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "individualSports",
@@ -212,13 +178,8 @@
       ["stockholmkajak", "https://stockholmkajak.se/luftkajaker/advancedframe-convertible?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7E3dpvURspF7mRCbQyHPdWHXlNFtSCsDEE-o_WfwXytsoFqOu7dc8aAnZDEALw_wcB"]
 
     ],
-<<<<<<< HEAD
     "price": "500.00-1000.00$",
     "image": "assets/images/suggestions/sports-i/kayak1.jpeg"
-=======
-    "price": "500.00-1000.00",
-    "image": "assets/images/suggestions/sports-i/kayak.jpeg"
->>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "teamSports",
@@ -229,13 +190,8 @@
       ["bubble allstars", "https://www.bubble-allstars.com/europe/prices/"]
 
     ],
-<<<<<<< HEAD
     "price": "2500.00-6500.00$",
     "image": "assets/images/suggestions/sports-team/bubbles1.jpg"
-=======
-    "price": "2500.00-6500.00",
-    "image": "assets/images/suggestions/sports-team/bubbles.jpg"
->>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "teamSports",
@@ -245,13 +201,8 @@
       ["oars", "https://www.oars.com/rafting/"],
       ["western river expeditions", "https://www.westernriver.com/"]
     ],
-<<<<<<< HEAD
     "price": "300.00-7000.00$",
     "image": "assets/images/suggestions/sports-team/rafting1.jpg"
-=======
-    "price": "300.00-7000.00",
-    "image": "assets/images/suggestions/sports-team/rafting.jpg"
->>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "teamSports",
@@ -261,13 +212,8 @@
       ["fjallridning", "https://fjallridning.se/vinter/"],
       ["Helens turridning", "https://helensturridning.se/?page_id=20"]
     ],
-<<<<<<< HEAD
     "price": "80.00-255.00$",
     "image": "assets/images/suggestions/sports-team/horseback1.jpg"
-=======
-    "price": "80.00-255.00",
-    "image": "assets/images/suggestions/sports-team/horseback.jpg"
->>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "teamSports",
@@ -286,13 +232,8 @@
     "websites": [
       ["bodyflight", "https://en.bodyflight.se/"]
     ],
-<<<<<<< HEAD
     "price": "70.00-200.00$",
     "image": "assets/images/suggestions/sports-team/skydive1.jpg"
-=======
-    "price": "70.00-200.00",
-    "image": "assets/images/suggestions/sports-team/skydive.jpg"
->>>>>>> 80ead508298a702238a5e285893190448545bbef
   },
   {
     "category": "games",
