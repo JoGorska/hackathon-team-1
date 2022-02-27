@@ -197,7 +197,7 @@ body {
   background-color: var(--clr-primary--300);
   font-size: 1.4rem;
   font-weight: 400;
-  color: var(--clr-neutral--100);
+  color: var(--clr-neutral--900);
   transition: background-color .15s ease-in-out, color .15s ease-in-out;
 }
 
@@ -236,10 +236,6 @@ body {
 .contact__link--btn:hover {
   background-color: #74ece4;
   color: var(--clr-neutral--900);
-}
-
-.hero__quiz--link a {
-  color: var(--clr-neutral--100);
 }
 
 .bg {
@@ -360,7 +356,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 4em 2em 6em 2em;
-  /* background-color: #5cbab4; */
 }
 
 .contact__content {
@@ -457,7 +452,6 @@ Juliia*/
 }
 
 .result__content:hover {
-  /* background-color: var(--primary-900); */
   background-color: var(--clr-accent--100);
   color: var(--clr-neutral--900);
 }
@@ -513,7 +507,6 @@ Juliia*/
   z-index: 999;
   flex-direction: column;
   width: 100%;
-
 }
 
 .modal__main {
