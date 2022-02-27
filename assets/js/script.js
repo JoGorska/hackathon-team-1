@@ -197,13 +197,17 @@ function startTheQuiz() {
   resetButton.classList.remove('hide');
   quizContent.classList.remove('hide');
   answerContainerA.classList.remove('hide');
-  answerContainerB.classList.remove('hide');  
+  answerContainerB.classList.remove('hide');
 }
 
 function displayResults(category) {
   quizContainer.classList.add('hide');
-  resultsContainer.classList.remove('hide')
-  suggestionHeader.classList.remove('hide')
+  resultsContainer.classList.remove('hide');
+  suggestionHeader.classList.remove('hide');
+  // results-container
+  document.getElementById('results-container').style.margin = '2em'
+  document.getElementById('results-header').style.backgroundColor = '#464646';
+  document.getElementById('results-header').style.padding = '1em';
   category.forEach(suggestion => {
     const suggestionCard = document.createElement('div');
     suggestionCard.classList.add('result__content');
@@ -216,7 +220,8 @@ function displayResults(category) {
     `;
     suggestionCard.addEventListener('click', function () {
       console.log('clicked');
-      modal.style.display = 'flex';
+      modal.style.display = 'block';
+      document.body.style.overflow = 'hidden';
       displayModalContent(suggestion);
     })
 
@@ -366,9 +371,11 @@ const displayModalContent = function (suggestion) {
 // Close modal
 closeModal.addEventListener('click', function () {
   modal.style.display = 'none';
+  document.body.style.overflow = 'visible';
 });
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && modal.style.display !== 'none') {
     modal.style.display = 'none';
+    document.body.style.overflow = 'visible';
   }
 });
