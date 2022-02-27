@@ -209,7 +209,7 @@ function displayResults(category) {
     <div class="result__content--image">
       <img src="${suggestion.image}" alt="${suggestion.name}">
     </div>
-    <div class="result__content--modal">learn more</div>
+    <div class="result__content--modal result__content--btn">learn more</div>
     `;
     suggestionCard.addEventListener('click', function () {
       console.log('clicked');
