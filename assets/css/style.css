@@ -682,24 +682,27 @@ Juliia*/
 }
 
 .collaborators{
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 auto;
-  align-items: center; 
-  text-align:left;
-  gap:  */
-  /* background-color:green; */
   display: flex;
+  /* put media queries for small devices+add margin-bottoms for collaborators item"
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  .collaborators__item:not(:last-child){
+  margin-right:0;
+  margin-bottom: 2em;
+}
+  */
   width: 100%;
   justify-content: space-between;
 }
+
 .collaborators__item{
-  /* width: 100%; */
   display: flex;
   flex-direction:column;
   justify-content: center;
 }
-.collaborators__item:not(:not-lastchild){
+
+.collaborators__item:not(:last-child){
   margin-right: 2em;
 }
 
@@ -707,19 +710,19 @@ Juliia*/
   width: 100%;
   display: flex;
   justify-content: center;
-  
 }
+
 .collaborators__item--links a{
   color:white;
   font-size:2rem;
   margin:0;
   padding:0;
 }
+
 .collaborators__item--links a:hover{
   color: var(--clr-accent--100);
-  /* background-color:white;
-  color: var(--clr-neutral--900); */
 }
+
 .collaborators__item--links a:first-child{
   margin-right:0.2em;
 }
@@ -727,6 +730,7 @@ Juliia*/
 .collaborators__item--links a:last-child{
   margin-left:0.2em;
 }
+
 .collaborators__item--name{
   font-size: 1.7rem;
   font-weight: 700;
