@@ -91,6 +91,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* positions added for absolute position of navbar__components - Sejung */
+  position: relative;
+}
+
+/* Navbar toggler hidden for big screens - Sejung */
+
+.navbar__toggler {
+  display: none;
 }
 
 .navbar__components {
@@ -681,12 +689,12 @@ Juliia*/
   display: none !important;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
   align-items: center;
-  text-align:center;
+  text-align: center;
 }
 
 @media all and (max-width: 1030px) {
@@ -743,3 +751,60 @@ Juliia*/
   }
 }
 
+/* For Navigation - Sejung */
+@media screen and (max-width: 768px) {
+
+  .navbar__components {
+    background-color: var(--clr-neutral--900);
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    padding: 2rem;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 500ms ease-in-out;
+  }
+
+  .navbar__components.active {
+    transform: scale(1, 1);
+  }
+
+  .navbar__item {
+    opacity: 0;
+    margin: 1rem;
+  }
+
+  .navbar__item:not(:first-child) {
+    margin-left: 1rem;
+  }
+
+  .navbar__item.visible {
+    opacity: 1;
+    transition: opacity 500ms ease-in 500ms;
+  }
+
+  .navbar__toggler {
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .navbar__open,
+  .navbar__close {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .navbar__open.active,
+  .navbar__close.active {
+    opacity: 1;
+  }
+
+  .navbar__open path,
+  .navbar__close path {
+    fill: var(--clr-primary--100);
+  }
+}
