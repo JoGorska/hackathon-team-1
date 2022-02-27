@@ -1016,6 +1016,62 @@
     "image": "assets/images/suggestions/sightseeing/london.jpg"
   },
   {
+    "category": "sportsEvent",
+    "name": "Cheese Rolling",
+    "description": "If your partner is a lover of cheese and feats of strength, with some danger thrown in, what about a trip to Gloucestershire in England to watch the annual Cheese Rolling competition?! Not one for the faint-hearted (or perhaps those who are lactose intolerant...)",
+    "websites": [
+      ["Cheese Rolling", "https://radseason.com/event/cheese-rolling-coopers-hill-gloucester-united-kingdom/"]
+    ],
+    "price": "0",
+    "image": ""
+  },
+{
+    "category": "sportsEvent",
+    "name": "Horse Events",
+    "description": "From the elite Land Rover Kentucky three-day event, to the Badminton Horse Trials in England, and everything in between, horse events around the world showcase different breeds and disciplines.",
+    "websites": [
+	["Land Rover Kentucky, USA", "https://kentuckythreedayevent.com/"],
+      	["Badminton Horse Trials, England", "https://badminton-horse.co.uk"],
+      	["Chio Aachen World Equistrian Event, Germany", "https://www.chioaachen.de/en/"]
+    ],
+    "price": "0",
+    "image": ""
+  },
+{
+    "category": "sportsEvent",
+    "name": "Truck Racing",
+    "description": "Does your partner love big machines, or motorsport events? Perhaps not an obvious choice, but Truck Racing is practised all over the world, and could be the perfect option for the petrol-head in your life!",
+    "websites": [
+	["Antro Super Trucks Australia", "https://www.truckracing.com.au/"],
+      	["T1 Prima Trucking, India", "https://www.t1primatruckracing.com/"],
+      	["British Truck Racing Event, UK", "https://www.barc.net/championship/british-truck-racing-championship/"]
+    ],
+    "price": "0",
+    "image": ""
+  },
+{
+    "category": "sportsEvent",
+    "name": "Rugby",
+    "description": "A popular sport played all over the world, rugby spectators sit together regardless of who they support, making for a friendly, fun and lively atmosphere! Whether it's a local club game, or an international competition, rugby makes for a great spectator experience!",
+    "websites": [
+	["Rugby Sevens", "https://www.world.rugby/sevens-series/where-to-watch?lang=en"],
+      	["Gothenburg Rugby Club, Sweden", "https://www.goteborgrugby.com/"],
+      	["British Rugby Clubs, UK", "https://www.premiershiprugby.com/clubs/"]
+    ],
+    "price": "0",
+    "image": ""
+  },
+{
+    "category": "sportsEvent",
+    "name": "Golf",
+    "description": "If your partner loves suspense, with a mix of light outdoor exercise, what about attending a golf competition?",
+    "websites": [
+	["Golf Channel", "https://www.golfchannel.com/tours"]
+    ],
+    "price": "0",
+    "image": ""
+  },  
+  {
     "category": "",
     "name": "",
     "description": "",
