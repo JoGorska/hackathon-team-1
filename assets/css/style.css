@@ -145,7 +145,6 @@ body {
 
 .main__content {
   width: 100%;
-  max-width: 120rem;
   margin: 0 auto;
   flex: 1 0 auto;
   display: flex;
@@ -260,6 +259,11 @@ body {
 .range {
   display: flex;
   flex-direction: column;
+  padding: 0 2em;
+}
+
+.range {
+  padding-bottom: 3em;
 }
 
 .description {
@@ -288,6 +292,7 @@ body {
   border-radius: 0.5em;
   color: rgb(47, 47, 47);
   padding: 2em;
+  margin-right: 2em;
 }
 
 .description__content--title,
@@ -305,7 +310,6 @@ body {
 .range__content--text,
 .contact__content--text {
   font-size: 1.7rem;
-  margin-bottom: 0.6em;
 }
 
 .description__content--accent {
@@ -313,7 +317,7 @@ body {
   margin-left: 2em;
   font-size: 1.7rem;
   line-height: 1.5rem;
-  margin-bottom: 0.3em;
+  margin-top: 0.6em;
   color: var(--clr-primary--900);
 }
 
@@ -345,6 +349,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.incentive__content {
+  margin-left: 2em;
+}
+
+.range__content {
+  margin-right: 2em;
 }
 
 .incentive__content--text,
@@ -763,6 +775,52 @@ Juliia*/
   }
 }
 
+@media all and (max-width: 1375px) {
+  .description__container {
+    padding-top: 0;
+  }
+
+  .description__content--title,
+  .incentive__content--title,
+  .range__content--title,
+  .contact__content--title {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.3em;
+  }
+
+  .description__content--text,
+  .incentive__content--text,
+  .range__content--text,
+  .contact__content--text {
+    font-size: 1.4rem;
+  }
+
+  .description__content--accent {
+    font-size: 1.2rem;
+    line-height: unset;
+    margin-top: 0.1em;
+  }
+
+  .description__content--last {
+    margin-bottom: 0.2em;
+  }
+
+  .incentive__content--text,
+  .range__content--text {
+    width: 100%;
+  }
+
+  .contact__container {
+    padding: 3em 2em 4em 2em;
+  }
+
+  .contact__content {
+    width: 70%;
+  }
+
+}
+
 @media all and (max-width: 1050px) {
 
   .results__title {
@@ -799,7 +857,66 @@ Juliia*/
   }
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 1032px) {
+  .range {
+    margin-bottom: 3em;
+  }
+
+  .description__container,
+  .range__container {
+    flex-direction: column-reverse;
+  }
+
+  .incentive__container {
+    flex-direction: column;
+  }
+
+  .description__content,
+  .incentive__content,
+  .range__content {
+    width: 90%;
+    margin: 0;
+  }
+
+  .description__content--title,
+  .incentive__content--title,
+  .range__content--title,
+  .contact__content--title {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.3em;
+  }
+
+  .description__content--text,
+  .incentive__content--text,
+  .range__content--text,
+  .contact__content--text {
+    font-size: 1.4rem;
+  }
+
+  .description__content--accent {
+    font-size: 1.2rem;
+    line-height: unset;
+    margin-top: 0.1em;
+  }
+
+  .description__content--last {
+    margin-bottom: 0.2em;
+  }
+
+  .incentive__content--text,
+  .range__content--text {
+    width: 100%;
+  }
+
+  .contact__container {
+    padding: 3em 2em 4em 2em;
+  }
+
+  .contact__content {
+    width: 70%;
+  }
+}
 
 @media screen and (max-width: 768px) {
 
