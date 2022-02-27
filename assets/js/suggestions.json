@@ -179,13 +179,11 @@
   {
     "category": "teamSports",
     "name": "Bubble Soccer Package",
-    "description": "These sets comes with between 8-24 bubbles, allowing you to create teams of your desired size and start your own bubble soccer matches. Safely tumble around and tackle one another as the inflated bubble around you offers ample protection.",
+    "description": "These sets come with between 8-24 bubbles, allowing you to create teams of your desired size and start your own bubble soccer matches. Safely tumble around and tackle one another as the inflated bubble around you offers ample protection.",
     "websites": [
-
       ["bubble allstars", "https://www.bubble-allstars.com/europe/prices/"]
-
     ],
-    "price": "2500.00-6500.00",
+    "price": "2500-6500",
     "image": "assets/images/suggestions/sports-team/bubbles1.jpg"
   },
   {
@@ -196,7 +194,7 @@
       ["oars", "https://www.oars.com/rafting/"],
       ["western river expeditions", "https://www.westernriver.com/"]
     ],
-    "price": "300.00-7000.00",
+    "price": "300-7000",
     "image": "assets/images/suggestions/sports-team/rafting1.jpg"
   },
   {
@@ -207,17 +205,17 @@
       ["fjallridning", "https://fjallridning.se/vinter/"],
       ["Helens turridning", "https://helensturridning.se/?page_id=20"]
     ],
-    "price": "80.00-255.00",
+    "price": "80-255",
     "image": "assets/images/suggestions/sports-team/horseback1.jpg"
   },
   {
     "category": "teamSports",
     "name": "Bungee Jumping",
-    "description": "Safely enjoy the rush of freefall in the outdoors, great for couples to do together!",
+    "description": "Safely enjoy the rush of freefall in the outdoors - great for couples to do together!",
     "websites": [
       ["Bungyjump Stockholm", "https://bungyjumpstockholm.se/"]
     ],
-    "price": "300.00-400.00",
+    "price": "300-400",
     "image": "assets/images/suggestions/sports-team/bungee.jpg"
   },
   {
@@ -227,7 +225,7 @@
     "websites": [
       ["bodyflight", "https://en.bodyflight.se/"]
     ],
-    "price": "70.00-200.00",
+    "price": "70-200",
     "image": "assets/images/suggestions/sports-team/skydive1.jpg"
   },
   {
