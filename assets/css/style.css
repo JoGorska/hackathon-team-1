@@ -366,6 +366,55 @@ Juliia*/
 
 /* ----- Quiz ----- */
 
+#quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#quiz-header {
+  background-color: #464646;
+  border-radius: 0.4em;
+  width: 100%;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+}
+
+#quiz-title {
+  color: white;
+  padding: 0.5em;
+  font-size: 3rem;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  font-weight: 900;
+}
+
+#start-button {
+  padding: 0.5em 2em;
+  border-radius: 0.4em;
+  background-color: var(--clr-primary--300);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--clr-neutral--300);
+  transition: background-color .15s ease-in-out, color .15s ease-in-out;
+  background-color: #30a59d;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+#start-button:hover {
+  background-color: var(--clr-primary--300);
+  color: var(--clr-neutral--100);
+}
+
+
 
 
 
