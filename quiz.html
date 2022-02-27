@@ -31,25 +31,22 @@
   <main class="main bg">
     <div class="main__content">
       <div class="quiz__container" id="quiz-container">
-        <h2 id="quiz-title">GiftiFY Quiz</h2>
-        <button id="start-button">Start</button>
-
-        <div id="quiz-content">
-
+        <div id="quiz-header">
+          <h2 id="quiz-title">GiftiFY Quiz</h2>
+          <button id="start-button">Start</button>
+        </div>
+        <div id="quiz-content" class="hide">
           <p id="question-text"></p>
           <div id="quiz-answers">
-            <button>
-              <p id="answer-a"></p>
-            </button>
-            <button id="answer-b"></button>
-            <button id="answer-c"></button>
-
+            <button id="answer-a" class="answer-button hide"></button>
+            <button id="answer-b" class="answer-button hide"></button>
+            <button id="answer-c" class="answer-button hide"></button>
           </div>
         </div>
 
       </div>
       <div class="results__container" id="results-container" class="hide">
-        <div class="results__header">
+        <div class="results__header" id="results-header">
           <h2 class="results__title hide" id="suggestion-header">Gifts Suggestions</h2>
           <a href="quiz.html" class="hide results__reset" id="reset-button">Reset Questions</a>
         </div>
@@ -67,12 +64,12 @@
           <div class="btn__back--text">back</div>
         </div>
       </div>
+      <div class="modal__content">
+        <div class="modal__content--image" id="suggestion-image">
 
-      <div class="modal__content--image" id="suggestion-image">
-
-      </div>
-      <div class="modal__content--text" id="suggestion-info">
-
+        </div>
+        <div class="modal__content--text" id="suggestion-info">
+        </div>
       </div>
     </div>
   </aside>
