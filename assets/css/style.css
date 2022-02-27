@@ -80,6 +80,7 @@ body {
   width: 100%;
   background-color: var(--clr-neutral--900);
   position: fixed;
+  z-index: 999;
   /* needed unfix the position, as it was covering contact form - Joanna */
 }
 
@@ -583,16 +584,16 @@ Juliia*/
 }
 
 .modal__main {
-  height: 100vh;
+  min-height: 100vh;
   max-width: 120rem;
   padding: 2em;
   margin: 0 auto;
   margin-bottom: 2em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.1fr 1.2fr;
+  grid-template-rows: 0.2fr 1fr;
   gap: 2rem;
-  /* overflow-y: initial !important */
+  overflow-y: initial !important
 }
 
 .modal__btn {
@@ -649,10 +650,9 @@ Juliia*/
   justify-self: center;
   background-color: #fbfbfb;
   display: flex;
-  /* flex-direction: column; */
   max-width: 90%;
   border-radius: 0.5em;
-  margin-bottom: 2em;
+  margin-bottom: 10vh;
   -webkit-box-shadow: 0px 2px 27px 0px #360c1a80;
   -moz-box-shadow: 0px 2px 27px 0px #360c1a80;
   box-shadow: 0px 2px 27px 0px #360c1a80;

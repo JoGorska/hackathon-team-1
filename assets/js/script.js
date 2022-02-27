@@ -197,7 +197,7 @@ function startTheQuiz() {
   resetButton.classList.remove('hide');
   quizContent.classList.remove('hide');
   answerContainerA.classList.remove('hide');
-  answerContainerB.classList.remove('hide');  
+  answerContainerB.classList.remove('hide');
 }
 
 function displayResults(category) {
@@ -216,7 +216,8 @@ function displayResults(category) {
     `;
     suggestionCard.addEventListener('click', function () {
       console.log('clicked');
-      modal.style.display = 'flex';
+      modal.style.display = 'block';
+      document.body.style.overflow = 'hidden';
       displayModalContent(suggestion);
     })
 
@@ -366,9 +367,11 @@ const displayModalContent = function (suggestion) {
 // Close modal
 closeModal.addEventListener('click', function () {
   modal.style.display = 'none';
+  document.body.style.overflow = 'visible';
 });
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && modal.style.display !== 'none') {
     modal.style.display = 'none';
+    document.body.style.overflow = 'visible';
   }
 });
