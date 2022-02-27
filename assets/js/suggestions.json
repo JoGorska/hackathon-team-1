@@ -79,8 +79,8 @@
       ["nerdytec", "https://www.nerdytec.com/en/mixxxer.php?products_id=32"],
       ["ubuy", "https://www.ubuy.vn/en/product/1SOCDQK-couchmaster-cycon-black-edition-couch-gaming-desk-for-mouse-keyboard-for-pc-ps4-5-xbox-one-series-x"]
     ],
-    "price": "150.00-200.00",
-    "image": "assets/images/suggestions/technology/couchmaster.jpg"
+    "price": "150.00-200.00$",
+    "image": "assets/images/suggestions/technology/couchmaster1.jpg"
   },
   {
     "category": "technology",
@@ -91,8 +91,8 @@
       ["syght glass", "https://www.syghtglass.com/collections/gaming-glasses"],
       ["eye buy direct", "https://www.eyebuydirect.com/prescription-lens/digital-protection"]
     ],
-    "price": "13.00-50.00",
-    "image": "assets/images/suggestions/technology/glasses.jpg"
+    "price": "13.00-50.00$",
+    "image": "assets/images/suggestions/technology/glasses1.jpg"
   },
   {
     "category": "technology",
@@ -115,8 +115,8 @@
       ["bose", "https://www.bose.com/en_us/products/frames.html"],
       ["jb hi-fi", "https://www.jbhifi.com.au/products/bose-frames-alto-audio-sunglasses-large?view=pdp"]
     ],
-    "price": "80.00-200.00",
-    "image": "assets/images/suggestions/technology/sunglasses.jpeg"
+    "price": "80.00-200.00$",
+    "image": "assets/images/suggestions/technology/sunglasses1.JPG"
   },
   {
     "category": "individualSports",
@@ -140,7 +140,7 @@
       ["indiamart", "https://dir.indiamart.com/impcat/hang-gliders.html"]
     ],
     "price": "2500.00-15000.00",
-    "image": "assets/images/suggestions/sports-i/hangglider.jpeg"
+    "image": "assets/images/suggestions/sports-i/hangglider1.jpeg"
   },
   {
     "category": "individualSports",
@@ -153,7 +153,7 @@
 
     ],
     "price": "350.00-600.00",
-    "image": "assets/images/suggestions/sports-i/skateboard.jpg"
+    "image": "assets/images/suggestions/sports-i/skateboard1.jpg"
   },
   {
     "category": "individualSports",
@@ -166,7 +166,7 @@
 
     ],
     "price": "500.00-1450.00",
-    "image": "assets/images/suggestions/sports-i/zorb.jpg"
+    "image": "assets/images/suggestions/sports-i/zorb1.jpg"
   },
   {
     "category": "individualSports",
@@ -179,7 +179,7 @@
 
     ],
     "price": "500.00-1000.00",
-    "image": "assets/images/suggestions/sports-i/kayak.jpeg"
+    "image": "assets/images/suggestions/sports-i/kayak1.jpeg"
   },
   {
     "category": "teamSports",
@@ -191,7 +191,7 @@
 
     ],
     "price": "2500.00-6500.00",
-    "image": "assets/images/suggestions/sports-team/bubbles.jpg"
+    "image": "assets/images/suggestions/sports-team/bubbles1.jpg"
   },
   {
     "category": "teamSports",
@@ -202,7 +202,7 @@
       ["western river expeditions", "https://www.westernriver.com/"]
     ],
     "price": "300.00-7000.00",
-    "image": "assets/images/suggestions/sports-team/rafting.jpg"
+    "image": "assets/images/suggestions/sports-team/rafting1.jpg"
   },
   {
     "category": "teamSports",
@@ -213,7 +213,7 @@
       ["Helens turridning", "https://helensturridning.se/?page_id=20"]
     ],
     "price": "80.00-255.00",
-    "image": "assets/images/suggestions/sports-team/horseback.jpg"
+    "image": "assets/images/suggestions/sports-team/horseback1.jpg"
   },
   {
     "category": "teamSports",
@@ -233,7 +233,7 @@
       ["bodyflight", "https://en.bodyflight.se/"]
     ],
     "price": "70.00-200.00",
-    "image": "assets/images/suggestions/sports-team/skydive.jpg"
+    "image": "assets/images/suggestions/sports-team/skydive1.jpg"
   },
   {
     "category": "games",
@@ -438,7 +438,7 @@
       ["bluelagoon", "https://www.bluelagoon.com/"]
     ],
     "price": "68-500",
-    "image": "assets/images/suggestions/spas/blue_lagoon.jpg"
+    "image": "assets/images/suggestions/spa/blue_lagoon.jpg"
   },
   {
     "category": "spa",
@@ -448,7 +448,7 @@
       ["thermaebathspa", "https://www.thermaebathspa.com/"]
     ],
     "price": "64-560",
-    "image": "assets/images/suggestions/spas/thermae_bath_spa.jpg"
+    "image": "assets/images/suggestions/spa/bath_thermae.jpg"
   },
   {
     "category": "spa",
@@ -459,7 +459,7 @@
       ["turkishbathsharrogate", "https://www.turkishbathsharrogate.co.uk/"]
     ],
     "price": "24-120",
-    "image": "assets/images/suggestions/spas/harrogate_turkish_baths.jpg"
+    "image": "assets/images/suggestions/spa/moorish1.jpg"
   },
   {
     "category": "spa",
@@ -469,18 +469,17 @@
       ["botabota", "http://botabota.ca/"]
     ],
     "price": "24-90",
-    "image": "assets/images/suggestions/spas/botabota.jpg"
+    "image": "assets/images/suggestions/spa/botabota.jpg"
   },
   {
     "category": "spa",
-    "name": "AIRE Ancient Baths, London",
-    "description": "AIRE spaces are temples dedicated to mind and body relaxation, where time does not exist, inspired by ancient civilizations bathing traditions. Minutes away from Covent Garden, you will find an oasis, seamlessly intertwined with its enticing energy.",
-    "websites": [
-      ["beaire", "https://beaire.com/en/aire-ancient-baths-london"]
-    ],
-    "price": "120-250",
-    "image": "assets/images/suggestions/spas/aire_ancient_baths.jpg"
-  },
+    "name": "Terme di Saturnia, Italy",
+    "description": "Nestled in the Tuscan hills, these waterfalls are made of several natural pools of warm thermal water and are free to enter. Spoil your partner afterwards with a pamper treatment at the luxury spa.",
+    "websites": [ ["Terme di Saturnia", "https://www.termedisaturnia.it/en/hot-spring-pools.html"]],    
+    "price": "0-200",
+    "image": "assets/images/suggestions/spa/saturnia.jpg"
+
+},
   {
     "category": "themePark",
     "name": "Liseberg, Sweden",

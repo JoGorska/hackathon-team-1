@@ -91,6 +91,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* positions added for absolute position of navbar__components - Sejung */
+  position: relative;
+}
+
+/* Navbar toggler hidden for big screens - Sejung */
+
+.navbar__toggler {
+  display: none;
 }
 
 .navbar__components {
@@ -371,16 +379,79 @@ Juliia*/
 
 /* ----- Quiz ----- */
 
+#quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
 
+#quiz-header {
+  background-color: #464646;
+  border-radius: 0.4em;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+}
 
+#quiz-title {
+  color: white;
+  padding: 0.5em;
+  font-size: 3rem;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  font-weight: 900;
+}
 
+#start-button,
+.answer-button {
+  padding: 0.5em 2em;
+  border-radius: 0.4em;
+  background-color: var(--clr-primary--300);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--clr-neutral--300);
+  transition: background-color .15s ease-in-out, color .15s ease-in-out;
+  background-color: #30a59d;
+  color: white;
+  margin: 1rem;
+  width: 300px;
+}
 
+#start-button:hover,
+.answer-button:hover {
+  background-color: var(--clr-primary--300);
+  color: var(--clr-neutral--100);
+}
 
+#quiz-content {
+  background-color: #464646;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+#question-text {
+  color: white;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
 
-
-
-
+#quiz-answers {
+  display: flex;
+  flex-direction: column;
+}
 
 /* Please do not change the code below
 Juliia*/
@@ -662,8 +733,9 @@ Juliia*/
 
 /* Footer */
 .footer {
-
   width: 100%;
+  background-color: var(--clr-primary--300);
+  margin: 0 auto;
   background-color: var(--clr-neutral--900);
   /* z-index: 999;
   position: absolute;
@@ -682,11 +754,12 @@ Juliia*/
   display: none !important;
 }
 
-@media all and (max-width: 1350px) {
-  .modal__content {
-    max-width: 100%;
-    align-self: center;
-  }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
 }
 
 @media all and (max-width: 1050px) {
@@ -732,5 +805,63 @@ Juliia*/
     border-bottom-right-radius: 0.5em;
     width: 100%;
     padding: 1.5em;
+  }
+}
+
+/* For Navigation - Sejung */
+@media screen and (max-width: 768px) {
+
+  .navbar__components {
+    background-color: var(--clr-neutral--900);
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    padding: 2rem;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 500ms ease-in-out;
+  }
+
+  .navbar__components.active {
+    transform: scale(1, 1);
+  }
+
+  .navbar__item {
+    opacity: 0;
+    margin: 1rem;
+  }
+
+  .navbar__item:not(:first-child) {
+    margin-left: 1rem;
+  }
+
+  .navbar__item.visible {
+    opacity: 1;
+    transition: opacity 500ms ease-in 500ms;
+  }
+
+  .navbar__toggler {
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .navbar__open,
+  .navbar__close {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .navbar__open.active,
+  .navbar__close.active {
+    opacity: 1;
+  }
+
+  .navbar__open path,
+  .navbar__close path {
+    fill: var(--clr-primary--100);
   }
 }

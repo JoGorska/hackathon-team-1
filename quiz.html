@@ -32,19 +32,16 @@
   <main class="main bg">
     <div class="main__content">
       <div class="quiz__container" id="quiz-container">
-        <h2 id="quiz-title">GiftiFY Quiz</h2>
-        <button id="start-button">Start</button>
-
-        <div id="quiz-content">
-
+        <div id="quiz-header">
+          <h2 id="quiz-title">GiftiFY Quiz</h2>
+          <button id="start-button">Start</button>
+        </div>
+        <div id="quiz-content" class="hide">
           <p id="question-text"></p>
           <div id="quiz-answers">
-            <button>
-              <p id="answer-a"></p>
-            </button>
-            <button id="answer-b"></button>
-            <button id="answer-c"></button>
-
+            <button id="answer-a" class="answer-button hide"></button>
+            <button id="answer-b" class="answer-button hide"></button>
+            <button id="answer-c" class="answer-button hide"></button>
           </div>
         </div>
 
