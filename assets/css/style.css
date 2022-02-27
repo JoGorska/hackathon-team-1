@@ -712,6 +712,13 @@ Juliia*/
 .collaborators__item--links a{
   color:white;
   font-size:2rem;
+  margin:0;
+  padding:0;
+}
+.collaborators__item--links a:hover{
+  color: var(--clr-accent--100);
+  /* background-color:white;
+  color: var(--clr-neutral--900); */
 }
 .collaborators__item--links a:first-child{
   margin-right:0.2em;
