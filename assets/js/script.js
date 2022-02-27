@@ -35,14 +35,14 @@ const homeQuestion = {
 
 const creativeQuestion = {
   question: 'Which of the following activities would most interest your partner?',
-  answerA: 'Arts and cratfs',
+  answerA: 'Arts and crafts',
   answerB: 'Gardening',
   answerC: 'Cookery'
 }
 
 const unCreativeQuestion = {
   question: 'Which of the following is your partner most interested in?',
-  answerA: 'Tech',
+  answerA: 'Technology',
   answerB: 'Animals',
   answerC: 'Games'
 }
@@ -81,15 +81,14 @@ const notActiveQuestion = {
   question: 'Which of the following activities would your partner prefer?',
   answerA: 'Go to watch a sports event',
   answerB: 'Visit a theme park',
-  answerC: 'Go on an adrenaline fueled ride'
+  answerC: 'Go on an adrenaline-fueled ride'
 }
-
 
 const foodieQuestion = {
   question: 'Would your partner rather...',
   answerA: 'Eat out',
   answerB: 'Learn to cook something new',
-  answerC: 'Go for a alcohol tasting session'
+  answerC: 'Go for an alcohol tasting session'
 }
 
 
