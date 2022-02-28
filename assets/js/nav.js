@@ -1,3 +1,4 @@
+/* jshint esversion: 8 */
 const toggler = document.getElementById('navbar__toggler');
 const openMenu = document.getElementById('navbar__open');
 const closeMenu = document.getElementById('navbar__close');
