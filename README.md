@@ -25,11 +25,20 @@
 
 A site to provide ideas for alternative Valentine's day gifts. 
 
-Site users are invited to answer questions about the personality traits and behaviour of the recipient...
+Site users are invited to answer questions about the personality traits and behaviour of their partner and are presented with gift ideas based on their response.
+
+The site is free to use, and mobile responsive.
 
 # User Experience Design
 
 ## Strategy
+
+Developed for those who wish to make a special purchase for their partner, regardless of whether for Valentine's Day, a birthday, or anniversary, the site has been designed with a simple to use format that guides the user through a set of closed-option questions about their partner's likes and dislikes, ultimately leading them to a selection of suitable gift ideas.
+
+The site does not sell the gifts directly but provides links to international suppliers. At present, the site does not have a geographical focus, but rather is available for international users. All prices have been converted to USD to make for a simple user experience.
+
+Potential advertisers are encouraged to get in touch to offer their product, service, or experience to site users, to enhance the options available.
+
 
 ### Target Audience
 
@@ -242,7 +251,7 @@ The project was created on GitHub and uses the following libraries and framework
 
 # Testing
 
-See separate Testing file for information on testing and issues.
+[Click Here](TESTING.md) to view the full testing steps that were completed on every device and browser.
 
 # Deployment
 
