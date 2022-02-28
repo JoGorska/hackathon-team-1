@@ -24,3 +24,13 @@
 [Contact](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjogorska.github.io%2Fhackathon-team-1%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - The CSS validator shows the multiple warning regardless the use of webkit and clip property. However, everything works perfectly well without any issues.
+
+
+## Javascript
+
+tested with JSHint
+
+- No errors in form-validation.js - report [here](documentation/form-validation.pdf)
+
+- no errors in nav.js - report [here](documentation/nav.pdf)
+- report for quiz can be found [here](documentation/quiz.pdf) it shows that there is one unused variable, but it could not be avoided as data was fetched from external file as async function.

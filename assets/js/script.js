@@ -78,14 +78,14 @@ const notActiveQuestion = {
   answerA: 'Go to watch a sports event',
   answerB: 'Visit a theme park',
   answerC: 'Go on an adrenaline-fueled ride'
-}
+};
 
 const foodieQuestion = {
   question: 'Would your partner rather...',
   answerA: 'Eat out',
   answerB: 'Learn to cook something new',
   answerC: 'Go for an alcohol tasting session'
-}
+};
 
 
 const notFoodieQuestion = {
@@ -97,20 +97,20 @@ const notFoodieQuestion = {
 
 // variables of each categories - empty arrays filled in by 
 // findGiftsInCategory function, that fetches data from suggestions.json
-var museum = []
-var gardening = []
-var cookery = []
-var foodExperiment = []
-var tech = []
-var animals = []
-var games = []
-var individualSports = []
-var teamSports = []
-var travel = []
-var spa = []
-var sportsEvent = []
-var themePark = []
-var ride = []
+var museum = [];
+var gardening = [];
+var cookery = [];
+var foodExperiment = [];
+var tech = [];
+var animals = [];
+var games = [];
+var individualSports = [];
+var teamSports = [];
+var travel = [];
+var spa = [];
+var sportsEvent = [];
+var themePark = [];
+var ride = [];
 var eatOut = [];
 var picnic = [];
 var cookingClasses = [];
@@ -252,8 +252,8 @@ function checkAnswer(e) {
     } else if (e.target.id === 'answer-b') {
       currentQuestion = leisureQuestion;
     } else {
-      category = picnic
-      displayResults(category)
+      category = picnic;
+      displayResults(category);
     }
     displayQuestion(currentQuestion);
   } else if (currentQuestion === adventurousQuestion) {
