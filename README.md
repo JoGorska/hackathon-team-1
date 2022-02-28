@@ -69,6 +69,7 @@ Who is the site for?
 - [#20](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to be able to register my account, so I can learn the benefits of the app as a user.
 
 
+
 ### Categories of gifts
 
 The final result of the search will be a category that the user has got to while following the quizz questions. Categories were created into issues and divided betwen team members:
