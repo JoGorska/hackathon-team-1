@@ -815,6 +815,13 @@ body {
   display: none !important;
 }
 
+@media all and (min-width: 1794px) and (max-height: 937px) {
+  .hero__content {
+    margin-top: 2vh;
+    padding: 2em;
+  }
+}
+
 @media all and (max-width: 1600px) {
   .hero__content {
     position: unset;
