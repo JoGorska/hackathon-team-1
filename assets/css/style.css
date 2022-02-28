@@ -1078,17 +1078,45 @@ body {
 @media all and (max-width: 768px) {
 
   /* Hero */
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
   .hero__content {
     width: 95%;
+    padding: 1em;
+    top: unset;
+    margin-top: 2.5vh;
+  }
+
+  .hero__content--text {
+    font-size: 1.3rem;
+  }
+
+  .hero__content--text h2 {
+    font-size: 1.5rem;
+    margin-bottom: .3em;
   }
 
   .hero__link {
     display: flex;
     flex-direction: column;
+    padding-top: .7em;
   }
 
   .hero__link--btn {
     margin-bottom: 1em;
+    font-size: 1rem;
+    width: 17rem;
+  }
+
+  .hero__main--btn {
+    font-size: 1rem;
+    width: 17rem;
   }
 
   .contact__content {
@@ -1195,3 +1223,5 @@ body {
     font-size: 1.2rem;
   }
 }
+
+@media screen and (max-width: 490px) {}
