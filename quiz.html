@@ -25,18 +25,19 @@
     <nav class="navbar">
       <!-- Logo container -->
       <div class="logo__container">
-        <a href="index.html"><img src="assets/images/index/logo_words.jpg" alt="Logo"></a>
+        <a href="index.html" aria-label="GiftiFY Logo: Go to Home Page on Click"><img
+            src="assets/images/index/logo_words.jpg" alt="Logo"></a>
       </div>
       <!-- Navbar menu -->
       <ul class="navbar__components">
         <li class="navbar__item">
-          <a href="index.html">Home</a>
+          <a href="index.html" aria-label="Go to Home Page">Home</a>
         </li>
         <li class="navbar__item">
-          <a href="quiz.html">Gift search</a>
+          <a href="quiz.html" aria-label="Go to Gift Search Page">Gift search</a>
         </li>
         <li class="navbar__item">
-          <a href="contact.html">Partnering</a>
+          <a href="contact.html" aria-label="Go to Partnering Page">Partnering</a>
         </li>
       </ul>
       <!-- Responsive menu open/close icons -->
@@ -82,7 +83,9 @@
         <div class="results__header" id="results-header">
           <h2 class="results__title hide" id="suggestion-header">Gift Suggestions</h2>
           <!-- Reset button -->
-          <a href="quiz.html" class="hide results__reset" id="reset-button">Reset Questions</a>
+          <a href="quiz.html" class="hide results__reset" id="reset-button"
+            aria-label="Reset questionnaire and start-over">Reset
+            Questions</a>
         </div>
         <!-- Displaying suggestions -->
         <div class="results__content" id="suggestion-container">
@@ -95,7 +98,8 @@
     <div class="modal__main">
       <div class="modal__btn">
         <div class="btn modal__close" id="modal-close">
-          <img src="assets/images/icon-arrow-down.svg" alt="" class="arrow__back">
+          <img src="assets/images/icon-arrow-down.svg" alt="Left arrow: Go back to the previous page on click"
+            class="arrow__back">
           <div class="btn__back--text">back</div>
         </div>
       </div>
@@ -226,4 +230,5 @@
   <script src="assets/js/nav.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
+
 </html>
