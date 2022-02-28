@@ -826,19 +826,6 @@ body {
   justify-content: center;
 }
 
-@media screen and (max-width: 975px){
-  .collaborators{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-  }
-  .collaborators__item:not(:last-child){
-  margin-right:0;
-  margin-bottom: 2em;
-}
-
-  
-
 .hide {
   display: none !important;
 }
