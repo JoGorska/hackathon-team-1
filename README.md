@@ -154,10 +154,10 @@ The site contains 3 pages: Home, Gift search, Partnering. And the header and foo
 ![Gift Search Details](documentation/features/quiz-item-details.png)
 
 - Partnering Page
+![Partnering Page](documentation/features/contact-page.png)
   - This page allows the user to submit their product or service for the “GiftiFY” team to review.
-<!-- screentshot -->
+  - All fields are required and show error messages if not filled or invalid.
   - The “send” button submits the information the user supplied and the “reset” button removes their information in the form.
-<!-- screentshot -->
 
 **Future features**
 
