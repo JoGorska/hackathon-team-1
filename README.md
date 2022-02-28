@@ -1,6 +1,11 @@
 # Project Overview
 
+Potential advertisers are encouraged to get in touch to offer their product, service, or experience to site users, to enhance the options available.
+A site for those searching for an alternative gift idea for their partner. 
 
+Site users are invited to answer questions about the personality traits and behaviour of their partner and are presented with gift ideas based on their response.
+
+The site is free to use, and mobile responsive.
 
 # User Experience Design
 
