@@ -325,7 +325,6 @@ body {
 
 .description__content--accent {
   font-style: italic;
-  margin-left: 2em;
   font-size: 1.7rem;
   line-height: 1.5rem;
   margin-top: 0.6em;
@@ -454,7 +453,7 @@ body {
 #quiz-content {
   background-color: #464646;
   padding: 2rem;
-  border-radius: 0.4rem;
+  border-radius: 0.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -465,6 +464,7 @@ body {
   color: white;
   font-size: 1.7rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 #quiz-answers {
@@ -754,7 +754,6 @@ body {
   max-width: 120rem;
   margin: 0 auto;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: row;
   padding: 4em 2em;
@@ -763,15 +762,6 @@ body {
 
 .collaborators {
   display: flex;
-  /* put media queries for small devices+add margin-bottoms for collaborators item"
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-  .collaborators__item:not(:last-child){
-  margin-right:0;
-  margin-bottom: 2em;
-}
-  */
   width: 100%;
   justify-content: space-between;
 }
@@ -919,11 +909,35 @@ body {
   .modal__content--links {
     padding: 0 0 0.4em 1em;
   }
+
+  .collaborators {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .collaborators__item {
+    flex-direction: row;
+  }
+
+  .collaborators__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 2em;
+  }
+
+  .collaborators__item--name {
+    margin-left: 1rem;
+  }
+
 }
 
 @media screen and (max-width: 1032px) {
 
   /* Navbar */
+  .logo__container {
+    width: 10rem;
+  }
+
   .navbar__components {
     background-color: var(--clr-neutral--900);
     flex-direction: column;
@@ -1043,21 +1057,91 @@ body {
 @media all and (max-width: 768px) {
 
   /* Hero */
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
   .hero__content {
     width: 95%;
+    padding: 1em;
+    top: unset;
+    margin-top: 2.5vh;
+  }
+
+  .hero__content--text {
+    font-size: 1.3rem;
+  }
+
+  .hero__content--text h2 {
+    font-size: 1.5rem;
+    margin-bottom: .3em;
   }
 
   .hero__link {
     display: flex;
     flex-direction: column;
+    padding-top: .7em;
   }
 
   .hero__link--btn {
     margin-bottom: 1em;
+    font-size: 1rem;
+    width: 17rem;
+  }
+
+  .hero__main--btn {
+    font-size: 1rem;
+    width: 17rem;
+  }
+
+  .description__content,
+  .incentive__content,
+  .range__content {
+    padding: 1em;
+  }
+
+  .description__content--title,
+  .incentive__content--title,
+  .range__content--title {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .description__content--text,
+  .incentive__content--text,
+  .range__content--text,
+  .contact__content--description {
+    font-size: 1.2rem;
+    line-height: 1.1;
+  }
+
+  .description__content--text {
+    margin-bottom: 0.2em;
+  }
+
+  .description__content--accent {
+    font-size: 1rem;
+  }
+
+  .description__content--last {
+    margin-bottom: .5em;
+  }
+
+  .contact__container {
+    padding: 2em .5em 3em;
   }
 
   .contact__content {
     width: 90%;
+  }
+
+  .contact__link {
+    padding-top: 1.5em;
   }
 
   /* Modal */
@@ -1189,5 +1273,41 @@ body {
 
 .btn-danger {
   background-color: var(--clr-primary--900);
+
+}
+
+@media screen and (max-width: 490px) {
+
+  .logo__container {
+    width: 8rem;
+  }
+
+  .hero {
+    padding: 0 .7em;
+  }
+
+  .hero__content {
+    width: 100%;
+    padding: .6em;
+    margin-top: 2vh;
+  }
+
+  .hero__content--text {
+    font-size: 1rem;
+  }
+
+  .hero__content--text h2 {
+    font-size: 1.1rem;
+  }
+
+  .hero__link--btn,
+  .hero__main--btn {
+    width: 70vw;
+  }
+
+  #quiz-container {
+    padding: 2em 0;
+    width: 95%;
+  }
 
 }
