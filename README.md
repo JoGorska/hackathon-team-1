@@ -1,3 +1,26 @@
+# GiftiFY
+
+
+![showpiece](link/goes/here)
+
+<a href="https://jogorska.github.io/hackathon-team-1/index.html" target="_blank">View the live site here</a>
+
+# Contents
+
+* [Project Overview](#project-overview)
+* [User Experience Design](#user-experience-design)
+   * [Strategy](#strategy)
+   * [Scope](#scope)
+   * [Structure](#structure)
+   * [Skeleton](#skeleton)
+   * [Surface](#surface)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 # Project Overview
 
 A site to provide ideas for alternative Valentine's day gifts. 
@@ -146,7 +169,7 @@ SITE MAP
 
 ## Skeleton
 
-WIREFRAMES HERE
+[wireframes](documentation/wireframes.pdf)
 
 ## Surface
 
