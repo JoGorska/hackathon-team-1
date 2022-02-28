@@ -992,6 +992,10 @@ body {
     fill: var(--clr-primary--100);
   }
 
+  .main {
+    margin-top: 8rem;
+  }
+
   .range {
     margin-bottom: 3em;
   }
@@ -1282,8 +1286,13 @@ body {
     width: 8rem;
   }
 
+  .main {
+    margin-top: 7rem;
+  }
+
   .hero {
     padding: 0 .7em;
+    height: calc(100vh - 7rem);
   }
 
   .hero__content {

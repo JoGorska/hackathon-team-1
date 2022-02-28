@@ -23,21 +23,13 @@
 
 # Project Overview
 
-A site for those searching for an alternative gift idea for their partner. 
+A site to provide ideas for alternative Valentine's day gifts. 
 
-Site users are invited to answer questions about the personality traits and behaviour of their partner and are presented with gift ideas based on their response.
-
-The site is free to use, and mobile responsive.
+Site users are invited to answer questions about the personality traits and behaviour of the recipient...
 
 # User Experience Design
 
 ## Strategy
-
-Developed for those who wish to make a special purchase for their partner, regardless of whether for Valentine's Day, a birthday, or anniversary, the site has been designed with a simple to use format that guides the user through a set of closed-option questions about their partner's likes and dislikes, ultimately leading them to a selection of suitable gift ideas.
-
-The site does not sell the gifts directly but provides links to international suppliers. At present, the site does not have a geographical focus, but rather is available for international users. All prices have been converted to USD to make for a simple user experience.
-
-Potential advertisers are encouraged to get in touch to offer their product, service, or experience to site users, to enhance the options available.
 
 ### Target Audience
 
@@ -45,35 +37,37 @@ Who is the site for?
 
 ### User Stories:
 
-#### User stories met by creating clear cards / modals with necessary information about each gift
+#### User stories that were met by creating clear cards / modals with necesary information about each gift
 
-- [#27](https://github.com/JoGorska/hackathon-team-1/issues/27) As a Returning Visitor, I want to see a price range of each gift, so I can evaluate my expenses before making a purchase.
+- [#27](https://github.com/JoGorska/hackathon-team-1/issues/27) As a Returning Visitor, I want to see a price range on a gift, so I can evaluate my expenses.
 
-- [#26](https://github.com/JoGorska/hackathon-team-1/issues/26) As a Returning Visitor, I want to find possible ways to purchase a particular gift, so I can easily make a purchase.
+- [#26](https://github.com/JoGorska/hackathon-team-1/issues/26) As a Returning Visitor, I want to find possible ways how to purchase a particular gift, so I can easily make a purchase.
 
 - [#25](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to see the benefits of choosing a particular gift, so I can be sure about my choice.
 
 - [#24](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to have different gift options to choose from, so I can make a final decision on a gift.
 
-#### User stories met by quiz questions aiming to ascertain the needs of the user and preferences for the gift
+#### User stories met by quizz questions, that are aiming to ascertain the needs of the user and prefferences for the gift
 
-- [#23](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to be able to find a gift, which will be suitable for my partner or friend, so they will be satisfied.
+- [#23](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to be able to find a gift, which will be suitable for my partner or friend, so my partner/friend will be satisfied.
 
-- [#22](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to be able to get advice on a gift for my partner or friend on Valentine's day, so I can have a gift fitting their needs and preferences.
+- [#22](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to be able to get advice what to choose as a gift for my partner or friend on Valentine's day, so I can have a gift fitting their needs and preferences.
 
 - [#21](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to find the app useful, so I can use it according to my needs in finding a good gift for my partner.
 
-#### User story met by adding nav bar
 
-- [#19](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to be able to easily navigate through the app, so I can easily find the content.
+#### User story met by adding nav bar:
 
-#### User story met by welcome text and images
+- [#19](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to be able to easily navigate through the app, so I can find the content.
+
+#### User story met by 
 
 - [#18](https://github.com/JoGorska/hackathon-team-1/issues/18) As a First Time Visitor, I want to easily understand the main purpose of the app, so I can learn more about this app.
 
-#### User stories classed for next release
+#### User stories classed for next release:
 
 - [#20](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to be able to register my account, so I can learn the benefits of the app as a user.
+
 
 ### Categories of gifts
 
@@ -124,47 +118,46 @@ The site contains 3 pages: Home, Gift search, Partnering. And the header and foo
 - The header
   - The fully responsive navigation bar includes links to the Home, Gift search and Partnering page and is identical in each page to allow for easy navigation.
   - The navigation menu collapses on small devices less than 768px width.
-<!-- screentshot -->
-
+![Header](documentation/features/header.png)
 - The footer
   - The footer contains collaborators’ names and links to their GitHub and LinkedIn Pages which open in a new tab.
-<!-- screentshot -->
+![Header](documentation/features/footer.png)
 
-- Landing Page
-  - The landing page includes an image of a signpost with text overlay to allow the user to see exactly what the site is about.
-<!-- screentshot -->
+- Home Page
+
+![Home Page](documentation/features/home-page.png)
+
+  - The home page includes an image of a signpost with text overlay to allow the user to see exactly what the site is about.
   - The “Gift search” button links to the Gift search page and the “Discover more” button links to the feature section of the home page.
-<!-- screentshot -->
+  ![Hero section on Home Page](documentation/features/home-hero.png)
   - The Feature section contains detailed descriptions about the site: who is the site for, how it works and what the user can expect.
-<!-- screentshot -->
+  ![Feature section on Home Page](documentation/features/home-feature.png)
   - The “Fill out the form” button links to the Partnering page.
-<!-- screentshot -->
+  ![Contact section on Home Page](documentation/features/home-contact.png)
 
-- Gift search Page
+- Gift Search Page
+
+![Gift Search Page - Main](documentation/features/quiz-page-main.png)
+![Gift Search Page - Quiz](documentation/features/quiz-page.png)
+
   - The gift search page features a fully responsive design.
   - This page includes guided questions, 18 categories, 5 gift ideas for each category and the detail page for each gift idea.
   - The page starts with a text “GiftiFY Quiz” and “Start” button.
-<!-- screentshot -->
+![Gift Search Start](documentation/features/quiz-start-section.png)
   - Each page has a “Reset Questions” button which links to the first page of the Gift search page.
-<!-- screentshot -->
+![Gift Search Reset](documentation/features/quiz-reset.png)
   - The guided questions has 2 options the user can choose and the next question renders depending on the user’s answer to the previous question.
-<!-- screentshot -->
+![Gift Search Questions](documentation/features/quiz-questions.png)
   - When the user chooses a category, 5 gift ideas with the “Learn more” button render.
-<!-- screentshot -->
+![Gift Search Suggestions](documentation/features/quiz-suggestions.png)
   - The detail page contains a “back” button which allows the user to choose different ideas, an item image and description with external links and price. The external links open in a new tab so that the user can stay on the site.
-<!-- screentshot -->
+![Gift Search Details](documentation/features/quiz-item-details.png)
 
 - Partnering Page
   - This page allows the user to submit their product or service for the “GiftiFY” team to review.
 <!-- screentshot -->
   - The “send” button submits the information the user supplied and the “reset” button removes their information in the form.
 <!-- screentshot -->
-
-
-| Feature  | Details  |
-|---|---|
-| Nav bar | ??? |
-| Favicon | ??? |
 
 **Future features**
 
@@ -182,15 +175,35 @@ SITE MAP
 
 **Template**
 
-The site uses the xxx template from xxx (including links).
+The site do not use a predefined template and has been created from scratch as a team collaboration.
 
 **Typography**
 
-The site uses xxx font.
+The site uses Roboto typeface throughout, with Sans-Serif as a back up. 
+
+[Google Fonts](https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap)
 
 **Color Scheme**
 
-The site uses xxx color scheme.
+As part of discussions of the website purpose, it was agreed that the base color be a deep, charcoal grey, from which other lighter, but also bold colors, would compliment. This meant the main base colors used throughout (#3a3a3a and #292929) supported the message of "alternative" gifts, but enabled other more traditional colors such as the pinks (#efa3a9 and #ff125f) to also be used, to support the message that the presents were intended for partners/lovers.
+
+[My Color](https://mycolor.space/) and [Coolors](https://coolors.co/) were used in deciding the color scheme.
+
+<div align="center">
+    <img src="assets/images/color_scheme_pallet.png" width="600">
+</div>
+
+HEX reference for all colors used:
+
+ * #35c0b7
+ * #fff3f5
+ * #ffe3e7
+ * #efa3a9
+ * #ff125f
+ * #fafafa
+ * #3a3a3a
+ * #292929
+ * #5cbab4
 
 **Imagery**
 
@@ -230,7 +243,7 @@ The project was created on GitHub and uses the following libraries and framework
 
 # Testing
 
-[Click Here](TESTING.md) to view the full testing steps that were completed on every device and browser.
+See separate Testing file for information on testing and issues.
 
 # Deployment
 
