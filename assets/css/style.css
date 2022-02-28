@@ -243,6 +243,8 @@ body {
 }
 
 .contact__link--btn {
+  background-color: #30a59d;
+  font-weight: 900;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -451,7 +453,8 @@ body {
   font-weight: 600;
   color: var(--clr-neutral--300);
   transition: background-color .15s ease-in-out, color .15s ease-in-out;
-  background-color: #30a59d;
+  background-color: #198a82;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   color: white;
   margin: 1rem;
   width: 300px;

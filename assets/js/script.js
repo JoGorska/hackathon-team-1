@@ -17,7 +17,7 @@ const modalContent = document.querySelector('.modal-content');
 const closeModal = document.getElementById('modal-close');
 // // Variables for suggestions
 const resultContent = document.querySelectorAll('.result__content');
-const quizAnswers = document.querySelector('#quiz-answers').childNodes;
+const quizAnswers = document.querySelector('#quiz-answers').children;
 
 
 const firstQuestion = {
