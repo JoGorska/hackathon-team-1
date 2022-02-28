@@ -808,6 +808,56 @@
     "image": "assets/images/suggestions/cookery/recipe.jpg"
   },
   {
+    "category": "Restaurants",
+    "name": "Snow Castle of Kemi",
+    "description": "Bundle up for this dining experience! The Kemi Snow Castle resort and seaview restaurant are open all year round. Located in Lumilinnankatu Finland, this famed castle doesn't even melt in the summer, so you will always be able to dine on beaituflly sculpted snow tables and architecture.",
+    "websites": [
+      ["Snow Castle", "https://experience365.fi/lumilinna/"]
+    ],
+    "price": "30-60",
+    "image": "assets/images/suggestions/restaurants/icecastle1.jpg"
+  },
+  {
+    "category": "Restaurants",
+    "name": "Rayavadee Dining Grotto",
+    "description": "Nestled under a cliff with a perfect seaview, this gorgeous dining location is a romantic place to enjoy a sunset or relax with your partner.",
+    "websites": [
+      ["Rayavadee Grotto", "https://www.rayavadee.com/en/the-grotto.php"]
+    ],
+    "price": "20-60",
+    "image": "assets/images/suggestions/restaurants/grotto1.jpg"
+  },
+  {
+    "category": "restaurants",
+    "name": "Trinity Place Restaurant and Bar",
+    "description": "Miraculously built into a vault, Trinity Place is a unique location with a 35 ton door guardng the entrance! Step into a classy and hidden restaurant, created from the infrastructure of an old bank. ",
+    "websites": [
+      ["Trinity Place", "https://www.trinityplacenyc.com/"]
+    ],
+    "price": "20-50",
+    "image": "assets/images/suggestions/restaurants/trinity1.jpg"
+  },
+  {
+    "category": "alcoholTasting",
+    "name": "Bow Down To Bubbly Champagne Master Class",
+    "description": "The perfect gift for a day out with sparkle! On the Champagne and Sparkling Wine Masterclass, they'll be guided through the world of fizz; from Cava and Cremant De Loire, to Prosecco and New World Bubbly.",
+    "websites": [
+      ["Truly Experiences - Champagne Master Class", "https://trulyexperiences.com/uk/champagne-and-sparkling-wine-masterclass-the-london-wine-academy.html"]
+    ],
+    "price": "140",
+    "image": "assets/images/suggestions/tasting/chapmagne.jpg"
+  },
+  {
+    "category": "alcoholTasting",
+    "name": "Bow Down To Bubbly Champagne Master Class",
+    "description": "The perfect gift for a day out with sparkle! On the Champagne and Sparkling Wine Masterclass, they'll be guided through the world of fizz; from Cava and Cremant De Loire, to Prosecco and New World Bubbly.",
+    "websites": [
+      ["Truly Experiences - Champagne Master Class", "https://trulyexperiences.com/uk/champagne-and-sparkling-wine-masterclass-the-london-wine-academy.html"]
+    ],
+    "price": "140",
+    "image": "assets/images/suggestions/tasting/chapmagne.jpg"
+  },
+  {
     "category": "alcoholTasting",
     "name": "Bow Down To Bubbly Champagne Master Class",
     "description": "The perfect gift for a day out with sparkle! On the Champagne and Sparkling Wine Masterclass, they'll be guided through the world of fizz; from Cava and Cremant De Loire, to Prosecco and New World Bubbly.",
