@@ -1,12 +1,16 @@
 # Project Overview
 
-A site to provide ideas for alternative Valentine's day gifts. 
 
-Site users are invited to answer questions about the personality traits and behaviour of the recipient...
 
 # User Experience Design
 
 ## Strategy
+
+Developed for those who wish to make a special purchase for their partner, regardless of whether for Valentine's Day, a birthday, or anniversary, the site has been designed with a simple to use format that guides the user through a set of closed-option questions about their partner's likes and dislikes, ultimately leading them to a selection of suitable gift ideas.
+
+The site does not sell the gifts directly but provides links to international suppliers. At present, the site does not have a geographical focus, but rather is available for international users. All prices have been converted to USD to make for a simple user experience.
+
+Potential advertisers are encouraged to get in touch to offer their product, service, or experience to site users, to enhance the options available.
 
 ### Target Audience
 
@@ -24,7 +28,7 @@ Who is the site for?
 
 - [#24](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to have different gift options to choose from, so I can make a final decision on a gift.
 
-#### User stories met by quizz questions, that are aiming to ascertain the needs of the user and prefferences for the gift
+#### User stories met by quiz questions, that are aiming to ascertain the needs of the user and prefferences for the gift
 
 - [#23](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to be able to find a gift, which will be suitable for my partner or friend, so my partner/friend will be satisfied.
 
