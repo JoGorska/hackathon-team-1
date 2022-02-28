@@ -1,5 +1,5 @@
 /* jshint esversion: 8 */
-const homePageContainer = document.getElementById('home-page-container');
+
 const quizContainer = document.getElementById('quiz-container');
 const resultsContainer = document.getElementById('results-container');
 const startButton = document.getElementById('start-button');
@@ -13,11 +13,8 @@ const suggestionHeader = document.getElementById('suggestion-header');
 const suggestionContainer = document.getElementById('suggestion-container');
 // // variables for modal
 const modal = document.getElementById('modal');
-const modalContent = document.querySelector('.modal-content');
 const closeModal = document.getElementById('modal-close');
 // // Variables for suggestions
-const resultContent = document.querySelectorAll('.result__content');
-const quizAnswers = document.querySelector('#quiz-answers').children;
 
 
 const firstQuestion = {
@@ -114,13 +111,11 @@ var spa = []
 var sportsEvent = []
 var themePark = []
 var ride = []
-// var eatOut = [] ??? no data so far sam
 var eatOut = [];
 var picnic = [];
 var cookingClasses = [];
 var alcoholTasting = [];
 var handcraft = [];
-// var sightseeing = [] ??? no data so far Sejung
 var sightseeing = [];
 
 /**
