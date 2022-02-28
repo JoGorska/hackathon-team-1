@@ -21,16 +21,6 @@ function removeClass(className, targetNode) {
 }
 
 /**
- * Function to set attribute
- * @param {*} className
- * @param {*} targetNode
- */
-
-function setAttribute(attributeName, attributeValue, targetNode) {
-  targetNode.setAttribute(attributeName, attributeValue);
-}
-
-/**
  * Function to display Error after validation has been failed
  * makes div with help message visible and in red,
  * input's border is red and red icon
@@ -43,7 +33,6 @@ function displayErrorValidation(targetNodeInput, targetNodeHelp) {
   addClass("is-invalid", targetNodeInput);
   removeClass("is-valid", targetNodeInput);
   // help nodes
-  setAttribute("aria-describedby", "name-help", targetNodeInput);
   removeClass("d-none", targetNodeHelp);
   addClass("invalid-feedback", targetNodeHelp);
   removeClass("valid-feedback", targetNodeHelp);
@@ -62,7 +51,6 @@ function displayPassedValidation(targetNodeInput, targetNodeHelp) {
   addClass("is-valid", targetNodeInput);
   removeClass("is-invalid", targetNodeInput);
   // help nodes
-  setAttribute("aria-describedby", "name-help", targetNodeInput);
   removeClass("d-none", targetNodeHelp);
   addClass("valid-feedback", targetNodeHelp);
   removeClass("invalid-feedback", targetNodeHelp);
@@ -77,27 +65,6 @@ function isNotEmpty(inputNode, helpNode) {
 
   if (inputNode.value === "") {
     helpNode.innerHTML = "This field is required";
-    displayErrorValidation(inputNode, helpNode);
-    return (false);
-  } else {
-    helpNode.innerHTML = "All ok";
-    displayPassedValidation(inputNode, helpNode);
-    return (true);
-  }
-}
-/**
- * function to check if input is matching given regex
- * returns true or false
- * @param {*} inputNode - get element by ID for input 
- * @param {*} helpNode - get element by ID for help div
- * @param {*} regex - set of signs reperesenting the required pattern
- * @param {*} errorMessage string - descriptive message for the user
- */
-function isMatchingRegex(inputNode, helpNode, regex, errorMessage) {
-  let value = inputNode.value;
-  let result = regex.test(value);
-  if (result === false) {
-    helpNode.innerHTML = errorMessage;
     displayErrorValidation(inputNode, helpNode);
     return (false);
   } else {
