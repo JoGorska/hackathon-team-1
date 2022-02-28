@@ -1,5 +1,5 @@
 /* jshint esversion: 8 */
-const homePageContainer = document.getElementById('home-page-container');
+
 const quizContainer = document.getElementById('quiz-container');
 const resultsContainer = document.getElementById('results-container');
 const startButton = document.getElementById('start-button');
@@ -13,11 +13,8 @@ const suggestionHeader = document.getElementById('suggestion-header');
 const suggestionContainer = document.getElementById('suggestion-container');
 // // variables for modal
 const modal = document.getElementById('modal');
-const modalContent = document.querySelector('.modal-content');
 const closeModal = document.getElementById('modal-close');
 // // Variables for suggestions
-const resultContent = document.querySelectorAll('.result__content');
-const quizAnswers = document.querySelector('#quiz-answers').children;
 
 
 const firstQuestion = {
@@ -52,7 +49,7 @@ const outQuestion = {
   question: 'Would your partner prefer an adventurous day out or would they rather relax?',
   answerA: 'Adventure',
   answerB: 'Relaxation',
-  answerC: 'pass'
+  answerC: 'Go for a picnic'
 };
 
 const adventurousQuestion = {
@@ -114,13 +111,11 @@ var spa = []
 var sportsEvent = []
 var themePark = []
 var ride = []
-// var eatOut = [] ??? no data so far sam
 var eatOut = [];
 var picnic = [];
 var cookingClasses = [];
 var alcoholTasting = [];
 var handcraft = [];
-// var sightseeing = [] ??? no data so far Sejung
 var sightseeing = [];
 
 /**
@@ -147,7 +142,7 @@ const data = fetch('assets/js/suggestions.json')
     sportsEvent = findGiftsInCategory("sportsEvent", data);
     themePark = findGiftsInCategory("themePark", data);
     ride = findGiftsInCategory("ride", data);
-    eatOut = findGiftsInCategory("eatOut", data);
+    eatOut = findGiftsInCategory("restaurants", data);
     picnic = findGiftsInCategory("picnics", data);
     cookingClasses = findGiftsInCategory("cookingClasses", data);
     alcoholTasting = findGiftsInCategory("alcoholTasting", data);
@@ -254,8 +249,11 @@ function checkAnswer(e) {
   } else if (currentQuestion === outQuestion) {
     if (e.target.id === 'answer-a') {
       currentQuestion = adventurousQuestion;
-    } else {
+    } else if (e.target.id === 'answer-b') {
       currentQuestion = leisureQuestion;
+    } else {
+      category = picnic
+      displayResults(category)
     }
     displayQuestion(currentQuestion);
   } else if (currentQuestion === adventurousQuestion) {
@@ -310,8 +308,7 @@ function checkAnswer(e) {
     displayResults(category);
   } else if (currentQuestion === foodieQuestion) {
     if (e.target.id === 'answer-a') {
-      // category = eatOut
-      category = picnic;
+      category = eatOut;
     } else if (e.target.id === 'answer-b') {
       category = cookingClasses;
     } else {
