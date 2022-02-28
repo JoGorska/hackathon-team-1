@@ -1,7 +1,7 @@
 # GiftiFY
 
 
-![showpiece](link/goes/here)
+![showpiece](documentation/features/showpiece.png)
 
 <a href="https://jogorska.github.io/hackathon-team-1/index.html" target="_blank">View the live site here</a>
 
