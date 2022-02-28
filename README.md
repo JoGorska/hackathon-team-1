@@ -190,9 +190,8 @@ As part of discussions of the website purpose, it was agreed that the base color
 
 [My Color](https://mycolor.space/) and [Coolors](https://coolors.co/) were used in deciding the color scheme.
 
-<div align="center">
-    <img src="assets/images/color_scheme_pallet.png" width="600">
-</div>
+![color scheme](assets/images/color_scheme_pallet.png)
+
 
 HEX reference for all colors used:
 
