@@ -81,7 +81,7 @@
 
           <div class="mb-3">
             <label class="form-label" for="contact-name">Contact Person</label>
-            <input required class="form-control" type="text" name="contact-name" id="contact-name"
+            <input aria-describedby="contact-name-help" required class="form-control" type="text" name="contact-name" id="contact-name"
               title="Please write your name without any numbers or special characters">
             <div id="contact-name-help" class="form-text fs-6">Please use only letters and special characters in the
               Name field</div>
@@ -92,7 +92,7 @@
 
           <div class="mb-3">
             <label class="form-label" for="shop-name">Company</label>
-            <input required class="form-control" type="text" name="shop-name" id="shop-name"
+            <input aria-describedby="shop-name-help" required class="form-control" type="text" name="shop-name" id="shop-name"
               title="Please write your shop name without any numbers or special characters">
             <div id="shop-name-help" class="form-text fs-6">Please use only letters and special characters in the
               product name field</div>
@@ -102,7 +102,7 @@
 
           <div class="mb-3">
             <label class="form-label" for="email">Email</label>
-            <input required class="form-control" type="email" id="email" name="email"
+            <input aria-describedby="email-help" required class="form-control" type="email" id="email" name="email"
               title="Please enter a valid email address for example example@domain.uk">
             <div id="email-help" class="form-text fs-6">Please enter a valid email address for example example@domain.uk
             </div>
@@ -113,7 +113,7 @@
 
           <div class="mb-3">
             <label class="form-label" for="telephone">Telephone</label>
-            <input required class="form-control" type="text" id="telephone" name="telephone"
+            <input aria-describedby="telephone-help" required class="form-control" type="text" id="telephone" name="telephone"
               title="Please enter a valid UK phone number (11 digits)">
             <div id="telephone-help" class="form-text fs-6">Please enter a valid phone number (11 digits)</div>
           </div>
@@ -122,7 +122,7 @@
 
           <div class="mb-3">
             <label class="form-label" for="input-category">Category</label>
-            <input required class="form-control" type="text" name="category" id="input-category" list="category-list"
+            <input aria-describedby="input-category-help" required class="form-control" type="text" name="category" id="input-category" list="category-list"
               placeholder="Please write here or choose from drop down list" minlength="2" maxlength="160">
             <div id="input-category-help" class="form-text fs-6"></div>
             <datalist id="category-list">
@@ -155,7 +155,7 @@
 
           <div class="mb-3">
             <label class="form-label" for="product-name">Name of the product or service</label>
-            <input required class="form-control" type="text" name="product-name" id="product-name"
+            <input aria-describedby="product-name-help" required class="form-control" type="text" name="product-name" id="product-name"
               title="Please write your product name without any numbers or special characters">
             <div id="product-name-help" class="form-text fs-6">Please use only letters and special characters in the
               product name field</div>
@@ -165,7 +165,7 @@
 
           <div class="mb-3">
             <label class="form-label" for="price">Provide the price of the product</label>
-            <input required class="form-control" type="text" name="price" id="price"
+            <input aria-describedby="price-help" required class="form-control" type="text" name="price" id="price"
               title="Please write numbers only without special characters">
             <div id="price-help" class="form-text fs-6">Please provide price in American dolars without typing the dolar
               sign</div>
@@ -176,7 +176,7 @@
 
           <div class="mb-3">
             <label class="form-label" for="description">Short description</label>
-            <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+            <textarea aria-describedby="description-help" class="form-control" id="description" name="description" rows="3"></textarea>
             <div id="description-help" class="form-text fs-6">Please use only letters and special characters in the
               Enquiry field</div>
           </div>
@@ -185,7 +185,7 @@
 
           <div class="mb-3">
             <label class="form-label" for="website">Website where we can buy it</label>
-            <input required class="form-control" type="text" name="website" id="website"
+            <input aria-describedby="website-help" required class="form-control" type="text" name="website" id="website"
               title="Paste exact URL address here">
             <div id="website-help" class="form-text fs-6">Please paste full URL here</div>
 
@@ -195,7 +195,7 @@
 
           <div class="mb-3">
             <label class="form-label" for="image">Link to the image</label>
-            <input class="form-control" type="text" name="image" id="image" title="Paste exact URL to the image here">
+            <input aria-describedby="image-help" class="form-control" type="text" name="image" id="image" title="Paste exact URL to the image here">
             <div id="image-help" class="form-text fs-6">Please paste full URL here</div>
 
           </div>
@@ -205,10 +205,10 @@
           <div class="container text-center">
             <div class="row">
               <div class="col">
-                <button type="submit" class="btn btn-lg btn-outline-success text-dark">Send</button>
+                <button type="submit" class="btn btn-lg btn-success text-dark">Send</button>
               </div>
               <div class="col">
-                <button type="reset" class="btn btn-lg btn-outline-danger text-dark">Reset</button>
+                <button type="reset" class="btn btn-lg btn-danger text-dark">Reset</button>
               </div>
             </div>
           </div>

@@ -83,12 +83,7 @@ body {
   z-index: 999;
 }
 
-.header-for-form {
-  width: 100%;
-  background-color: var(--clr-neutral--900);
-  /* position: fixed; */
-  z-index: 999;
-}
+
 
 .navbar {
   width: 100%;
@@ -268,17 +263,7 @@ body {
   background-position: center;
 }
 
-.bg-for-form {
-  background-image: url('../images/bg2.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 
-.bg-form-container {
-  background-color: rgba(239, 163, 169, .5);
-  border-radius: 0.5em;
-}
 
 .description,
 .incentive,
@@ -1007,6 +992,10 @@ body {
     fill: var(--clr-primary--100);
   }
 
+  .main {
+    margin-top: 8rem;
+  }
+
   .range {
     margin-bottom: 3em;
   }
@@ -1260,14 +1249,50 @@ body {
   }
 }
 
+/* css for contact.html */
+
+.header-for-form {
+  width: 100%;
+  background-color: var(--clr-neutral--900);
+  /* position: fixed; */
+  z-index: 999;
+}
+
+.bg-for-form {
+  background-image: url('../images/bg2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-form-container {
+  background-color: #5cbab4a6;
+  border-radius: 0.5em;
+}
+
+.btn-success {
+  background-color: var(--clr-accent--100);
+
+}
+
+.btn-danger {
+  background-color: var(--clr-primary--900);
+
+}
+
 @media screen and (max-width: 490px) {
 
   .logo__container {
     width: 8rem;
   }
 
+  .main {
+    margin-top: 7rem;
+  }
+
   .hero {
     padding: 0 .7em;
+    height: calc(100vh - 7rem);
   }
 
   .hero__content {
