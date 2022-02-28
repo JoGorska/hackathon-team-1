@@ -17,7 +17,7 @@ const modalContent = document.querySelector('.modal-content');
 const closeModal = document.getElementById('modal-close');
 // // Variables for suggestions
 const resultContent = document.querySelectorAll('.result__content');
-const quizAnswers = document.querySelector('#quiz-answers').childNodes;
+const quizAnswers = document.querySelector('#quiz-answers').children;
 
 
 const firstQuestion = {
@@ -176,19 +176,6 @@ function findGiftsInCategory(category, data) {
 let currentQuestion = firstQuestion;
 let category = '';
 
-//sets the text of the questions and answers. hides button C if there are only 2 options
-function displayQuestion(currentQuestion) {
-  questionText.innerText = currentQuestion.question;
-  answerContainerA.innerText = currentQuestion.answerA;
-  answerContainerB.innerText = currentQuestion.answerB;
-  if (currentQuestion.answerC === 'pass') {
-    answerContainerC.classList.add('hide');
-  } else {
-    answerContainerC.classList.remove('hide');
-    answerContainerC.innerText = currentQuestion.answerC;
-  }
-}
-
 function startTheQuiz() {
   displayQuestion(currentQuestion);
   startButton.classList.add('hide');
@@ -196,6 +183,21 @@ function startTheQuiz() {
   quizContent.classList.remove('hide');
   answerContainerA.classList.remove('hide');
   answerContainerB.classList.remove('hide');
+  resultsContainer.classList.add('hide');
+}
+
+//sets the text of the questions and answers. hides button C if there are only 2 options
+function displayQuestion(currentQuestion) {
+  questionText.innerText = currentQuestion.question;
+  answerContainerA.innerText = currentQuestion.answerA;
+  answerContainerB.innerText = currentQuestion.answerB;
+  resultsContainer.classList.remove('hide');
+  if (currentQuestion.answerC === 'pass') {
+    answerContainerC.classList.add('hide');
+  } else {
+    answerContainerC.classList.remove('hide');
+    answerContainerC.innerText = currentQuestion.answerC;
+  }
 }
 
 function displayResults(category) {
@@ -205,16 +207,18 @@ function displayResults(category) {
   document.getElementById('results-container').style.margin = '2em';
   document.getElementById('results-header').style.backgroundColor = '#464646';
   document.getElementById('results-header').style.padding = '1em';
+  document.getElementById('results-container').style.paddingTop = '8vh';
+  document.getElementById('results-container').style.paddingBottom = '8vh';
   category.forEach(suggestion => {
     const suggestionCard = document.createElement('div');
     suggestionCard.classList.add('result__content');
     suggestionCard.innerHTML = `
-     <h3 class="result__content--title">${suggestion.name}</h3>
-     <div class="result__content--image">
-       <img src="${suggestion.image}" alt="${suggestion.name}">
-     </div>
-     <div class="result__content--modal result__content--btn">learn more</div>
-     `;
+      <h3 class="result__content--title">${suggestion.name}</h3>
+      <div class="result__content--image">
+        <img src="${suggestion.image}" alt="${suggestion.name}">
+      </div>
+      <div class="result__content--modal result__content--btn">learn more</div>
+    `;
     suggestionCard.addEventListener('click', function () {
       console.log('clicked');
       modal.style.display = 'block';

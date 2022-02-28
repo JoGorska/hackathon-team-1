@@ -189,7 +189,7 @@ The project was created on GitHub and uses the following libraries and framework
 
 # Testing
 
-See separate Testing file for information on testing and issues.
+[Click Here](TESTING.md) to view the full testing steps that were completed on every device and browser.
 
 # Deployment
 
