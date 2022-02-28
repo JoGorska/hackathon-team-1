@@ -24,7 +24,6 @@
 
 # Project Overview
 
-Potential advertisers are encouraged to get in touch to offer their product, service, or experience to site users, to enhance the options available.
 A site for those searching for an alternative gift idea for their partner. 
 
 Site users are invited to answer questions about the personality traits and behaviour of their partner and are presented with gift ideas based on their response.
@@ -47,37 +46,35 @@ Who is the site for?
 
 ### User Stories:
 
-#### User stories that were met by creating clear cards / modals with necesary information about each gift
+#### User stories met by creating clear cards / modals with necessary information about each gift
 
-- [#27](https://github.com/JoGorska/hackathon-team-1/issues/27) As a Returning Visitor, I want to see a price range on a gift, so I can evaluate my expenses.
+- [#27](https://github.com/JoGorska/hackathon-team-1/issues/27) As a Returning Visitor, I want to see a price range of each gift, so I can evaluate my expenses before making a purchase.
 
-- [#26](https://github.com/JoGorska/hackathon-team-1/issues/26) As a Returning Visitor, I want to find possible ways how to purchase a particular gift, so I can easily make a purchase.
+- [#26](https://github.com/JoGorska/hackathon-team-1/issues/26) As a Returning Visitor, I want to find possible ways to purchase a particular gift, so I can easily make a purchase.
 
 - [#25](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to see the benefits of choosing a particular gift, so I can be sure about my choice.
 
 - [#24](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to have different gift options to choose from, so I can make a final decision on a gift.
 
-#### User stories met by quiz questions, that are aiming to ascertain the needs of the user and prefferences for the gift
+#### User stories met by quiz questions aiming to ascertain the needs of the user and preferences for the gift
 
-- [#23](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to be able to find a gift, which will be suitable for my partner or friend, so my partner/friend will be satisfied.
+- [#23](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to be able to find a gift, which will be suitable for my partner or friend, so they will be satisfied.
 
-- [#22](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to be able to get advice what to choose as a gift for my partner or friend on Valentine's day, so I can have a gift fitting their needs and preferences.
+- [#22](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to be able to get advice on a gift for my partner or friend on Valentine's day, so I can have a gift fitting their needs and preferences.
 
 - [#21](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to find the app useful, so I can use it according to my needs in finding a good gift for my partner.
 
+#### User story met by adding nav bar
 
-#### User story met by adding nav bar:
+- [#19](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to be able to easily navigate through the app, so I can easily find the content.
 
-- [#19](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to be able to easily navigate through the app, so I can find the content.
-
-#### User story met by 
+#### User story met by welcome text and images
 
 - [#18](https://github.com/JoGorska/hackathon-team-1/issues/18) As a First Time Visitor, I want to easily understand the main purpose of the app, so I can learn more about this app.
 
-#### User stories classed for next release:
+#### User stories classed for next release
 
 - [#20](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to be able to register my account, so I can learn the benefits of the app as a user.
-
 
 ### Categories of gifts
 
