@@ -1,6 +1,5 @@
 # GiftiFY
 
-
 ![showpiece](documentation/features/showpiece.png)
 
 <a href="https://jogorska.github.io/hackathon-team-1/index.html" target="_blank">View the live site here</a>
@@ -39,14 +38,13 @@ The site does not sell the gifts directly but provides links to international su
 
 Potential advertisers are encouraged to get in touch to offer their product, service, or experience to site users, to enhance the options available.
 
-
 ### Target Audience
 
-Who is the site for?
+The site is designed for those with a budget, looking to make a special purchase, for a special ocassion.
 
 ### User Stories:
 
-#### User stories that were met by creating clear cards / modals with necesary information about each gift
+#### User stories that were met by creating clear cards / modals with necessary information about each gift
 
 - [#27](https://github.com/JoGorska/hackathon-team-1/issues/27) As a Returning Visitor, I want to see a price range on a gift, so I can evaluate my expenses.
 
@@ -56,7 +54,7 @@ Who is the site for?
 
 - [#24](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to have different gift options to choose from, so I can make a final decision on a gift.
 
-#### User stories met by quizz questions, that are aiming to ascertain the needs of the user and prefferences for the gift
+#### User stories met by quiz questions, that are aiming to ascertain the needs of the user and preferences for the gift
 
 - [#23](https://github.com/JoGorska/hackathon-team-1/issues/25) As a Returning Visitor, I want to be able to find a gift, which will be suitable for my partner or friend, so my partner/friend will be satisfied.
 
@@ -65,49 +63,47 @@ Who is the site for?
 - [#21](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to find the app useful, so I can use it according to my needs in finding a good gift for my partner.
 
 
-#### User story met by adding nav bar:
+#### User story met by adding nav bar
 
 - [#19](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to be able to easily navigate through the app, so I can find the content.
 
-#### User story met by 
+#### User story met by welcome text on index.html
 
 - [#18](https://github.com/JoGorska/hackathon-team-1/issues/18) As a First Time Visitor, I want to easily understand the main purpose of the app, so I can learn more about this app.
 
-#### User stories classed for next release:
+#### User stories classed for next release
 
 - [#20](https://github.com/JoGorska/hackathon-team-1/issues/25) As a First Time Visitor, I want to be able to register my account, so I can learn the benefits of the app as a user.
-
-
 
 ### Categories of gifts
 
 The final result of the search will be a category that the user has got to while following the quizz questions. Categories were created into issues and divided betwen team members:
 
-- [#46](https://github.com/JoGorska/hackathon-team-1/issues/46) sightseeing
+- [#46](https://github.com/JoGorska/hackathon-team-1/issues/46) Sightseeing
 
 - [#45](https://github.com/JoGorska/hackathon-team-1/issues/45) Spa
 
-- [#44](https://github.com/JoGorska/hackathon-team-1/issues/44) museum
+- [#44](https://github.com/JoGorska/hackathon-team-1/issues/44) Museum
 
 - [#43](https://github.com/JoGorska/hackathon-team-1/issues/43) Wine testing
 
-- [#42](https://github.com/JoGorska/hackathon-team-1/issues/42) restaurants
+- [#42](https://github.com/JoGorska/hackathon-team-1/issues/42) Restaurants
 
-- [#41](https://github.com/JoGorska/hackathon-team-1/issues/41) picnics
+- [#41](https://github.com/JoGorska/hackathon-team-1/issues/41) Picnics
 
 - [#40](https://github.com/JoGorska/hackathon-team-1/issues/40) Couples cooking classes
 
-- [#39](https://github.com/JoGorska/hackathon-team-1/issues/39) watching outdoor sport
+- [#39](https://github.com/JoGorska/hackathon-team-1/issues/39) Watching outdoor sport
 
-- [#38](https://github.com/JoGorska/hackathon-team-1/issues/38) rides
+- [#38](https://github.com/JoGorska/hackathon-team-1/issues/38) Rides
 
-- [#37](https://github.com/JoGorska/hackathon-team-1/issues/37) theme parks
+- [#37](https://github.com/JoGorska/hackathon-team-1/issues/37) Theme parks
 
-- [#36](https://github.com/JoGorska/hackathon-team-1/issues/36) team sport
+- [#36](https://github.com/JoGorska/hackathon-team-1/issues/36) Team sport
 
 - [#35](https://github.com/JoGorska/hackathon-team-1/issues/35) Extreme travelling
 
-- [#34](https://github.com/JoGorska/hackathon-team-1/issues/34) technologies
+- [#34](https://github.com/JoGorska/hackathon-team-1/issues/34) Technologies
 
 - [#33](https://github.com/JoGorska/hackathon-team-1/issues/33) Animals
 
@@ -115,15 +111,15 @@ The final result of the search will be a category that the user has got to while
 
 - [#30](https://github.com/JoGorska/hackathon-team-1/issues/30) Homemade food
 
-- [#29](https://github.com/JoGorska/hackathon-team-1/issues/29) plants, flowers, trees
+- [#29](https://github.com/JoGorska/hackathon-team-1/issues/29) Plants, flowers, trees
 
-- [#28](https://github.com/JoGorska/hackathon-team-1/issues/28) handcraft
+- [#28](https://github.com/JoGorska/hackathon-team-1/issues/28) Handcraft
 
 ## Scope
 
 **Features**
 
-The site contains 3 pages: Home, Gift search, Partnering. And the header and footer are identical on every page.
+The site contains 3 pages: Home, Gift search, Partnering. The header and footer are identical on every page.
 
 - The header
   - The fully responsive navigation bar includes links to the Home, Gift search and Partnering page and is identical in each page to allow for easy navigation.
@@ -171,15 +167,17 @@ The site contains 3 pages: Home, Gift search, Partnering. And the header and foo
 
 **Future features**
 
-COMMERCIALLY WHERE COULD THIS APP GO? WHAT ARE THE FUTURE STEPS?
+The site could be commercialized by selling advertising space to companies/businesses with products, services or experiences to sell.
+
+Users could also have account registration so they can see their historic purchases, and recommend future ones.
 
 ## Structure
 
-SITE MAP
+The site is a simple structure with three pages: index, quiz, contact.
 
 ## Skeleton
 
-[wireframes](documentation/wireframes.pdf)
+[Wireframes](documentation/wireframes.pdf)
 
 ## Surface
 
@@ -232,22 +230,20 @@ Copy of sources used for images.
 - [Trinity](https://www.trinityplacenyc.com/)
 - [Panoramic](https://www.chamonix.net/english/generic/Le-Panoramic/608)
 - [Rock](https://www.therockrestaurantzanzibar.com/)
+- [Flickr](https://flickr.com/)
+- [BG Jar](https://bgjar.com)
 
+The logo was created using [Free Logo Design](https://www.freelogodesign.org/)
 
+Images were resized using [BIRME](https://www.birme.net/?target_width=600&target_height=600) 
 
 # Technologies Used
 
-The project uses the following languages;
+The project uses the following languages and was created on GitHub;
 
 * HTML5
 * CSS
 * JavaScript
-
-The project was created on GitHub and uses the following libraries and frameworks:
-
-* Balsamiq - used to create all wireframes
-* Materialize - the site layout uses the Parallax template from Materialize, which has been heavily modified
-* Google Fonts - Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif
 
 # Testing
 
@@ -276,8 +272,6 @@ Forking the repository allows you to make a copy of the original in your GitHub 
 
 # Credits
 
-This site was created as part of Code Institute's February 2022 Hackathon...
+This site was created as part of Code Institute's February 2022 Hackathon.
 
-Group members...
-
-Info sources...
+Group members are referenced in the footer of each page and the information sources for the experiences are linked on each page as relevant.
