@@ -183,15 +183,15 @@ WIREFRAMES HERE
 
 **Template**
 
-The site uses the xxx template from xxx (including links).
+The site do not use a predefined template and has been created from scratch as a team collaboration.
 
 **Typography**
 
-The site uses xxx font.
+The site uses Roboto typeface throughout, with Sans-Serif as a back up. 
+
+[Google Fonts](https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap)
 
 **Color Scheme**
-
-The site uses xxx color scheme.
 
 **Imagery**
 
