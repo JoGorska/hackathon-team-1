@@ -495,8 +495,8 @@ body {
   align-items: center;
   color: var(--clr-neutral--900);
   padding: 0 2em;
-  padding-top: 8vh;
-  padding-bottom: 8vh;
+  /* padding-top: 8vh;
+  padding-bottom: 8vh; */
   width: 100%;
   max-width: 100rem;
 }
