@@ -340,7 +340,6 @@ body {
 
 .description__content--accent {
   font-style: italic;
-  margin-left: 2em;
   font-size: 1.7rem;
   line-height: 1.5rem;
   margin-top: 0.6em;
@@ -1119,8 +1118,50 @@ body {
     width: 17rem;
   }
 
+  .description__content,
+  .incentive__content,
+  .range__content {
+    padding: 1em;
+  }
+
+  .description__content--title,
+  .incentive__content--title,
+  .range__content--title {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .description__content--text,
+  .incentive__content--text,
+  .range__content--text,
+  .contact__content--description {
+    font-size: 1.2rem;
+    line-height: 1.1;
+  }
+
+  .description__content--text {
+    margin-bottom: 0.2em;
+  }
+
+  .description__content--accent {
+    font-size: 1rem;
+  }
+
+  .description__content--last {
+    margin-bottom: .5em;
+  }
+
+  .contact__container {
+    padding: 2em .5em 3em;
+  }
+
   .contact__content {
     width: 90%;
+  }
+
+  .contact__link {
+    padding-top: 1.5em;
   }
 
   /* Modal */
