@@ -737,7 +737,6 @@ Juliia*/
   max-width: 120rem;
   margin: 0 auto;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: row;
   padding: 4em 2em;
@@ -746,15 +745,6 @@ Juliia*/
 
 .collaborators{
   display: flex;
-  /* put media queries for small devices+add margin-bottoms for collaborators item"
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-  .collaborators__item:not(:last-child){
-  margin-right:0;
-  margin-bottom: 2em;
-}
-  */
   width: 100%;
   justify-content: space-between;
 }
@@ -803,6 +793,19 @@ Juliia*/
   display:flex;
   justify-content:center;
 }
+
+@media screen and (max-width: 975px){
+  .collaborators{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+  }
+  .collaborators__item:not(:last-child){
+  margin-right:0;
+  margin-bottom: 2em;
+}
+
+  
 
 .hide {
   display: none !important;
