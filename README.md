@@ -1,8 +1,7 @@
 # GiftiFY
 
-<div align="center">
-    <img src="" width="600">
-</div>
+
+![showpiece](link/goes/here)
 
 <a href="https://jogorska.github.io/hackathon-team-1/index.html" target="_blank">View the live site here</a>
 
@@ -177,7 +176,7 @@ SITE MAP
 
 ## Skeleton
 
-WIREFRAMES HERE
+[wireframes](documentation/wireframes.pdf)
 
 ## Surface
 

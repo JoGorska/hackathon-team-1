@@ -83,12 +83,7 @@ body {
   z-index: 999;
 }
 
-.header-for-form {
-  width: 100%;
-  background-color: var(--clr-neutral--900);
-  /* position: fixed; */
-  z-index: 999;
-}
+
 
 .navbar {
   width: 100%;
@@ -268,17 +263,7 @@ body {
   background-position: center;
 }
 
-.bg-for-form {
-  background-image: url('../images/bg2.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 
-.bg-form-container {
-  background-color: rgba(239, 163, 169, .5);
-  border-radius: 0.5em;
-}
 
 .description,
 .incentive,
@@ -1258,6 +1243,37 @@ body {
     width: 82%;
     font-size: 1.2rem;
   }
+}
+
+/* css for contact.html */
+
+.header-for-form {
+  width: 100%;
+  background-color: var(--clr-neutral--900);
+  /* position: fixed; */
+  z-index: 999;
+}
+
+.bg-for-form {
+  background-image: url('../images/bg2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-form-container {
+  background-color: #5cbab4a6;
+  border-radius: 0.5em;
+}
+
+.btn-success {
+  background-color: var(--clr-accent--100);
+
+}
+
+.btn-danger {
+  background-color: var(--clr-primary--900);
+
 }
 
 @media screen and (max-width: 490px) {
