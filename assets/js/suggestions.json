@@ -148,7 +148,8 @@
     "description": "These dual motor skateboards reach up to 18.6 mph, and can be controlled by hand through remote control with ease while riding.",
     "websites": [
       ["amazon", "https://www.amazon.com/Hiboy-Electric-Skateboard-Longboard-commuters/dp/B07G4N35RW/ref=sr_1_8?crid=22QYBRD8SA0TC&keywords=electronic+skateboard&qid=1645761067&sprefix=electronic+skateboar%2Caps%2C237&sr=8-8"],
-      ["banggood", "https://www.banggood.com/EU-DIRECTSYL-06-5000mAh-600W+2-Dual-Motor-Electric-Skateboard-90+51mm-Four-PU-Wheel-40km-or-h-Top-Speed-10-12km-Max-Range-100kg-Max-Load-Wireless-Remote-Control-p-1929728.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=SE&utm_content=minha&utm_campaign=minha-se-en-pc&currency=SEK&cur_warehouse=CZ&createTmp=1&ID=6287830&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=lynna&utm_campaign=lynna-pla-se-all-1020-2021-11sale-21&ad_id=554558944754&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7Acff1UrlZe6p7ygrukHDTFG_-auSk5xm6-9kJPvWVXZfUDapGQE4aAkYTEALw_wcB"]
+      ["banggood", "https://www.banggood.com/EU-DIRECTSYL-06-5000mAh-600W+2-Dual-Motor-Electric-Skateboard-90+51mm-Four-PU-Wheel-40km-or-h-Top-Speed-10-12km-Max-Range-100kg-Max-Load-Wireless-Remote-Control-p-1929728.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=SE&utm_content=minha&utm_campaign=minha-se-en-pc&currency=SEK&cur_warehouse=CZ&createTmp=1&ID=6287830&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=lynna&utm_campaign=lynna-pla-se-all-1020-2021-11sale-21&ad_id=554558944754&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7Acff1UrlZe6p7ygrukHDTFG_-auSk5xm6-9kJPvWVXZfUDapGQE4aAkYTEALw_wcB"],
+      ["Eboardstore", "https://eboardstore.eu/"]
 
     ],
     "price": "350-600",
@@ -171,7 +172,8 @@
     "description": "These kayaks are designed for any water condition, and this versatility helps makes them suitable for any kind of trip you might want to take! The inflatability making them exceptionally portable, but they function with the integrity of a rigid shell kayak.",
     "websites": [
       ["amazon", "https://www.amazon.com/Advanced-Elements-Frame-Sport-Kayak/dp/B003BUGNKC/ref=sr_1_1_sspa?crid=37RUUAB8SQ1N1&keywords=sport+kayak&qid=1645762455&sprefix=sport+kayak%2Caps%2C202&sr=8-1-spons&psc=1&smid=AGLJA2W19Z5T3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzMlQ4TjJGSVVXQjlWJmVuY3J5cHRlZElkPUEwNzM0MzM5M09FSzVPVFFIMk1ZTCZlbmNyeXB0ZWRBZElkPUEwOTA0NTgzRzVHT1ZIQzZNS1lGJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="],
-      ["stockholmkajak", "https://stockholmkajak.se/luftkajaker/advancedframe-convertible?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7E3dpvURspF7mRCbQyHPdWHXlNFtSCsDEE-o_WfwXytsoFqOu7dc8aAnZDEALw_wcB"]
+      ["stockholmkajak", "https://stockholmkajak.se/luftkajaker/advancedframe-convertible?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7E3dpvURspF7mRCbQyHPdWHXlNFtSCsDEE-o_WfwXytsoFqOu7dc8aAnZDEALw_wcB"],
+      ["REI", "https://www.rei.com/c/inflatable-kayaks"]
     ],
     "price": "500-1000",
     "image": "assets/images/suggestions/sports-i/kayak1.jpeg"
@@ -203,20 +205,23 @@
     "description": "As a couple or with a group, take a day to experience the outdoors on horseback.",
     "websites": [
       ["fjallridning", "https://fjallridning.se/vinter/"],
-      ["Helens turridning", "https://helensturridning.se/?page_id=20"]
+      ["Helens turridning", "https://helensturridning.se/?page_id=20"],
+      ["Pinge", "https://www.pinge.eu/"]
     ],
     "price": "80-255",
     "image": "assets/images/suggestions/sports-team/horseback1.jpg"
   },
   {
     "category": "teamSports",
-    "name": "Bungee Jumping",
-    "description": "Safely enjoy the rush of freefall in the outdoors - great for couples to do together!",
+    "name": "Paintball",
+    "description": "Join a team and test your tactical and paintballing abilities, great for competitive groups who are looking for active ways to test themselves!",
     "websites": [
-      ["Bungyjump Stockholm", "https://bungyjumpstockholm.se/"]
+      ["Paintball sports", "http://www.paintballsports.se/"],
+      ["Ballpoint paintball", "http://www.ballpoint.se/en/ballpoint-frontpage-en/"],
+      ["Paintball FL", "https://www.paintballfl.se/"]
     ],
-    "price": "300-400",
-    "image": "assets/images/suggestions/sports-team/bungee.jpg"
+    "price": "300-700",
+    "image": "assets/images/suggestions/sports-team/paintball1.jpeg"
   },
   {
     "category": "teamSports",
