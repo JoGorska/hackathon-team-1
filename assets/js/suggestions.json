@@ -808,6 +808,56 @@
     "image": "assets/images/suggestions/cookery/recipe.jpg"
   },
   {
+    "category": "restaurants",
+    "name": "Snow Castle of Kemi",
+    "description": "Bundle up for this dining experience! The Kemi Snow Castle resort and seaview restaurant are open all year round. Located in Lumilinnankatu Finland, this famed castle doesn't even melt in the summer, so you will always be able to dine on beaituflly sculpted snow tables and architecture.",
+    "websites": [
+      ["Snow Castle", "https://experience365.fi/lumilinna/"]
+    ],
+    "price": "30-60",
+    "image": "assets/images/suggestions/restaurants/icecastle1.jpg"
+  },
+  {
+    "category": "restaurants",
+    "name": "Rayavadee Dining Grotto",
+    "description": "Nestled under a cliff in Thailand with a perfect seaview, this gorgeous dining location is a romantic place to enjoy a sunset or relax with your partner.",
+    "websites": [
+      ["Rayavadee Grotto", "https://www.rayavadee.com/en/the-grotto.php"]
+    ],
+    "price": "20-60",
+    "image": "assets/images/suggestions/restaurants/grotto1.jpg"
+  },
+  {
+    "category": "restaurants",
+    "name": "Trinity Place Restaurant and Bar",
+    "description": "Miraculously built into a vault, Trinity Place is a unique location in NYC with a 35 ton door guardng the entrance! Step into a classy and hidden restaurant, created from the infrastructure of an old bank. ",
+    "websites": [
+      ["Trinity Place", "https://www.trinityplacenyc.com/"]
+    ],
+    "price": "20-50",
+    "image": "assets/images/suggestions/restaurants/trinity1.jpg"
+  },
+  {
+    "category": "restaurants",
+    "name": "Le Panoramic Mountain Restaurant",
+    "description": "On the border of France and Switzerland, this restaurant is quite literally on top of a mountain. Enjoy breathtaking views of Mont-Blanc, the highest peak in the alps. It is only accessible via gondola or cable car!",
+    "websites": [
+      ["Restaurant le Panoramic", "https://www.chamonix.net/english/generic/Le-Panoramic/608"]
+    ],
+    "price": "12-30",
+    "image": "assets/images/suggestions/restaurants/pano1.jpg"
+  },
+  {
+    "category": "restaurants",
+    "name": "The Rock Restaurant",
+    "description": "The coast of Zanzibar is widely recognized as one of the world's most exquisite. Ingeniously, there a small restaurant has been built a short distance off the water, on rock in the middle of the ocean! Take a small boat to access one of the most romantic and serene dining locations the world has to offer.",
+    "websites": [
+      ["The Rock", "https://www.therockrestaurantzanzibar.com/"]
+    ],
+    "price": "25-90",
+    "image": "assets/images/suggestions/restaurants/rock1.jpg"
+  },
+  {
     "category": "alcoholTasting",
     "name": "Bow Down To Bubbly Champagne Master Class",
     "description": "The perfect gift for a day out with sparkle! On the Champagne and Sparkling Wine Masterclass, they'll be guided through the world of fizz; from Cava and Cremant De Loire, to Prosecco and New World Bubbly.",
