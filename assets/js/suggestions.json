@@ -1,47 +1,47 @@
 [{
     "category": "animals",
-    "name": "butterfly",
-    "description": "These majestic creatures will definitely surprise your partner. Butterflies inspire all people and bring the beauty to the world, and that's why it would be a perfect idea to chose them to share with your loved ones. Everyone loves butterflies flying around, especially if there flying right in your apartment!",
+    "name": "Butterfly",
+    "description": "These majestic creatures will definitely surprise your partner. Butterflies bring such inspiration and beauty to the world, making them the perfect idea for your loved one. Everyone loves butterflies flying around, especially if in your own home!",
     "websites": [
-      ["butterfly nursery", "https://www.butterflynursery.com/"],
-      ["the butterfly company", "https://www.thebutterflycompany.com/"],
-      ["monarch butterflies", "https://monarchbutterflies.ca/"]
+      ["Butterfly Nursery", "https://www.butterflynursery.com/"],
+      ["The Butterfly Company", "https://www.thebutterflycompany.com/"],
+      ["Monarch Butterflies", "https://monarchbutterflies.ca/"]
     ],
     "price": "19-120",
     "image": "assets/images/suggestions/animals/butterfly.jpg"
   },
   {
     "category": "animals",
-    "name": "spider",
-    "description": "To most people, spiders are super creepy. However, there are still wonderful creatures to many people! There calm, silent, and there are only fewer species which are dangerous to humans! If you want to really surprise your partner, go for spiders!",
+    "name": "Spider",
+    "description": "To most people, spiders are super creepy. However, they are still wonderful creatures for many! Calm, silent, and with only a few species dangerous to humans, to really surprise your partner, go for spiders!",
     "websites": [
-      ["evolution reptiles", "https://www.evolutionreptiles.co.uk/animals/spiders/"],
-      ["josh's frogs", "https://www.joshsfrogs.com/live-insects-feeders/spiders.html"],
-      ["backwater reptiles", "https://www.backwaterreptiles.com/tarantulas-for-sale.html"]
+      ["Evolution Reptiles", "https://www.evolutionreptiles.co.uk/animals/spiders/"],
+      ["Josh's Frogs", "https://www.joshsfrogs.com/live-insects-feeders/spiders.html"],
+      ["Backwater Reptiles", "https://www.backwaterreptiles.com/tarantulas-for-sale.html"]
     ],
     "price": "32-150",
     "image": "assets/images/suggestions/animals/spider.jpg"
   },
   {
     "category": "animals",
-    "name": "cockatoo parrot",
-    "description": "If your half really loves to talk, this bird will be an amazing gift in this case! Cockatoo parrots are highly sociable and just have to be around people. Cockatoos are often described as intelligent and emotional birds and many describe life with a cockatoo as living with a perpetual 2-year-old child, capable of temper tantrums as well as complete silliness.",
+    "name": "Cockatoo Parrot",
+    "description": "If your other half really loves to talk, this bird will be an amazing gift! Cockatoo parrots are highly sociable and just have to be around people. Often described as intelligent, emotional birds, life with a cockatoo is often comapred to that of living with a perpetual 2-year-old child; capable of temper tantrums as well as complete silliness!",
     "websites": [
-      ["megabird store", "https://megabirdstore.com/bird/buy-cockatoo/"],
-      ["caliparrots for sale", "https://caliparrotsforsale.com/product-category/cockatoo-parrots/"],
-      ["bird breeders", "https://www.birdbreeders.com/birds/category/cockatoos"]
+      ["Megabird Store", "https://megabirdstore.com/bird/buy-cockatoo/"],
+      ["Caliparrots for sale", "https://caliparrotsforsale.com/product-category/cockatoo-parrots/"],
+      ["Bird Breeders", "https://www.birdbreeders.com/birds/category/cockatoos"]
     ],
     "price": "700-6000",
     "image": "assets/images/suggestions/animals/parrot.jpg"
   },
   {
     "category": "animals",
-    "name": "snake",
-    "description": "Would you like to make a gift really memorable in this Valentine's Day? Purchasing a snake may really help you. First of all, it is unusual and beautiful!.And don't forget that snakes are eary to handle and are they are not aggressive! And if you partner doesn't like to care about about feeding an animal every now and then, a snake can be a great choice! They may not eat for wiiks to month!",
+    "name": "Snake",
+    "description": "Looking for a truly memorable gift in this Valentine's Day? Purchasing a snake maybe the answer! First of all, it is unusual and beautiful present! And don't forget, snakes are easy to handle and not aggressive! If your partner would like a low-maintenance pet, snakes may not eat for weeks at a time!",
     "websites": [
-      ["backwater reptiles", "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html"],
-      ["xyz reptiles", "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"],
-      ["amazing amazon", "https://www.amazingamazon.com.au/collections/pythons-snakes-for-sale"]
+      ["Backwater Reptiles", "https://www.backwaterreptiles.com/snakes/snakes-for-sale.html"],
+      ["XYZ reptiles", "https://www.xyzreptiles.com/reptiles/animals/snakes-for-sale/"],
+      ["Amazing Amazon", "https://www.amazingamazon.com.au/collections/pythons-snakes-for-sale"]
     ],
     "price": "40-500",
     "image": "assets/images/suggestions/animals/snake.jpg"
@@ -49,11 +49,11 @@
   {
     "category": "animals",
     "name": "hedgehog",
-    "description": "Hedgehog is a cute pocket pet, which will definitely bring lots of joy to your partner! Moreover, hedgehogs are easy to take care of, ",
+    "description": "Hedgehogs make for a cute pocket pet, which will definitely bring lots of joy to your partner! Moreover, hedgehogs are easy to take care of.",
     "websites": [
-      ["exotic animals for sale", "https://www.exoticanimalsforsale.net/hedgehogs-for-sale.asp"],
-      ["dragon stone ranch", "https://www.dragonstoneranch.com/hedgehogs"],
-      ["peta", "https://www.peta.org/features/hedgehog-pet-industry/"]
+      ["Exotic animals for sale", "https://www.exoticanimalsforsale.net/hedgehogs-for-sale.asp"],
+      ["Dragon stone ranch", "https://www.dragonstoneranch.com/hedgehogs"],
+      ["Peta", "https://www.peta.org/features/hedgehog-pet-industry/"]
     ],
     "price": "50-600",
     "image": "assets/images/suggestions/animals/hedgehog.jpg"
@@ -61,25 +61,25 @@
   {
     "category": "technology",
     "name": "Beanie With Built in Headphones",
-    "description": "Cozy hat with bluetooth compatible built in audio.  Headphone pieces on the ear coverings of the hat let you enjoy the artists you love outside on a cold day as easily as inside, and it removes the need for separate headphones completely.",
+    "description": "Cozy hat with bluetooth compatible built in audio. Headphone pieces on the ear coverings of the hat let you enjoy the artists you love outside on a cold day as easily as inside, and it removes the need for separate headphones completely.",
     "websites": [
-      ["amazon", "https://www.amazon.com/Bluetooth-Beanie-Headphones-Built-Microphone/dp/B076C82TG3"],
-      ["walmart", "https://www.walmart.com/ip/Upgraded-Unisex-Knit-Bluetooth-Beanie-Hat-Headphones-V4-2-Unique-Christmas-Tech-Gifts-Men-Dad-Women-Mom-Teen-Boys-Girls-Stocking-Stuffer-w-Built-in-S/340799046?irgwc=1&sourceid=imp_xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&veh=aff&wmlspartner=imp_10078&clickid=xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&sharedid=lifewire.com&affiliates_ad_id=612734&campaign_id=9383"],
-      ["groupon", "https://www.groupon.com/deals/gg-mp-wireless-bluetooth-beanie-hat-earphone-built-in-hd-stereo-cap-for-men-and-women"]
+      ["Amazon", "https://www.amazon.com/Bluetooth-Beanie-Headphones-Built-Microphone/dp/B076C82TG3"],
+      ["Walmart", "https://www.walmart.com/ip/Upgraded-Unisex-Knit-Bluetooth-Beanie-Hat-Headphones-V4-2-Unique-Christmas-Tech-Gifts-Men-Dad-Women-Mom-Teen-Boys-Girls-Stocking-Stuffer-w-Built-in-S/340799046?irgwc=1&sourceid=imp_xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&veh=aff&wmlspartner=imp_10078&clickid=xulxKzU1KxyLWUhwUx0Mo36bUkGR9cStjSv8380&sharedid=lifewire.com&affiliates_ad_id=612734&campaign_id=9383"],
+      ["Groupon", "https://www.groupon.com/deals/gg-mp-wireless-bluetooth-beanie-hat-earphone-built-in-hd-stereo-cap-for-men-and-women"]
     ],
-    "price": "10.00-30.00",
+    "price": "10-30",
     "image": "assets/images/suggestions/technology/hat.jpeg"
   },
   {
     "category": "technology",
     "name": "Couchmaster",
-    "description": "Find comfort at the next level with this couch compatible gaming setup.  The Couchmaster is a portable gaming surface with ample space for a laptop and mousepad, allowing you to conveniently enjoy your favorite games from the comfort of your couch. ",
+    "description": "Find comfort at the next level with this couch-compatible gaming setup. The Couchmaster is a portable gaming surface with ample space for a laptop and mousepad, allowing you to conveniently enjoy your favorite games from the comfort of your couch. ",
     "websites": [
-      ["amazon", "https://www.amazon.com/Couchmaster-CYBOT-Ergonomic-Notebooks-Equipment/dp/B08273BJSS/ref=sr_1_2_sspa?crid=2J2Y9HELDH264&keywords=couchmaster&qid=1645758537&sprefix=couchmaste%2Caps%2C278&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFhNNVRYOURDUkJXJmVuY3J5cHRlZElkPUEwOTg5MTM5MjNBOEJXVURVNURYTyZlbmNyeXB0ZWRBZElkPUEwMzM4NzYyMzlYNUdDVVowRThSWSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="],
-      ["nerdytec", "https://www.nerdytec.com/en/mixxxer.php?products_id=32"],
-      ["ubuy", "https://www.ubuy.vn/en/product/1SOCDQK-couchmaster-cycon-black-edition-couch-gaming-desk-for-mouse-keyboard-for-pc-ps4-5-xbox-one-series-x"]
+      ["Amazon", "https://www.amazon.com/Couchmaster-CYBOT-Ergonomic-Notebooks-Equipment/dp/B08273BJSS/ref=sr_1_2_sspa?crid=2J2Y9HELDH264&keywords=couchmaster&qid=1645758537&sprefix=couchmaste%2Caps%2C278&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUFhNNVRYOURDUkJXJmVuY3J5cHRlZElkPUEwOTg5MTM5MjNBOEJXVURVNURYTyZlbmNyeXB0ZWRBZElkPUEwMzM4NzYyMzlYNUdDVVowRThSWSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="],
+      ["Nerdytec", "https://www.nerdytec.com/en/mixxxer.php?products_id=32"],
+      ["Ubuy", "https://www.ubuy.vn/en/product/1SOCDQK-couchmaster-cycon-black-edition-couch-gaming-desk-for-mouse-keyboard-for-pc-ps4-5-xbox-one-series-x"]
     ],
-    "price": "150.00-200.00$",
+    "price": "150-200",
     "image": "assets/images/suggestions/technology/couchmaster1.jpg"
   },
   {
@@ -87,23 +87,23 @@
     "name": "Blue Light Glasses",
     "description": "Blue light is one of the main reasons your eyes get tired after prolonged periods of screen activity. With these glasses, you can filter out much of the blue light, reducing eye strain and promoting ocular health.",
     "websites": [
-      ["amazon", "https://www.amazon.com/dp/B00BQ7KBV4/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"],
-      ["syght glass", "https://www.syghtglass.com/collections/gaming-glasses"],
-      ["eye buy direct", "https://www.eyebuydirect.com/prescription-lens/digital-protection"]
+      ["Amazon", "https://www.amazon.com/dp/B00BQ7KBV4/?tag=brokegifts-20&ascsubtag=v7_1_4_29mf_P0_4_x01_-srt-"],
+      ["Syght glass", "https://www.syghtglass.com/collections/gaming-glasses"],
+      ["Eye buy direct", "https://www.eyebuydirect.com/prescription-lens/digital-protection"]
     ],
-    "price": "13.00-50.00$",
+    "price": "13-50",
     "image": "assets/images/suggestions/technology/glasses1.jpg"
   },
   {
     "category": "technology",
     "name": "VR Gaming Headset",
-    "description": "Take gaming into the future with the newest VR releases.  Dive into whatever game you choose in the most complete and immersive VR systems to date.",
+    "description": "Take gaming into the future with the newest VR releases. Dive into whatever game you choose in the most complete and immersive VR systems to date.",
     "websites": [
-      ["oculus", "https://www.oculus.com/"],
-      ["amazon", "https://www.amazon.co.uk/dp/B094R6QYMX?tag=pcmaguk-21&ascsubtag=02peQoAFycValS3W7UpLUyn"],
-      ["playstation", "https://www.playstation.com/sv-se/ps-vr/bundles/"]
+      ["Oculus", "https://www.oculus.com/"],
+      ["Amazon", "https://www.amazon.co.uk/dp/B094R6QYMX?tag=pcmaguk-21&ascsubtag=02peQoAFycValS3W7UpLUyn"],
+      ["Playstation", "https://www.playstation.com/sv-se/ps-vr/bundles/"]
     ],
-    "price": "350.00-1000.00",
+    "price": "350-1000",
     "image": "assets/images/suggestions/technology/vr.jpg"
   },
   {
@@ -115,7 +115,7 @@
       ["bose", "https://www.bose.com/en_us/products/frames.html"],
       ["jb hi-fi", "https://www.jbhifi.com.au/products/bose-frames-alto-audio-sunglasses-large?view=pdp"]
     ],
-    "price": "80.00-200.00$",
+    "price": "80-200",
     "image": "assets/images/suggestions/technology/sunglasses1.JPG"
   },
   {
@@ -127,7 +127,7 @@
       ["degree33", "https://www.degree33surfboards.com/collections/soft-top-surfboards?oid=37&affid=1"],
       ["merijaan", "https://merijaan.de/surf/"]
     ],
-    "price": "350.00-1000.00",
+    "price": "350-1000",
     "image": "assets/images/suggestions/sports-i/surf.jpeg"
   },
   {
@@ -139,20 +139,19 @@
       ["avianonline", "http://www.avianonline.co.uk/hang-gliders-c-178.html"],
       ["indiamart", "https://dir.indiamart.com/impcat/hang-gliders.html"]
     ],
-    "price": "2500.00-15000.00",
+    "price": "2500-15000",
     "image": "assets/images/suggestions/sports-i/hangglider1.jpeg"
   },
   {
     "category": "individualSports",
     "name": "Electric Skateboard",
-    "description": "These dual motor skateboards reaches up to 18.6 mph, and can be controlled by hand through remote control with ease while riding.",
+    "description": "These dual motor skateboards reach up to 18.6 mph, and can be controlled by hand through remote control with ease while riding.",
     "websites": [
-
       ["amazon", "https://www.amazon.com/Hiboy-Electric-Skateboard-Longboard-commuters/dp/B07G4N35RW/ref=sr_1_8?crid=22QYBRD8SA0TC&keywords=electronic+skateboard&qid=1645761067&sprefix=electronic+skateboar%2Caps%2C237&sr=8-8"],
       ["banggood", "https://www.banggood.com/EU-DIRECTSYL-06-5000mAh-600W+2-Dual-Motor-Electric-Skateboard-90+51mm-Four-PU-Wheel-40km-or-h-Top-Speed-10-12km-Max-Range-100kg-Max-Load-Wireless-Remote-Control-p-1929728.html?utm_source=googleshopping&utm_medium=cpc_organic&gmcCountry=SE&utm_content=minha&utm_campaign=minha-se-en-pc&currency=SEK&cur_warehouse=CZ&createTmp=1&ID=6287830&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=lynna&utm_campaign=lynna-pla-se-all-1020-2021-11sale-21&ad_id=554558944754&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7Acff1UrlZe6p7ygrukHDTFG_-auSk5xm6-9kJPvWVXZfUDapGQE4aAkYTEALw_wcB"]
 
     ],
-    "price": "350.00-600.00",
+    "price": "350-600",
     "image": "assets/images/suggestions/sports-i/skateboard1.jpg"
   },
   {
@@ -160,37 +159,31 @@
     "name": "Zorbing Inflatable Bubble",
     "description": "Fully protected while inside this human hamster ball, roll and tumble freely without issue. Alternatively, choose a water designed ball to float and move across the surface while inside!",
     "websites": [
-
       ["amazon", "https://www.amazon.com/Qiyun-Inflatable-Zorbing-Human-Hamster/dp/B0181XUVG0/ref=as_li_ss_tl?ie=UTF8&qid=1468647798&sr=8-2&keywords=zorbing+ball&linkCode=sl1&tag=zorbingtimeco-20&linkId=6a8caa3223df169228d5fbbf7c768a86"],
       ["liveit", "https://www.liveit.se/upplevelser/upplevelsepresenter-waterballs?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF6TMn3VAwvJo5pMuVGX_QN7pUGjNiPIt-hOsw8YaPkI-jlSSCB24mcaAmxEEALw_wcB"]
-
     ],
-    "price": "500.00-1450.00",
+    "price": "500-1450",
     "image": "assets/images/suggestions/sports-i/zorb1.jpg"
   },
   {
     "category": "individualSports",
     "name": "Inflatable Kayak",
-    "description": "These kayaks are designed for any water conditions, and this versatility helps suit them any kind of trip you might want to take.  The inflatability making them exceptionally portable, but they function with the integrity of a rigid shell kayak.",
+    "description": "These kayaks are designed for any water condition, and this versatility helps makes them suitable for any kind of trip you might want to take! The inflatability making them exceptionally portable, but they function with the integrity of a rigid shell kayak.",
     "websites": [
-
       ["amazon", "https://www.amazon.com/Advanced-Elements-Frame-Sport-Kayak/dp/B003BUGNKC/ref=sr_1_1_sspa?crid=37RUUAB8SQ1N1&keywords=sport+kayak&qid=1645762455&sprefix=sport+kayak%2Caps%2C202&sr=8-1-spons&psc=1&smid=AGLJA2W19Z5T3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzMlQ4TjJGSVVXQjlWJmVuY3J5cHRlZElkPUEwNzM0MzM5M09FSzVPVFFIMk1ZTCZlbmNyeXB0ZWRBZElkPUEwOTA0NTgzRzVHT1ZIQzZNS1lGJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="],
       ["stockholmkajak", "https://stockholmkajak.se/luftkajaker/advancedframe-convertible?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7E3dpvURspF7mRCbQyHPdWHXlNFtSCsDEE-o_WfwXytsoFqOu7dc8aAnZDEALw_wcB"]
-
     ],
-    "price": "500.00-1000.00",
+    "price": "500-1000",
     "image": "assets/images/suggestions/sports-i/kayak1.jpeg"
   },
   {
     "category": "teamSports",
     "name": "Bubble Soccer Package",
-    "description": "These sets comes with between 8-24 bubbles, allowing you to create teams of your desired size and start your own bubble soccer matches. Safely tumble around and tackle one another as the inflated bubble around you offers ample protection.",
+    "description": "These sets come with between 8-24 bubbles, allowing you to create teams of your desired size and start your own bubble soccer matches. Safely tumble around and tackle one another as the inflated bubble around you offers ample protection.",
     "websites": [
-
       ["bubble allstars", "https://www.bubble-allstars.com/europe/prices/"]
-
     ],
-    "price": "2500.00-6500.00",
+    "price": "2500-6500",
     "image": "assets/images/suggestions/sports-team/bubbles1.jpg"
   },
   {
@@ -201,7 +194,7 @@
       ["oars", "https://www.oars.com/rafting/"],
       ["western river expeditions", "https://www.westernriver.com/"]
     ],
-    "price": "300.00-7000.00",
+    "price": "300-7000",
     "image": "assets/images/suggestions/sports-team/rafting1.jpg"
   },
   {
@@ -212,17 +205,17 @@
       ["fjallridning", "https://fjallridning.se/vinter/"],
       ["Helens turridning", "https://helensturridning.se/?page_id=20"]
     ],
-    "price": "80.00-255.00",
+    "price": "80-255",
     "image": "assets/images/suggestions/sports-team/horseback1.jpg"
   },
   {
     "category": "teamSports",
     "name": "Bungee Jumping",
-    "description": "Safely enjoy the rush of freefall in the outdoors, great for couples to do together!",
+    "description": "Safely enjoy the rush of freefall in the outdoors - great for couples to do together!",
     "websites": [
       ["Bungyjump Stockholm", "https://bungyjumpstockholm.se/"]
     ],
-    "price": "300.00-400.00",
+    "price": "300-400",
     "image": "assets/images/suggestions/sports-team/bungee.jpg"
   },
   {
@@ -232,13 +225,13 @@
     "websites": [
       ["bodyflight", "https://en.bodyflight.se/"]
     ],
-    "price": "70.00-200.00",
+    "price": "70-200",
     "image": "assets/images/suggestions/sports-team/skydive1.jpg"
   },
   {
     "category": "games",
     "name": "Catan",
-    "description": "Award winning board game. It's easy for new players to latch on to and introduces them to hobby games in a fun, accessible way. if you are looking for something to enjoy together with your partner, we highly recommend this addictively fun strategy game.",
+    "description": "Award-winning board game, Catan is easy for new players to get hooked and introduces them to hobby games in a fun, accessible way. If you are looking for something to enjoy together with your partner, we highly recommend this addictively fun strategy game.",
     "websites": [
       [
         "amazon",
@@ -264,7 +257,7 @@
   {
     "category": "games",
     "name": "Ticket to Ride",
-    "description": "Award winning, cross-country train adventure game. The original version is played on a board depicting a railway map of the US and southern Canada. There are localised editions of other countries, cities and regions you can choose for your partner.",
+    "description": "Award-winning, cross-country train adventure game. The original version is played on a board depicting a railway map of the US and southern Canada. There are localised editions of other countries, cities and regions you can choose for your partner.",
     "websites": [
       [
         "amazon",
@@ -315,21 +308,21 @@
   },
   {
     "category": "travel",
-    "name": "White Water Rafting",
-    "description": "Thrilling outdoor activity, which gives you an opportunity to get an incredible range of emotions and adrenaline rush in a short period of time. If you are thinking of spending your Valentine's Day in a warm country, consider going to Thailand and trying White Water Rafting In Chiang Mai.",
+    "name": "Volcano Tour",
+    "description": "If your partner is a real adventure seeker, a volcano tour might be a great surprise gift. There are more than thousand active volcanoes in the world. Villarrica(Chille) is one of the most scenic volcanoes and there are many activities your partner and you can enjoy: Trekking, climbing, Ski, horse ride, helicopter tour and more.",
     "websites": [
       [
-        "8adventures",
-        "https://8adventures.com/whitewater-rafting-chiang-mai/"
+        "Civitatis",
+        "https://www.civitatis.com/en/search?q=Villarrica"
       ]
     ],
-    "price": "92.49",
-    "image": "assets/images/suggestions/extreme_travelling/rafting.jpg"
+    "price": "37.30-287",
+    "image": "assets/images/suggestions/extreme_travelling/volcano.jpg"
   },
   {
     "category": "travel",
-    "name": "Bungee jumping",
-    "description": "One of the most enjoyed extreme sports. If your partner loves bungee jumping, jumping off the Skypark Macau Tower(China) will give them an unforgettable experience. This building is 233m high and the Guinness World Record for the Highest Commercial Bungee Jump was made from this building.",
+    "name": "Bungee Jumping",
+    "description": "One of the most enjoyed extreme sports. If your partner loves bungee jumping, jumping off the Skypark Macau Tower(China) will give them an unforgettable experience. This building is 233m high and holds the Guinness World Record for the Highest Commercial Bungee Jump!",
     "websites": [
       [
         "befreetour",
@@ -535,11 +528,13 @@
   {
     "category": "picnics",
     "name": "Around the World",
-    "description": "From caribbean chicken and swedish meatballs, to french baguettes and american sliders, why not make finger foods from around the world!",
+    "description": "From Jamaican chicken drumsticks and swedish meatballs, to french baguettes and american sliders, why not make finger foods from around the world!",
     "websites": [
-      ""
+      ["Jerk chicken", "https://www.recipetineats.com/jamaican-jerk-chicken-drumsticks-with-caribbean-rice-with-beans/"],
+      ["Swedish meatballs", "https://www.ica.se/recept/klassiska-kottbullar-712807/"],
+      ["American sliders", "https://www.thespruceeats.com/all-american-sliders-479161"] 
     ],
-    "price": "150-5000",
+    "price": "50-500",
     "image": "assets/images/suggestions/picnics/picnics_world.jpg"
   },
 
@@ -548,9 +543,9 @@
     "name": "By-the-sea",
     "description": "If that special someone in your life enjoys seafood and fish, consider making a platter from the sea! Smoked salmon, cooked prawns and perhaps even crab sticks can make for a fantastic themed picnic. Do you live near the coast? Take your seafood picnic to the next level and serve it by the sea!",
     "websites": [
-      ""
+      ["Seafood platter", "https://www.honestfoodtalks.com/seafood-platter-ideas/"]
     ],
-    "price": "150-5000",
+    "price": "50-500",
     "image": "assets/images/suggestions/picnics/by_the_sea.jpg"
   },
 
@@ -559,9 +554,9 @@
     "name": "My heart belongs to you",
     "description": "Since it's Valentine's Day, what about a heart-themed picnic? Try making strawberry jam sandwiches, pancakes with chocolate and pastries, all in the shape of hearts! It will make their heart race for sure!",
     "websites": [
-      ""
+      ["Heart-shaped food", "https://www.marthastewart.com/318925/heart-pancakes"]
     ],
-    "price": "150-5000",
+    "price": "50-500",
     "image": "assets/images/suggestions/picnics/heart_food.jpg"
   },
   {
@@ -569,9 +564,9 @@
     "name": "Sweets for my sweet",
     "description": "Does the love of your life have a sweet tooth!? Let's be honest, secretly we all do! Why not surprise them with an outdoor selection of their favourite treats and chocolates!",
     "websites": [
-      ""
+      ["Make a Sweets table", "https://www.pinterest.com/mychocolatesoul/sweet-tables/"]
     ],
-    "price": "150-5000",
+    "price": "50-500",
     "image": "assets/images/suggestions/picnics/sweets.jpg"
   },
   {
@@ -579,9 +574,9 @@
     "name": "Take your take-out, out!",
     "description": "Whether you enjoy a weekly take away, or it is a once in a while treat, why not find a local beauty spot and take your favourite take away with you! Whether it is a chow mein, fish and chips, or a pizza, spend some quality time together outside!",
     "websites": [
-      ""
+      ["Uber Eats", "https://www.ubereats.com/"]
     ],
-    "price": "150-5000",
+    "price": "50-500",
     "image": "assets/images/suggestions/picnics/take_out.jpg"
   },
   {
@@ -640,7 +635,7 @@
   {
     "category": "ride",
     "name": "husky ride",
-    "description": "Here is another unusual idea for you to gift lots of positive emotions and unforgivable memories to your partner! Fresh air, best animals in the world, and lots of happiness! And remember, huskies are more than friendly animals, they truly love people, love being with them, love sharing their joy!",
+    "description": "A more unusual idea which will create so many positive emotions and unforgettable memories for you and your partner! Fresh air, the best animals in the world, and lots of happiness! And remember, huskies are more than friendly animals, they truly love people and sharing in the joy!",
     "websites": [
       ["arctic quest", "https://www.arcticquest.co.uk/"],
       ["husky works", "http://www.huskyworks.com/"],
@@ -652,7 +647,7 @@
   {
     "category": "ride",
     "name": "carriage ride",
-    "description": "If you are looking for a romantic activity on or around Valentines Day, it's hard to do better then a romantic carriage ride. Just imagine, how fantastic it will be like a fairytale",
+    "description": "If you are looking for a romantic activity on or around Valentines Day, it's hard to do better then a romantic carriage ride. Just imagine, how fantastic it will be to feel like you are in a fairytale",
     "websites": [
       ["windsor", "https://www.windsor.gov.uk/whats-on/ascot-carriages-carriage-rides-in-windsor-great-park-p576301"],
       ["central park carriages", "https://www.centralparkcarriages.com/book-now"],
@@ -676,7 +671,7 @@
   {
     "category": "ride",
     "name": "horse ride",
-    "description": "This may sound a bit boring, but it's actually a perfect gift for those how love to spend time outdoors and be around kind animals. You may go for a short ride or for many hours ride together! Just don't forget to feed a horse.",
+    "description": "The perfect gift for those who love to spend time outdoors and be around kind animals. Choose to go for just a short ride, or for many hours together and take a picnic! Just don't forget to feed the horse too!",
     "websites": [
       ["name of the shop/ website", "https://www.tripadvisor.co.uk/Attractions-g186217-Activities-c61-t62-England.html"],
       ["pal-o-mine", "https://pal-o-mine.org/?gclid=EAIaIQobChMIyria-OWc9gIVcgF9Ch37sAeaEAAYAiAAEgIXivD_BwE"],
@@ -688,7 +683,7 @@
   {
     "category": "ride",
     "name": "car ride",
-    "description": "This type of gifts will shock and excite many people. Just imagine what kind of  emotions you partner can get while riding a luxury car, while feeling yourself a superstar!",
+    "description": "This type of gift will shock and excite many people! Just imagine what kind of emotions you partner can get while riding a luxury car, and feeling like a superstar!",
     "websites": [
       ["sixt", "https://www.sixt.com/luxury-cars/"],
       ["book luxury car", "https://bookluxurycar.com/"],
@@ -700,7 +695,7 @@
   {
     "category": "museum",
     "name": "Art museums",
-    "description": "If your half is into art, take a look at these museums. It will be a great getaway for both of you! Just one weekend of impressive masterpieces will be remembered forever. You will both benefit from broadening your cultural horizons!",
+    "description": "If your other half is into art, take a look at these museums. It will be a great getaway for both of you! Just one weekend of impressive masterpieces will be remembered forever. You will both benefit from broadening your cultural horizons!",
     "websites": [
       ["st-christophers", "https://www.st-christophers.co.uk/travel-blog/the-top-art-galleries-europe/"],
       ["amazon", "https://www.amazon.it/stores/page/5162C05E-A2C5-4798-B879-919BFE94AA3C?ingress=3"],
@@ -724,7 +719,7 @@
   {
     "category": "museum",
     "name": "History museums",
-    "description": "When you have a partner who loves history, you just have look into these options to pick from. History is important and it would a wonderful gift for a history  lovers.",
+    "description": "If your partner loves history, take a look at these amazing options - as history is so important, what a wonderful gift for all history lovers.",
     "websites": [
       ["trip advisor", "https://www.tripadvisor.com/Attractions-g153339-Activities-c49-t30-Canada.html"],
       ["the culture trip", "https://theculturetrip.com/europe/articles/12-history-museums-you-should-visit-at-least-once/"],
@@ -736,7 +731,7 @@
   {
     "category": "museum",
     "name": "Open-air museums",
-    "description": "If your partner is not a big fun of indoors museums, it may be a perfect idea to look into these offers. Just imagine walking around stunning buildings that actually have a long history behind them, and enjoying fresh air around…",
+    "description": "If your partner is not a big fun of indoors museums, it may be a perfect idea to look into these offers. Imagine walking around stunning buildings that actually have a long history behind them, and enjoying fresh air around…",
     "websites": [
       ["veranda", "https://www.veranda.com/travel/g32969072/best-open-air-museums/"],
       ["wikipedia", "https://en.wikipedia.org/wiki/List_of_open-air_and_living_history_museums_in_the_United_States"],
@@ -748,7 +743,7 @@
   {
     "category": "museum",
     "name": "Virtual museums",
-    "description": "There is always an option when your loved one cannot go anywhere during the holidays. In this case, we suggest you to just make sure that your wife is working well and find a virtual museum that would be appealing to both of you.",
+    "description": "Unable to get out during the holidays? Don't worry, there's always a digital experience instead! In this case, make sure your wifi is working well and find a virtual museum that would be appealing to both of you.",
     "websites": [
       ["ncyark", "https://www.cyark.org/?gclid=EAIaIQobChMIsqGWsb-Y9gIVyGSLCh0s8gdFEAAYAiAAEgIZXfD_BwE"],
       ["freud", "https://www.freud.org.uk/visit/virtual-tour/?gclid=EAIaIQobChMIsqGWsb-Y9gIVyGSLCh0s8gdFEAAYASAAEgJmyvD_BwE"],
@@ -758,19 +753,9 @@
     "image": "assets/images/suggestions/museums/virtual.jpg"
   },
   {
-    "category": "cookery",
-    "name": "Chocolate",
-    "description": "Chocolate is the most common gift on Valentine's Day. But your homemade chocolate can be as special as fancy gifts. You just need chocolate melts and something that your partner likes. <a href=“https://www.tasteofhome.com/collection/homemade-valentines-day-chocolates/” target=“_blank” aria-label=“Recipes on Taste of Home (opens in a new tab)”>This post</a> shows 21 different types of homemade chocolates.",
-    "websites": [
-      ["Stover&Company", "https://stovercompany.com/merckensmilkchocolatemelts"]
-    ],
-    "price": "6.99-107.99",
-    "image": "assets/images/suggestions/homemade-food/chocolate.jpg"
-  },
-  {
     "category": "foodExperiment",
     "name": "Basil Pesto Pasta(Vegan)",
-    "description": "Romantic dinner on Valentine's Day at home is not as hard as it may sound. Check out <a href=“https://tasty.co/recipe/vegan-pesto-pasta” target=“_blank” aria-label=“Recipe on Tasty (opens in a new tab)”>this recipe on Tasty</a>. You just need fresh herbs, lemon juice, garlic, pasta and some ingredients from your cupboard. It takes less than a half an hour.",
+    "description": "A romantic dinner on Valentine's Day at home is not as hard as it may sound. Check out <a href=“https://tasty.co/recipe/vegan-pesto-pasta” target=“_blank” aria-label=“Recipe on Tasty (opens in a new tab)”>this recipe on Tasty</a>. You just need fresh herbs, lemon juice, garlic, pasta and some ingredients from your cupboard. It takes less than a half an hour.",
     "websites": [
       ["Walmart", "https://www.walmart.com"]
     ],
@@ -788,16 +773,6 @@
     "image": "assets/images/suggestions/homemade-food/ratatouille.jpg"
   },
   {
-    "category": "cookery",
-    "name": "Steak",
-    "description": "Eat out for a steak dinner on Valentine's day is a common way for couples to celebrate. But a steak dinner at home with some romantic music will make your Valentine's day much more special. If you are not sure how to cook steaks like a pro, <a href=“https://tasty.co/article/christinebyrne/how-to-sear-the-perfect-steak-for-your-valentine” target=“_blank” aria-label=“Recipe on Tasty (opens in a new tab)”>this post on Tasty</a> will help you out.",
-    "websites": [
-      ["Walmart", "https://www.walmart.com"]
-    ],
-    "price": "11-200 (6ct)",
-    "image": "assets/images/suggestions/homemade-food/steak.jpg"
-  },
-  {
     "category": "foodExperiment",
     "name": "Lobster Tail",
     "description": "Lobster is regarded as the most elegant, high-end type of seafood that's usually reserved for special occasions at pricey restaurants. Cooking lobster at home might seem intimidating, but it sure is an excellent gift. If you're not sure how to cook, <a href=“https://therecipecritic.com/lobster-tail-recipe/” target=“_blank” aria-label=“Recipe on The Recipe Critic (opens in a new tab)”>this recipe on The Recipe Critic</a> will guide you to make the perfect Valentine's day meal.",
@@ -806,6 +781,26 @@
     ],
     "price": "17-247.5",
     "image": "assets/images/suggestions/homemade-food/lobster.jpg"
+  },
+  {
+    "category": "foodExperiment",
+    "name": "Shiitake Mushroom Log Kit",
+    "description": "Surprise your partner with a unique gift that keeps on giving! Every chef loves working with fresh ingredients — and what's fresher than picking your own home-grown mushrooms from a log you can keep in your kitchen?",
+    "websites": [
+      ["Shiitake Mushroom Log Kit", "https://www.uncommongoods.com/product/shiitake-mushroom-log-kit?clickid=yqU0rKUdaxyIUCi1A8Rh1UuSUkGW0e32j0b73I0&irgwc=1&utm_source=Hearst%20Magazines&utm_medium=affiliates&utm_campaign=8444&utm_term=Online%20Tracking%20Link&trafficSource=Impact&sharedid="]
+    ],
+    "price": "30",
+    "image": "assets/images/suggestions/cookery/shitake.jpg"
+  },
+  {
+    "category": "foodExperiment",
+    "name": "The Cook Away Recipe Box",
+    "description": "Does your partner love trying out exotic new recipes?  Provide them with ingredients and inspiration with a recipe box designed by award-winning chefs. Choose from a range of world cuisines from Europe to the Far East.",
+    "websites": [
+      ["The Cook Away", "https://www.thecookaway.com/"]
+    ],
+    "price": "60",
+    "image": "assets/images/suggestions/cookery/recipe.jpg"
   },
   {
     "category": "alcoholTasting",
@@ -858,14 +853,24 @@
     "image": "assets/images/suggestions/tasting/whisky.jpg"
   },
   {
-    "category": "foodExperiment",
-    "name": "Shiitake Mushroom Log Kit",
-    "description": "Surprise your partner with a unique gift that keeps on giving! Every chef loves working with fresh ingredients — and what's fresher than picking your own home-grown mushrooms from a log you can keep in your kitchen?",
+    "category": "cookery",
+    "name": "Steak",
+    "description": "Eat out for a steak dinner on Valentine's day is a common way for couples to celebrate. But a steak dinner at home with some romantic music will make your Valentine's day much more special. If you are not sure how to cook steaks like a pro, <a href=“https://tasty.co/article/christinebyrne/how-to-sear-the-perfect-steak-for-your-valentine” target=“_blank” aria-label=“Recipe on Tasty (opens in a new tab)”>this post on Tasty</a> will help you out.",
     "websites": [
-      ["Shitake Mushroom Log Kit", "https://www.uncommongoods.com/product/shiitake-mushroom-log-kit?clickid=yqU0rKUdaxyIUCi1A8Rh1UuSUkGW0e32j0b73I0&irgwc=1&utm_source=Hearst%20Magazines&utm_medium=affiliates&utm_campaign=8444&utm_term=Online%20Tracking%20Link&trafficSource=Impact&sharedid="]
+      ["Walmart", "https://www.walmart.com"]
     ],
-    "price": "30",
-    "image": "assets/images/suggestions/cookery/shitake.jpg"
+    "price": "11-200 (6ct)",
+    "image": "assets/images/suggestions/homemade-food/steak.jpg"
+  },
+  {
+    "category": "cookery",
+    "name": "Homemade Chocolates",
+    "description": "Chocolate is the most common gift on Valentine's Day. But your homemade chocolate can be as special as fancy gifts. You just need chocolate melts and something that your partner likes. <a href=“https://www.tasteofhome.com/collection/homemade-valentines-day-chocolates/” target=“_blank” aria-label=“Recipes on Taste of Home (opens in a new tab)”>This post</a> shows 21 different types of homemade chocolates.",
+    "websites": [
+      ["Stover&Company", "https://stovercompany.com/merckensmilkchocolatemelts"]
+    ],
+    "price": "6.99-107.99",
+    "image": "assets/images/suggestions/homemade-food/chocolate.jpg"
   },
   {
     "category": "cookery",
@@ -876,21 +881,7 @@
     ],
     "price": "60",
     "image": "assets/images/suggestions/cookery/chocolate.jpg"
-
   },
-
-  {
-    "category": "foodExperiment",
-    "name": "The Cook Away Recipe Box",
-    "description": "Does your partner love trying out exotic new recipes?  Provide them with ingredients and inspiration with a recipe box designed by award-winning chefs. Choose from a range of world cuisines from Europe to the Far East.",
-    "websites": [
-      ["The Cook Away", "https://www.thecookaway.com/"]
-    ],
-    "price": "60",
-    "image": "assets/images/suggestions/cookery/recipe.jpg"
-
-  },
-
   {
     "category": "cookery",
     "name": "Outdoor Pizza Oven",
@@ -901,7 +892,6 @@
     ],
     "price": "229-409",
     "image": "assets/images/suggestions/cookery/pizza.jpg"
-
   },
   {
     "category": "cookery",
@@ -926,7 +916,7 @@
   {
     "category": "handcraft",
     "name": "Painting Set",
-    "description": "There are lots of benefits of art. Art will help your partner's relaxation, creativity and optimistic attitude to name a few. There are many art materials for doodling, calligraphy, colouring and different types of paintings. Here we're suggesting an acrylic paint set.",
+    "description": "There are lots of benefits to art. Art will help your partner's relaxation, creativity and optimistic attitude to name a few. There are many art materials for doodling, calligraphy, colouring and different types of paintings. Here we're suggesting an acrylic paint set.",
     "websites": [
       ["Amazon", "https://www.amazon.com/Professional-Painting-Supplies-Hobbyists-Beginners/dp/B08L7K5N4Z/ref=sr_1_6?crid=31GLKTEHLORDV&keywords=painting+kit&qid=1645813947&sprefix=painting+ki%2Caps%2C192&sr=8-6"]
     ],
@@ -1013,6 +1003,62 @@
     "price": "0",
     "image": "assets/images/suggestions/sightseeing/london.jpg"
   },
+  {
+    "category": "sportsEvent",
+    "name": "Cheese Rolling",
+    "description": "If your partner is a lover of cheese and feats of strength, with some danger thrown in, what about a trip to Gloucestershire in England to watch the annual Cheese Rolling competition?! Not one for the faint-hearted (or perhaps those who are lactose intolerant...)",
+    "websites": [
+      ["Cheese Rolling", "https://radseason.com/event/cheese-rolling-coopers-hill-gloucester-united-kingdom/"]
+    ],
+    "price": "0",
+    "image": "assets/images/suggestions/sportsEvent/cheese.jpg"
+  },
+{
+    "category": "sportsEvent",
+    "name": "Horse Events",
+    "description": "From the elite Land Rover Kentucky three-day event, to the Badminton Horse Trials in England, and everything in between, horse events around the world showcase different breeds and disciplines.",
+    "websites": [
+	["Land Rover Kentucky, USA", "https://kentuckythreedayevent.com/"],
+      	["Badminton Horse Trials, England", "https://badminton-horse.co.uk"],
+      	["Chio Aachen World Equistrian Event, Germany", "https://www.chioaachen.de/en/"]
+    ],
+    "price": "0",
+    "image": "assets/images/suggestions/sportsEvent/horse.jpg"
+  },
+{
+    "category": "sportsEvent",
+    "name": "Truck Racing",
+    "description": "Does your partner love big machines, or motorsport events? Perhaps not an obvious choice, but Truck Racing is practised all over the world, and could be the perfect option for the petrol-head in your life!",
+    "websites": [
+	["Antro Super Trucks Australia", "https://www.truckracing.com.au/"],
+      	["T1 Prima Trucking, India", "https://www.t1primatruckracing.com/"],
+      	["British Truck Racing Event, UK", "https://www.barc.net/championship/british-truck-racing-championship/"]
+    ],
+    "price": "0",
+    "image": "assets/images/suggestions/sportsEvent/truck_racing.jpg"
+  },
+{
+    "category": "sportsEvent",
+    "name": "Rugby",
+    "description": "A popular sport played all over the world, rugby spectators sit together regardless of who they support, making for a friendly, fun and lively atmosphere! Whether it's a local club game, or an international competition, rugby makes for a great spectator experience!",
+    "websites": [
+	["Rugby Sevens", "https://www.world.rugby/sevens-series/where-to-watch?lang=en"],
+      	["Gothenburg Rugby Club, Sweden", "https://www.goteborgrugby.com/"],
+      	["British Rugby Clubs, UK", "https://www.premiershiprugby.com/clubs/"]
+    ],
+    "price": "0",
+    "image": "assets/images/suggestions/sportsEvent/rugby.jpg"
+  },
+{
+    "category": "sportsEvent",
+    "name": "Golf",
+    "description": "If your partner loves suspense, with a mix of light outdoor exercise, what about attending a golf competition?",
+    "websites": [
+	["Golf Channel", "https://www.golfchannel.com/tours"]
+    ],
+    "price": "0",
+    "image": "assets/images/suggestions/sportsEvent/golf.jpg"
+  },  
   {
     "category": "",
     "name": "",
