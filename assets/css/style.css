@@ -959,6 +959,10 @@ body {
 @media screen and (max-width: 1032px) {
 
   /* Navbar */
+  .logo__container {
+    width: 10rem;
+  }
+
   .navbar__components {
     background-color: var(--clr-neutral--900);
     flex-direction: column;
@@ -1267,6 +1271,11 @@ body {
 }
 
 @media screen and (max-width: 490px) {
+
+  .logo__container {
+    width: 8rem;
+  }
+
   .hero {
     padding: 0 .7em;
   }
