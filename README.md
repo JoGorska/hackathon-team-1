@@ -193,6 +193,26 @@ The site uses Roboto typeface throughout, with Sans-Serif as a back up.
 
 **Color Scheme**
 
+As part of discussions of the website purpose, it was agreed that the base color be a deep, charcoal grey, from which other lighter, but also bold colors, would compliment. This meant the main base colors used throughout (#3a3a3a and #292929) supported the message of "alternative" gifts, but enabled other more traditional colors such as the pinks (#efa3a9 and #ff125f) to also be used, to support the message that the presents were intended for partners/lovers.
+
+[My Color](https://mycolor.space/) and [Coolors](https://coolors.co/) were used in deciding the color scheme.
+
+<div align="center">
+    <img src="assets/images/color_scheme_pallet.png" width="600">
+</div>
+
+HEX reference for all colors used:
+
+ * #35c0b7
+ * #fff3f5
+ * #ffe3e7
+ * #efa3a9
+ * #ff125f
+ * #fafafa
+ * #3a3a3a
+ * #292929
+ * #5cbab4
+
 **Imagery**
 
 Copy of images used and source links.
