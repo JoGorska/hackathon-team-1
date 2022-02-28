@@ -207,23 +207,22 @@ HEX reference for all colors used:
 
 **Imagery**
 
-Copy of images used and source links.
+Copy of sources used for images.
 
-- [skydive1.jpg](https://en.bodyflight.se/)
-- [paintball1.jpeg](https://www.pexels.com/)
-- [horseback1.jpg](https://unsplash.com/)
-- [rafting.jpg](https://unsplash.com/)
-- [bubbles1.jpg](--https://www.bubble-allstars.com/)
-- [kayak1.jpg](https://www.pexels.com/)
-- [zorb1.jpg](https://sv.wikipedia.org/wiki/Zorb)
-- [skateboard1.jpg](https://unsplash.com/)
-- [hangglider1.jpg](https://www.pexels.com/)
-- [surf.jpg](https://www.pexels.com/)
-- [sunglasses1.jpg](https://www.bose.com/en_us/products/frames.html)
-- [vr.jpg](https://unsplash.com/)
-- [couchmaster1.jpg](https://www.nerdytec.com/en/mixxxer.php?products_id=34)
-- [glasses1.jpg](https://www.syghtglass.com/collections/gaming-glasses)
-- [hat.jpg](https://www.walmart.com/)
+- [Bodyflight](https://en.bodyflight.se/)
+- [Bubble_allstars](--https://www.bubble-allstars.com/)
+- [pexels](https://www.pexels.com/)
+- [Wikipedia](https://sv.wikipedia.org/wiki/Zorb)
+- [unsplash](https://unsplash.com/)
+- [Bose](https://www.bose.com/en_us/products/frames.html)
+- [Nerdytec](https://www.nerdytec.com/en/mixxxer.php?products_id=34)
+- [Syght](https://www.syghtglass.com/collections/gaming-glasses)
+- [Walmart](https://www.walmart.com/)
+- [Rayavadee](https://www.rayavadee.com/en/the-grotto.php)
+- [Snowcastle](https://experience365.fi/snowcastle/)
+- [Trinity](https://www.trinityplacenyc.com/)
+- [Panoramic](https://www.chamonix.net/english/generic/Le-Panoramic/608)
+- [Rock](https://www.therockrestaurantzanzibar.com/)
 
 
 
