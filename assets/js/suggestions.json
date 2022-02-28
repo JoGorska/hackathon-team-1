@@ -910,7 +910,7 @@
   {
     "category": "cookery",
     "name": "Steak",
-    "description": "Eat out for a steak dinner on Valentine's day is a common way for couples to celebrate. But a steak dinner at home with some romantic music will make your Valentine's day much more special. If you are not sure how to cook steaks like a pro, <a href=“https://tasty.co/article/christinebyrne/how-to-sear-the-perfect-steak-for-your-valentine” target=“_blank” aria-label=“Recipe on Tasty (opens in a new tab)”>this post on Tasty</a> will help you out.",
+    "description": "Eat out for a steak dinner on Valentine's day is a common way for couples to celebrate. But a steak dinner at home with some romantic music will make your Valentine's day much more special. If you are not sure where to get the best steak, check the link below.",
     "websites": [
       ["Walmart", "https://www.walmart.com"]
     ],
@@ -920,7 +920,7 @@
   {
     "category": "cookery",
     "name": "Homemade Chocolates",
-    "description": "Chocolate is the most common gift on Valentine's Day. But your homemade chocolate can be as special as fancy gifts. You just need chocolate melts and something that your partner likes. <a href=“https://www.tasteofhome.com/collection/homemade-valentines-day-chocolates/” target=“_blank” aria-label=“Recipes on Taste of Home (opens in a new tab)”>This post</a> shows 21 different types of homemade chocolates.",
+    "description": "Chocolate is the most common gift on Valentine's Day. But your homemade chocolate can be as special as fancy gifts. You just need chocolate melts and something that your partner likes.",
     "websites": [
       ["Stover&Company", "https://stovercompany.com/merckensmilkchocolatemelts"]
     ],
